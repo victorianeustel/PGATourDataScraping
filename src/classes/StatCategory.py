@@ -5,7 +5,8 @@ class StatCategory():
         self.subCategories = [StatSubCategory(**sc) for sc in subCategories]
 
     def __str__(self):
-        return "{0} {1}".format(self.category, self.displayName)
+        string_arr = [str(sc) for sc in self.subCategories]
+        return "Category: {0} DisplayName: {1} SubCategories: {2}".format(self.category, self.displayName, str(string_arr))
     
 class StatSubCategory():
     def __init__(self, displayName, stats):
@@ -13,7 +14,8 @@ class StatSubCategory():
         self.stats = [StatDetail(**s) for s in stats]
 
     def __str__(self):
-        return "{0} ,{1}".format(self.displayName, self.stats)
+        string_arr = [str(s) for s in self.stats]
+        return "SubCategory - DisplayName: {0} Stats: {1}".format(self.displayName, str(string_arr))
     
 class StatDetail():
     def __init__(self, statId, statTitle):
@@ -21,4 +23,4 @@ class StatDetail():
         self.statTitle = statTitle
 
     def __str__(self):
-        return "{0} {1}".format(self.statId, self.statTitle)
+        return "StatDetail - StatId: {0} StatTitle: {1}".format(self.statId, self.statTitle)
