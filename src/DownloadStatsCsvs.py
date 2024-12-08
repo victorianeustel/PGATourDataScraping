@@ -87,7 +87,7 @@ for c in categories:
             obj = {}
             obj['category'] = c.category
             obj['subCategory'] = sc.displayName
-            obj['path'] = '/'.join([category, subCategory, file_name])
+            obj['path'] = '/'.join([current_year, category, subCategory, file_name])
             obj['statTitle'] = sd.statTitle
             obj['statId'] = sd.statId
             
@@ -101,19 +101,20 @@ for index, v in enumerate(stat_details):
     subcategory = v['subCategory']
     path = v['path']
     summary = 'Index: {0} | Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(index,category, subCategory, statId, path)
-    # print('Index: ' + index + '-' v['statsId'])
-    # print(v['statId'])
 
     current_file = Path(path)
-    # 
-    # if current_file.is_file() == False:
-    try:
-        result = CallAndWriteStatData(statId, path)
-    except Exception:
-        error_data.append(v)
-        print('ERROR: ' + summary)
-        print(result)
+    
+    # if file does not exist currently, call it 
+    if current_file.is_file():
         continue
+    else:
+        try:
+            result = CallAndWriteStatData(statId, path)
+        except Exception:
+            error_data.append(v)
+            print('ERROR: ' + summary)
+            print(result)
+            continue
         
 
     # stat_details.append(obj)
