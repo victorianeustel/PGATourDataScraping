@@ -27,6 +27,5 @@ def path_to_query_dict(path: str):
     query = urlparse(path).query
     return dict(parse_qsl(query))
 
-
 if __name__ == '__main__':
     unittest.main()

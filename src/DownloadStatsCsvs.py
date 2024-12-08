@@ -4,6 +4,7 @@ import os
 import json
 from classes.StatCategory import StatCategory
 from pathlib import Path
+import csv
 
 def CreateDirectory(directory_name):
     try:
@@ -15,7 +16,6 @@ def CreateDirectory(directory_name):
         print(f"Permission denied: Unable to create '{directory_name}'.")
     except Exception as e:
         print(f"An error occurred: {e}")
-
 
 def GetStatCategories():
     path = os.path.realpath(__file__) 
@@ -36,10 +36,9 @@ def CallAndWriteStatData(statId: int, filePath: str):
     path = get_stats_path(statsId= statId)
     x = requests.get(path)
     
-    with open(filePath, "w") as file:
-        file.writelines(x.text)
+    with open(filePath, "wb") as file:
+        file.write(x.content)
     
-
 categories = GetStatCategories()
 
 stat_details = []
@@ -87,25 +86,40 @@ for c in categories:
 
 error_data = []
 
+stat_detail_rows = []
+stat_detail_headers = ['Year', 'Index', 'Category', 'Subcategory', 'StatId', 'StatTitle', 'LocalPath']
+stat_detail_rows.append(stat_detail_headers)
+
 for index, v in enumerate(stat_details):
     statId = v['statId']
     category = v['category']
     subcategory = v['subCategory']
     path = v['path']
+    statTitle = v['statTitle']
     summary = 'Index: {0} | Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(index,category, subCategory, statId, path)
 
+    row = [current_year, str(index), category, subcategory, statId, statTitle, path]
+    stat_detail_rows.append(row)
+    
     current_file = Path(path)
     
     # if file does not exist currently, call it 
     if current_file.is_file():
         continue
     else:
-        # try:
+        try:
             CallAndWriteStatData(statId, path)
-        # except Exception:
-        #     error_data.append(v)
-        #     print('ERROR: ' + summary)
-        #     continue
-        
+        except Exception:
+            error_data.append(v)
+            print('ERROR: ' + summary)
+            continue
 
-    # stat_details.append(obj)
+with open('file_map.csv', "w", newline='\n') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
+    for row in stat_detail_rows:
+        writer.writerow(row)
+
+print('---------ERRORS---------')
+for error in error_data:
+    summary = 'Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(category, subCategory, statId, path)
+    print(summary)

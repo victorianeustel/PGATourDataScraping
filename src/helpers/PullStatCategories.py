@@ -1,8 +1,6 @@
 import json
 import os 
 
-# from classes.StatCategory import StatCategory
-
 def GetStatCategories():
     path = os.path.realpath(__file__) 
     dir = os.path.dirname(path) 
@@ -16,7 +14,3 @@ def GetStatCategories():
     categories = data['pageProps']['statDetails']['statCategories']
     
     return categories
-
-    # for c in mapped_categories:
-    #     print(str(c))
-# print([str(c) for c in mapped_categories])
