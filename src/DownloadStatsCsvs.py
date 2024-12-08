@@ -32,18 +32,10 @@ def GetStatCategories():
 
     return mapped_categories
 
-def CallAndWriteStatData(statId: int, filePath: str):
-    # cwd = os.getcwd()  # Get the current working directory (cwd)
-    # files = os.listdir(cwd)  # Get all the files in that directory
-    # print("Files in %r: %s" % (cwd, files))
-    
-    filePath = '/'.join([current_year, filePath])
-    
+def CallAndWriteStatData(statId: int, filePath: str):    
     path = get_stats_path(statsId= statId)
     x = requests.get(path)
     
-    print(filePath)
-    print(path)
     with open(filePath, "w") as file:
         file.writelines(x.text)
     
@@ -108,13 +100,12 @@ for index, v in enumerate(stat_details):
     if current_file.is_file():
         continue
     else:
-        try:
-            result = CallAndWriteStatData(statId, path)
-        except Exception:
-            error_data.append(v)
-            print('ERROR: ' + summary)
-            print(result)
-            continue
+        # try:
+            CallAndWriteStatData(statId, path)
+        # except Exception:
+        #     error_data.append(v)
+        #     print('ERROR: ' + summary)
+        #     continue
         
 
     # stat_details.append(obj)
