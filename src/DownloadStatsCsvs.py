@@ -3,6 +3,7 @@ import requests
 import os
 import json
 from classes.StatCategory import StatCategory
+from pathlib import Path
 
 def CreateDirectory(directory_name):
     try:
@@ -14,6 +15,7 @@ def CreateDirectory(directory_name):
         print(f"Permission denied: Unable to create '{directory_name}'.")
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 def GetStatCategories():
     path = os.path.realpath(__file__) 
@@ -35,7 +37,7 @@ def CallAndWriteStatData(statId: int, filePath: str):
     # files = os.listdir(cwd)  # Get all the files in that directory
     # print("Files in %r: %s" % (cwd, files))
     
-    filePath = filePath
+    filePath = '/'.join([current_year, filePath])
     
     path = get_stats_path(statsId= statId)
     x = requests.get(path)
@@ -50,39 +52,68 @@ categories = GetStatCategories()
 
 stat_details = []
 
-def CleanName(statTitle: str):
-    cleaned_name = statTitle \
+def CleanName(name: str):
+    cleaned_name = name \
         .replace('- ', '') \
         .replace(' ', '_') \
-        .replace(':', '')
+        .replace(',', '_') \
+        .replace(':', '') \
+        .replace('/', '') \
+        .replace('*', '') \
+        .replace('<', 'less-than') \
+        .replace('>', 'greater-than') \
+        .replace('|', 'or') \
+        .replace('?', '') \
+        .replace('\\', '') \
+        .lower()
+
     return cleaned_name
 
+current_year = '2024'
+CreateDirectory(current_year)
+
 for c in categories:
-    category = c.category
-    CreateDirectory(category.lower())
+    category = CleanName(c.category)
+    CreateDirectory('/'.join([current_year, category]))
+    
     for sc in c.subCategories:
-        subCategory = sc.displayName
-        cleaned_subCategory = CleanName(subCategory)
-        directory_name = '/'.join([category.lower(), cleaned_subCategory.lower()])
+        subCategory = CleanName(sc.displayName)
+        directory_name = '/'.join([current_year, category, subCategory])
         CreateDirectory(directory_name)
 
         for sd in sc.stats:
-            obj = {}
-            obj['category'] = category
-            obj['subCategory'] = subCategory
             file_name = CleanName(sd.statTitle) + '.csv'
-            obj['path'] = '/'.join([category.lower(), cleaned_subCategory.lower(), file_name])
+
+            obj = {}
+            obj['category'] = c.category
+            obj['subCategory'] = sc.displayName
+            obj['path'] = '/'.join([category, subCategory, file_name])
             obj['statTitle'] = sd.statTitle
             obj['statId'] = sd.statId
             
             stat_details.append(obj)
-            
-for v in stat_details:
-    print(v['statId'])
+
+error_data = []
+
+for index, v in enumerate(stat_details):
     statId = v['statId']
+    category = v['category']
+    subcategory = v['subCategory']
     path = v['path']
+    summary = 'Index: {0} | Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(index,category, subCategory, statId, path)
+    # print('Index: ' + index + '-' v['statsId'])
+    # print(v['statId'])
+
+    current_file = Path(path)
+    # 
+    # if current_file.is_file() == False:
     try:
-        CallAndWriteStatData(statId, path)
-    except:
+        result = CallAndWriteStatData(statId, path)
+    except Exception:
+        error_data.append(v)
+        print('ERROR: ' + summary)
+        print(result)
         continue
+        
+
     # stat_details.append(obj)
