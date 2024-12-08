@@ -6,7 +6,7 @@ from classes.StatCategory import StatCategory
 path = os.path.realpath(__file__) 
 dir = os.path.dirname(path) 
 
-dir = dir.replace('src', 'data') 
+dir = dir.replace('src', 'data/static') 
 os.chdir(dir) 
 
 f = open('detail.json')
