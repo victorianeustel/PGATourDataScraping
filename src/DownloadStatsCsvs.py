@@ -2,7 +2,6 @@ from helpers.PathBuilder import *
 import requests
 import os
 import json
-# from helpers.PullStatCategories import *
 from classes.StatCategory import StatCategory
 
 def CreateDirectory(directory_name):
@@ -32,9 +31,9 @@ def GetStatCategories():
     return mapped_categories
 
 def CallAndWriteStatData(statId: int, filePath: str):
-    cwd = os.getcwd()  # Get the current working directory (cwd)
-    files = os.listdir(cwd)  # Get all the files in that directory
-    print("Files in %r: %s" % (cwd, files))
+    # cwd = os.getcwd()  # Get the current working directory (cwd)
+    # files = os.listdir(cwd)  # Get all the files in that directory
+    # print("Files in %r: %s" % (cwd, files))
     
     filePath = filePath
     
@@ -75,14 +74,15 @@ for c in categories:
             obj['path'] = '/'.join([category.lower(), cleaned_subCategory.lower(), file_name])
             obj['statTitle'] = sd.statTitle
             obj['statId'] = sd.statId
-            # obj['statDetail'] = sd
             
             stat_details.append(obj)
             
-# print(stat_details)
-for v in stat_details[0:2]:
+for v in stat_details:
     print(v['statId'])
     statId = v['statId']
     path = v['path']
-    CallAndWriteStatData(statId, path)
+    try:
+        CallAndWriteStatData(statId, path)
+    except:
+        continue
     # stat_details.append(obj)
