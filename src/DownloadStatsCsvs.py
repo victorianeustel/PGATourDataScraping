@@ -1,26 +1,10 @@
 from helpers.PathBuilder import *
 import requests
-import os
-import json
 from classes.StatCategory import StatCategory
+from helpers.PullStatCategories import *
 from pathlib import Path
 import csv
 from helpers.FileHelper import CreateDirectory, CleanName
-
-def GetStatCategories():
-    path = os.path.realpath(__file__) 
-    dir = os.path.dirname(path) 
-
-    dir = dir.replace('src', 'data') 
-    os.chdir(dir) 
-
-    f = open('detail.json')
-    data = json.load(f)
-
-    categories = data['pageProps']['statDetails']['statCategories']
-    mapped_categories = [StatCategory(**c) for c in categories]
-
-    return mapped_categories
 
 def CallAndWriteStatData(statId: int, filePath: str):    
     path = get_stats_path(statsId= statId)
@@ -30,20 +14,21 @@ def CallAndWriteStatData(statId: int, filePath: str):
         file.write(x.content)
     
 categories = GetStatCategories()
+categories = [StatCategory(**c) for c in categories]
 
 stat_details = []
 
 current_year = '2024'
-CreateDirectory(current_year)
+CreateDirectory('data/' + current_year)
 stat_ids_dict = {}
 
 for c in categories:
     category = CleanName(c.category)
-    CreateDirectory('/'.join([current_year, category]))
+    CreateDirectory('/'.join(['data', current_year, category]))
     
     for sc in c.subCategories:
         subCategory = CleanName(sc.displayName)
-        directory_name = '/'.join([current_year, category, subCategory])
+        directory_name = '/'.join(['data', current_year, category, subCategory])
         CreateDirectory(directory_name)
 
         for sd in sc.stats:
@@ -59,7 +44,7 @@ for c in categories:
                 obj['duplicatedStatId'] = True
             else:
                 file_name = CleanName(sd.statTitle) + '.csv'
-                obj['path'] = '/'.join([current_year, category, subCategory, file_name])
+                obj['path'] = '/'.join(['data', current_year, category, subCategory, file_name])
                 stat_ids_dict[sd.statId] = obj['path']
                 obj['duplicatedStatId'] = False
 
@@ -99,7 +84,7 @@ for index, v in enumerate(stat_details):
                 continue
                     
 # Create file mapper file
-with open('file_map.csv', "w", newline='\n') as csvfile:
+with open('data/file_map.csv', "w", newline='\n') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
     for row in stat_detail_rows:
         writer.writerow(row)
