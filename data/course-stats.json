@@ -1,0 +1,3042 @@
+{
+    "data": {
+        "courseStats": {
+            "tournamentId": "R2024016",
+            "courses": [
+                {
+                    "tournamentId": "R2024016",
+                    "courseId": "656",
+                    "courseName": "Plantation Course at Kapalua",
+                    "courseCode": "PC",
+                    "holeDetailsAvailability": "SHOT_DETAILS",
+                    "par": 73,
+                    "yardage": "7,596",
+                    "hostCourse": true,
+                    "courseImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                    "roundHoleStats": [
+                        {
+                            "roundHeader": "All Rounds",
+                            "roundNum": null,
+                            "live": false,
+                            "holeStats": [
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 1,
+                                    "parValue": "4",
+                                    "yards": 520,
+                                    "scoringAverage": "4.059",
+                                    "scoringAverageDiff": "+0.059",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 21,
+                                    "pars": 185,
+                                    "bogeys": 26,
+                                    "doubleBogey": 3,
+                                    "rank": 1,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole1.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_1.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4497469062484856,
+                                            "y": 0.6791939075593654,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6791939075593654,
+                                            "y": 0.5502530937515144,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 2,
+                                    "parValue": "3",
+                                    "yards": 219,
+                                    "scoringAverage": "2.987",
+                                    "scoringAverageDiff": "-0.013",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 30,
+                                    "pars": 179,
+                                    "bogeys": 27,
+                                    "doubleBogey": 0,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole2.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_2.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.672503509862211,
+                                            "y": 0.40613821944139206,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.40613821944139206,
+                                            "y": 0.32749649013778903,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 3,
+                                    "parValue": "4",
+                                    "yards": 424,
+                                    "scoringAverage": "3.839",
+                                    "scoringAverageDiff": "-0.161",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 63,
+                                    "pars": 153,
+                                    "bogeys": 16,
+                                    "doubleBogey": 3,
+                                    "rank": 8,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole3.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_3.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5094942869710483,
+                                            "y": 0.6895862258051013,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6895862258051013,
+                                            "y": 0.49050571302895174,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 4,
+                                    "parValue": "4",
+                                    "yards": 422,
+                                    "scoringAverage": "3.945",
+                                    "scoringAverageDiff": "-0.055",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 47,
+                                    "pars": 157,
+                                    "bogeys": 31,
+                                    "doubleBogey": 0,
+                                    "rank": 5,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole4.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_4.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5169209579471697,
+                                            "y": 0.23671660536730046,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.23671660536730046,
+                                            "y": 0.48307904205283025,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 5,
+                                    "parValue": "5",
+                                    "yards": 526,
+                                    "scoringAverage": "4.106",
+                                    "scoringAverageDiff": "-0.894",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 21,
+                                    "birdies": 174,
+                                    "pars": 36,
+                                    "bogeys": 5,
+                                    "doubleBogey": 0,
+                                    "rank": 18,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole5.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_5.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5438914163736883,
+                                            "y": 0.6377076947121264,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6377076947121264,
+                                            "y": 0.4561085836263117,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 6,
+                                    "parValue": "4",
+                                    "yards": 424,
+                                    "scoringAverage": "3.797",
+                                    "scoringAverageDiff": "-0.203",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 65,
+                                    "pars": 154,
+                                    "bogeys": 17,
+                                    "doubleBogey": 0,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole6.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_6.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5775096608443866,
+                                            "y": 0.7423565299522898,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7423565299522898,
+                                            "y": 0.4224903391556134,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 7,
+                                    "parValue": "4",
+                                    "yards": 522,
+                                    "scoringAverage": "3.919",
+                                    "scoringAverageDiff": "-0.081",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 46,
+                                    "pars": 165,
+                                    "bogeys": 23,
+                                    "doubleBogey": 2,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole7.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_7.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.729431547635683,
+                                            "y": 0.4105234802021293,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4105234802021293,
+                                            "y": 0.27056845236431704,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 8,
+                                    "parValue": "3",
+                                    "yards": 199,
+                                    "scoringAverage": "2.987",
+                                    "scoringAverageDiff": "-0.013",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 37,
+                                    "pars": 169,
+                                    "bogeys": 26,
+                                    "doubleBogey": 4,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole8.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_8.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6225512218199238,
+                                            "y": 0.45521549347702095,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.45521549347702095,
+                                            "y": 0.37744877818007616,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 9,
+                                    "parValue": "5",
+                                    "yards": 550,
+                                    "scoringAverage": "4.475",
+                                    "scoringAverageDiff": "-0.525",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 5,
+                                    "birdies": 126,
+                                    "pars": 95,
+                                    "bogeys": 8,
+                                    "doubleBogey": 2,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole9.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_9.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5296456680219542,
+                                            "y": 0.6950871921688856,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6950871921688856,
+                                            "y": 0.47035433197804577,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "OUT",
+                                    "par": 36,
+                                    "scoringAverageDiff": "-1.886",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3806,
+                                    "scoringAverage": "34.114",
+                                    "eagles": 26,
+                                    "birdies": 609,
+                                    "pars": 1293,
+                                    "bogeys": 179,
+                                    "doubleBogey": 14
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 10,
+                                    "parValue": "4",
+                                    "yards": 384,
+                                    "scoringAverage": "3.814",
+                                    "scoringAverageDiff": "-0.186",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 56,
+                                    "pars": 169,
+                                    "bogeys": 10,
+                                    "doubleBogey": 1,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole10.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_10.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5889316884669724,
+                                            "y": 0.5963931518657231,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5963931518657231,
+                                            "y": 0.4110683115330276,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 11,
+                                    "parValue": "3",
+                                    "yards": 161,
+                                    "scoringAverage": "2.809",
+                                    "scoringAverageDiff": "-0.191",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 57,
+                                    "pars": 169,
+                                    "bogeys": 9,
+                                    "doubleBogey": 0,
+                                    "rank": 10,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole11.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_11.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5062634698181152,
+                                            "y": 0.35822680594825773,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.35822680594825773,
+                                            "y": 0.4937365301818848,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 12,
+                                    "parValue": "4",
+                                    "yards": 424,
+                                    "scoringAverage": "3.695",
+                                    "scoringAverageDiff": "-0.305",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 82,
+                                    "pars": 144,
+                                    "bogeys": 10,
+                                    "doubleBogey": 0,
+                                    "rank": 13,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole12.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_12.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5380656253271812,
+                                            "y": 0.7645118509748867,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7645118509748867,
+                                            "y": 0.46193437467281884,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 13,
+                                    "parValue": "4",
+                                    "yards": 383,
+                                    "scoringAverage": "3.864",
+                                    "scoringAverageDiff": "-0.136",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 60,
+                                    "pars": 154,
+                                    "bogeys": 17,
+                                    "doubleBogey": 4,
+                                    "rank": 7,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole13.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_13.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.525944444491001,
+                                            "y": 0.21721471449332863,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.21721471449332863,
+                                            "y": 0.474055555508999,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 14,
+                                    "parValue": "4",
+                                    "yards": 301,
+                                    "scoringAverage": "3.627",
+                                    "scoringAverageDiff": "-0.373",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 5,
+                                    "birdies": 106,
+                                    "pars": 104,
+                                    "bogeys": 16,
+                                    "doubleBogey": 3,
+                                    "rank": 14,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole14.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_14.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.46700547524208696,
+                                            "y": 0.4257869680734119,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4257869680734119,
+                                            "y": 0.5329945247579131,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 15,
+                                    "parValue": "5",
+                                    "yards": 541,
+                                    "scoringAverage": "4.386",
+                                    "scoringAverageDiff": "-0.614",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 11,
+                                    "birdies": 140,
+                                    "pars": 71,
+                                    "bogeys": 11,
+                                    "doubleBogey": 3,
+                                    "rank": 16,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole15.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_15.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45528554395135706,
+                                            "y": 0.6275437128674907,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6275437128674907,
+                                            "y": 0.544714456048643,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 16,
+                                    "parValue": "4",
+                                    "yards": 369,
+                                    "scoringAverage": "3.797",
+                                    "scoringAverageDiff": "-0.203",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 66,
+                                    "pars": 154,
+                                    "bogeys": 14,
+                                    "doubleBogey": 2,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole16.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_16.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5927241066885113,
+                                            "y": 0.4425515085545381,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4425515085545381,
+                                            "y": 0.4072758933114887,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 17,
+                                    "parValue": "4",
+                                    "yards": 550,
+                                    "scoringAverage": "3.975",
+                                    "scoringAverageDiff": "-0.025",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 35,
+                                    "pars": 176,
+                                    "bogeys": 22,
+                                    "doubleBogey": 2,
+                                    "rank": 4,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole17.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_17.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.40809477222567175,
+                                            "y": 0.6930987903419618,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6930987903419618,
+                                            "y": 0.5919052277743282,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 18,
+                                    "parValue": "5",
+                                    "yards": 677,
+                                    "scoringAverage": "4.284",
+                                    "scoringAverageDiff": "-0.716",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 12,
+                                    "birdies": 154,
+                                    "pars": 64,
+                                    "bogeys": 3,
+                                    "doubleBogey": 3,
+                                    "rank": 17,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_18.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6221537025652327,
+                                            "y": 0.37511106807910555,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.37511106807910555,
+                                            "y": 0.3778462974347673,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "IN",
+                                    "par": 37,
+                                    "scoringAverageDiff": "-2.749",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3790,
+                                    "scoringAverage": "34.251",
+                                    "eagles": 28,
+                                    "birdies": 756,
+                                    "pars": 1205,
+                                    "bogeys": 112,
+                                    "doubleBogey": 18
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "TOTAL",
+                                    "par": 73,
+                                    "scoringAverageDiff": "-4.635",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 7596,
+                                    "scoringAverage": "68.365",
+                                    "eagles": 54,
+                                    "birdies": 1365,
+                                    "pars": 2498,
+                                    "bogeys": 291,
+                                    "doubleBogey": 32
+                                }
+                            ]
+                        },
+                        {
+                            "roundHeader": "Round 4",
+                            "roundNum": 4,
+                            "live": false,
+                            "holeStats": [
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 1,
+                                    "parValue": "4",
+                                    "yards": 510,
+                                    "scoringAverage": "4.102",
+                                    "scoringAverageDiff": "+0.102",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 4,
+                                    "pars": 48,
+                                    "bogeys": 5,
+                                    "doubleBogey": 1,
+                                    "rank": 1,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole1.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_1.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4497469062484856,
+                                            "y": 0.6791939075593654,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6791939075593654,
+                                            "y": 0.5502530937515144,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 2,
+                                    "parValue": "3",
+                                    "yards": 227,
+                                    "scoringAverage": "2.966",
+                                    "scoringAverageDiff": "-0.034",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 8,
+                                    "pars": 45,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole2.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_2.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.672503509862211,
+                                            "y": 0.40613821944139206,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.40613821944139206,
+                                            "y": 0.32749649013778903,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 3,
+                                    "parValue": "4",
+                                    "yards": 421,
+                                    "scoringAverage": "3.610",
+                                    "scoringAverageDiff": "-0.390",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 25,
+                                    "pars": 33,
+                                    "bogeys": 0,
+                                    "doubleBogey": 1,
+                                    "rank": 13,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole3.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_3.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5094942869710483,
+                                            "y": 0.6895862258051013,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6895862258051013,
+                                            "y": 0.49050571302895174,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 4,
+                                    "parValue": "4",
+                                    "yards": 423,
+                                    "scoringAverage": "3.780",
+                                    "scoringAverageDiff": "-0.220",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 17,
+                                    "pars": 38,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole4.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_4.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5169209579471697,
+                                            "y": 0.23671660536730046,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.23671660536730046,
+                                            "y": 0.48307904205283025,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 5,
+                                    "parValue": "5",
+                                    "yards": 522,
+                                    "scoringAverage": "4.068",
+                                    "scoringAverageDiff": "-0.932",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 6,
+                                    "birdies": 44,
+                                    "pars": 8,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 18,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole5.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_5.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5438914163736883,
+                                            "y": 0.6377076947121264,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6377076947121264,
+                                            "y": 0.4561085836263117,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 6,
+                                    "parValue": "4",
+                                    "yards": 427,
+                                    "scoringAverage": "3.627",
+                                    "scoringAverageDiff": "-0.373",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 24,
+                                    "pars": 33,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole6.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_6.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5775096608443866,
+                                            "y": 0.7423565299522898,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7423565299522898,
+                                            "y": 0.4224903391556134,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 7,
+                                    "parValue": "4",
+                                    "yards": 537,
+                                    "scoringAverage": "3.864",
+                                    "scoringAverageDiff": "-0.136",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 14,
+                                    "pars": 39,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 5,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole7.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_7.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.729431547635683,
+                                            "y": 0.4105234802021293,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4105234802021293,
+                                            "y": 0.27056845236431704,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 8,
+                                    "parValue": "3",
+                                    "yards": 204,
+                                    "scoringAverage": "2.915",
+                                    "scoringAverageDiff": "-0.085",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 12,
+                                    "pars": 41,
+                                    "bogeys": 5,
+                                    "doubleBogey": 1,
+                                    "rank": 3,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole8.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_8.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6225512218199238,
+                                            "y": 0.45521549347702095,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.45521549347702095,
+                                            "y": 0.37744877818007616,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 9,
+                                    "parValue": "5",
+                                    "yards": 548,
+                                    "scoringAverage": "4.203",
+                                    "scoringAverageDiff": "-0.797",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 2,
+                                    "birdies": 43,
+                                    "pars": 14,
+                                    "bogeys": 0,
+                                    "doubleBogey": 0,
+                                    "rank": 16,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole9.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_9.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5296456680219542,
+                                            "y": 0.6950871921688856,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6950871921688856,
+                                            "y": 0.47035433197804577,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "OUT",
+                                    "par": 36,
+                                    "scoringAverageDiff": "-2.865",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3819,
+                                    "scoringAverage": "33.135",
+                                    "eagles": 8,
+                                    "birdies": 191,
+                                    "pars": 299,
+                                    "bogeys": 29,
+                                    "doubleBogey": 3
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 10,
+                                    "parValue": "4",
+                                    "yards": 388,
+                                    "scoringAverage": "3.780",
+                                    "scoringAverageDiff": "-0.220",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 15,
+                                    "pars": 42,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole10.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_10.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5889316884669724,
+                                            "y": 0.5963931518657231,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5963931518657231,
+                                            "y": 0.4110683115330276,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 11,
+                                    "parValue": "3",
+                                    "yards": 161,
+                                    "scoringAverage": "2.627",
+                                    "scoringAverageDiff": "-0.373",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 23,
+                                    "pars": 35,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole11.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_11.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5062634698181152,
+                                            "y": 0.35822680594825773,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.35822680594825773,
+                                            "y": 0.4937365301818848,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 12,
+                                    "parValue": "4",
+                                    "yards": 420,
+                                    "scoringAverage": "3.780",
+                                    "scoringAverageDiff": "-0.220",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 15,
+                                    "pars": 42,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole12.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_12.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5380656253271812,
+                                            "y": 0.7645118509748867,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7645118509748867,
+                                            "y": 0.46193437467281884,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 13,
+                                    "parValue": "4",
+                                    "yards": 381,
+                                    "scoringAverage": "3.746",
+                                    "scoringAverageDiff": "-0.254",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 18,
+                                    "pars": 39,
+                                    "bogeys": 1,
+                                    "doubleBogey": 1,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole13.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_13.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.525944444491001,
+                                            "y": 0.21721471449332863,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.21721471449332863,
+                                            "y": 0.474055555508999,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 14,
+                                    "parValue": "4",
+                                    "yards": 285,
+                                    "scoringAverage": "3.441",
+                                    "scoringAverageDiff": "-0.559",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 3,
+                                    "birdies": 32,
+                                    "pars": 20,
+                                    "bogeys": 3,
+                                    "doubleBogey": 1,
+                                    "rank": 14,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole14.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_14.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.46700547524208696,
+                                            "y": 0.4257869680734119,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4257869680734119,
+                                            "y": 0.5329945247579131,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 15,
+                                    "parValue": "5",
+                                    "yards": 528,
+                                    "scoringAverage": "4.203",
+                                    "scoringAverageDiff": "-0.797",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 6,
+                                    "birdies": 37,
+                                    "pars": 14,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 16,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole15.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_15.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45528554395135706,
+                                            "y": 0.6275437128674907,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6275437128674907,
+                                            "y": 0.544714456048643,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 16,
+                                    "parValue": "4",
+                                    "yards": 372,
+                                    "scoringAverage": "3.678",
+                                    "scoringAverageDiff": "-0.322",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 21,
+                                    "pars": 36,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 10,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole16.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_16.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5927241066885113,
+                                            "y": 0.4425515085545381,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4425515085545381,
+                                            "y": 0.4072758933114887,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 17,
+                                    "parValue": "4",
+                                    "yards": 548,
+                                    "scoringAverage": "3.898",
+                                    "scoringAverageDiff": "-0.102",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 12,
+                                    "pars": 42,
+                                    "bogeys": 4,
+                                    "doubleBogey": 1,
+                                    "rank": 4,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole17.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_17.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.40809477222567175,
+                                            "y": 0.6930987903419618,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6930987903419618,
+                                            "y": 0.5919052277743282,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 18,
+                                    "parValue": "5",
+                                    "yards": 667,
+                                    "scoringAverage": "4.373",
+                                    "scoringAverageDiff": "-0.627",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 4,
+                                    "birdies": 35,
+                                    "pars": 16,
+                                    "bogeys": 2,
+                                    "doubleBogey": 2,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_18.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6221537025652327,
+                                            "y": 0.37511106807910555,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.37511106807910555,
+                                            "y": 0.3778462974347673,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "IN",
+                                    "par": 37,
+                                    "scoringAverageDiff": "-3.474",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3750,
+                                    "scoringAverage": "33.526",
+                                    "eagles": 13,
+                                    "birdies": 208,
+                                    "pars": 286,
+                                    "bogeys": 19,
+                                    "doubleBogey": 5
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "TOTAL",
+                                    "par": 73,
+                                    "scoringAverageDiff": "-6.339",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 7569,
+                                    "scoringAverage": "66.661",
+                                    "eagles": 21,
+                                    "birdies": 399,
+                                    "pars": 585,
+                                    "bogeys": 48,
+                                    "doubleBogey": 8
+                                }
+                            ]
+                        },
+                        {
+                            "roundHeader": "Round 3",
+                            "roundNum": 3,
+                            "live": false,
+                            "holeStats": [
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 1,
+                                    "parValue": "4",
+                                    "yards": 524,
+                                    "scoringAverage": "4.153",
+                                    "scoringAverageDiff": "+0.153",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 7,
+                                    "pars": 37,
+                                    "bogeys": 14,
+                                    "doubleBogey": 1,
+                                    "rank": 1,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole1.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_1.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6030040525783738,
+                                            "y": 0.5276843216595585,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5276843216595585,
+                                            "y": 0.39699594742162625,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 2,
+                                    "parValue": "3",
+                                    "yards": 220,
+                                    "scoringAverage": "3.102",
+                                    "scoringAverageDiff": "+0.102",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 4,
+                                    "pars": 45,
+                                    "bogeys": 10,
+                                    "doubleBogey": 0,
+                                    "rank": 4,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole2.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_2.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6462407427321937,
+                                            "y": 0.6480139046440943,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6480139046440943,
+                                            "y": 0.3537592572678063,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 3,
+                                    "parValue": "4",
+                                    "yards": 413,
+                                    "scoringAverage": "4.102",
+                                    "scoringAverageDiff": "+0.102",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 8,
+                                    "pars": 39,
+                                    "bogeys": 11,
+                                    "doubleBogey": 0,
+                                    "rank": 4,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole3.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_3.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4278806479293096,
+                                            "y": 0.4021090664693006,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4021090664693006,
+                                            "y": 0.5721193520706904,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 4,
+                                    "parValue": "4",
+                                    "yards": 429,
+                                    "scoringAverage": "4.136",
+                                    "scoringAverageDiff": "+0.136",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 6,
+                                    "pars": 39,
+                                    "bogeys": 14,
+                                    "doubleBogey": 0,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole4.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_4.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5975487292599031,
+                                            "y": 0.6965885370821742,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6965885370821742,
+                                            "y": 0.4024512707400969,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 5,
+                                    "parValue": "5",
+                                    "yards": 524,
+                                    "scoringAverage": "4.034",
+                                    "scoringAverageDiff": "-0.966",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 7,
+                                    "birdies": 45,
+                                    "pars": 5,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 18,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole5.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_5.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5052820443057792,
+                                            "y": 0.3093349752710167,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3093349752710167,
+                                            "y": 0.49471795569422083,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 6,
+                                    "parValue": "4",
+                                    "yards": 427,
+                                    "scoringAverage": "3.847",
+                                    "scoringAverageDiff": "-0.153",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 11,
+                                    "pars": 46,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 12,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole6.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_6.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5492998694210655,
+                                            "y": 0.32363708717242123,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.32363708717242123,
+                                            "y": 0.45070013057893454,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 7,
+                                    "parValue": "4",
+                                    "yards": 525,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 12,
+                                    "pars": 39,
+                                    "bogeys": 8,
+                                    "doubleBogey": 0,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole7.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_7.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6264483878000839,
+                                            "y": 0.7214656963240145,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7214656963240145,
+                                            "y": 0.37355161219991606,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 8,
+                                    "parValue": "3",
+                                    "yards": 185,
+                                    "scoringAverage": "3.085",
+                                    "scoringAverageDiff": "+0.085",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 6,
+                                    "pars": 42,
+                                    "bogeys": 11,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole8.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_8.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4585863332346678,
+                                            "y": 0.626806995055386,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.626806995055386,
+                                            "y": 0.5414136667653322,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 9,
+                                    "parValue": "5",
+                                    "yards": 542,
+                                    "scoringAverage": "4.814",
+                                    "scoringAverageDiff": "-0.186",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 18,
+                                    "pars": 36,
+                                    "bogeys": 3,
+                                    "doubleBogey": 2,
+                                    "rank": 13,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole9.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_9.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4862411774734961,
+                                            "y": 0.3220164938033786,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3220164938033786,
+                                            "y": 0.513758822526504,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "OUT",
+                                    "par": 36,
+                                    "scoringAverageDiff": "-0.795",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3789,
+                                    "scoringAverage": "35.205",
+                                    "eagles": 7,
+                                    "birdies": 117,
+                                    "pars": 328,
+                                    "bogeys": 75,
+                                    "doubleBogey": 3
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 10,
+                                    "parValue": "4",
+                                    "yards": 381,
+                                    "scoringAverage": "4.034",
+                                    "scoringAverageDiff": "+0.034",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 4,
+                                    "pars": 50,
+                                    "bogeys": 4,
+                                    "doubleBogey": 1,
+                                    "rank": 8,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole10.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_10.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.503072372410398,
+                                            "y": 0.2121978448303793,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.2121978448303793,
+                                            "y": 0.49692762758960196,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 11,
+                                    "parValue": "3",
+                                    "yards": 162,
+                                    "scoringAverage": "2.864",
+                                    "scoringAverageDiff": "-0.136",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 47,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole11.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_11.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45803397653637756,
+                                            "y": 0.7211871907664833,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7211871907664833,
+                                            "y": 0.5419660234636224,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 12,
+                                    "parValue": "4",
+                                    "yards": 431,
+                                    "scoringAverage": "3.661",
+                                    "scoringAverageDiff": "-0.339",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 23,
+                                    "pars": 33,
+                                    "bogeys": 3,
+                                    "doubleBogey": 0,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole12.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_12.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5503666224380516,
+                                            "y": 0.274657916427099,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.274657916427099,
+                                            "y": 0.44963337756194843,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 13,
+                                    "parValue": "4",
+                                    "yards": 372,
+                                    "scoringAverage": "4.068",
+                                    "scoringAverageDiff": "+0.068",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 13,
+                                    "pars": 33,
+                                    "bogeys": 10,
+                                    "doubleBogey": 2,
+                                    "rank": 7,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole13.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_13.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4951926399343396,
+                                            "y": 0.7378257454672272,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7378257454672272,
+                                            "y": 0.5048073600656604,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 14,
+                                    "parValue": "4",
+                                    "yards": 295,
+                                    "scoringAverage": "3.729",
+                                    "scoringAverageDiff": "-0.271",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 1,
+                                    "birdies": 24,
+                                    "pars": 28,
+                                    "bogeys": 3,
+                                    "doubleBogey": 2,
+                                    "rank": 14,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole14.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_14.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5816496670606559,
+                                            "y": 0.584762061776442,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.584762061776442,
+                                            "y": 0.4183503329393441,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 15,
+                                    "parValue": "5",
+                                    "yards": 542,
+                                    "scoringAverage": "4.576",
+                                    "scoringAverageDiff": "-0.424",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 2,
+                                    "birdies": 29,
+                                    "pars": 22,
+                                    "bogeys": 4,
+                                    "doubleBogey": 2,
+                                    "rank": 16,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole15.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_15.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5002377106715046,
+                                            "y": 0.26689921901442026,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.26689921901442026,
+                                            "y": 0.4997622893284954,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 16,
+                                    "parValue": "4",
+                                    "yards": 360,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 43,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole16.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_16.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4636727856221696,
+                                            "y": 0.29292766857715646,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.29292766857715646,
+                                            "y": 0.5363272143778304,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 17,
+                                    "parValue": "4",
+                                    "yards": 546,
+                                    "scoringAverage": "4.119",
+                                    "scoringAverageDiff": "+0.119",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 3,
+                                    "pars": 49,
+                                    "bogeys": 5,
+                                    "doubleBogey": 1,
+                                    "rank": 3,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole17.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_17.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5681612165343666,
+                                            "y": 0.2463561570816435,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.2463561570816435,
+                                            "y": 0.4318387834656334,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 18,
+                                    "parValue": "5",
+                                    "yards": 650,
+                                    "scoringAverage": "4.305",
+                                    "scoringAverageDiff": "-0.695",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 2,
+                                    "birdies": 37,
+                                    "pars": 20,
+                                    "bogeys": 0,
+                                    "doubleBogey": 0,
+                                    "rank": 17,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_18.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.40784299925133016,
+                                            "y": 0.6960710643628054,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6960710643628054,
+                                            "y": 0.5921570007486698,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "IN",
+                                    "par": 37,
+                                    "scoringAverageDiff": "-1.712",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3739,
+                                    "scoringAverage": "35.288",
+                                    "eagles": 5,
+                                    "birdies": 153,
+                                    "pars": 325,
+                                    "bogeys": 37,
+                                    "doubleBogey": 8
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "TOTAL",
+                                    "par": 73,
+                                    "scoringAverageDiff": "-2.507",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 7528,
+                                    "scoringAverage": "70.493",
+                                    "eagles": 12,
+                                    "birdies": 270,
+                                    "pars": 653,
+                                    "bogeys": 112,
+                                    "doubleBogey": 11
+                                }
+                            ]
+                        },
+                        {
+                            "roundHeader": "Round 2",
+                            "roundNum": 2,
+                            "live": false,
+                            "holeStats": [
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 1,
+                                    "parValue": "4",
+                                    "yards": 522,
+                                    "scoringAverage": "4.051",
+                                    "scoringAverageDiff": "+0.051",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 2,
+                                    "pars": 53,
+                                    "bogeys": 3,
+                                    "doubleBogey": 1,
+                                    "rank": 1,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole1.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_1.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.560748112721134,
+                                            "y": 0.5874932614396238,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5874932614396238,
+                                            "y": 0.439251887278866,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 2,
+                                    "parValue": "3",
+                                    "yards": 188,
+                                    "scoringAverage": "2.881",
+                                    "scoringAverageDiff": "-0.119",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 13,
+                                    "pars": 40,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 5,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole2.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_2.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.41324619888018016,
+                                            "y": 0.6769669983288106,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6769669983288106,
+                                            "y": 0.5867538011198199,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 3,
+                                    "parValue": "4",
+                                    "yards": 421,
+                                    "scoringAverage": "3.661",
+                                    "scoringAverageDiff": "-0.339",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 22,
+                                    "pars": 35,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 14,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole3.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_3.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5411912750655262,
+                                            "y": 0.3160915892287887,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3160915892287887,
+                                            "y": 0.4588087249344738,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 4,
+                                    "parValue": "4",
+                                    "yards": 416,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 14,
+                                    "pars": 37,
+                                    "bogeys": 7,
+                                    "doubleBogey": 0,
+                                    "rank": 3,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole4.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_4.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4892119211599202,
+                                            "y": 0.2681221451138032,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.2681221451138032,
+                                            "y": 0.5107880788400798,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 5,
+                                    "parValue": "5",
+                                    "yards": 511,
+                                    "scoringAverage": "4.102",
+                                    "scoringAverageDiff": "-0.898",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 5,
+                                    "birdies": 44,
+                                    "pars": 9,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 18,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole5.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_5.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.476844841520742,
+                                            "y": 0.7236796781618594,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7236796781618594,
+                                            "y": 0.523155158479258,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 6,
+                                    "parValue": "4",
+                                    "yards": 433,
+                                    "scoringAverage": "3.695",
+                                    "scoringAverageDiff": "-0.305",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 20,
+                                    "pars": 37,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 10,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole6.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_6.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6654510548083646,
+                                            "y": 0.6454205563887044,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6454205563887044,
+                                            "y": 0.33454894519163536,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 7,
+                                    "parValue": "4",
+                                    "yards": 533,
+                                    "scoringAverage": "3.847",
+                                    "scoringAverageDiff": "-0.153",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 13,
+                                    "pars": 42,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 7,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole7.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_7.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6591155363515724,
+                                            "y": 0.35884523154678555,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.35884523154678555,
+                                            "y": 0.3408844636484276,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 8,
+                                    "parValue": "3",
+                                    "yards": 201,
+                                    "scoringAverage": "3.017",
+                                    "scoringAverageDiff": "+0.017",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 9,
+                                    "pars": 41,
+                                    "bogeys": 8,
+                                    "doubleBogey": 1,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole8.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_8.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5972654625028447,
+                                            "y": 0.24211189620565354,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.24211189620565354,
+                                            "y": 0.40273453749715526,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 9,
+                                    "parValue": "5",
+                                    "yards": 540,
+                                    "scoringAverage": "4.356",
+                                    "scoringAverageDiff": "-0.644",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 38,
+                                    "pars": 21,
+                                    "bogeys": 0,
+                                    "doubleBogey": 0,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole9.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_9.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5078208220479171,
+                                            "y": 0.6183225369892528,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6183225369892528,
+                                            "y": 0.4921791779520829,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "OUT",
+                                    "par": 36,
+                                    "scoringAverageDiff": "-2.458",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3765,
+                                    "scoringAverage": "33.542",
+                                    "eagles": 5,
+                                    "birdies": 175,
+                                    "pars": 315,
+                                    "bogeys": 33,
+                                    "doubleBogey": 2
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 10,
+                                    "parValue": "4",
+                                    "yards": 394,
+                                    "scoringAverage": "3.695",
+                                    "scoringAverageDiff": "-0.305",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 20,
+                                    "pars": 37,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 10,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole10.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_10.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6167714392785008,
+                                            "y": 0.27846403052377516,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.27846403052377516,
+                                            "y": 0.38322856072149925,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 11,
+                                    "parValue": "3",
+                                    "yards": 170,
+                                    "scoringAverage": "2.881",
+                                    "scoringAverageDiff": "-0.119",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 8,
+                                    "pars": 50,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 5,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole11.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_11.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5821726949383256,
+                                            "y": 0.42862550030078705,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.42862550030078705,
+                                            "y": 0.4178273050616744,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 12,
+                                    "parValue": "4",
+                                    "yards": 410,
+                                    "scoringAverage": "3.729",
+                                    "scoringAverageDiff": "-0.271",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 17,
+                                    "pars": 41,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole12.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_12.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.42891424171422554,
+                                            "y": 0.7125945681396394,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7125945681396394,
+                                            "y": 0.5710857582857745,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 13,
+                                    "parValue": "4",
+                                    "yards": 375,
+                                    "scoringAverage": "3.746",
+                                    "scoringAverageDiff": "-0.254",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 19,
+                                    "pars": 36,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 8,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole13.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_13.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4640049188761723,
+                                            "y": 0.39908119492856564,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.39908119492856564,
+                                            "y": 0.5359950811238277,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 14,
+                                    "parValue": "4",
+                                    "yards": 295,
+                                    "scoringAverage": "3.695",
+                                    "scoringAverageDiff": "-0.305",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 1,
+                                    "birdies": 23,
+                                    "pars": 30,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 10,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole14.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_14.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5075375596575246,
+                                            "y": 0.2766202636287405,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.2766202636287405,
+                                            "y": 0.49246244034247544,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 15,
+                                    "parValue": "5",
+                                    "yards": 548,
+                                    "scoringAverage": "4.356",
+                                    "scoringAverageDiff": "-0.644",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 1,
+                                    "birdies": 38,
+                                    "pars": 18,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole15.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_15.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6543969775802994,
+                                            "y": 0.6387608332093514,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6387608332093514,
+                                            "y": 0.34560302241970065,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 16,
+                                    "parValue": "4",
+                                    "yards": 360,
+                                    "scoringAverage": "3.678",
+                                    "scoringAverageDiff": "-0.322",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 23,
+                                    "pars": 33,
+                                    "bogeys": 2,
+                                    "doubleBogey": 1,
+                                    "rank": 13,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole16.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_16.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4606301335889892,
+                                            "y": 0.725591703455637,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.725591703455637,
+                                            "y": 0.5393698664110108,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 17,
+                                    "parValue": "4",
+                                    "yards": 533,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 43,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 3,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole17.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_17.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.42297217019992916,
+                                            "y": 0.26942025758557725,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.26942025758557725,
+                                            "y": 0.5770278298000708,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 18,
+                                    "parValue": "5",
+                                    "yards": 668,
+                                    "scoringAverage": "4.220",
+                                    "scoringAverageDiff": "-0.780",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 5,
+                                    "birdies": 38,
+                                    "pars": 15,
+                                    "bogeys": 0,
+                                    "doubleBogey": 1,
+                                    "rank": 17,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_18.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5775388449075961,
+                                            "y": 0.3542051071812796,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3542051071812796,
+                                            "y": 0.4224611550924039,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "IN",
+                                    "par": 37,
+                                    "scoringAverageDiff": "-3.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3753,
+                                    "scoringAverage": "33.932",
+                                    "eagles": 7,
+                                    "birdies": 196,
+                                    "pars": 303,
+                                    "bogeys": 22,
+                                    "doubleBogey": 2
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "TOTAL",
+                                    "par": 73,
+                                    "scoringAverageDiff": "-5.526",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 7518,
+                                    "scoringAverage": "67.474",
+                                    "eagles": 12,
+                                    "birdies": 371,
+                                    "pars": 618,
+                                    "bogeys": 55,
+                                    "doubleBogey": 4
+                                }
+                            ]
+                        },
+                        {
+                            "roundHeader": "Round 1",
+                            "roundNum": 1,
+                            "live": false,
+                            "holeStats": [
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 1,
+                                    "parValue": "4",
+                                    "yards": 532,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 8,
+                                    "pars": 47,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole1.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_1.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6470907034979859,
+                                            "y": 0.4555851254433328,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4555851254433328,
+                                            "y": 0.3529092965020141,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 2,
+                                    "parValue": "3",
+                                    "yards": 215,
+                                    "scoringAverage": "3.000",
+                                    "scoringAverageDiff": "0.000",
+                                    "scoringDiffTendency": "EVEN",
+                                    "eagles": 0,
+                                    "birdies": 5,
+                                    "pars": 49,
+                                    "bogeys": 5,
+                                    "doubleBogey": 0,
+                                    "rank": 3,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole2.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_2.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5946871362377525,
+                                            "y": 0.6290076301554123,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6290076301554123,
+                                            "y": 0.4053128637622475,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 3,
+                                    "parValue": "4",
+                                    "yards": 414,
+                                    "scoringAverage": "3.983",
+                                    "scoringAverageDiff": "-0.017",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 8,
+                                    "pars": 46,
+                                    "bogeys": 3,
+                                    "doubleBogey": 2,
+                                    "rank": 4,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole3.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_3.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.47765894732505443,
+                                            "y": 0.3908801247074989,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3908801247074989,
+                                            "y": 0.5223410526749456,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 4,
+                                    "parValue": "4",
+                                    "yards": 411,
+                                    "scoringAverage": "3.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 43,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole4.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_4.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45075142264616974,
+                                            "y": 0.6919985456586084,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6919985456586084,
+                                            "y": 0.5492485773538303,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 5,
+                                    "parValue": "5",
+                                    "yards": 527,
+                                    "scoringAverage": "4.220",
+                                    "scoringAverageDiff": "-0.780",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 3,
+                                    "birdies": 41,
+                                    "pars": 14,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 18,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole5.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_5.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5917712725496218,
+                                            "y": 0.5255991850321121,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5255991850321121,
+                                            "y": 0.4082287274503782,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 6,
+                                    "parValue": "4",
+                                    "yards": 416,
+                                    "scoringAverage": "4.017",
+                                    "scoringAverageDiff": "+0.017",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 38,
+                                    "bogeys": 11,
+                                    "doubleBogey": 0,
+                                    "rank": 2,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole6.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_6.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.41846844022392793,
+                                            "y": 0.41765979375918505,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.41765979375918505,
+                                            "y": 0.5815315597760721,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 7,
+                                    "parValue": "4",
+                                    "yards": 537,
+                                    "scoringAverage": "4.034",
+                                    "scoringAverageDiff": "+0.034",
+                                    "scoringDiffTendency": "ABOVE",
+                                    "eagles": 0,
+                                    "birdies": 7,
+                                    "pars": 45,
+                                    "bogeys": 5,
+                                    "doubleBogey": 2,
+                                    "rank": 1,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole7.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_7.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.7252065969921461,
+                                            "y": 0.6625313618089077,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6625313618089077,
+                                            "y": 0.27479340300785393,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 8,
+                                    "parValue": "3",
+                                    "yards": 191,
+                                    "scoringAverage": "2.932",
+                                    "scoringAverageDiff": "-0.068",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 45,
+                                    "bogeys": 2,
+                                    "doubleBogey": 2,
+                                    "rank": 6,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole8.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_8.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5125479836882325,
+                                            "y": 0.35312719040843377,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.35312719040843377,
+                                            "y": 0.4874520163117675,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 9,
+                                    "parValue": "5",
+                                    "yards": 539,
+                                    "scoringAverage": "4.525",
+                                    "scoringAverageDiff": "-0.475",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 3,
+                                    "birdies": 27,
+                                    "pars": 24,
+                                    "bogeys": 5,
+                                    "doubleBogey": 0,
+                                    "rank": 15,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole9.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_9.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.4857708227117008,
+                                            "y": 0.3939500450111598,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.3939500450111598,
+                                            "y": 0.5142291772882992,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "OUT",
+                                    "par": 36,
+                                    "scoringAverageDiff": "-1.425",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3782,
+                                    "scoringAverage": "34.575",
+                                    "eagles": 6,
+                                    "birdies": 126,
+                                    "pars": 351,
+                                    "bogeys": 42,
+                                    "doubleBogey": 6
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 10,
+                                    "parValue": "4",
+                                    "yards": 382,
+                                    "scoringAverage": "3.746",
+                                    "scoringAverageDiff": "-0.254",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 17,
+                                    "pars": 40,
+                                    "bogeys": 2,
+                                    "doubleBogey": 0,
+                                    "rank": 12,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole10.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_10.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.43785331969588415,
+                                            "y": 0.7288998438439478,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.7288998438439478,
+                                            "y": 0.5621466803041159,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 11,
+                                    "parValue": "3",
+                                    "yards": 167,
+                                    "scoringAverage": "2.864",
+                                    "scoringAverageDiff": "-0.136",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 16,
+                                    "pars": 37,
+                                    "bogeys": 5,
+                                    "doubleBogey": 0,
+                                    "rank": 11,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole11.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_11.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5490701929404401,
+                                            "y": 0.23593552745534463,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.23593552745534463,
+                                            "y": 0.4509298070595599,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 12,
+                                    "parValue": "4",
+                                    "yards": 420,
+                                    "scoringAverage": "3.610",
+                                    "scoringAverageDiff": "-0.390",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 27,
+                                    "pars": 28,
+                                    "bogeys": 4,
+                                    "doubleBogey": 0,
+                                    "rank": 14,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole12.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_12.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45912787609659106,
+                                            "y": 0.4402865232805525,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4402865232805525,
+                                            "y": 0.5408721239034089,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 13,
+                                    "parValue": "4",
+                                    "yards": 388,
+                                    "scoringAverage": "3.898",
+                                    "scoringAverageDiff": "-0.102",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 46,
+                                    "bogeys": 2,
+                                    "doubleBogey": 1,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole13.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_13.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5784379772149338,
+                                            "y": 0.613070732195964,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.613070732195964,
+                                            "y": 0.42156202278506616,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 14,
+                                    "parValue": "4",
+                                    "yards": 290,
+                                    "scoringAverage": "3.644",
+                                    "scoringAverageDiff": "-0.356",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 27,
+                                    "pars": 26,
+                                    "bogeys": 6,
+                                    "doubleBogey": 0,
+                                    "rank": 13,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole14.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_14.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.45498745572835764,
+                                            "y": 0.6470695316070321,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.6470695316070321,
+                                            "y": 0.5450125442716424,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 15,
+                                    "parValue": "5",
+                                    "yards": 523,
+                                    "scoringAverage": "4.407",
+                                    "scoringAverageDiff": "-0.593",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 2,
+                                    "birdies": 36,
+                                    "pars": 17,
+                                    "bogeys": 3,
+                                    "doubleBogey": 1,
+                                    "rank": 16,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole15.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_15.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.39799494648092837,
+                                            "y": 0.5115316717400854,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5115316717400854,
+                                            "y": 0.6020050535190716,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 16,
+                                    "parValue": "4",
+                                    "yards": 376,
+                                    "scoringAverage": "3.898",
+                                    "scoringAverageDiff": "-0.102",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 12,
+                                    "pars": 42,
+                                    "bogeys": 4,
+                                    "doubleBogey": 1,
+                                    "rank": 9,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole16.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_16.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.6171502589313566,
+                                            "y": 0.5987789790321524,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.5987789790321524,
+                                            "y": 0.38284974106864345,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 17,
+                                    "parValue": "4",
+                                    "yards": 546,
+                                    "scoringAverage": "3.949",
+                                    "scoringAverageDiff": "-0.051",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 0,
+                                    "birdies": 10,
+                                    "pars": 42,
+                                    "bogeys": 7,
+                                    "doubleBogey": 0,
+                                    "rank": 5,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole17.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_17.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.5734825874264461,
+                                            "y": 0.30248686413435455,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.30248686413435455,
+                                            "y": 0.4265174125735539,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "CourseHoleStats",
+                                    "courseHoleNum": 18,
+                                    "parValue": "5",
+                                    "yards": 684,
+                                    "scoringAverage": "4.237",
+                                    "scoringAverageDiff": "-0.763",
+                                    "scoringDiffTendency": "BELOW",
+                                    "eagles": 1,
+                                    "birdies": 44,
+                                    "pars": 13,
+                                    "bogeys": 1,
+                                    "doubleBogey": 0,
+                                    "rank": 17,
+                                    "holeImage": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                                    "live": false,
+                                    "holePickleGreenLeftToRight": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,b_rgb:ffffff,w_1500,q_auto/holes_2024_r_016_656_overhead_green_18.jpg",
+                                    "pinGreen": {
+                                        "leftToRightCoords": {
+                                            "x": 0.7391643620620983,
+                                            "y": 0.4350524429495658,
+                                            "z": -1.0
+                                        },
+                                        "bottomToTopCoords": {
+                                            "x": 0.4350524429495658,
+                                            "y": 0.26083563793790165,
+                                            "z": -1.0
+                                        }
+                                    }
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "IN",
+                                    "par": 37,
+                                    "scoringAverageDiff": "-2.747",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 3776,
+                                    "scoringAverage": "34.253",
+                                    "eagles": 3,
+                                    "birdies": 199,
+                                    "pars": 291,
+                                    "bogeys": 34,
+                                    "doubleBogey": 3
+                                },
+                                {
+                                    "__typename": "SummaryRow",
+                                    "rowType": "TOTAL",
+                                    "par": 73,
+                                    "scoringAverageDiff": "-4.172",
+                                    "scoringDiffTendency": "BELOW",
+                                    "yardage": 7558,
+                                    "scoringAverage": "68.828",
+                                    "eagles": 9,
+                                    "birdies": 325,
+                                    "pars": 642,
+                                    "bogeys": 76,
+                                    "doubleBogey": 9
+                                }
+                            ]
+                        }
+                    ],
+                    "courseOverview": {
+                        "id": "656",
+                        "image": "https://res.cloudinary.com/pgatour-prod/ar_0.667,c_crop/d_placeholders:tournamentBackgroundSolid.png/pgatour/courses/r016/656/holes/hole18.jpg",
+                        "name": "Plantation Course at Kapalua",
+                        "city": "Kapalua, Maui",
+                        "state": "Hawaii",
+                        "country": "USA",
+                        "overview": [
+                            {
+                                "label": "Par",
+                                "value": "73",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": null
+                            },
+                            {
+                                "label": "Yardage",
+                                "value": "7,596",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": null
+                            },
+                            {
+                                "label": "Record",
+                                "value": "258",
+                                "detail": "Cameron Smith",
+                                "secondaryDetail": "2022",
+                                "wide": true,
+                                "smallCopy": null
+                            },
+                            {
+                                "label": "Fairway",
+                                "value": "Bermudagrass",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": true
+                            },
+                            {
+                                "label": "Rough",
+                                "value": "Bermudagrass",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": true
+                            },
+                            {
+                                "label": "Green",
+                                "value": "Tifeagle Bermudagrass",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": true,
+                                "smallCopy": true
+                            },
+                            {
+                                "label": "Established",
+                                "value": "1991",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": true
+                            },
+                            {
+                                "label": "Design",
+                                "value": "Bill Coore / Ben Crenshaw",
+                                "detail": null,
+                                "secondaryDetail": null,
+                                "wide": null,
+                                "smallCopy": true
+                            }
+                        ]
+                    },
+                    "shotlinkLogo": "https://res.cloudinary.com/pgatour-prod/temp/logos/ShotLink.png"
+                }
+            ]
+        }
+    }
+}
