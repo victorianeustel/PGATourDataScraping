@@ -15,7 +15,6 @@ path = os.getcwd() + '/data'
 
 print(path)
 
-# result = IsEmptyCSV('/Users/victorianeustel/Documents/GitHub/PGATourDataScraping/data/2013/money_finishes/finishes/top_10_finishes.csv')
 for subdir, dirs, files in os.walk(path):
     for file in files:
         if file.endswith(".csv"):
@@ -24,7 +23,22 @@ for subdir, dirs, files in os.walk(path):
             if isEmpty == True:
                 os.remove(fullPath)
 
-                # print(' '.join([subdir, file, str(isEmpty)]))
-            # if isEmpty == True:
-            #     print(os.path.join(subdir, file))
+def delete_empty_folders(root):
 
+    deleted = set()
+    
+    for current_dir, subdirs, files in os.walk(root, topdown=False):
+
+        still_has_subdirs = False
+        for subdir in subdirs:
+            if os.path.join(current_dir, subdir) not in deleted:
+                still_has_subdirs = True
+                break
+    
+        if not any(files) and not still_has_subdirs:
+            os.rmdir(current_dir)
+            deleted.add(current_dir)
+
+    return deleted
+
+delete_empty_folders(path)

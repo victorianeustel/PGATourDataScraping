@@ -4,14 +4,31 @@ from classes.StatCategory import StatCategory
 from helpers.JSONDataMapping import *
 from pathlib import Path
 import csv
+import os.path
 from helpers.FileHelper import CreateDirectory, CleanName
 
-def CallAndWriteStatData(year: int, statId: int, filePath: str):    
+def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath: str):    
     path = get_stats_path(year=year, statsId= statId)
     x = requests.get(path)
     
-    with open(filePath, "wb") as file:
-        file.write(x.content)
+    if (x.status_code != 200):
+        pass
+    else:
+        yearDir = '/'.join(['data', year])
+        categoryDir = '/'.join(['data', year, category])
+        subcategoryDir = '/'.join(['data', year, category, subcategory])
+        
+        if os.path.isdir(yearDir) == False:
+            CreateDirectory(year)
+            
+        if os.path.isdir(categoryDir) == False:
+            CreateDirectory(categoryDir)
+            
+        if os.path.isdir(subcategoryDir) == False:
+            CreateDirectory(subcategoryDir)
+            
+        with open(filePath, "wb") as file:
+            file.write(x.content)
     
 def GetStatCsvs(year: int):
     categories = GetStatCategories()
@@ -19,17 +36,13 @@ def GetStatCsvs(year: int):
 
     stat_details = []
     current_year = str(year)
-    CreateDirectory('data/' + current_year)
     stat_ids_dict = {}
 
     for c in categories:
         category = CleanName(c.category)
-        CreateDirectory('/'.join(['data', current_year, category]))
         
         for sc in c.subCategories:
             subCategory = CleanName(sc.displayName)
-            directory_name = '/'.join(['data', current_year, category, subCategory])
-            CreateDirectory(directory_name)
 
             for sd in sc.stats:
                 obj = {}
@@ -38,7 +51,6 @@ def GetStatCsvs(year: int):
                 obj['statTitle'] = sd.statTitle
                 obj['statId'] = sd.statId
                 
-                isDuplicate = sd.statId in stat_ids_dict                
                 if sd.statId in stat_ids_dict:
                     obj['path'] = stat_ids_dict[sd.statId]
                     obj['duplicatedStatId'] = True
@@ -77,7 +89,7 @@ def GetStatCsvs(year: int):
                 continue
             else:
                 try:
-                    CallAndWriteStatData(year, statId, path)
+                    CallAndWriteStatData(category, subCategory, year, statId, path)
                 except Exception:
                     error_data.append(v)
                     print('ERROR: ' + summary)
