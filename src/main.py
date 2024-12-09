@@ -22,7 +22,9 @@ for subdir, dirs, files in os.walk(path):
             fullPath = os.path.join(subdir, file)
             isEmpty = IsEmptyCSV(os.path.join(subdir, file))
             if isEmpty == True:
-                print(' '.join([subdir, file, str(isEmpty)]))
+                os.remove(fullPath)
+
+                # print(' '.join([subdir, file, str(isEmpty)]))
             # if isEmpty == True:
             #     print(os.path.join(subdir, file))
 
