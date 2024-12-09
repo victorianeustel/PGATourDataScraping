@@ -5,17 +5,7 @@ import json
 from classes.StatCategory import StatCategory
 from pathlib import Path
 import csv
-
-def CreateDirectory(directory_name):
-    try:
-        os.mkdir(directory_name)
-        print(f"Directory '{directory_name}' created successfully.")
-    except FileExistsError:
-        print(f"Directory '{directory_name}' already exists.")
-    except PermissionError:
-        print(f"Permission denied: Unable to create '{directory_name}'.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+from helpers.FileHelper import CreateDirectory, CleanName
 
 def GetStatCategories():
     path = os.path.realpath(__file__) 
@@ -43,25 +33,9 @@ categories = GetStatCategories()
 
 stat_details = []
 
-def CleanName(name: str):
-    cleaned_name = name \
-        .replace('- ', '') \
-        .replace(' ', '_') \
-        .replace(',', '_') \
-        .replace(':', '') \
-        .replace('/', '') \
-        .replace('*', '') \
-        .replace('<', 'less-than') \
-        .replace('>', 'greater-than') \
-        .replace('|', 'or') \
-        .replace('?', '') \
-        .replace('\\', '') \
-        .lower()
-
-    return cleaned_name
-
 current_year = '2024'
 CreateDirectory(current_year)
+stat_ids_dict = {}
 
 for c in categories:
     category = CleanName(c.category)
@@ -73,15 +47,19 @@ for c in categories:
         CreateDirectory(directory_name)
 
         for sd in sc.stats:
-            file_name = CleanName(sd.statTitle) + '.csv'
-
             obj = {}
             obj['category'] = c.category
             obj['subCategory'] = sc.displayName
-            obj['path'] = '/'.join([current_year, category, subCategory, file_name])
             obj['statTitle'] = sd.statTitle
             obj['statId'] = sd.statId
             
+            isDuplicate = sd.statId in stat_ids_dict
+            if isDuplicate:
+                obj['path'] = stat_ids_dict[sd.statId]
+            else:
+                file_name = CleanName(sd.statTitle) + '.csv'
+                obj['path'] = '/'.join([current_year, category, subCategory, file_name])
+
             stat_details.append(obj)
 
 error_data = []
@@ -114,12 +92,15 @@ for index, v in enumerate(stat_details):
             print('ERROR: ' + summary)
             continue
 
+# Create file mapper file
 with open('file_map.csv', "w", newline='\n') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
     for row in stat_detail_rows:
         writer.writerow(row)
 
-print('---------ERRORS---------')
-for error in error_data:
-    summary = 'Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(category, subCategory, statId, path)
-    print(summary)
+# Print errors
+if error_data:
+    print('---------ERRORS---------')
+    for error in error_data:
+        summary = 'Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(category, subCategory, statId, path)
+        print(summary)
