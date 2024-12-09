@@ -1,360 +1,364 @@
 RANK,MOVEMENT,PLAYER_ID,PLAYER,DISTANCE,TOURNAMENT,ROUND- COURSE,HOLE
-1,0,46441,Robby Shelton,258,Valspar,4,14
-2,0,33204,Shane Lowry,256,Farmers,4,6
-3,0,47806,Raul Pereda,236,THE CJ CUP,1,7
-4,0,34466,Peter Malnati,223,Houston Open,4,7
-5,0,28775,Nate Lashley,217,Rocket Mortgage,1,11
-6,0,31323,Gary Woodland,216,RBC Canadian,2,11
-7,0,32367,Jorge Campillo,213,Houston Open,2,14
-8,0,39977,Max Homa,213,Wells Fargo,4,1
-9,0,34587,Chan Kim,209,Black Desert,1,13
-10,0,30926,Chris Kirk,205,FedEx St. Jude,1,14
-11,0,32070,Rafael Campos,205,Mexico Open,2,17
-12,0,54591,Ben Griffin,204,Black Desert,2,13
-13,0,34046,Jordan Spieth,199,Valero,1,16
-14,0,47988,Nick Hardy,199,THE CJ CUP,1,13
-15,0,30852,Ryo Ishikawa,198,ZOZO CHAMPIONSHIP,2,17
-16,0,59866,Nick Dunlap,197,Cognizant Classic,2,7
-17,0,23108,Matt Kuchar,196,John Deere,1,18
-18,0,48887,Matt Wallace,195,RBC Canadian,1,18
-19,0,25198,Francesco Molinari,194,U.S. Open,2,9
-19,0,49960,Sepp Straka,194,U.S. Open,2,9
-21,0,36326,David Lipsky,193,Sony Open,2,13
-22,0,46646,Antoine Rozner,190,Genesis Scottish Open,3,7
-23,0,25900,Lucas Glover,189,Wyndham,2,12
-23,0,60067,Joe Highsmith,189,Wyndham,2,12
-25,0,52372,Cameron Champ,188,Black Desert,1,13
-26,0,39997,Corey Conners,184,BMW Championship,2,5
-27,0,47483,Will Zalatoris,184,Genesis,2,14
-28,0,34255,Joseph Bramlett,182,Sony Open,2,6
-29,0,55708,Hayden Buckley,178,3M Open,2,17
-30,0,54421,Garrick Higgo,174,Houston Open,3,10
-31,0,46405,Sebastian Soderberg,173,PGA Championship,2,8
-32,0,46414,Aaron Rai,171,THE PLAYERS,3,14
-33,0,46046,Scottie Scheffler,167,PGA Championship,1,1
-34,0,32839,Hideki Matsuyama,165,Farmers,2,8
-35,0,40026,Daniel Berger,158,WM Phoenix Open,1,2
-36,0,51696,Rico Hoey,156,Valspar,2,14
-37,0,32791,K.H. Lee,154,Sony Open,3,12
-38,0,47993,Denny McCarthy,152,Travelers,1,14
-39,0,45522,Christiaan Bezuidenhout,151,RBC Heritage,4,16
-40,0,39546,Keith Mitchell,151,Valspar,3,18
-41,0,25493,Nick Taylor,150,FedEx St. Jude,2,9
-42,0,48084,Wesley Bryan,150,3M Open,3,14
-43,0,38991,Alejandro Tosti,149,Wyndham,2,11
-44,0,35506,Mackenzie Hughes,148,Procore,2,4
-45,0,45523,Thriston Lawrence,147,Myrtle Beach,1,2
-46,0,26476,Chez Reavie,145,Wyndham,2,2
-47,0,32640,Troy Merritt,144,Procore,2,6
-48,0,29420,Billy Horschel,143,Wyndham,1,2
-49,0,57366,Cameron Young,142,Travelers,3,3
-50,0,39975,Michael Kim,142,The RSM Classic,1,1
-51,0,29908,C.T. Pan,142,Sanderson Farms,1,11
-52,0,51349,Nico Echavarria,140,Farmers,2,14
-53,0,31202,William McGirt,135,ISCO Championship,2,17
-54,0,56630,Akshay Bhatia,134,Houston Open,1,5
-55,0,50525,Collin Morikawa,133,the Memorial,1,2
-56,0,29289,S.Y. Noh,133,ISCO Championship,2,18
-57,0,30163,Henrik Norlander,133,John Deere,1,6
-58,0,36884,Ben Kohles,130,Black Desert,1,17
-59,0,40058,Zac Blair,129,Wyndham,3,17
-59,0,56987,Jeong Weon Ko,129,ISCO Championship,1,7
-61,0,66743,Luke Clanton,129,Wyndham,3,13
-62,0,27936,Martin Laird,128,THE CJ CUP,3,3
-63,0,47983,Chad Ramey,127,Shriners Children's Open,4,11
-64,0,45157,Cam Davis,125,RBC Heritage,4,1
-65,0,29936,Ryan Fox,124,THE PLAYERS,1,17
-66,0,28089,Jason Day,124,AT&T Pebble Beach,3,11
-67,0,37455,Si Woo Kim,123,Genesis,3,8
-68,0,29725,Tony Finau,121,the Memorial,2,11
-69,0,48867,Matti Schmid,121,Procore,2,16
-70,0,56149,Wilson Furr,120,Houston Open,1,5
-71,0,47591,Eric Cole,120,Valspar,3,14
-72,0,33653,Thomas Detry,119,Genesis Scottish Open,1,4
-73,0,40250,Taylor Pendrith,118,FedEx St. Jude,4,1
-74,0,52514,Trace Crowe,115,Houston Open,1,10
-75,0,26596,Ryan Moore,113,Cognizant Classic,1,13
-76,0,29970,Dylan Frittelli,112,John Deere,4,6
-77,0,33399,Adam Hadwin,111,PGA Championship,4,13
-78,0,46464,Jordan Smith,111,PGA Championship,4,13
-79,0,55454,Carl Yuan,111,RBC Canadian,1,1
-80,0,34076,Joel Dahmen,110,The RSM Classic,4,13
-81,0,60004,Jacob Bridgeman,110,Rocket Mortgage,3,8
-82,0,52374,Brandon Wu,109,AT&T Pebble Beach,3,11
-83,0,23320,Ryan Palmer,109,Procore,1,5
-84,0,24980,Scott Gutschewski,108,Valero,2,14
-85,0,59440,Ricky Castillo,106,Valspar,2,9
-86,0,39327,Ben Silverman,103,Cognizant Classic,4,3
-87,0,63807,Neal Shipley,102,Rocket Mortgage,1,1
-88,0,31646,Emiliano Grillo,102,PGA Championship,2,13
-89,0,50497,Adrien Dumont de Chassart,101,Valero,1,11
-90,0,32757,Patton Kizzire,101,Myrtle Beach,4,1
-91,0,47079,Harrison Endycott,100,THE CJ CUP,4,9
-92,0,37378,Min Woo Lee,98,Cognizant Classic,1,13
-93,0,50188,S.H. Kim,94,Shriners Children's Open,4,6
-94,0,35310,Lanto Griffin,93,Valero,1,2
-95,0,59143,Mac Meissner,93,Rocket Mortgage,2,4
-96,0,51977,Max Greyserman,91,Wyndham,4,13
-97,0,58989,Brandon Berry,90,Myrtle Beach,1,4
-98,0,34021,Bud Cauley,88,Shriners Children's Open,1,6
-99,0,36801,Mark Hubbard,87,Charles Schwab,3,9
-100,0,28259,Sangmoon Bae,83,Procore,3,13
-101,0,24024,Zach Johnson,82,Rocket Mortgage,4,14
-102,0,54783,Dylan Wu,81,Mexico Open,4,6
-103,0,51287,Ryo Hisatsune,80,RBC Canadian,1,10
-104,0,66190,Steve Bogdanoff,80,Wyndham,2,10
-105,0,33486,Roger Sloan,79,Rocket Mortgage,1,14
-106,0,46340,Alex Smalley,78,Sanderson Farms,4,2
-107,0,46442,Maverick McNealy,78,WM Phoenix Open,1,13
-108,0,34360,Patrick Reed,77,PGA Championship,3,18
-109,0,22371,Aaron Baddeley,76,Black Desert,2,18
-110,0,46717,Viktor Hovland,76,PGA Championship,2,4
-111,0,40115,Adam Svensson,75,AT&T Pebble Beach,3,14
-112,0,55893,Sam Stevens,73,The RSM Classic,3,16
-113,0,32448,James Hahn,71,Houston Open,3,16
-114,0,55789,Taylor Montgomery,70,Farmers,3,15
-115,0,48119,Ben Taylor,67,ISCO Championship,1,1
-116,0,59836,Pierceson Coody,66,Wyndham,2,6
-117,0,55460,Sam Choi,59,Procore,2,15
-118,0,58168,Davis Thompson,57,Rocket Mortgage,1,7
-119,0,37250,Romain Langasque,56,Genesis Scottish Open,1,3
-120,0,28252,Seamus Power,55,Travelers,3,7
-121,0,50484,Hayden Springer,55,John Deere,1,17
-122,0,27139,David Skinns,54,THE CJ CUP,2,6
-123,0,47959,Bryson DeChambeau,51,PGA Championship,1,7
-124,0,35891,Cameron Smith,45,PGA Championship,3,7
-125,0,29535,Brice Garnett,44,Sanderson Farms,4,14
-126,0,35879,Kelly Kraft,43,Black Desert,1,6
-127,0,37278,Nicholas Lindheim,43,Valspar,2,16
-128,0,47888,Taiga Semikawa,42,THE CJ CUP,4,6
-129,0,60767,Blaine Hale Jr.,42,Mexico Open,2,12
-129,0,51634,Sahith Theegala,42,Genesis Scottish Open,1,5
-131,0,47663,Kevin Dougherty,41,Procore,1,8
-132,0,57362,Austin Eckroat,39,Mexico Open,4,7
-133,0,51894,Vince Whaley,39,Valspar,3,1
-134,0,30927,Brendon Todd,37,Procore,2,6
-135,0,49947,Taylor Moore,36,ZOZO CHAMPIONSHIP,1,18
-136,0,34098,Russell Henley,36,TOUR Championship,4,18
-137,0,56762,Will Gordon,35,The RSM Classic,3,1
-138,0,27214,Kevin Streelman,35,Cognizant Classic,2,18
-139,0,34374,Erik Barnes,35,Farmers,3,14
-140,0,52096,Adri Arnaus,34,Genesis Scottish Open,1,16
-141,0,40098,Matt Fitzpatrick,34,Genesis Scottish Open,3,3
-142,0,54628,Lee Hodges,34,John Deere,4,13
-143,0,47347,Adam Schenk,34,Shriners Children's Open,1,16
-144,0,33413,Ben Martin,33,Valero,2,4
-145,0,34563,Chesson Hadley,33,John Deere,1,6
-146,0,57900,Chandler Phillips,32,Houston Open,3,11
-147,0,34363,Tyrrell Hatton,32,Sentry,2,18
-148,0,40162,Justin Lower,32,Wyndham,1,15
-149,0,56555,Myles Creighton,32,RBC Canadian,4,2
-150,0,35461,Beau Hossler,32,ZOZO CHAMPIONSHIP,3,5
-151,0,29221,Webb Simpson,31,RBC Heritage,2,9
-152,0,47504,Sam Burns,31,the Memorial,3,5
-152,0,46879,Naoyuki Kataoka,31,ZOZO CHAMPIONSHIP,3,17
-152,0,46035,Callum Shinkwin,31,Genesis Scottish Open,2,5
-155,0,27974,Sung Kang,31,THE CJ CUP,3,14
-156,0,37212,Paul Barjon,31,Black Desert,2,3
-157,0,52375,Doug Ghim,31,Houston Open,2,6
-158,0,35617,Martin Trainer,30,Sony Open,2,14
-159,0,52666,Sami Valimaki,30,Genesis Scottish Open,2,16
-160,0,48117,Kurt Kitayama,30,RBC Heritage,3,5
-161,0,59409,Ashton McCulloch,29,U.S. Open,1,5
-162,0,33448,Justin Thomas,29,PGA Championship,3,14
-163,0,29478,Kevin Kisner,29,ISCO Championship,2,8
-164,0,22405,Justin Rose,29,THE PLAYERS,1,1
-165,0,57364,Michael Thorbjornsen,29,Sanderson Farms,1,10
-166,0,52513,Carson Young,29,Rocket Mortgage,2,12
-167,0,59141,Matt McCarty,29,Black Desert,3,7
-168,0,45609,Tyler Duncan,28,Sony Open,4,18
-169,0,52686,Rasmus Hojgaard,28,Genesis Scottish Open,1,10
-169,0,27141,J.B. Holmes,28,Procore,4,5
-171,0,33974,Dean Burmester,28,PGA Championship,1,11
-172,0,06527,Steve Stricker,28,THE PLAYERS,2,2
-173,0,24502,Adam Scott,27,U.S. Open,1,4
-174,0,51890,Greyson Sigg,27,Procore,2,18
-175,0,48081,Xander Schauffele,27,RBC Heritage,2,9
-176,0,27349,Alex Noren,27,FedEx St. Jude,3,2
-177,0,55182,Tom Kim,27,the Memorial,2,10
-178,0,27649,Brandt Snedeker,27,THE CJ CUP,2,16
-179,0,54788,Chandler Blanchet,26,Black Desert,1,1
-180,0,57975,Harry Hall,26,Myrtle Beach,2,15
-181,0,49303,Anders Albertson,26,Myrtle Beach,3,8
-181,0,39971,Sungjae Im,26,Genesis Scottish Open,1,2
-183,0,59283,George Kneiser,26,Wyndham,2,4
-184,0,33408,Tyson Alexander,25,Shriners Children's Open,1,13
-184,0,59497,Jake Lane,25,RBC Canadian,1,15
-186,0,28420,Ryan Brehm,25,Myrtle Beach,1,12
-186,0,20229,Stewart Cink,25,Wyndham,1,6
-188,0,30957,Max Kieffer,25,Genesis Scottish Open,3,9
-189,0,32333,Kevin Tway,25,Wells Fargo,4,16
-190,0,52955,Ludvig Åberg,25,Travelers,2,4
-191,0,39262,Alvaro Ortiz,25,Mexico Open,1,18
-192,0,51734,Nicolo Galletti,25,Shriners Children's Open,2,3
-193,0,47679,Victor Perez,24,the Memorial,2,17
-194,0,12716,Charley Hoffman,24,Farmers,1,7
-194,0,51600,Jimmy Stanger,24,Mexico Open,4,6
-196,0,46113,Ryan McCormick,24,Myrtle Beach,2,10
-197,0,47102,David Micheluzzi,24,ISCO Championship,2,10
-198,0,34256,Andrew Putnam,23,Genesis Scottish Open,1,17
-199,0,40006,Erik van Rooyen,23,Mexico Open,1,12
-200,0,48632,Yuto Katsuragawa,23,ZOZO CHAMPIONSHIP,3,5
-201,0,54576,Patrick Fishburn,23,Rocket Mortgage,1,14
-202,0,48153,Matthieu Pavon,23,PGA Championship,1,6
-203,0,33199,Matteo Manassero,22,U.S. Open,2,6
-203,0,46628,Jeremy Wells,22,PGA Championship,2,17
-205,0,60895,Kris Kim,22,THE CJ CUP,1,9
-206,0,28237,Rory McIlroy,22,U.S. Open,1,5
-206,0,36699,Patrick Rodgers,22,Travelers,2,4
-206,0,30692,Scott Stallings,22,WM Phoenix Open,1,3
-209,0,65880,Gunnar Broin,22,U.S. Open,2,8
-210,0,55074,Sebastian Friedrichsen,22,ISCO Championship,1,15
-211,0,46435,Austin Cook,22,Valspar,2,1
-212,0,49771,J.T. Poston,22,RBC Heritage,1,4
-213,0,27644,Brian Harman,22,WM Phoenix Open,1,1
-214,0,34431,Robert Streb,22,3M Open,1,11
-215,0,25818,Scott Piercy,22,Shriners Children's Open,1,15
-216,0,48052,Max Rottluff,21,ISCO Championship,4,6
-217,0,66290,Miles Russell,21,Rocket Mortgage,2,11
-218,0,51735,Evan Bowser,21,PGA Championship,1,14
-219,0,34099,Harris English,21,Shriners Children's Open,4,16
-220,0,55509,Hurly Long,21,Genesis Scottish Open,1,9
-221,0,36824,Paul Peterson,21,The RSM Classic,1,3
-222,0,59095,Chris Gotterup,21,Rocket Mortgage,3,4
-223,0,55623,Kaito Onishi,21,ZOZO CHAMPIONSHIP,3,17
-224,0,28114,Dawie van der Walt,21,Houston Open,2,8
-225,0,33968,Thorbjørn Olesen,20,Valero,3,6
-226,0,48640,Johannes Veerman,20,ISCO Championship,3,8
-227,0,35449,Adam Long,20,Houston Open,1,1
-228,0,58551,Marc-Olivier Plasse,20,RBC Canadian,1,11
-229,0,33141,Keegan Bradley,20,Charles Schwab,4,3
-229,0,30911,Tommy Fleetwood,20,Wells Fargo,3,1
-231,0,48699,Callum Tarren,20,Black Desert,2,10
-232,0,49590,Frankie Capan III,19,U.S. Open,3,16
-232,0,52215,Robert MacIntyre,19,FedEx St. Jude,1,17
-234,0,51997,Andrew Novak,19,ZOZO CHAMPIONSHIP,2,11
-235,0,36871,Matt NeSmith,19,Charles Schwab,2,8
-236,0,35450,Patrick Cantlay,19,TOUR Championship,3,13
-237,0,47420,Jake Knapp,19,The RSM Classic,3,6
-238,0,45242,Kevin Yu,19,RBC Canadian,4,1
-239,0,51070,Vincent Norrman,18,RBC Canadian,1,12
-240,0,39324,J.J. Spaun,18,THE PLAYERS,1,14
-241,0,49036,Lorenzo Scalise,18,ISCO Championship,1,15
-242,0,47128,Richy Werenski,18,THE CJ CUP,2,4
-243,0,35532,Tom Hoge,18,FedEx St. Jude,4,16
-244,0,50493,Justin Suh,18,Cognizant Classic,1,5
-245,0,47995,Davis Riley,18,Travelers,3,4
-246,0,36689,Brooks Koepka,18,U.S. Open,3,7
-246,0,52411,Kyle Westmoreland,18,John Deere,4,7
-248,0,48319,Tom Whitney,17,The RSM Classic,2,10
-249,0,59442,Parker Coody,17,John Deere,2,1
-250,0,25349,Tim Wilkinson,17,The RSM Classic,2,5
-251,0,52444,Filippo Celli,17,ISCO Championship,1,7
-252,0,51989,Jordan Gumberg,17,Myrtle Beach,1,17
-253,0,29425,Andrew Svoboda,17,U.S. Open,2,5
-254,0,26499,Rafa Cabrera Bello,17,ISCO Championship,1,14
-255,0,56297,John Somers,17,PGA Championship,2,12
-256,0,31242,Marcel Schneider,17,ISCO Championship,2,8
-257,0,39058,Lucas Herbert,17,PGA Championship,1,16
-258,0,33410,Andrew Landry,17,John Deere,1,15
-259,0,36799,Stephan Jaeger,16,Black Desert,2,16
-260,0,34213,Grayson Murray,16,WM Phoenix Open,1,4
-261,0,36852,Jim Knous,16,WM Phoenix Open,4,14
-262,0,50521,Hunter Larson,16,Sony Open,1,8
-263,0,59652,Sam Bennett,16,Houston Open,2,11
-263,0,46601,Trey Mullinax,16,Sanderson Farms,1,18
-265,0,52453,Nicolai Højgaard,15,Genesis,4,4
-266,0,55420,Cooper Musselman,15,Wyndham,2,7
-267,0,60328,Cam Kellett,15,RBC Canadian,1,3
-268,0,59567,Emilio Gonzalez,15,Houston Open,3,12
-268,0,64594,Angel Hidalgo Portillo,15,ISCO Championship,1,11
-270,0,37446,Jacques Kruyswijk,15,ISCO Championship,4,6
-271,0,59871,Greg Koch,15,Valspar,2,18
-272,0,54422,Christo Lamprecht,14,Shriners Children's Open,1,13
-273,0,33023,Ockie Strydom,14,Genesis Scottish Open,1,18
-274,0,24671,David Bradshaw,14,Black Desert,1,13
-275,0,27770,Camilo Villegas,14,Shriners Children's Open,4,4
-276,0,55707,Calum Hill,14,Genesis Scottish Open,1,6
-277,0,50095,Austin Smotherman,14,The RSM Classic,1,5
-278,0,54869,Chase Johnson,14,Genesis,1,14
-279,0,24140,Sean O'Hair,14,Myrtle Beach,3,18
-280,0,65994,Joe Sullivan,13,Valero,1,15
-281,0,32102,Rickie Fowler,13,Wells Fargo,3,7
-282,0,50006,Willie Mack III,13,U.S. Open,1,13
-283,0,32662,Michael Gligic,13,Cognizant Classic,2,2
-284,0,65547,Zac Jones,13,Black Desert,2,3
-285,0,54328,Norman Xiong,13,Valspar,4,4
-286,0,51911,Anthony Maccaglia,13,3M Open,2,8
-287,0,27330,Josh Teater,13,Farmers,1,7
-288,0,66417,Blades Brown,13,Myrtle Beach,1,8
-289,0,34310,Alexander Björk,12,Myrtle Beach,2,9
-289,0,39954,Cody Gribble,12,ISCO Championship,1,5
-291,0,51950,Max McGreevy,12,Black Desert,3,2
-292,0,33122,Russell Knox,12,ISCO Championship,2,12
-293,0,45486,Joaquin Niemann,12,PGA Championship,2,10
-294,0,32366,Kevin Chappell,12,THE CJ CUP,2,4
-295,0,33948,Byeong Hun An,12,THE PLAYERS,2,3
-295,0,36983,Matt Dobyns,12,PGA Championship,2,12
-297,0,48936,Ugo Coussaud,11,Genesis Scottish Open,1,6
-297,0,24924,Bill Haas,11,THE CJ CUP,2,12
-299,0,47125,Matt Atkins,11,Myrtle Beach,2,7
-300,0,66583,Taisei Shimizu,11,ZOZO CHAMPIONSHIP,3,3
-301,0,59077,Spencer Cross,11,ISCO Championship,3,17
-302,0,39067,MJ Daffue,11,3M Open,4,13
-303,0,59827,Tom Vaillant,10,ISCO Championship,4,7
-304,0,51766,Wyndham Clark,10,RBC Heritage,4,2
-305,0,47443,Junghwan Lee,10,Genesis Scottish Open,1,14
-306,0,27129,Luke List,10,RBC Canadian,1,7
-307,0,32618,Rhein Gibson,10,Houston Open,1,1
-308,0,35557,Aaron Cockerill,10,Genesis Scottish Open,1,6
-308,0,37157,Renato Paratore,10,ISCO Championship,1,5
-310,0,29268,Bronson Burgoon,9,Valero,4,13
-310,0,47056,Rikuya Hoshino,9,Genesis Scottish Open,2,14
-310,0,01547,Reed Hughes,9,Sanderson Farms,1,8
-313,0,54190,Richard Mansell,9,Genesis Scottish Open,4,7
-314,0,60369,Sam Bairstow,9,ISCO Championship,4,9
-315,0,55930,Fred Biondi,9,Valspar,4,9
-316,0,65310,Anders Larson,9,John Deere,1,5
-317,0,66630,Beck Burnette,9,Sanderson Farms,2,13
-318,0,27064,Jhonattan Vegas,8,RBC Canadian,2,16
-319,0,46270,Takashi Ogiso,8,ZOZO CHAMPIONSHIP,2,6
-320,0,46033,Daniel Gavins,8,Genesis Scottish Open,1,14
-321,0,51003,Marco Penge,8,ISCO Championship,2,11
-322,0,57586,Jesper Svensson,8,Genesis Scottish Open,1,14
-323,0,19803,Ryan Armour,8,Sanderson Farms,1,8
-324,0,54813,Philip Knowles,8,Black Desert,2,17
-325,0,35469,Sebastián Vázquez,8,Mexico Open,2,5
-326,0,52287,David Ravetto,8,ISCO Championship,2,11
-327,0,20766,Padraig Harrington,7,Cognizant Classic,2,7
-327,0,27095,Nick Watney,7,Myrtle Beach,1,1
-329,0,23621,Rory Sabbatini,7,Charles Schwab,1,13
-330,0,27747,Hiroshi Iwata,7,ZOZO CHAMPIONSHIP,2,13
-331,0,29939,Fabrizio Zanotti,7,ISCO Championship,3,14
-332,0,46970,Jon Rahm,7,PGA Championship,1,17
-333,0,39335,Kevin Roy,7,Valspar,1,6
-334,0,35709,Jeff Winther,6,Genesis Scottish Open,2,15
-335,0,57737,Jayden Schaper,6,ISCO Championship,2,8
-336,0,51661,Nick Bachem,6,Genesis Scottish Open,2,12
-337,0,12195,Tom Johnson,6,Procore,3,3
-338,0,25686,Jason Dufner,6,ISCO Championship,1,3
-339,0,29476,Kyle Reifers,6,ISCO Championship,2,15
-340,0,65410,John Marshall Butler,6,ISCO Championship,2,9
-341,0,64431,David Nyfjall,6,THE CJ CUP,2,13
-342,0,46404,Marcus Kinhult,6,ISCO Championship,2,12
-343,0,56353,Callum McNeill,5,Houston Open,1,17
-344,0,56625,Max Sear,5,RBC Canadian,1,3
-345,0,57330,Matthis Besard,5,ISCO Championship,4,4
-346,0,08793,Tiger Woods,5,Genesis,1,11
-347,0,25632,Jimmy Walker,5,PGA Championship,2,4
-348,0,39537,Chris Naegel,5,U.S. Open,2,15
-349,0,66701,Jackson Koivun,5,the Memorial,1,5
-349,0,40181,Clément Sordet,5,ISCO Championship,2,4
-351,0,29256,James Morrison,5,ISCO Championship,2,8
-352,0,24358,Robert Garrigus,5,Cognizant Classic,1,8
-353,0,34371,Adrien Saddier,4,ISCO Championship,4,9
-354,0,37275,Sam Ryder,4,ISCO Championship,4,4
-355,0,35490,Wil Bateman,4,RBC Canadian,2,14
-356,0,51680,Alistair Docherty,4,RBC Canadian,2,18
-357,0,23983,Luke Donald,4,Valspar,1,16
-358,0,55940,Andrew Wilson,4,ISCO Championship,3,8
-359,0,60065,Ryan Hall,3,Sanderson Farms,3,5
+1,0,47529,Mito Pereira,273,the Memorial,4,7
+2,0,45526,Abraham Ancer,250,THE CJ CUP,2,14
+3,0,34098,Russell Henley,240,THE PLAYERS,4,11
+4,0,46717,Viktor Hovland,219,THE PLAYERS,3,8
+5,0,36801,Mark Hubbard,216,Rocket Mortgage,1,11
+6,0,26851,Marc Leishman,213,AT&T Byron Nelson,4,15
+7,0,37455,Si Woo Kim,210,Sanderson Farms,4,7
+8,0,36799,Stephan Jaeger,205,John Deere,4,2
+9,0,10381,Curtis Thompson,204,Honda,1,6
+10,0,26331,Charl Schwartzel,194,Valspar,1,16
+11,0,33399,Adam Hadwin,194,the Memorial,2,16
+12,0,40250,Taylor Pendrith,191,Farmers,2,12
+13,0,29479,Scott Brown,191,Barbasol,3,16
+14,0,34466,Peter Malnati,189,AT&T Byron Nelson,1,13
+15,0,30978,Kiradech Aphibarnrat,189,Mexico Open,1,5
+15,0,24980,Scott Gutschewski,189,Mexico Open,1,5
+17,0,27214,Kevin Streelman,189,John Deere,4,12
+18,0,35310,Lanto Griffin,188,Wells Fargo,1,6
+19,0,39997,Corey Conners,187,RBC Heritage,1,7
+20,0,30911,Tommy Fleetwood,187,AT&T Byron Nelson,4,3
+21,0,56278,Matthew Wolff,187,Houston Open,4,9
+22,0,10809,Jim Furyk,187,Sony Open,1,17
+23,0,34255,Joseph Bramlett,182,Wyndham,3,16
+24,0,36871,Matthew NeSmith,181,Honda,3,2
+25,0,28938,Justin Harding,181,PGA Championship,1,7
+26,0,49947,Taylor Moore,180,The RSM Classic,2,17
+27,0,27129,Luke List,179,Houston Open,1,14
+28,0,33667,Carlos Ortiz,179,WM Phoenix Open,4,16
+29,0,40115,Adam Svensson,179,RBC Heritage,3,10
+30,0,34360,Patrick Reed,178,Houston Open,2,4
+31,0,55708,Hayden Buckley,176,Shriners,1,17
+32,0,60853,Ryan Alford,176,Farmers,1,1
+33,0,32757,Patton Kizzire,171,The American Express,4,4
+34,0,19803,Ryan Armour,169,AT&T Byron Nelson,2,8
+35,0,29289,S.Y. Noh,169,3M Open,1,9
+36,0,24361,Pat Perez,167,Farmers,4,7
+37,0,57366,Cameron Young,165,U.S. Open,2,6
+38,0,46442,Maverick McNealy,165,Farmers,3,8
+39,0,46340,Alex Smalley,165,Mexico Open,2,3
+40,0,55930,Fred Biondi,164,U.S. Open,2,4
+41,0,39977,Max Homa,164,Arnold Palmer,3,14
+42,0,23621,Rory Sabbatini,162,Rocket Mortgage,2,15
+43,0,21209,Sergio Garcia,161,Wells Fargo,1,15
+44,0,32150,Michael Thompson,158,Wyndham,1,18
+45,0,35891,Cameron Smith,156,FedEx St. Jude,1,13
+46,0,25818,Scott Piercy,156,RBC Canadian,3,18
+47,0,40162,Justin Lower,154,AT&T Byron Nelson,1,10
+48,0,30927,Brendon Todd,154,Wyndham,4,4
+49,0,47993,Denny McCarthy,153,FedEx St. Jude,2,6
+50,0,32791,K.H. Lee,152,the Memorial,1,9
+51,0,29478,Kevin Kisner,152,BMW Championship,4,10
+51,0,31560,Brian Stuard,152,Honda,1,9
+53,0,20229,Stewart Cink,150,RBC Heritage,1,10
+54,0,29974,Branden Grace,150,THE CJ CUP,4,15
+55,0,37275,Sam Ryder,148,Arnold Palmer,1,13
+56,0,46550,Brandon Hagy,148,Barbasol,2,18
+57,0,52374,Brandon Wu,147,Wyndham,3,11
+58,0,27064,Jhonattan Vegas,143,Genesis,3,3
+59,0,46601,Trey Mullinax,143,AT&T Byron Nelson,1,13
+60,0,27963,Chris Stroud,142,Wyndham,1,1
+61,0,28089,Jason Day,142,the Memorial,3,3
+62,0,24924,Bill Haas,140,AT&T Byron Nelson,2,8
+63,0,31420,Anirban Lahiri,138,FedEx St. Jude,2,6
+64,0,47483,Will Zalatoris,137,Wyndham,2,13
+65,0,22405,Justin Rose,137,RBC Canadian,4,1
+66,0,30692,Scott Stallings,136,Travelers,3,1
+67,0,23983,Luke Donald,135,Wells Fargo,2,13
+68,0,55182,Tom Kim,135,3M Open,3,1
+69,0,54781,Grant Hirschman,135,Sanderson Farms,3,8
+70,0,35461,Beau Hossler,135,Charles Schwab,1,9
+71,0,40026,Daniel Berger,134,the Memorial,1,3
+72,0,32102,Rickie Fowler,134,Wells Fargo,1,6
+73,0,48699,Callum Tarren,134,AT&T Byron Nelson,1,3
+74,0,36689,Brooks Koepka,132,Sentry,4,3
+75,0,26596,Ryan Moore,131,RBC Canadian,2,12
+76,0,36699,Patrick Rodgers,131,John Deere,2,3
+77,0,24925,Jonathan Byrd,130,RBC Heritage,1,6
+78,0,22056,Cameron Percy,129,3M Open,2,1
+79,0,48084,Wesley Bryan,128,Wells Fargo,1,1
+80,0,32640,Troy Merritt,128,FedEx St. Jude,4,12
+81,0,29518,Brendan Steele,127,Wells Fargo,2,2
+82,0,34264,Hudson Swafford,126,The RSM Classic,2,1
+83,0,33413,Ben Martin,126,RBC Canadian,1,10
+84,0,51634,Sahith Theegala,125,the Memorial,1,13
+85,0,47856,Seth Reeves,124,3M Open,2,10
+86,0,33204,Shane Lowry,124,THE PLAYERS,3,17
+87,0,39975,Michael Kim,123,Barbasol,1,10
+88,0,23623,Bo Van Pelt,123,AT&T Pebble Beach,3,15
+89,0,27770,Camilo Villegas,123,Valero,1,12
+90,0,34563,Chesson Hadley,121,Shriners,1,7
+91,0,25493,Nick Taylor,121,Honda,2,13
+92,0,39971,Sungjae Im,118,RBC Heritage,3,1
+93,0,46732,Rick Lamb,117,Wyndham,2,9
+94,0,49766,Hank Lebioda,117,Fortinet Championship,1,3
+95,0,27139,David Skinns,117,Fortinet Championship,1,4
+96,0,35879,Kelly Kraft,116,RBC Canadian,4,5
+97,0,47983,Chad Ramey,115,Wells Fargo,2,5
+98,0,25900,Lucas Glover,113,WM Phoenix Open,2,2
+99,0,48117,Kurt Kitayama,112,Sanderson Farms,4,17
+100,0,39324,J.J. Spaun,110,AT&T Pebble Beach,3,11
+101,0,51997,Andrew Novak,108,3M Open,4,6
+102,0,50095,Austin Smotherman,108,AT&T Byron Nelson,1,18
+103,0,35617,Martin Trainer,107,Fortinet Championship,2,6
+104,0,27974,Sung Kang,107,Sanderson Farms,1,3
+105,0,30926,Chris Kirk,107,Rocket Mortgage,4,4
+106,0,32333,Kevin Tway,107,Houston Open,2,13
+107,0,35450,Patrick Cantlay,104,BMW Championship,3,14
+108,0,39537,Chris Naegel,102,John Deere,1,10
+109,0,27644,Brian Harman,102,Valspar,3,14
+110,0,28593,Jesse Mueller,102,PGA Championship,1,10
+111,0,34363,Tyrrell Hatton,102,Valspar,2,11
+112,0,46046,Scottie Scheffler,101,U.S. Open,3,8
+113,0,25240,D.A. Points,99,Barbasol,1,11
+114,0,32448,James Hahn,98,Barbasol,4,1
+115,0,34362,Laurie Canter,98,PGA Championship,4,18
+116,0,48081,Xander Schauffele,97,AT&T Byron Nelson,4,6
+117,0,29535,Brice Garnett,96,THE PLAYERS,1,4
+118,0,32366,Kevin Chappell,96,WM Phoenix Open,3,13
+119,0,29221,Webb Simpson,95,The RSM Classic,3,13
+120,0,46402,Talor Gooch,94,THE CJ CUP,4,18
+121,0,45486,Joaquin Niemann,92,THE CJ CUP,2,1
+122,0,52453,Nicolai Hojgaard,87,Arnold Palmer,1,8
+123,0,34431,Robert Streb,85,Farmers,3,13
+124,0,26300,Matt Jones,85,Sentry,4,13
+125,0,28420,Ryan Brehm,81,Charles Schwab,1,5
+126,0,25686,Jason Dufner,80,Charles Schwab,1,9
+127,0,34374,Erik Barnes,78,U.S. Open,1,17
+128,0,29725,Tony Finau,75,Travelers,2,7
+129,0,24502,Adam Scott,71,Rocket Mortgage,1,7
+130,0,24358,Robert Garrigus,68,Mexico Open,2,10
+131,0,30925,Dustin Johnson,67,THE PLAYERS,4,9
+132,0,51894,Vince Whaley,66,Barbasol,2,1
+133,0,47959,Bryson DeChambeau,63,Sentry,2,18
+134,0,40006,Erik van Rooyen,61,THE PLAYERS,2,9
+135,0,46405,Sebastian Soderberg,54,U.S. Open,1,18
+136,0,53165,Doc Redman,48,THE PLAYERS,3,6
+137,0,51950,Max McGreevy,44,Houston Open,2,18
+138,0,23108,Matt Kuchar,44,Fortinet Championship,3,5
+139,0,31646,Emiliano Grillo,43,AT&T Byron Nelson,1,9
+140,0,48372,Marcus Helligkilde,43,Barbasol,4,5
+141,0,45157,Cam Davis,42,The RSM Classic,2,8
+142,0,28775,Nate Lashley,41,Mexico Open,3,7
+143,0,40098,Matt Fitzpatrick,40,Arnold Palmer,2,9
+144,0,49960,Sepp Straka,40,PGA Championship,3,18
+145,0,31202,William McGirt,39,Fortinet Championship,2,14
+146,0,58849,Turk Pettit,39,Mexico Open,2,8
+147,0,19846,Brian Gay,38,Honda,4,4
+148,0,40042,Tyler McCumber,37,Sanderson Farms,2,11
+149,0,29420,Billy Horschel,36,Farmers,4,11
+150,0,31323,Gary Woodland,36,Houston Open,2,7
+151,0,28237,Rory McIlroy,35,TOUR Championship,1,6
+152,0,48929,Santiago Tarrio,35,Barbasol,3,15
+153,0,34046,Jordan Spieth,34,THE CJ CUP,1,11
+154,0,49964,Aaron Wise,34,RBC Heritage,2,4
+155,0,33419,Cameron Tringale,34,Farmers,1,4
+156,0,30163,Henrik Norlander,33,Wells Fargo,2,3
+157,0,36326,David Lipsky,33,Rocket Mortgage,1,12
+158,0,30944,Jason Kokrak,33,THE PLAYERS,2,15
+159,0,32839,Hideki Matsuyama,32,Sony Open,2,6
+160,0,50057,Robin Roussel,32,Barbasol,1,1
+161,0,33418,Shawn Stefani,32,John Deere,2,15
+162,0,54628,Lee Hodges,32,Rocket Mortgage,1,14
+163,0,23541,Ben Crane,32,Barbasol,2,11
+164,0,23325,Vaughn Taylor,31,Wyndham,4,9
+165,0,27349,Alex Noren,31,Farmers,4,15
+166,0,46435,Austin Cook,30,Wyndham,1,5
+167,0,50525,Collin Morikawa,30,Genesis,4,10
+168,0,29970,Dylan Frittelli,30,Honda,4,18
+169,0,54591,Ben Griffin,30,Wyndham,4,4
+170,0,24140,Sean O'Hair,29,Barbasol,3,15
+171,0,57944,Andy Ogletree,29,Sanderson Farms,1,16
+172,0,34076,Joel Dahmen,28,The RSM Classic,3,4
+173,0,47128,Richy Werenski,28,Rocket Mortgage,2,4
+174,0,46414,Aaron Rai,28,the Memorial,4,14
+175,0,33597,Harry Higgs,28,Genesis,2,17
+176,0,39067,MJ Daffue,28,U.S. Open,2,7
+177,0,34174,John Huh,27,AT&T Byron Nelson,1,2
+178,0,26329,Louis Oosthuizen,27,WM Phoenix Open,3,15
+179,0,63121,William Mouw,27,U.S. Open,1,14
+180,0,24024,Zach Johnson,27,John Deere,3,17
+181,0,54783,Dylan Wu,27,Sony Open,1,13
+182,0,49771,J.T. Poston,26,the Memorial,4,8
+183,0,21961,Charles Howell III,26,Travelers,2,17
+183,0,51264,Jediah Morgan,26,U.S. Open,2,18
+185,0,32139,Danny Willett,26,Arnold Palmer,2,3
+186,0,20396,Lee Westwood,25,Valero,1,13
+187,0,34136,Armando Favela,25,Mexico Open,2,18
+188,0,37212,Paul Barjon,25,RBC Canadian,2,11
+189,0,47154,Martin Contini,24,Honda,1,4
+190,0,28114,Dawie van der Walt,24,Sanderson Farms,2,16
+191,0,31273,Gavin Kyle Green,24,Barbasol,1,17
+192,0,33122,Russell Knox,24,Rocket Mortgage,4,17
+193,0,34610,Matthias Schwab,24,AT&T Byron Nelson,4,2
+194,0,39058,Lucas Herbert,24,Charles Schwab,1,9
+195,0,45609,Tyler Duncan,23,RBC Heritage,2,2
+196,0,26476,Chez Reavie,23,Arnold Palmer,1,9
+197,0,47995,Davis Riley,23,Valspar,3,9
+198,0,34409,David Lingmerth,23,Mexico Open,2,2
+199,0,33141,Keegan Bradley,23,Valero,2,13
+200,0,25632,Jimmy Walker,22,Farmers,3,10
+201,0,59095,Chris Gotterup,22,John Deere,1,12
+202,0,33410,Andrew Landry,22,Sanderson Farms,2,16
+202,0,27095,Nick Watney,22,Rocket Mortgage,4,14
+204,0,60018,Cameron Sisk,22,Houston Open,2,18
+205,0,21350,Ryuji Imada,22,AT&T Pebble Beach,1,11
+206,0,33448,Justin Thomas,22,PGA Championship,4,11
+207,0,27909,Wil Besseling,21,U.S. Open,4,4
+208,0,34256,Andrew Putnam,21,Houston Open,1,7
+209,0,51890,Greyson Sigg,21,Farmers,4,1
+210,0,35110,Brett Drewitt,21,Rocket Mortgage,2,18
+211,0,27936,Martin Laird,20,Travelers,3,4
+212,0,24138,Ian Poulter,20,RBC Heritage,4,15
+213,0,56320,Bryson Nimmer,20,Mexico Open,1,6
+214,0,59164,James Piot,20,RBC Heritage,1,12
+215,0,50527,Jared du Toit,20,Farmers,1,11
+216,0,51766,Wyndham Clark,20,Shriners,2,8
+217,0,23353,J.J. Henry,19,Travelers,2,14
+218,0,39546,Keith Mitchell,19,Shriners,1,12
+219,0,54951,Aaron Beverly,19,Genesis,1,7
+220,0,47056,Rikuya Hoshino,19,PGA Championship,1,8
+221,0,48822,Sebastián Muñoz,19,AT&T Byron Nelson,3,6
+222,0,46930,Jaekyeong Lee,19,Genesis,1,12
+223,0,52372,Cameron Champ,19,3M Open,1,18
+223,0,52686,Rasmus Hojgaard,19,Shriners,1,3
+223,0,27506,Oliver Wilson,19,Barbasol,1,10
+226,0,56676,John Augenstein,19,Fortinet Championship,4,13
+227,0,12716,Charley Hoffman,19,Genesis,4,2
+228,0,47504,Sam Burns,19,TOUR Championship,3,18
+229,0,27895,Jonas Blixt,19,Mexico Open,1,16
+230,0,28252,Seamus Power,19,Houston Open,1,15
+230,0,54303,Charlie Reiter,19,U.S. Open,1,13
+232,0,52375,Doug Ghim,19,The RSM Classic,1,15
+233,0,47347,Adam Schenk,18,Wells Fargo,2,14
+234,0,45540,Jared Wolfe,18,Valero,2,18
+235,0,35532,Tom Hoge,18,BMW Championship,4,11
+236,0,37189,Harold Varner III,18,Charles Schwab,1,10
+237,0,37378,Min Woo Lee,18,U.S. Open,3,10
+238,0,25396,Kevin Na,18,Charles Schwab,4,6
+239,0,40104,Joel Stalter,18,Barbasol,1,13
+240,0,36884,Ben Kohles,18,Mexico Open,1,18
+241,0,60004,Jacob Bridgeman,18,Wells Fargo,2,14
+242,0,28679,Fabián Gómez,18,Honda,2,17
+243,0,25198,Francesco Molinari,18,Genesis,4,6
+244,0,39953,Chase Seiffert,18,Honda,2,4
+245,0,35449,Adam Long,18,Mexico Open,1,12
+245,0,48887,Matt Wallace,18,RBC Canadian,1,3
+247,0,23320,Ryan Palmer,17,Travelers,2,8
+247,0,27649,Brandt Snedeker,17,RBC Canadian,1,7
+249,0,61145,Cohen Trolio,17,Sanderson Farms,1,10
+250,0,35506,Mackenzie Hughes,17,Travelers,4,18
+251,0,48051,Yannik Paul,17,Wyndham,4,4
+252,0,32662,Michael Gligic,17,Wyndham,4,13
+253,0,21407,Arjun Atwal,17,Mexico Open,2,9
+254,0,45522,Christiaan Bezuidenhout,17,AT&T Pebble Beach,4,13
+254,0,36852,Jim Knous,17,Rocket Mortgage,2,9
+256,0,39262,Alvaro Ortiz,17,Mexico Open,4,17
+257,0,54421,Garrick Higgo,17,THE PLAYERS,2,7
+258,0,47917,Takumi Kanaya,17,RBC Heritage,1,3
+259,0,21528,Henrik Stenson,16,RBC Heritage,4,16
+260,0,33461,Morgan Hoffmann,16,John Deere,2,7
+261,0,33689,Jinichiro Kozuma,16,PGA Championship,1,7
+262,0,22371,Aaron Baddeley,15,Fortinet Championship,3,9
+263,0,29484,Peter Uihlein,15,Honda,1,7
+264,0,49298,Kramer Hickok,15,PGA Championship,3,12
+265,0,60019,Jackson Suber,15,Valspar,1,4
+266,0,34099,Harris English,14,Travelers,1,10
+267,0,33490,Bo Hoag,14,John Deere,3,2
+267,0,51862,Jake Kevorkian,14,Valero,1,5
+269,0,01810,Phil Mickelson,14,U.S. Open,2,5
+270,0,30738,Manuel Inman,14,Mexico Open,1,18
+271,0,55721,Alex Fitzpatrick,14,Valspar,2,15
+271,0,55509,Hurly Long,14,Barbasol,2,7
+273,0,57869,Benjamin James,14,Travelers,2,16
+273,0,34213,Grayson Murray,14,Rocket Mortgage,2,11
+275,0,29268,Bronson Burgoon,14,Houston Open,4,4
+275,0,20766,Padraig Harrington,14,PGA Championship,2,1
+277,0,31557,Jim Herman,13,RBC Heritage,2,9
+278,0,46547,Mardy Fish,13,3M Open,2,16
+279,0,46970,Jon Rahm,13,THE PLAYERS,4,16
+280,0,25804,Bubba Watson,13,PGA Championship,2,11
+281,0,30750,Tommy Gainey,13,Mexico Open,4,18
+282,0,50012,Wyatt Worthington II,13,Rocket Mortgage,2,16
+283,0,24663,Y.E. Yang,13,PGA Championship,1,6
+284,0,20094,Jonathan Kaye,12,RBC Canadian,2,1
+285,0,28259,Sangmoon Bae,12,Houston Open,2,12
+285,0,55893,Sam Stevens,12,Honda,2,18
+287,0,25446,Paul Dickinson,12,PGA Championship,1,16
+288,0,30110,Kyle Stanley,12,Honda,2,17
+289,0,33974,Dean Burmester,12,PGA Championship,2,8
+289,0,21753,Brian Davis,12,Barbasol,2,4
+291,0,27114,Ben Willman,12,Mexico Open,2,14
+292,0,27958,Ryan Blaum,12,Mexico Open,1,8
+293,0,35300,Andrew Loupe,12,AT&T Byron Nelson,1,12
+294,0,39436,Joshua Creel,12,Wyndham,2,7
+295,0,39954,Cody Gribble,12,Sanderson Farms,1,2
+295,0,47461,Andrew Kozan,12,Honda,1,9
+297,0,23481,Marcel Siem,11,Barbasol,1,9
+298,0,33196,Carlos Pigem,11,Barbasol,3,15
+299,0,55789,Taylor Montgomery,11,Farmers,1,3
+300,0,47988,Nick Hardy,11,Rocket Mortgage,1,9
+301,0,27408,Martin Kaymer,11,Honda,2,16
+302,0,29908,C.T. Pan,11,Sanderson Farms,2,3
+303,0,47987,Cole Hammer,11,Rocket Mortgage,2,6
+304,0,33486,Roger Sloan,11,3M Open,1,8
+305,0,37273,Derek Ernst,11,3M Open,1,11
+306,0,29926,Danny Lee,11,FedEx St. Jude,2,6
+307,0,26757,Greg Sonnier,10,Sanderson Farms,2,11
+308,0,20472,Alex Cejka,10,PGA Championship,1,3
+308,0,32816,Satoshi Kodaira,10,Wells Fargo,2,12
+310,0,56286,BJ Doucett,10,Sony Open,2,3
+311,0,55892,Étienne Papineau,10,WM Phoenix Open,1,7
+312,0,50188,S.H. Kim,10,THE CJ CUP,2,5
+313,0,39834,Guido Migliozzi,10,U.S. Open,2,17
+314,0,20433,Mark Hensby,9,RBC Canadian,2,15
+315,0,59647,Tommy Gibson,9,Wyndham,1,15
+316,0,33293,Thomas Pieters,9,THE PLAYERS,1,9
+317,0,24507,Jason Bohn,9,3M Open,1,1
+318,0,45242,Kevin Yu,9,Shriners,1,15
+319,0,24846,Ricky Barnes,9,Mexico Open,1,1
+320,0,27933,John Merrick,9,Barbasol,1,12
+321,0,59437,Luke Gannon,9,U.S. Open,1,1
+321,0,57860,Maxwell Moldovan,9,U.S. Open,2,12
+323,0,57975,Harry Hall,8,Shriners,2,15
+324,0,49533,James Hart du Preez,8,AT&T Byron Nelson,2,16
+325,0,26328,Shaun Norris,8,AT&T Byron Nelson,1,4
+326,0,35104,Tom Lewis,8,Barbasol,2,10
+327,0,39328,Conrad Shindler,8,AT&T Byron Nelson,4,2
+328,0,28125,Josh Geary,8,Barbasol,2,2
+329,0,63125,Dylan Menante,8,3M Open,1,1
+330,0,55601,Callum Davison,7,RBC Canadian,2,15
+331,0,24490,George McNeill,7,3M Open,4,18
+332,0,35706,Niklas Norgaard Moller,7,Barbasol,3,4
+333,0,58605,Quade Cummins,7,Fortinet Championship,2,6
+334,0,32199,Matthew Borchert,7,PGA Championship,2,16
+334,0,01706,Davis Love III,7,The American Express,1,18
+336,0,52091,Blake Kennedy,7,Valspar,4,15
+337,0,52583,Sanghun Shin,7,THE CJ CUP,4,15
+338,0,63307,Nathan Petronzio,7,John Deere,2,11
+338,0,60167,Andrew Stephens,7,Barbasol,2,6
+340,0,20850,Daniel Chopra,7,3M Open,1,5
+341,0,58600,Cooper Dossey,7,AT&T Byron Nelson,2,10
+342,0,36837,Julien Brun,7,Barbasol,1,11
+342,0,35087,Bio Kim,7,PGA Championship,2,1
+342,0,48867,Matti Schmid,7,Barbasol,3,18
+345,0,23788,D.J. Trahan,6,John Deere,2,6
+346,0,49228,Keita Nakajima,6,U.S. Open,1,10
+347,0,08385,Omar Uresti,6,Barbasol,2,4
+348,0,29772,Michael Lorenzo-Vera,6,Barbasol,2,9
+349,0,46594,Ricardo Gouveia,6,Barbasol,4,16
+350,0,39327,Ben Silverman,6,Travelers,3,3
+351,0,28307,Matt Every,6,Mexico Open,2,12
+352,0,32881,Hugo León,6,Barbasol,1,5
+353,0,54655,Patrick Flavin,6,RBC Canadian,2,8
+353,0,37157,Renato Paratore,6,Barbasol,2,17
+355,0,62845,Austin Hurt,6,PGA Championship,1,15
+356,0,47842,Hanbyeol Kim,6,THE CJ CUP,3,6
+357,0,29223,Sam Saunders,5,Sanderson Farms,2,6
+358,0,25572,Graeme McDowell,5,RBC Heritage,1,17
+358,0,54364,Stephen Stallings Jr.,5,The American Express,4,15
+360,0,31225,Joel Sjöholm,5,Barbasol,2,9
+361,0,27140,Justin Walters,4,Barbasol,3,9
+362,0,34587,Chan Kim,4,AT&T Pebble Beach,3,11
+363,0,23778,Brad Adamonis,3,RBC Canadian,1,11

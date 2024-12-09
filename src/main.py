@@ -7,4 +7,4 @@ years = GetYears()
 mapped_years = [Year(**y) for y in years]
 
 for year in mapped_years:
-    GetStatCsvs(str(year.year))
+    GetStatCsvs(year.year)
