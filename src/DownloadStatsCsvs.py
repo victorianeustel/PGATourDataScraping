@@ -53,12 +53,15 @@ for c in categories:
             obj['statTitle'] = sd.statTitle
             obj['statId'] = sd.statId
             
-            isDuplicate = sd.statId in stat_ids_dict
-            if isDuplicate:
+            isDuplicate = sd.statId in stat_ids_dict                
+            if sd.statId in stat_ids_dict:
                 obj['path'] = stat_ids_dict[sd.statId]
+                obj['duplicatedStatId'] = True
             else:
                 file_name = CleanName(sd.statTitle) + '.csv'
                 obj['path'] = '/'.join([current_year, category, subCategory, file_name])
+                stat_ids_dict[sd.statId] = obj['path']
+                obj['duplicatedStatId'] = False
 
             stat_details.append(obj)
 
@@ -69,6 +72,8 @@ stat_detail_headers = ['Year', 'Index', 'Category', 'Subcategory', 'StatId', 'St
 stat_detail_rows.append(stat_detail_headers)
 
 for index, v in enumerate(stat_details):
+    print('Progress: {0}/{1}'.format(index, len(stat_details)), flush=True )
+
     statId = v['statId']
     category = v['category']
     subcategory = v['subCategory']
@@ -79,19 +84,20 @@ for index, v in enumerate(stat_details):
     row = [current_year, str(index), category, subcategory, statId, statTitle, path]
     stat_detail_rows.append(row)
     
-    current_file = Path(path)
-    
-    # if file does not exist currently, call it 
-    if current_file.is_file():
-        continue
-    else:
-        try:
-            CallAndWriteStatData(statId, path)
-        except Exception:
-            error_data.append(v)
-            print('ERROR: ' + summary)
+    if v['duplicatedStatId'] == False:
+        current_file = Path(path)
+        
+        # if file does not exist currently, call it 
+        if current_file.is_file():
             continue
-
+        else:
+            try:
+                CallAndWriteStatData(statId, path)
+            except Exception:
+                error_data.append(v)
+                print('ERROR: ' + summary)
+                continue
+                    
 # Create file mapper file
 with open('file_map.csv', "w", newline='\n') as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
