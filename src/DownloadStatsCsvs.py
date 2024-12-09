@@ -6,19 +6,19 @@ from pathlib import Path
 import csv
 from helpers.FileHelper import CreateDirectory, CleanName
 
-def CallAndWriteStatData(statId: int, filePath: str):    
-    path = get_stats_path(statsId= statId)
+def CallAndWriteStatData(year: int, statId: int, filePath: str):    
+    path = get_stats_path(year=year, statsId= statId)
     x = requests.get(path)
     
     with open(filePath, "wb") as file:
         file.write(x.content)
     
-def GetStatCsvs(current_year: str):
+def GetStatCsvs(year: int):
     categories = GetStatCategories()
     categories = [StatCategory(**c) for c in categories]
 
     stat_details = []
-
+    current_year = str(year)
     CreateDirectory('data/' + current_year)
     stat_ids_dict = {}
 
@@ -77,7 +77,7 @@ def GetStatCsvs(current_year: str):
                 continue
             else:
                 try:
-                    CallAndWriteStatData(statId, path)
+                    CallAndWriteStatData(year, statId, path)
                 except Exception:
                     error_data.append(v)
                     print('ERROR: ' + summary)
@@ -93,5 +93,5 @@ def GetStatCsvs(current_year: str):
     if error_data:
         print('---------ERRORS---------')
         for error in error_data:
-            summary = 'Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(category, subCategory, statId, path)
+            summary = 'Category: {0} | SubCategory: {1} | StatId: {2} | Path: {3}'.format(category, subCategory, statId, path)
             print(summary)
