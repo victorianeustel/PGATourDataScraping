@@ -1,0 +1,580 @@
+RANK,MOVEMENT,PLAYER_ID,PLAYER,DISTANCE,TOURNAMENT,ROUND,HOLE,COURSE
+1,0,30925,Dustin Johnson,463,Deutsche Bank,4,7,700
+2,0,27797,Derek Lamely,419,The Greenbrier,2,7,771
+3,0,27141,J.B. Holmes,415,Texas Open,2,10,770
+3,0,25804,Bubba Watson,415,WGC-Bridgestone,3,16,036
+5,0,31323,Gary Woodland,409,HP Byron Nelson,3,1,019
+6,0,11123,Chris Couch,408,Arnold Palmer,1,5,009
+7,0,33039,Jason Schmuhl,405,Reno-Tahoe Open,1,18,660
+8,0,07457,Steve Flesch,404,The Greenbrier,3,7,771
+9,0,23409,James Driscoll,399,Reno-Tahoe Open,1,5,660
+10,0,12714,Chris Tidland,395,Reno-Tahoe Open,1,18,660
+11,0,24358,Robert Garrigus,394,Hyundai T of C,2,18,656
+12,0,35621,Scott Smith,393,Reno-Tahoe Open,1,18,660
+13,0,27072,Alvaro Quiros,391,WGC-Bridgestone,4,16,036
+13,0,27330,Josh Teater,391,Reno-Tahoe Open,4,8,660
+13,0,23788,D.J. Trahan,391,Arnold Palmer,2,5,009
+16,0,31401,Zack Miller,390,Memorial Tourn,3,17,023
+16,0,30110,Kyle Stanley,390,John Deere Clas,4,10,669
+18,0,20848,Ángel Cabrera,389,Memorial Tourn,3,17,023
+18,0,26758,David Hearn,389,Reno-Tahoe Open,1,18,660
+20,0,10860,Justin Leonard,388,Texas Open,2,10,770
+20,0,23320,Ryan Palmer,388,Shell Houston,2,17,729
+22,0,28089,Jason Day,387,Hyundai T of C,1,17,656
+22,0,25818,Scott Piercy,387,Reno-Tahoe Open,4,18,660
+22,0,30692,Scott Stallings,387,WGC-Bridgestone,3,16,036
+25,0,27990,Scott Gordon,386,HP Byron Nelson,3,1,019
+25,0,12716,Charley Hoffman,386,HP Byron Nelson,2,1,019
+25,0,01810,Phil Mickelson,386,Memorial Tourn,3,18,023
+28,0,26695,Michael Letzig,385,Shell Houston,2,8,729
+28,0,28475,Jeff Overton,385,Honda Classic,3,4,734
+30,0,28486,Michael Putnam,383,Texas Open,2,17,770
+30,0,06567,Vijay Singh,383,HP Byron Nelson,4,3,019
+32,0,20098,Stuart Appleby,382,Hyundai T of C,2,12,656
+32,0,32150,Michael Thompson,382,Viking Classic,2,14,609
+34,0,21805,Harrison Frazar,381,Shell Houston,2,8,729
+34,0,30711,Colt Knost,381,Reno-Tahoe Open,1,1,660
+36,0,25274,Steven Bowditch,380,HP Byron Nelson,3,3,019
+36,0,24140,Sean O'Hair,380,WGC-Bridgestone,1,3,036
+36,0,35364,Sam Smith,380,HP Byron Nelson,2,3,019
+36,0,23623,Bo Van Pelt,380,The Open,1,2,778
+40,0,01945,Kenny Perry,379,Phoenix Open,1,8,510
+40,0,28118,Peter Tomasulo,379,Reno-Tahoe Open,3,8,660
+40,0,33419,Cameron Tringale,379,Texas Open,4,15,770
+43,0,26300,Matt Jones,378,Texas Open,2,17,770
+43,0,30926,Chris Kirk,378,Texas Open,2,17,770
+43,0,24781,Hunter Mahan,378,Hyundai T of C,2,7,656
+43,0,26882,Michael Sim,378,Texas Open,2,17,770
+43,0,20396,Lee Westwood,378,WGC-Bridgestone,3,16,036
+48,0,33141,Keegan Bradley,377,Texas Open,2,10,770
+48,0,32102,Rickie Fowler,377,The Open,1,2,778
+48,0,22792,Peter Hanson,377,The Open,2,1,778
+48,0,24361,Pat Perez,377,Reno-Tahoe Open,3,18,660
+48,0,24502,Adam Scott,377,Texas Open,4,18,770
+48,0,29518,Brendan Steele,377,Texas Open,2,10,770
+48,0,34072,Will Strickler,377,Viking Classic,4,14,609
+55,0,24980,Scott Gutschewski,376,Texas Open,2,17,770
+55,0,24924,Bill Haas,376,Hyundai T of C,4,6,656
+57,0,09011,David Duval,375,AT&T Pebble,2,10,445
+57,0,30750,Tommy Gainey,375,HP Byron Nelson,3,3,019
+57,0,21209,Sergio Garcia,375,HP Byron Nelson,2,1,019
+57,0,06573,Brandt Jobe,375,HP Byron Nelson,4,1,019
+57,0,25572,Graeme McDowell,375,Hyundai T of C,4,6,656
+57,0,12660,Jesper Parnevik,375,Texas Open,2,17,770
+57,0,30946,Alex Prugh,375,Reno-Tahoe Open,3,8,660
+57,0,22405,Justin Rose,375,Hyundai T of C,2,7,656
+57,0,27963,Chris Stroud,375,Texas Open,2,17,770
+66,0,01116,Michael Bradley,374,HP Byron Nelson,3,12,019
+66,0,32698,Bobby Gates,374,Texas Open,2,10,770
+66,0,27120,Troy Matteson,374,Texas Open,1,18,770
+66,0,28237,Rory McIlroy,374,Honda Classic,3,10,734
+66,0,26331,Charl Schwartzel,374,Memorial Tourn,3,17,023
+66,0,23322,Brett Wetterich,374,HP Byron Nelson,3,1,019
+72,0,21407,Arjun Atwal,373,Hyundai T of C,4,6,656
+72,0,01473,Todd Hamilton,373,HP Byron Nelson,2,1,019
+72,0,29289,S.Y. Noh,373,The Open,4,1,778
+72,0,01948,Tim Petrovic,373,Texas Open,2,10,770
+72,0,25345,Carl Pettersson,373,HP Byron Nelson,4,3,019
+72,0,21959,Ted Purdy,373,Texas Open,2,10,770
+72,0,26679,Kevin Stadler,373,Memorial Tourn,3,2,023
+72,0,23349,Charles Warren,373,John Deere Clas,4,10,669
+72,0,26289,Boo Weekley,373,Reno-Tahoe Open,2,14,660
+81,0,29910,Blake Adams,372,HP Byron Nelson,2,1,019
+81,0,34255,Joseph Bramlett,372,Reno-Tahoe Open,2,18,660
+81,0,19970,Robert Karlsson,372,The Barclays,3,2,444
+81,0,27936,Martin Laird,372,The Open,1,2,778
+81,0,26329,Louis Oosthuizen,372,WGC-Bridgestone,3,8,036
+81,0,23497,Tag Ridings,372,Texas Open,2,10,770
+87,0,24357,K.J. Choi,371,WGC-Bridgestone,3,8,036
+87,0,29718,Anthony Kim,371,Hyundai T of C,4,6,656
+87,0,06350,Bob May,371,Reno-Tahoe Open,4,1,660
+87,0,22913,John Rollins,371,HP Byron Nelson,3,3,019
+91,0,01249,John Daly,370,Wyndham Champ.,2,18,752
+91,0,27064,Jhonattan Vegas,370,John Deere Clas,1,2,669
+93,0,10885,Robert Allenby,369,HP Byron Nelson,2,1,019
+93,0,07867,Woody Austin,369,Texas Open,1,18,770
+93,0,31557,Jim Herman,369,Reno-Tahoe Open,1,8,660
+93,0,21731,Freddie Jacobson,369,HP Byron Nelson,4,3,019
+93,0,23325,Vaughn Taylor,369,Wyndham Champ.,1,18,752
+98,0,33107,Michael Arnaud,368,Texas Open,2,10,770
+98,0,31138,Scott Jamieson,368,The Open,1,2,778
+98,0,23108,Matt Kuchar,368,Hyundai T of C,4,6,656
+98,0,06515,Shaun Micheel,368,Wyndham Champ.,1,18,752
+102,0,20070,Matt Bettencourt,367,HP Byron Nelson,2,1,019
+102,0,24604,Hunter Haas,367,Reno-Tahoe Open,4,8,660
+102,0,31193,Jim Renner,367,Reno-Tahoe Open,4,8,660
+102,0,27095,Nick Watney,367,HP Byron Nelson,3,12,019
+106,0,06004,Stephen Ames,366,Reno-Tahoe Open,1,18,660
+106,0,24507,Jason Bohn,366,Hyundai T of C,1,1,656
+106,0,24503,Jeff Klauk,366,Texas Open,2,17,770
+106,0,27933,John Merrick,366,Reno-Tahoe Open,1,1,660
+106,0,02106,Chris Smith,366,John Deere Clas,1,2,669
+106,0,27649,Brandt Snedeker,366,Texas Open,2,10,770
+112,0,27124,Chris Baryla,365,Texas Open,2,10,770
+112,0,12510,Chad Campbell,365,HP Byron Nelson,2,3,019
+112,0,25364,Paul Casey,365,WGC-Bridgestone,3,8,036
+112,0,25444,Justin Hicks,365,Reno-Tahoe Open,1,18,660
+112,0,35104,Tom Lewis,365,The Open,2,1,778
+112,0,22961,David Mathis,365,Reno-Tahoe Open,1,18,660
+112,0,31202,William McGirt,365,Reno-Tahoe Open,1,18,660
+119,0,28679,Fabián Gómez,364,Reno-Tahoe Open,1,1,660
+119,0,23718,Nathan Green,364,Texas Open,2,10,770
+119,0,21961,Charles Howell III,364,The Open,1,2,778
+119,0,24912,Will MacKenzie,364,Reno-Tahoe Open,3,1,660
+119,0,27808,Robert McClellan,364,The Greenbrier,1,6,771
+119,0,25632,Jimmy Walker,364,Honda Classic,2,4,734
+119,0,24663,Y.E. Yang,364,The Open,4,1,778
+126,0,10505,Shane Bertsch,363,Reno-Tahoe Open,3,18,660
+126,0,01313,Steve Elkington,363,Reno-Tahoe Open,1,18,660
+126,0,06522,Ernie Els,363,Memorial Tourn,3,13,023
+126,0,25900,Lucas Glover,363,WGC-Bridgestone,3,16,036
+126,0,20157,Retief Goosen,363,WGC-Bridgestone,3,9,036
+126,0,20766,Padraig Harrington,363,Wyndham Champ.,1,18,752
+126,0,12782,Tim Herron,363,Reno-Tahoe Open,2,1,660
+126,0,29420,Billy Horschel,363,Reno-Tahoe Open,4,18,660
+126,0,27466,Spencer Levin,363,Texas Open,2,17,770
+126,0,20572,Rod Pampling,363,HP Byron Nelson,3,3,019
+126,0,35622,Jeff Rangel,363,Reno-Tahoe Open,1,8,660
+137,0,22371,Aaron Baddeley,362,WGC-Bridgestone,3,8,036
+137,0,28259,Sangmoon Bae,362,The Open,2,1,778
+137,0,20498,Briny Baird,362,Reno-Tahoe Open,4,8,660
+137,0,19824,Craig Barlow,362,Reno-Tahoe Open,3,18,660
+137,0,01577,Lee Janzen,362,Wyndham Champ.,1,5,752
+137,0,27974,Sung Kang,362,Texas Open,2,10,770
+137,0,11032,Frank Lickliter II,362,Reno-Tahoe Open,1,1,660
+137,0,33413,Ben Martin,362,Reno-Tahoe Open,4,8,660
+137,0,27683,Leif Olson,362,John Deere Clas,1,2,669
+137,0,20095,Carl Paulson,362,Texas Open,2,10,770
+137,0,22056,Cameron Percy,362,HP Byron Nelson,2,1,019
+137,0,25562,Andres Romero,362,Shell Houston,2,17,729
+137,0,29221,Webb Simpson,362,The Open,4,1,778
+137,0,35617,Martin Trainer,362,Reno-Tahoe Open,2,8,660
+137,0,27030,Peter Whiteford,362,The Open,1,2,778
+152,0,10809,Jim Furyk,361,Hyundai T of C,3,17,656
+152,0,23353,J.J. Henry,361,Texas Open,4,9,770
+152,0,35087,Bio Kim,361,Texas Open,4,9,770
+152,0,26851,Marc Leishman,361,HP Byron Nelson,2,3,019
+152,0,28618,Savio Nazareth,361,Wyndham Champ.,1,18,752
+152,0,08375,Paul Stankowski,361,Reno-Tahoe Open,1,18,660
+158,0,32366,Kevin Chappell,360,The Barclays,3,2,444
+158,0,23638,Brendon de Jonge,360,Wyndham Champ.,3,18,752
+158,0,06621,Joe Durant,360,Reno-Tahoe Open,4,5,660
+158,0,24512,Simon Dyson,360,The Open,1,2,778
+158,0,08537,J.P. Hayes,360,Texas Open,2,10,770
+158,0,22046,Geoff Ogilvy,360,WGC-Bridgestone,3,16,036
+158,0,25457,Alexandre Rocha,360,Wyndham Champ.,1,18,752
+165,0,24925,Jonathan Byrd,359,Hyundai T of C,3,17,656
+165,0,20859,Anders Hansen,359,The Open,2,1,778
+165,0,28258,K.T. Kim,359,Wyndham Champ.,2,18,752
+165,0,21949,Joe Ogilvie,359,Reno-Tahoe Open,2,8,660
+165,0,01941,Tom Pernice Jr.,359,Reno-Tahoe Open,1,18,660
+170,0,24290,D.J. Brigman,358,HP Byron Nelson,2,3,019
+170,0,20229,Stewart Cink,358,WGC-Bridgestone,1,8,036
+170,0,25686,Jason Dufner,358,HP Byron Nelson,4,3,019
+170,0,01320,Bob Estes,358,Reno-Tahoe Open,4,18,660
+170,0,20378,Mathias Grönberg,358,Reno-Tahoe Open,3,18,660
+170,0,29461,Jamie Lovemark,358,Honda Classic,2,10,734
+170,0,01887,Mark O'Meara,358,The Open,2,1,778
+170,0,32876,Martin Piller,358,HP Byron Nelson,4,3,019
+170,0,20645,John Senden,358,Texas Open,2,10,770
+170,0,33911,Nate Smith,358,Texas Open,2,1,770
+170,0,34046,Jordan Spieth,358,HP Byron Nelson,2,3,019
+170,0,32617,Jerod Turner,358,Texas Open,2,10,770
+170,0,08793,Tiger Woods,358,WGC-Bridgestone,3,16,036
+183,0,21753,Brian Davis,357,Reno-Tahoe Open,3,18,660
+183,0,01388,Robert Gamez,357,Reno-Tahoe Open,1,18,660
+183,0,27408,Martin Kaymer,357,WGC-Bridgestone,3,8,036
+183,0,23548,Bill Lunde,357,Hyundai T of C,2,1,656
+183,0,24490,George McNeill,357,HP Byron Nelson,4,10,019
+183,0,01978,Fran Quinn,357,Wyndham Champ.,1,18,752
+183,0,26287,Roland Thatcher,357,Reno-Tahoe Open,4,1,660
+183,0,10423,Mike Weir,357,Texas Open,2,17,770
+191,0,25936,Alex Aragon,356,Reno-Tahoe Open,4,1,660
+191,0,23135,Tim Clark,356,Hyundai T of C,2,1,656
+191,0,28500,Martin Flores,356,HP Byron Nelson,2,1,019
+191,0,24511,Thongchai Jaidee,356,The Open,1,2,778
+191,0,24024,Zach Johnson,356,Hyundai T of C,2,1,656
+191,0,01706,Davis Love III,356,Honda Classic,1,4,734
+191,0,27349,Alex Noren,356,The Open,1,1,778
+191,0,25493,Nick Taylor,356,Crowne Plaza,2,1,021
+199,0,24846,Ricky Barnes,355,The Open,2,1,778
+199,0,23614,Rich Beem,355,HP Byron Nelson,3,3,019
+199,0,20121,Todd Fischer,355,HP Byron Nelson,2,1,019
+199,0,29478,Kevin Kisner,355,HP Byron Nelson,4,3,019
+199,0,26881,Jarrod Lyle,355,Texas Open,4,8,770
+199,0,24138,Ian Poulter,355,Hyundai T of C,2,7,656
+199,0,23621,Rory Sabbatini,355,WGC-Bridgestone,2,8,036
+206,0,20569,Richard Green,354,The Open,4,1,778
+206,0,25948,Richard McEvoy,354,The Open,4,1,778
+206,0,33968,Thorbjørn Olesen,354,The Open,1,1,778
+206,0,20127,Chris Riley,354,HP Byron Nelson,4,1,019
+206,0,32139,Danny Willett,354,The Open,1,2,778
+211,0,28087,Kris Blanks,353,Wyndham Champ.,3,18,752
+211,0,23983,Luke Donald,353,WGC-Bridgestone,3,8,036
+211,0,33399,Adam Hadwin,353,The Greenbrier,3,6,771
+211,0,23063,Scott Hend,353,U.S. Open,1,1,024
+211,0,34073,Creighton Honeck,353,Reno-Tahoe Open,2,8,660
+211,0,28158,Steve Marino,353,John Deere Clas,3,17,669
+211,0,10585,Scott McCarron,353,Texas Open,2,10,770
+211,0,28620,Aron Price,353,Reno-Tahoe Open,1,5,660
+219,0,12652,Cameron Beckman,352,Hyundai T of C,1,1,656
+219,0,10944,Thomas Bjørn,352,The Open,1,2,778
+219,0,28937,George Coetzee,352,The Open,1,2,778
+219,0,01310,Dave Eichelberger,352,Sony Open,1,12,006
+219,0,29720,Andres Gonzales,352,Zurich Classic,1,12,714
+219,0,26476,Chez Reavie,352,Reno-Tahoe Open,1,1,660
+219,0,29223,Sam Saunders,352,Zurich Classic,2,4,714
+219,0,07707,Mike Small,352,Reno-Tahoe Open,1,18,660
+219,0,29484,Peter Uihlein,352,The Open,1,2,778
+219,0,20160,Charlie Wi,352,Honda Classic,1,10,734
+229,0,23613,Rich Barcelo,351,Reno-Tahoe Open,2,8,660
+229,0,20580,Andre Stolz,351,The Greenbrier,3,7,771
+229,0,27770,Camilo Villegas,351,Honda Classic,1,2,734
+229,0,02246,Duffy Waldorf,351,John Deere Clas,1,15,669
+233,0,20593,Greg Chalmers,350,J. Timberlake,1,3,538
+233,0,25720,Chad Collins,350,HP Byron Nelson,4,3,019
+233,0,06251,Chris DiMarco,350,Reno-Tahoe Open,4,1,660
+233,0,28307,Matt Every,350,Texas Open,4,9,770
+233,0,20433,Mark Hensby,350,John Deere Clas,2,2,669
+233,0,22378,Trevor Immelman,350,The Open,4,1,778
+233,0,30852,Ryo Ishikawa,350,Transitions Chp,2,10,665
+233,0,30916,Mark Laskey,350,The Open,2,1,778
+233,0,01766,Billy Mayfair,350,Texas Open,2,10,770
+233,0,35518,Francis McGuirk,350,The Open,1,2,778
+233,0,27939,Matt McQuillan,350,Reno-Tahoe Open,3,18,660
+233,0,25240,D.A. Points,350,HP Byron Nelson,4,1,019
+233,0,07749,Brett Quigley,350,Reno-Tahoe Open,1,18,660
+233,0,20158,Anthony Rodriguez,350,J. Timberlake,2,4,538
+233,0,02214,Kirk Triplett,350,Reno-Tahoe Open,1,1,660
+233,0,10425,Jay Williamson,350,Reno-Tahoe Open,2,18,660
+249,0,23541,Ben Crane,349,HP Byron Nelson,4,3,019
+249,0,21461,Kenneth Ferrie,349,The Open,1,2,778
+249,0,10733,Kent Jones,349,Reno-Tahoe Open,2,1,660
+249,0,27214,Kevin Streelman,349,Crowne Plaza,2,11,021
+249,0,06527,Steve Stricker,349,Hyundai T of C,2,1,656
+249,0,32333,Kevin Tway,349,John Deere Clas,1,15,669
+249,0,21878,Mark Wilson,349,John Deere Clas,4,10,669
+256,0,27796,Joe Affrunti,348,Texas Open,2,10,770
+256,0,31640,Gary Boyd,348,The Open,4,1,778
+256,0,27896,Ross Fisher,348,The Open,2,1,778
+256,0,26908,Yuta Ikeda,348,WGC-Bridgestone,3,8,036
+256,0,25768,Chih-Bing Lam,348,The Open,2,1,778
+256,0,30751,Tyler Leon,348,Shell Houston,2,8,729
+256,0,26596,Ryan Moore,348,The Open,2,1,778
+256,0,12602,Dean Wilson,348,AT&T Pebble,4,9,005
+264,0,06034,Marco Dawson,347,John Deere Clas,4,10,669
+264,0,21284,Hiroyuki Fujita,347,Honda Classic,3,4,734
+264,0,23800,Bryce Molder,347,HP Byron Nelson,1,8,019
+264,0,25198,Francesco Molinari,347,The Open,1,2,778
+264,0,25396,Kevin Na,347,Reno-Tahoe Open,2,8,660
+264,0,22293,Heath Slocum,347,Wyndham Champ.,4,5,752
+264,0,21528,Henrik Stenson,347,Crowne Plaza,3,11,021
+264,0,26498,Matt Weibring,347,John Deere Clas,1,2,669
+264,0,20436,Garrett Willis,347,John Deere Clas,2,15,669
+273,0,08725,Tom Gillis,346,Wyndham Champ.,3,18,752
+273,0,33461,Morgan Hoffmann,346,John Deere Clas,1,2,669
+273,0,24449,Parker McLachlin,346,HP Byron Nelson,2,7,019
+273,0,23814,Edoardo Molinari,346,The Open,2,1,778
+273,0,25834,Daniel Summerhays,346,Texas Open,2,1,770
+278,0,01161,Mark Calcavecchia,345,The Open,1,2,778
+278,0,20850,Daniel Chopra,345,Arnold Palmer,4,12,009
+278,0,06643,Paul Goydos,345,Reno-Tahoe Open,2,14,660
+278,0,29670,Pablo Larrazabal,345,The Open,4,1,778
+278,0,27060,John Mallinger,345,John Deere Clas,3,17,669
+278,0,22348,Nick O'Hern,345,Reno-Tahoe Open,3,18,660
+278,0,02239,Scott Verplank,345,HP Byron Nelson,2,3,019
+285,0,35310,Lanto Griffin,344,The Greenbrier,1,13,771
+285,0,20832,Raphael Jacquelin,344,The Open,1,2,778
+285,0,01797,Rocco Mediate,344,Reno-Tahoe Open,2,1,660
+285,0,32640,Troy Merritt,344,John Deere Clas,2,14,669
+289,0,24461,Thomas Aiken,343,WGC-Cadillac,2,6,008
+289,0,20029,Notah Begay III,343,Reno-Tahoe Open,1,18,660
+289,0,35450,Patrick Cantlay,343,AT&T National,4,9,773
+289,0,34021,Bud Cauley,343,Reno-Tahoe Open,2,18,660
+289,0,26420,Richard Johnson,343,Reno-Tahoe Open,1,1,660
+289,0,32874,Erick Justesen,343,Frys.com Open,4,5,775
+289,0,27302,Garth Mulroy,343,HP Byron Nelson,3,10,019
+289,0,10213,Dicky Pride,343,Reno-Tahoe Open,2,1,660
+289,0,34360,Patrick Reed,343,St. Jude,1,9,513
+289,0,02206,David Toms,343,Crowne Plaza,2,11,021
+299,0,23673,Michael Connell,342,Reno-Tahoe Open,3,18,660
+299,0,21350,Ryuji Imada,342,The Greenbrier,3,6,771
+301,0,35444,Christopher DeForest,341,U.S. Open,1,1,024
+301,0,28181,Jeff Peck,341,The Heritage,2,16,012
+303,0,29725,Tony Finau,340,Sony Open,1,16,006
+303,0,06373,José María Olazábal,340,Reno-Tahoe Open,1,1,660
+305,0,22896,Grégory Havret,339,The Open,2,1,778
+305,0,35300,Andrew Loupe,339,Zurich Classic,2,15,714
+305,0,01724,Jeff Maggert,339,AT&T Pebble,4,9,005
+305,0,22080,Prayad Marksaeng,339,The Open,1,2,778
+305,0,01761,Len Mattiace,339,Reno-Tahoe Open,2,18,660
+305,0,35515,Brian Maurer,339,John Deere Clas,2,15,669
+311,0,35143,Anthony Paolucci,338,Farmers Ins.,1,18,004
+311,0,30005,Neil Schietekat,338,The Open,2,2,778
+311,0,30860,Shunsuke Sonoda,338,Sony Open,1,16,006
+311,0,06595,Kevin Sutherland,338,Honda Classic,1,4,734
+315,0,06197,Michael Allen,337,Zurich Classic,1,11,714
+315,0,07363,Craig Bowden,337,John Deere Clas,2,15,669
+315,0,27436,Graham DeLaet,337,St. Jude,2,6,513
+315,0,24804,Garrett Frank,337,The Greenbrier,2,7,771
+315,0,20574,Mathew Goggin,337,Wells Fargo,4,16,698
+315,0,23969,Graeme Storm,337,The Open,1,2,778
+321,0,19825,Darren Clarke,336,The Open,3,2,778
+321,0,24494,Erik Compton,336,Shell Houston,2,8,729
+321,0,26735,Marty Jertson,336,J. Timberlake,1,9,538
+321,0,28308,Troy Kelly,336,Phoenix Open,4,13,510
+321,0,33561,Parker LaBarge,336,Texas Open,1,9,770
+321,0,33199,Matteo Manassero,336,Transitions Chp,4,11,665
+321,0,26808,Tadahiro Takayama,336,The Open,1,2,778
+321,0,26668,Marc Turnesa,336,Honda Classic,2,2,734
+329,0,20367,Fredrik Andersson Hed,335,PGA Championshi,2,2,780
+329,0,01226,Fred Couples,335,Shell Houston,4,18,729
+329,0,22621,Ben Curtis,335,Wyndham Champ.,1,5,752
+329,0,01677,Tom Lehman,335,Phoenix Open,4,17,510
+329,0,02002,John Riegger,335,J. Timberlake,2,4,538
+329,0,26539,Robert Rock,335,The Open,2,1,778
+329,0,30786,Brady Schnell,335,John Deere Clas,2,15,669
+336,0,20472,Alex Cejka,334,Crowne Plaza,2,1,021
+336,0,26553,Simon Edwards,334,The Open,1,1,778
+336,0,19846,Brian Gay,334,J. Timberlake,2,11,538
+336,0,32878,Jin Jeong,334,Texas Open,2,10,770
+336,0,35794,Preston Otte,334,J. Timberlake,1,11,538
+336,0,35148,Brandon Smith,334,Phoenix Open,1,15,510
+336,0,08385,Omar Uresti,334,Reno-Tahoe Open,2,17,660
+343,0,21633,Steve Allan,333,The Greenbrier,2,7,771
+343,0,33803,Lucas Bjerregaard,333,The Open,1,2,778
+343,0,32508,Chad Proehl,333,John Deere Clas,1,15,669
+346,0,22892,Jason Gore,332,St. Jude,2,7,513
+346,0,24077,Matthew Millar,332,The Open,1,2,778
+348,0,23580,Tetsuji Hiratsuka,331,The Open,1,2,778
+348,0,08075,Jerry Kelly,331,HP Byron Nelson,4,1,019
+348,0,24957,Simon Khan,331,The Open,2,1,778
+348,0,30944,Jason Kokrak,331,Transitions Chp,2,6,665
+348,0,27954,Darren Wallace,331,Canadian Open,2,10,716
+353,0,23048,Eric Axley,330,Texas Open,2,10,770
+353,0,27910,Floris De Vries,330,The Open,2,1,778
+353,0,33451,Matt Hill,330,AT&T Pebble,2,10,445
+353,0,35516,Craig Hinton,330,The Open,2,1,778
+353,0,23802,Brad Kennedy,330,The Open,2,1,778
+353,0,33108,Drew Kittleson,330,J. Timberlake,2,3,538
+353,0,32881,Hugo León,330,Canadian Open,2,10,716
+353,0,33465,Matt Marshall,330,Frys.com Open,2,18,775
+353,0,35675,Nyasha Mauchaza,330,Wyndham Champ.,1,18,752
+353,0,07939,Dan Olsen,330,PGA Championshi,1,2,780
+353,0,25190,Jeff Quinney,330,John Deere Clas,1,2,669
+353,0,34478,Jerry Richardson Jr.,330,Wyndham Champ.,1,18,752
+353,0,26951,Johnson Wagner,330,Wyndham Champ.,4,5,752
+353,0,02256,Tom Watson,330,The Greenbrier,2,13,771
+367,0,01132,Mark Brooks,329,Crowne Plaza,1,2,021
+367,0,30924,Rhys Davies,329,The Open,1,2,778
+367,0,01619,Skip Kendall,329,Reno-Tahoe Open,1,8,660
+367,0,22724,Martin Maritz,329,The Open,2,1,778
+367,0,31114,Drew Weaver,329,Memorial Tourn,3,13,023
+372,0,33016,Josh Anderson,328,Farmers Ins.,1,7,004
+372,0,34260,Bennett Blakeman,328,U.S. Open,1,1,024
+372,0,33800,Andreas Hartø,328,U.S. Open,1,1,024
+372,0,19958,Miguel Angel Jiménez,328,PGA Championshi,2,2,780
+372,0,24748,WC Liang,328,Sony Open,2,18,006
+372,0,28300,Joost Luiten,328,The Open,4,1,778
+372,0,01717,Sandy Lyle,328,The Open,1,2,778
+372,0,33241,Nathan Stamey,328,Wyndham Champ.,1,14,752
+380,0,28455,Will Claxton,327,Transitions Chp,1,18,665
+380,0,29892,Steve Dartnall,327,Shell Houston,2,6,729
+380,0,25109,Christo Greyling,327,U.S. Open,1,1,024
+380,0,32839,Hideki Matsuyama,327,Sony Open,2,18,006
+380,0,35179,Tom Shadbolt,327,The Open,2,1,778
+385,0,25290,Kurt Barnes,326,The Open,1,2,778
+385,0,34242,Andrew Johnston,326,The Open,2,1,778
+387,0,01224,Jeff Coston,325,PGA Championshi,1,2,780
+387,0,27088,Johan Edfors,325,PGA Championshi,3,2,780
+387,0,27447,John Ellis,325,Frys.com Open,1,9,775
+387,0,01329,Brad Faxon,325,John Deere Clas,2,2,669
+387,0,29740,Brad Fritsch,325,Canadian Open,2,10,716
+387,0,06016,Brad Lardon,325,Texas Open,2,17,770
+387,0,23481,Marcel Siem,325,U.S. Open,1,1,024
+394,0,24671,David Bradshaw,324,Honda Classic,1,2,734
+394,0,23452,Nicolas Colsaerts,324,U.S. Open,1,1,024
+394,0,34098,Russell Henley,324,U.S. Open,1,1,024
+394,0,35330,Nate Olivo,324,Wyndham Champ.,1,18,752
+398,0,35445,Michael Barbosa,323,U.S. Open,1,1,024
+398,0,22048,Scott Barr,323,U.S. Open,1,1,024
+398,0,34023,Brad Benjamin,323,U.S. Open,1,1,024
+398,0,26360,Bubba Dickerson,323,U.S. Open,1,1,024
+398,0,06526,Kip Henley,323,St. Jude,2,7,513
+398,0,22295,Darron Stiles,323,Wyndham Champ.,2,11,752
+398,0,35456,Michael Whitehead,323,U.S. Open,1,1,024
+405,0,01024,Billy Andrade,322,Travelers Champ,1,13,503
+405,0,35572,Christian Brand,322,The Greenbrier,2,16,771
+405,0,20567,Kevin Hayashi,322,Sony Open,2,18,006
+405,0,29222,Billy Hurley III,322,AT&T National,1,10,773
+409,0,24876,Elliot Gealy,321,U.S. Open,1,1,024
+409,0,22400,Hennie Otto,321,WGC-Bridgestone,2,3,036
+411,0,35549,Greg Huxman,320,Viking Classic,1,4,609
+411,0,25234,Jason Knutzon,320,The Open,2,1,778
+411,0,26965,Rick Kulacz,320,The Open,2,1,778
+411,0,31115,Michio Matsumura,320,Sony Open,2,18,006
+411,0,29342,Jae-bum Park,320,WGC-Bridgestone,2,18,036
+411,0,01968,Nick Price,320,Honda Classic,3,2,734
+411,0,28302,Matthew Richardson,320,U.S. Open,1,1,024
+411,0,23633,Phil Schmitt,320,Viking Classic,2,13,609
+419,0,12823,Carlos Franco,319,Viking Classic,2,3,609
+419,0,20376,Stephen Gallacher,319,U.S. Open,1,1,024
+419,0,12662,Thomas Levet,319,U.S. Open,1,1,024
+419,0,22122,Andrew McLardy,319,St. Jude,2,9,513
+419,0,27399,Richard Scott,319,The McGladrey,1,11,776
+424,0,27676,Lonny Alexander,318,Shell Houston,2,17,729
+424,0,26949,Josh Broadaway,318,Honda Classic,1,10,734
+424,0,34385,Dave Bunker,318,Canadian Open,2,11,716
+424,0,30964,Lee Corfield,318,The Open,2,2,778
+424,0,19881,Robert Damron,318,Arnold Palmer,2,15,009
+424,0,25842,Jon Mills,318,U.S. Open,1,1,024
+430,0,35540,Albin Choi,317,Canadian Open,2,10,716
+430,0,01381,Fred Funk,317,Zurich Classic,1,11,714
+430,0,01723,Andrew Magee,317,Arnold Palmer,2,15,009
+430,0,25349,Tim Wilkinson,317,Northern Trust,2,3,500
+434,0,33120,Mark Anderson,316,The Heritage,1,12,012
+434,0,35144,Alex Carpenter,316,Arnold Palmer,2,9,009
+434,0,35820,Erik Flores,316,Frys.com Open,2,18,775
+434,0,01378,David Frost,316,Crowne Plaza,2,7,021
+434,0,24922,Josh Habig,316,Canadian Open,1,13,716
+434,0,22582,Kyle Thompson,316,Wells Fargo,1,10,698
+440,0,26525,Grégory Bourdy,315,The Open,2,2,778
+440,0,01157,Tom Byrum,315,Viking Classic,1,5,609
+440,0,24219,Wes Heffernan,315,U.S. Open,1,1,024
+440,0,33486,Roger Sloan,315,Canadian Open,1,15,716
+444,0,29639,Jesse Hutchins,314,U.S. Open,1,1,024
+444,0,34554,Jung-gon Hwang,314,The Open,1,1,778
+444,0,35439,Steve Lee,314,St. Jude,1,16,513
+444,0,35672,Olafur Loftsson,314,Wyndham Champ.,2,18,752
+444,0,25861,Ryan Nelson,314,U.S. Open,1,1,024
+444,0,34665,Greg O'Mahony,314,Honda Classic,2,2,734
+444,0,35443,Brett Patterson,314,U.S. Open,1,1,024
+444,0,08215,Steve Schneiter,314,PGA Championshi,2,2,780
+444,0,12755,Vance Veazey,314,St. Jude,1,9,513
+444,0,35459,Chris Williams,314,U.S. Open,2,1,024
+454,0,34387,Daniel Balin,313,PGA Championshi,2,2,780
+454,0,35552,Billy Kennerly,313,Wyndham Champ.,2,18,752
+454,0,33122,Russell Knox,313,Transitions Chp,1,10,665
+454,0,34384,Eugene Wong,313,Memorial Tourn,1,11,023
+458,0,35299,Todd Camplin,312,PGA Championshi,2,2,780
+458,0,35844,Phillip Choi,312,The McGladrey,2,16,776
+458,0,20608,David Howell,312,U.S. Open,1,1,024
+458,0,34261,Scott Langley,312,John Deere Clas,2,15,669
+458,0,26327,Simon Lilly,312,The Open,1,2,778
+458,0,35449,Adam Long,312,U.S. Open,1,1,024
+458,0,35440,Clark Richardson,312,St. Jude,2,7,513
+458,0,22294,Brian Smock,312,Farmers Ins.,2,17,004
+458,0,35447,Michael Tobiason Jr.,312,U.S. Open,1,1,024
+467,0,25369,Jamie Donaldson,311,PGA Championshi,1,2,780
+467,0,35086,Chris Epperson,311,The Heritage,1,6,012
+467,0,27119,Koumei Oda,311,Sony Open,2,6,006
+467,0,30933,Jeff Sorenson,311,PGA Championshi,2,2,780
+471,0,26500,Alejandro Cañizares,310,The Open,2,1,778
+471,0,24730,Faber Jamerson,310,PGA Championshi,2,2,780
+471,0,01685,J.L. Lewis,310,Viking Classic,3,14,609
+471,0,35281,Joe Panzeri,310,Canadian Open,2,10,716
+475,0,12680,Shigeki Maruyama,309,Sony Open,4,13,006
+475,0,25808,Mike Northern,309,PGA Championshi,2,2,780
+475,0,27386,Dustin Risdon,309,Canadian Open,4,10,716
+475,0,35550,Matthew Swan,309,Viking Classic,1,9,609
+475,0,11006,Rick Woodson,309,HP Byron Nelson,2,3,019
+480,0,12388,Michael Clark II,308,Viking Classic,1,18,609
+480,0,34096,Matt Fast,308,Viking Classic,1,14,609
+480,0,06795,Jeff Freeman,308,Transitions Chp,1,10,665
+480,0,27979,Daehyun Kim,308,U.S. Open,2,1,024
+480,0,20634,Peter Lonard,308,Viking Classic,3,4,609
+480,0,35451,Scott Pinckney,308,U.S. Open,2,1,024
+480,0,06655,Geoffrey Sisk,308,U.S. Open,1,1,024
+487,0,01175,Jim Carter,307,Zurich Classic,2,5,714
+487,0,29954,Robert Dinwiddie,307,U.S. Open,1,1,024
+487,0,34358,Jonathan Randolph,307,Viking Classic,1,18,609
+487,0,35519,Andy Smith,307,The Open,1,1,778
+487,0,34265,Will Wilcox,307,U.S. Open,1,1,024
+492,0,01014,Fulton Allem,306,Crowne Plaza,2,2,021
+492,0,35311,Bryan Bigley,306,Wells Fargo,1,5,698
+492,0,20945,Markus Brier,306,The Open,2,1,778
+492,0,35466,Zack Byrd,306,U.S. Open,1,1,024
+492,0,19904,Paul Lawrie,306,The Open,2,1,778
+492,0,12663,Phil Tataurangi,306,Viking Classic,1,4,609
+498,0,35384,Bobby Hudson,305,St. Jude,2,17,513
+498,0,01553,John Huston,305,Transitions Chp,2,10,665
+498,0,29780,Do-Hoon Kim,305,U.S. Open,1,1,024
+498,0,21695,Maarten Lafeber,305,U.S. Open,1,1,024
+502,0,01139,Olin Browne,304,Crowne Plaza,2,2,021
+502,0,32485,Sean Dougherty,304,PGA Championshi,2,2,780
+504,0,31289,Benjamín Alvarado,303,Canadian Open,1,10,716
+504,0,01343,Jon Fiedler,303,Northern Trust,1,15,500
+504,0,35455,Brian Locke,303,U.S. Open,1,1,024
+507,0,01200,Keith Clearwater,302,Crowne Plaza,2,15,021
+507,0,20940,Kenichi Kuboya,302,U.S. Open,1,1,024
+507,0,32058,José de Jesús Rodríguez,302,Canadian Open,1,15,716
+510,0,22460,Hiroo Kawai,301,The Open,1,2,778
+510,0,02218,Ted Tryba,301,Viking Classic,1,18,609
+512,0,35625,Scott Erdmann,300,PGA Championshi,1,2,780
+512,0,12067,Mitch Lowe,300,Frys.com Open,2,18,775
+512,0,35448,David May,300,U.S. Open,1,1,024
+512,0,25863,Rod Perry,300,Arnold Palmer,2,15,009
+512,0,12794,Tim Weinhart,300,The McGladrey,2,7,776
+517,0,01755,Dick Mast,299,Viking Classic,1,1,609
+517,0,35845,Tom Murray,299,The McGladrey,2,7,776
+517,0,02245,Grant Waite,299,Viking Classic,1,14,609
+520,0,01361,Dan Forsman,298,Viking Classic,1,14,609
+520,0,22742,Steve Irwin,298,U.S. Open,1,1,024
+522,0,25203,SSP Chawrasia,297,WGC-Cadillac,1,1,008
+522,0,32312,Travis Hampshire,297,Transitions Chp,1,10,665
+522,0,29908,C.T. Pan,297,U.S. Open,1,1,024
+522,0,12309,Bob Sowards,297,PGA Championshi,1,2,780
+526,0,07223,Brian Bateman,296,Viking Classic,1,9,609
+526,0,06214,Guy Boros,296,Viking Classic,3,13,609
+526,0,35532,Tom Hoge,296,Canadian Open,1,7,716
+526,0,01599,Steve Jones,296,Bob Hope,4,2,741
+526,0,24039,Prom Meesawat,296,The Open,1,2,778
+526,0,26371,James Oh,296,Farmers Ins.,1,7,004
+532,0,01864,Larry Nelson,295,PGA Championshi,1,2,780
+533,0,01068,Andy Bean,294,Arnold Palmer,1,8,009
+533,0,35211,David Chung,294,U.S. Open,2,1,024
+533,0,24610,Stuart Deane,294,Viking Classic,1,18,609
+533,0,23725,Brendan Jones,294,PGA Championshi,1,5,780
+533,0,33110,Michael Smith,294,U.S. Open,1,1,024
+533,0,02145,Craig Stevens,294,PGA Championshi,2,2,780
+533,0,25450,Ty Tryon,294,U.S. Open,1,1,024
+533,0,35520,Adam Wootton,294,The Open,1,1,778
+541,0,33467,Mitch Evanecz,293,Canadian Open,1,13,716
+541,0,29406,Joey Lamielle,293,U.S. Open,1,1,024
+541,0,01928,Corey Pavin,293,Crowne Plaza,2,18,021
+541,0,26392,Chris Wilson,293,U.S. Open,1,1,024
+545,0,35452,Matthew Edwards,292,U.S. Open,1,1,024
+545,0,07595,Rob Moss,292,PGA Championshi,2,2,780
+545,0,35142,David Saka,292,Sony Open,1,8,006
+545,0,02076,Peter Senior,292,WGC-Cadillac,2,17,008
+549,0,30909,David Horsey,291,PGA Championshi,2,2,780
+549,0,24727,David Hutsell,291,PGA Championshi,1,2,780
+549,0,02136,Chris Starkjohann,291,Bob Hope,1,8,763
+552,0,01666,Bernhard Langer,290,The Open,1,2,778
+552,0,01925,Jerry Pate,290,PGA Championshi,2,2,780
+552,0,27657,Nathan Smith,290,Masters,2,2,014
+555,0,24083,Marcus Fraser,289,WGC-Cadillac,1,8,008
+555,0,22806,Doug LaBelle II,289,Sony Open,1,2,006
+555,0,33927,Bryden MacPherson,289,The Open,2,2,778
+555,0,35626,Stuart Smith,289,PGA Championshi,1,2,780
+559,0,22789,Brian Cairns,288,PGA Championshi,2,5,780
+559,0,02033,Dave Rummells,288,Viking Classic,1,14,609
+561,0,06809,Bob Burns,287,Viking Classic,1,14,609
+561,0,08931,Glen Day,287,The Heritage,2,16,012
+561,0,01374,Robin Freeman,287,Viking Classic,1,3,609
+564,0,33204,Shane Lowry,286,U.S. Open,1,1,024
+564,0,02294,Willie Wood,286,Wells Fargo,2,10,698
+566,0,07235,John Morse,285,Viking Classic,1,4,609
+567,0,02008,Lee Rinker,284,Honda Classic,1,14,734
+568,0,23778,Brad Adamonis,283,U.S. Open,1,1,024
+569,0,01510,Nolan Henke,279,Viking Classic,1,14,609
+570,0,01487,Jeff Hart,278,Farmers Ins.,1,17,004
+571,0,02300,Ian Woosnam,277,Masters,2,2,014
+572,0,07569,Mark Carnevale,276,Viking Classic,2,5,609
+573,0,01554,Brian Hutton,275,Canadian Open,1,7,716
+574,0,02133,Craig Stadler,274,Masters,1,1,014
+575,0,35212,Lion Kim,273,Masters,2,1,014
+576,0,20400,Michael Campbell,272,U.S. Open,2,1,024
+577,0,35461,Beau Hossler,270,U.S. Open,1,1,024
+578,0,01823,Larry Mize,269,Masters,2,1,014
+579,0,01235,Ben Crenshaw,258,Masters,2,1,014
