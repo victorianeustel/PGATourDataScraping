@@ -7,6 +7,7 @@ import csv
 import os.path
 from helpers.FileHelper import CreateDirectory, CleanName
 
+# Call request for data and write file to data/<year>/...
 def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath: str):    
     path = get_stats_path(year=year, statsId= statId)
     x = requests.get(path)
@@ -30,12 +31,15 @@ def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath
         with open(filePath, "wb") as file:
             file.write(x.content)
     
+# Get all CSV stat detail files for a given year
 def GetStatCsvs(year: int):
     categories = GetStatCategories()
     categories = [StatCategory(**c) for c in categories]
 
     stat_details = []
     current_year = str(year)
+    
+    # Dict
     stat_ids_dict = {}
 
     for c in categories:
@@ -51,6 +55,7 @@ def GetStatCsvs(year: int):
                 obj['statTitle'] = sd.statTitle
                 obj['statId'] = sd.statId
                 
+                # If stat id is a duplicate
                 if sd.statId in stat_ids_dict:
                     obj['path'] = stat_ids_dict[sd.statId]
                     obj['duplicatedStatId'] = True
@@ -62,8 +67,10 @@ def GetStatCsvs(year: int):
 
                 stat_details.append(obj)
 
+    # Arr to hold errors
     error_data = []
 
+    # Mapping stat file data
     stat_detail_rows = []
     stat_detail_headers = ['Year', 'Index', 'Category', 'Subcategory', 'StatId', 'StatTitle', 'LocalPath']
     stat_detail_rows.append(stat_detail_headers)
@@ -76,7 +83,6 @@ def GetStatCsvs(year: int):
         subcategory = v['subCategory']
         path = v['path']
         statTitle = v['statTitle']
-        summary = 'Index: {0} | Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(index,category, subCategory, statId, path)
 
         row = [current_year, str(index), category, subcategory, statId, statTitle, path]
         stat_detail_rows.append(row)
@@ -92,7 +98,6 @@ def GetStatCsvs(year: int):
                     CallAndWriteStatData(category, subCategory, year, statId, path)
                 except Exception:
                     error_data.append(v)
-                    print('ERROR: ' + summary)
                     continue
                         
     # Create file mapper file
@@ -107,3 +112,6 @@ def GetStatCsvs(year: int):
         for error in error_data:
             summary = 'Category: {0} | SubCategory: {1} | StatId: {2} | Path: {3}'.format(category, subCategory, statId, path)
             print(summary)
+            
+            
+     

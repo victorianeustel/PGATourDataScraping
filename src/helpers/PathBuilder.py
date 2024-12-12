@@ -10,6 +10,6 @@ def get_stats_path(statsId: int, year: int, tourCode: str = 'R', timePeriod:str 
         'tourCode': tourCode, 
         'year': year 
         }
-    path = url = 'https://www.pgatour.com/api/stats-download?' + urllib.parse.urlencode(params)
+    path = 'https://www.pgatour.com/api/stats-download?' + urllib.parse.urlencode(params)
     print(path)
     return path

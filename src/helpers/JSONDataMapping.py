@@ -2,9 +2,8 @@ import json
 
 # Loading instance of mapping json
 def LoadJSON():
-    f = open('data/detail.json')
+    f = open('data/stats/detail.json')
     return json.load(f)
-  
 # Instance of json loaded
 data = LoadJSON()
 
@@ -29,3 +28,10 @@ def GetYears():
         
     years = data['pageProps']['statDetails']['yearPills']
     return years
+
+def GetPlayers():
+    f = open('data/players/players-directory.json')
+    data = json.load(f)
+        
+    players = data['data']['playerDirectory']['players']
+    return players
