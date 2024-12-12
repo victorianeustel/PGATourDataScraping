@@ -1,0 +1,247 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "29268",
+            "tourCode": "R",
+            "events": "139",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "66/139",
+            "runnerUp": "2",
+            "second": "2",
+            "third": "",
+            "top10": "5",
+            "top25": "23",
+            "years": [
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "2024",
+                    "events": "8",
+                    "officialMoney": "222,850",
+                    "second": "-",
+                    "standingsPoints": "69",
+                    "standingsRank": "188",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "2021-22",
+                    "events": "13",
+                    "officialMoney": "192,026",
+                    "second": "-",
+                    "standingsPoints": "80",
+                    "standingsRank": "204",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "2020-21",
+                    "events": "26",
+                    "officialMoney": "558,656",
+                    "second": "-",
+                    "standingsPoints": "246",
+                    "standingsRank": "158",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2019-20",
+                    "events": "19",
+                    "officialMoney": "589,539",
+                    "second": "-",
+                    "standingsPoints": "255",
+                    "standingsRank": "130",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2018-19",
+                    "events": "20",
+                    "officialMoney": "814,673",
+                    "second": "1",
+                    "standingsPoints": "343",
+                    "standingsRank": "135",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "2017-18",
+                    "events": "24",
+                    "officialMoney": "1,179,616",
+                    "second": "1",
+                    "standingsPoints": "718",
+                    "standingsRank": "78",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2015-16",
+                    "events": "27",
+                    "officialMoney": "557,020",
+                    "second": "-",
+                    "standingsPoints": "428",
+                    "standingsRank": "131",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2009 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2009
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2006 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2006
+                }
+            ],
+            "officialMoney": "$4,114,381",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "M",
+                    "displayName": "LATINAMERICA"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "139"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "66/139"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "2"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2016"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$4,114,381"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "2",
+                    "rows": [
+                        {
+                            "rowTitle": "2012",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Firewheel at Garland Classic",
+                                "Twin Lakes Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

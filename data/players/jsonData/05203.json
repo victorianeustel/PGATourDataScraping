@@ -1,0 +1,504 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "05203",
+            "tourCode": "R",
+            "events": "191",
+            "wins": "1",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "185/191",
+            "runnerUp": "7",
+            "second": "7",
+            "third": "1",
+            "top10": "50",
+            "top25": "130",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1960",
+                    "events": "1",
+                    "officialMoney": "42",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1960
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1959",
+                    "events": "3",
+                    "officialMoney": "1,152",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1959
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "1958",
+                    "events": "4",
+                    "officialMoney": "1,117",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1958
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "1957",
+                    "events": "9",
+                    "officialMoney": "3,085",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1957
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "1956",
+                    "events": "7",
+                    "officialMoney": "1,466",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1956
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "1955",
+                    "events": "8",
+                    "officialMoney": "1,902",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1955
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "1954",
+                    "events": "14",
+                    "officialMoney": "9,778",
+                    "second": "2",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "6",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1954
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "1953",
+                    "events": "7",
+                    "officialMoney": "1,737",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1953
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "1952",
+                    "events": "10",
+                    "officialMoney": "3,543",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1952
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "1951",
+                    "events": "18",
+                    "officialMoney": "4,027",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "10",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1951
+                },
+                {
+                    "cutsMade": "18",
+                    "displaySeason": "1950",
+                    "events": "18",
+                    "officialMoney": "7,165",
+                    "second": "3",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "7",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1950
+                },
+                {
+                    "cutsMade": "21",
+                    "displaySeason": "1949",
+                    "events": "21",
+                    "officialMoney": "3,882",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "15",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "3",
+                    "year": 1949
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "1948",
+                    "events": "23",
+                    "officialMoney": "6,272",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "21",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1948
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "1947",
+                    "events": "10",
+                    "officialMoney": "2,185",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "3",
+                    "top25": "8",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1947
+                },
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "1946",
+                    "events": "12",
+                    "officialMoney": "5,386",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "1",
+                    "year": 1946
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1945",
+                    "events": "3",
+                    "officialMoney": "1,013",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1945
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "1944",
+                    "events": "5",
+                    "officialMoney": "1,871",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1944
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1942",
+                    "events": "1",
+                    "officialMoney": "113",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1942
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "1941",
+                    "events": "9",
+                    "officialMoney": "698",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1941
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1940",
+                    "events": "1",
+                    "officialMoney": "67",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1940
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1939",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1939
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1938",
+                    "events": "2",
+                    "officialMoney": "95",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1938
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "1937",
+                    "events": "4",
+                    "officialMoney": "147",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1937
+                }
+            ],
+            "officialMoney": "$56,741",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "191"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "1"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "185/191"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "7"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "19"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "50"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$56,741"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "1946",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1946 Canadian Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "1954",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Carling Open"
+                            ],
+                            "secondContent": [
+                                "Lost to Julius Boros"
+                            ]
+                        },
+                        {
+                            "rowTitle": "1950",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "U.S. Open Championship"
+                            ],
+                            "secondContent": [
+                                "Lost to Ben Hogan, Lloyd Mangrum"
+                            ]
+                        },
+                        {
+                            "rowTitle": "1948",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Utah Open Invitational"
+                            ],
+                            "secondContent": [
+                                "Lost to Lloyd Mangrum"
+                            ]
+                        },
+                        {
+                            "rowTitle": "1946",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Canadian Open"
+                            ],
+                            "secondContent": [
+                                "Defeated Dick Metz"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

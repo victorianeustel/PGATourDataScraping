@@ -1,0 +1,166 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "60004",
+            "tourCode": "R",
+            "events": "31",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "20/31",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "",
+            "top25": "10",
+            "years": [
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2024",
+                    "events": "27",
+                    "officialMoney": "1,250,191",
+                    "second": "-",
+                    "standingsPoints": "308",
+                    "standingsRank": "121",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "10",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2022-23",
+                    "events": "2",
+                    "officialMoney": "37,190",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2021-22",
+                    "events": "1",
+                    "officialMoney": "6,919",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2021-22 (a)",
+                    "events": "1",
+                    "officialMoney": "6,919",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                }
+            ],
+            "officialMoney": "$1,294,300",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "31"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "20/31"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,294,300"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Arnold Palmer Cup"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2017",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Junior Presidents Cup"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

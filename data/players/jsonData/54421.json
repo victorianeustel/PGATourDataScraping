@@ -1,0 +1,201 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "54421",
+            "tourCode": "R",
+            "events": "92",
+            "wins": "1",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "6",
+            "majorWins": null,
+            "cutsMade": "49/92",
+            "runnerUp": "",
+            "second": "",
+            "third": "1",
+            "top10": "5",
+            "top25": "16",
+            "years": [
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2024",
+                    "events": "29",
+                    "officialMoney": "947,868",
+                    "second": "-",
+                    "standingsPoints": "186",
+                    "standingsRank": "150",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "20",
+                    "displaySeason": "2022-23",
+                    "events": "33",
+                    "officialMoney": "1,784,592",
+                    "second": "-",
+                    "standingsPoints": "586",
+                    "standingsRank": "76",
+                    "third": "1",
+                    "top10": "1",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2021-22",
+                    "events": "22",
+                    "officialMoney": "667,305",
+                    "second": "-",
+                    "standingsPoints": "229",
+                    "standingsRank": "157",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "2020-21",
+                    "events": "8",
+                    "officialMoney": "1,378,456",
+                    "second": "-",
+                    "standingsPoints": "530",
+                    "standingsRank": "107",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "1",
+                    "year": 2021
+                }
+            ],
+            "officialMoney": "$4,778,221",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "92"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "1"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "6"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "49/92"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "4"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2021"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$4,778,221"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2020-2021",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2021 Palmetto Championship at Congaree"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "6",
+                    "rows": [
+                        {
+                            "rowTitle": "2019",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Sun City Challenge",
+                                "Big Easy Challenge 3 - Modderfontein"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Open de Portugal at Royal Obidos",
+                                "Tour Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Gran Canaria Lopesan Open",
+                                "Canary Islands Championship"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2020",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

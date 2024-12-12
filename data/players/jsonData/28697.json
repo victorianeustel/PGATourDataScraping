@@ -1,0 +1,237 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "28697",
+            "tourCode": "R",
+            "events": "6",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "15",
+            "majorWins": null,
+            "cutsMade": "5/6",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "",
+            "top25": "",
+            "years": [
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2018-19",
+                    "events": "2",
+                    "officialMoney": "50,120",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2016-17",
+                    "events": "1",
+                    "officialMoney": "15,750",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2013-14",
+                    "events": "2",
+                    "officialMoney": "40,425",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2009",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2009
+                }
+            ],
+            "officialMoney": "$106,295",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "6"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "15"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "5/6"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$106,295"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "14",
+                    "rows": [
+                        {
+                            "rowTitle": "2009",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Indonesia President Invitational "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2010",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Asian Tour International "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2011",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Gujarat Kensville Challenge ",
+                                "PGTI Players Championship ",
+                                "Aircel PGTI Players Championship "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2012",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Yeanger Tournament Players' Championship ",
+                                "Venetian Macau Open "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2013",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Indonesia Open "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2018",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Fiji International "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2022",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Mandiri Indonesia Open",
+                                "Jeev Milkha Singh Invitational presented by TAKE"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2023",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "BNI Indonesian Masters presented by Tunas Niaga Energi",
+                                "Tata Steel Tour Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Chandigarh Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

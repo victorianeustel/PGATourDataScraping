@@ -1,0 +1,227 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "47989",
+            "tourCode": "R",
+            "events": "21",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "3",
+            "majorWins": null,
+            "cutsMade": "8/21",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "1",
+            "top25": "3",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2024",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2021-22",
+                    "events": "4",
+                    "officialMoney": "40,048",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2020-21",
+                    "events": "3",
+                    "officialMoney": "51,850",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2018-19",
+                    "events": "4",
+                    "officialMoney": "139,405",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2017-18",
+                    "events": "1",
+                    "officialMoney": "137,950",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2016-17",
+                    "events": "6",
+                    "officialMoney": "27,904",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2015-16 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2014-15 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                }
+            ],
+            "officialMoney": "$397,157",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "21"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "3"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "8/21"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$397,157"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "3",
+                    "rows": [
+                        {
+                            "rowTitle": "2020",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Hero Open",
+                                "Celtic Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2022",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Soudal Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

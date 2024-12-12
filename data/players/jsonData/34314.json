@@ -1,0 +1,142 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "34314",
+            "tourCode": "R",
+            "events": "44",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "16/44",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "1",
+            "top25": "3",
+            "years": [
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2020-21",
+                    "events": "23",
+                    "officialMoney": "179,289",
+                    "second": "-",
+                    "standingsPoints": "98",
+                    "standingsRank": "198",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "2019-20",
+                    "events": "19",
+                    "officialMoney": "371,482",
+                    "second": "-",
+                    "standingsPoints": "156",
+                    "standingsRank": "157",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2014-15",
+                    "events": "2",
+                    "officialMoney": "18,475",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                }
+            ],
+            "officialMoney": "$569,246",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "44"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "16/44"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2020"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$569,246"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2011, 2012, 2013",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Palmer Cup"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

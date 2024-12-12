@@ -1,0 +1,275 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "33974",
+            "tourCode": "R",
+            "events": "24",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "13",
+            "majorWins": null,
+            "cutsMade": "19/24",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "2",
+            "top25": "5",
+            "years": [
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "2024",
+                    "events": "3",
+                    "officialMoney": "576,727",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "2022-23",
+                    "events": "9",
+                    "officialMoney": "612,165",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2021-22",
+                    "events": "5",
+                    "officialMoney": "388,800",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2020-21",
+                    "events": "2",
+                    "officialMoney": "66,817",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2018-19",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2017-18",
+                    "events": "2",
+                    "officialMoney": "25,426",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2016-17",
+                    "events": "1",
+                    "officialMoney": "67,000",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2015-16",
+                    "events": "1",
+                    "officialMoney": "11,400",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                }
+            ],
+            "officialMoney": "$1,669,935",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "24"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "13"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "19/24"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2023"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,669,935"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "12",
+                    "rows": [
+                        {
+                            "rowTitle": "2009",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "International Team Championships "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2013",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Polokwane Classic "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2014",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Sun City Challenge "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2015",
+                            "rowTitleDetail": "4",
+                            "rowContent": [
+                                "Golden Pilsener Zimbabwe Open ",
+                                "Lombard Insurance Classic ",
+                                "Sun Windmill Challenge ",
+                                "Vodacom Origins of Golf "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Tenerife Open",
+                                "South African PGA Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2023",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Joburg Open",
+                                "Investec South African Open Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Vodacom Origins of Golf Final Oubaai"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

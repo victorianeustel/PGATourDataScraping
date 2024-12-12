@@ -1,0 +1,243 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "36801",
+            "tourCode": "R",
+            "events": "231",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "153/231",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "3",
+            "top10": "14",
+            "top25": "46",
+            "years": [
+                {
+                    "cutsMade": "26",
+                    "displaySeason": "2024",
+                    "events": "30",
+                    "officialMoney": "2,757,076",
+                    "second": "-",
+                    "standingsPoints": "755",
+                    "standingsRank": "69",
+                    "third": "2",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "2022-23",
+                    "events": "39",
+                    "officialMoney": "2,932,685",
+                    "second": "-",
+                    "standingsPoints": "711",
+                    "standingsRank": "67",
+                    "third": "-",
+                    "top10": "6",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2021-22",
+                    "events": "22",
+                    "officialMoney": "1,179,782",
+                    "second": "-",
+                    "standingsPoints": "508",
+                    "standingsRank": "100",
+                    "third": "1",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2020-21",
+                    "events": "32",
+                    "officialMoney": "762,137",
+                    "second": "-",
+                    "standingsPoints": "337",
+                    "standingsRank": "143",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2019-20",
+                    "events": "24",
+                    "officialMoney": "1,840,473",
+                    "second": "1",
+                    "standingsPoints": "792",
+                    "standingsRank": "44",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "2016-17",
+                    "events": "27",
+                    "officialMoney": "267,968",
+                    "second": "-",
+                    "standingsPoints": "124",
+                    "standingsRank": "184",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "21",
+                    "displaySeason": "2015-16",
+                    "events": "30",
+                    "officialMoney": "642,942",
+                    "second": "-",
+                    "standingsPoints": "503",
+                    "standingsRank": "115",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2014-15",
+                    "events": "25",
+                    "officialMoney": "293,980",
+                    "second": "-",
+                    "standingsPoints": "274",
+                    "standingsRank": "164",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2013-14",
+                    "events": "1",
+                    "officialMoney": "10,100",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2013",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2013
+                }
+            ],
+            "officialMoney": "$10,687,144",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "231"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "153/231"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "7"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "14"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2015"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$10,687,144"
+                }
+            ],
+            "tables": []
+        }
+    }
+}

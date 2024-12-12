@@ -1,0 +1,122 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "51661",
+            "tourCode": "R",
+            "events": "2",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "1",
+            "majorWins": null,
+            "cutsMade": "1/2",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "",
+            "top25": "",
+            "years": [
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2024",
+                    "events": "1",
+                    "officialMoney": "73,350",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2022-23",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                }
+            ],
+            "officialMoney": "$73,350",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "2"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "1"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "1/2"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$73,350"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2023",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Jonsson Workwear Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

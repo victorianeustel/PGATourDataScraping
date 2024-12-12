@@ -1,0 +1,162 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "35110",
+            "tourCode": "R",
+            "events": "46",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "18/46",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "",
+            "top25": "1",
+            "years": [
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2022-23",
+                    "events": "2",
+                    "officialMoney": "46,426",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2021-22",
+                    "events": "23",
+                    "officialMoney": "121,307",
+                    "second": "-",
+                    "standingsPoints": "42",
+                    "standingsRank": "219",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2018-19",
+                    "events": "2",
+                    "officialMoney": "46,800",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2016-17",
+                    "events": "19",
+                    "officialMoney": "184,388",
+                    "second": "-",
+                    "standingsPoints": "95",
+                    "standingsRank": "196",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                }
+            ],
+            "officialMoney": "$398,921",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "I",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "46"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "18/46"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2017"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$398,921"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2013-2014",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "United Investment Real Estate Wuhan Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

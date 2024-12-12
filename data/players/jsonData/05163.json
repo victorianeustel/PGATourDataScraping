@@ -1,0 +1,679 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "05163",
+            "tourCode": "R",
+            "events": "125",
+            "wins": "5",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "208",
+            "majorWins": null,
+            "cutsMade": "115/125",
+            "runnerUp": "5",
+            "second": "5",
+            "third": "5",
+            "top10": "40",
+            "top25": "78",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1986",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1986
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1983",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1983
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1979",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1979
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1975",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1975
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1973",
+                    "events": "1",
+                    "officialMoney": "1,600",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1973
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1972",
+                    "events": "1",
+                    "officialMoney": "2,160",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1972
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1971",
+                    "events": "1",
+                    "officialMoney": "3,767",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1971
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1970",
+                    "events": "4",
+                    "officialMoney": "3,110",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1970
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1969",
+                    "events": "3",
+                    "officialMoney": "7,900",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1969
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "1968",
+                    "events": "9",
+                    "officialMoney": "46,049",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1968
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "1967",
+                    "events": "9",
+                    "officialMoney": "42,091",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "5",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1967
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "1966",
+                    "events": "6",
+                    "officialMoney": "20,689",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1966
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1965",
+                    "events": "2",
+                    "officialMoney": "2,516",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1965
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1964",
+                    "events": "1",
+                    "officialMoney": "409",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1964
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1962",
+                    "events": "1",
+                    "officialMoney": "500",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1962
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "1961",
+                    "events": "6",
+                    "officialMoney": "4,405",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1961
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1960",
+                    "events": "1",
+                    "officialMoney": "100",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1960
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1959",
+                    "events": "1",
+                    "officialMoney": "100",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1959
+                },
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "1958",
+                    "events": "13",
+                    "officialMoney": "6,874",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1958
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "1957",
+                    "events": "6",
+                    "officialMoney": "10,690",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "2",
+                    "withdrawn": "-",
+                    "year": 1957
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "1956",
+                    "events": "7",
+                    "officialMoney": "9,528",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1956
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1955",
+                    "events": "2",
+                    "officialMoney": "947",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1955
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "1954",
+                    "events": "9",
+                    "officialMoney": "6,129",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "4",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1954
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1953",
+                    "events": "3",
+                    "officialMoney": "1,155",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1953
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "1952",
+                    "events": "10",
+                    "officialMoney": "9,020",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "7",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1952
+                },
+                {
+                    "cutsMade": "13",
+                    "displaySeason": "1951",
+                    "events": "13",
+                    "officialMoney": "2,742",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1951
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "1950",
+                    "events": "5",
+                    "officialMoney": "773",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1950
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "1948",
+                    "events": "6",
+                    "officialMoney": "1,890",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1948
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1947",
+                    "events": "1",
+                    "officialMoney": "32",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1947
+                }
+            ],
+            "officialMoney": "$201,100",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "S",
+                    "displayName": "CHAMPIONS"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "125"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "5"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "208"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "115/125"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "5"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "21"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "40"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "1947"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$201,100"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "5",
+                    "rows": [
+                        {
+                            "rowTitle": "1968",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1968 Houston Champions International"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1967",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1967 The Open Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1966",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1966 Dallas Open Invitational"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1957",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "1957 All American Open",
+                                "1957 Colonial National Invitational"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "13",
+                    "rows": [
+                        {
+                            "rowTitle": "1951",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Palm Beach Round Robin",
+                                "Inverness Four-Ball [with Henry Ransom]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1974",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "PGA Seniors' Championship",
+                                "World Senior Match Play"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1979",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Liberty Mutual Legends of Golf [with Julius Boros]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1983",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Liberty Mutual Legends of Golf [with Rod Funseth]",
+                                "Doug Sanders Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1987",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Argentine Senior Open",
+                                "Pontevedra Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1988",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Liberty Mutual Legends of Golf (Legends Division) [with Charles Sifford]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1989",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Liberty Mutual Legends of Golf (Legends Division) [with Charles Sifford]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1991",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Liberty Mutual Legends of Golf (Legends Division) [with Charles Sifford]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1992",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Center Senior Argentine Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "1953, 1954, 1955, 1956, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1970, 1971, 1972, 1973, 1974",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "World Cup"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

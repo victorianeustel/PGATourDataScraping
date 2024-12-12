@@ -1,0 +1,166 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "59836",
+            "tourCode": "R",
+            "events": "36",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "18/36",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "2",
+            "top25": "5",
+            "years": [
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2024",
+                    "events": "27",
+                    "officialMoney": "1,052,529",
+                    "second": "1",
+                    "standingsPoints": "308",
+                    "standingsRank": "120",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "2",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "2022-23",
+                    "events": "7",
+                    "officialMoney": "363,960",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2020-21 (a)",
+                    "events": "2",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                }
+            ],
+            "officialMoney": "$1,416,490",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "36"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "18/36"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,416,490"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "ISCO Championship"
+                            ],
+                            "secondContent": [
+                                "Lost to Zac Blair, Harry Hall, Richard Hoey, Matthew NeSmith"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Walker Cup"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020, 2021",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Arnold Palmer Cup"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

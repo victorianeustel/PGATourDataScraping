@@ -1,0 +1,204 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "33408",
+            "tourCode": "R",
+            "events": "67",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "26/67",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "2",
+            "top25": "5",
+            "years": [
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "2024",
+                    "events": "29",
+                    "officialMoney": "432,172",
+                    "second": "-",
+                    "standingsPoints": "121",
+                    "standingsRank": "170",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "2022-23",
+                    "events": "35",
+                    "officialMoney": "1,433,633",
+                    "second": "1",
+                    "standingsPoints": "425",
+                    "standingsRank": "104",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2017-18",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2016-17",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2009 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2009
+                }
+            ],
+            "officialMoney": "$1,865,805",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "M",
+                    "displayName": "LATINAMERICA"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "67"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "26/67"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2023"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,865,805"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "2",
+                    "rows": [
+                        {
+                            "rowTitle": "2012",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Killearn Country Club Classic [NGA]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2013-2014",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Ocala/Marion County Classic [NGA]"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2010",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Palmer Cup"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

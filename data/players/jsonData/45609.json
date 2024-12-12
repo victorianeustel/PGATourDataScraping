@@ -1,0 +1,242 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "45609",
+            "tourCode": "R",
+            "events": "206",
+            "wins": "1",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "109/206",
+            "runnerUp": "",
+            "second": "",
+            "third": "3",
+            "top10": "7",
+            "top25": "29",
+            "years": [
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "2024",
+                    "events": "26",
+                    "officialMoney": "428,016",
+                    "second": "-",
+                    "standingsPoints": "111",
+                    "standingsRank": "174",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2022-23",
+                    "events": "34",
+                    "officialMoney": "1,917,561",
+                    "second": "-",
+                    "standingsPoints": "403",
+                    "standingsRank": "110",
+                    "third": "3",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2021-22",
+                    "events": "27",
+                    "officialMoney": "890,879",
+                    "second": "-",
+                    "standingsPoints": "436",
+                    "standingsRank": "110",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2020-21",
+                    "events": "33",
+                    "officialMoney": "509,882",
+                    "second": "-",
+                    "standingsPoints": "229",
+                    "standingsRank": "162",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2019-20",
+                    "events": "25",
+                    "officialMoney": "1,799,855",
+                    "second": "-",
+                    "standingsPoints": "834",
+                    "standingsRank": "40",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2018-19",
+                    "events": "29",
+                    "officialMoney": "596,502",
+                    "second": "-",
+                    "standingsPoints": "238",
+                    "standingsRank": "163",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2017-18",
+                    "events": "31",
+                    "officialMoney": "944,021",
+                    "second": "-",
+                    "standingsPoints": "457",
+                    "standingsRank": "113",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2014-15",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                }
+            ],
+            "officialMoney": "$7,086,715",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "M",
+                    "displayName": "LATINAMERICA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "206"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "1"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "109/206"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "6"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "7"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2018"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$7,086,715"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2019-2020",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2019 The RSM Classic"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2019-2020",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "The RSM Classic"
+                            ],
+                            "secondContent": [
+                                "Defeated Webb Simpson"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

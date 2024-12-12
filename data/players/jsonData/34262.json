@@ -1,0 +1,260 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "34262",
+            "tourCode": "R",
+            "events": "93",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "44/93",
+            "runnerUp": "2",
+            "second": "2",
+            "third": "",
+            "top10": "8",
+            "top25": "10",
+            "years": [
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2018-19",
+                    "events": "4",
+                    "officialMoney": "25,861",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2017-18",
+                    "events": "15",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2016-17",
+                    "events": "11",
+                    "officialMoney": "128,092",
+                    "second": "-",
+                    "standingsPoints": "60",
+                    "standingsRank": "207",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2015-16",
+                    "events": "30",
+                    "officialMoney": "1,902,481",
+                    "second": "1",
+                    "standingsPoints": "950",
+                    "standingsRank": "66",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "2014-15",
+                    "events": "28",
+                    "officialMoney": "1,049,549",
+                    "second": "1",
+                    "standingsPoints": "540",
+                    "standingsRank": "113",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2013-14",
+                    "events": "1",
+                    "officialMoney": "37,952",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2013",
+                    "events": "3",
+                    "officialMoney": "28,350",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2013
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2010",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2010
+                }
+            ],
+            "officialMoney": "$3,172,284",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "93"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "44/93"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "2"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "8"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2015"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$3,172,284"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "2",
+                    "rows": [
+                        {
+                            "rowTitle": "2014-2015",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "CVS Health Charity Classic [with Keegan Bradley]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2015-2016",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "CVS Health Charity Classic [with Keegan Bradley]"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2015-2016",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "the Memorial Tournament presented by Nationwide"
+                            ],
+                            "secondContent": [
+                                "Lost to William McGirt"
+                            ]
+                        },
+                        {
+                            "rowTitle": "2014-2015",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Puerto Rico Open"
+                            ],
+                            "secondContent": [
+                                "Lost to Alex Cejka, Emiliano Grillo, Tim Petrovic, Sam Saunders"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

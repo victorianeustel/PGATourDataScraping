@@ -1,0 +1,456 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "14132",
+            "tourCode": "R",
+            "events": "140",
+            "wins": "9",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "137/140",
+            "runnerUp": "7",
+            "second": "7",
+            "third": "9",
+            "top10": "72",
+            "top25": "120",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1939",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1939
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1938",
+                    "events": "3",
+                    "officialMoney": "190",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1938
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "1937",
+                    "events": "10",
+                    "officialMoney": "1,332",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1937
+                },
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "1936",
+                    "events": "11",
+                    "officialMoney": "1,663",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "11",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1936
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "1935",
+                    "events": "11",
+                    "officialMoney": "860",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "7",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1935
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "1934",
+                    "events": "15",
+                    "officialMoney": "4,081",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "2",
+                    "top10": "10",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "2",
+                    "withdrawn": "1",
+                    "year": 1934
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "1933",
+                    "events": "6",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1933
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "1932",
+                    "events": "15",
+                    "officialMoney": "1,610",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "2",
+                    "top10": "6",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1932
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "1931",
+                    "events": "17",
+                    "officialMoney": "2,300",
+                    "second": "2",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "14",
+                    "top25": "16",
+                    "tourCode": "R",
+                    "wins": "4",
+                    "withdrawn": "1",
+                    "year": 1931
+                },
+                {
+                    "cutsMade": "21",
+                    "displaySeason": "1930",
+                    "events": "21",
+                    "officialMoney": "10",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "2",
+                    "top10": "13",
+                    "top25": "19",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1930
+                },
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "1929",
+                    "events": "12",
+                    "officialMoney": "113",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "11",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1929
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "1928",
+                    "events": "6",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1928
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1927",
+                    "events": "2",
+                    "officialMoney": "-",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1927
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1926",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1926
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1925",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1925
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "1924",
+                    "events": "4",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "2",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1924
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1923",
+                    "events": "2",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1923
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1922",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1922
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1921",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1921
+                }
+            ],
+            "officialMoney": "$12,159",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "140"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "9"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "137/140"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "7"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "9"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "40"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "72"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$12,159"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "9",
+                    "rows": [
+                        {
+                            "rowTitle": "1937",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1937 District Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1936",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1936 Sacramento Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1934",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "1934 Texas Open",
+                                "1934 Agua Caliente Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1931",
+                            "rowTitleDetail": "4",
+                            "rowContent": [
+                                "1931 San Francisco Open-Match Play",
+                                "1931 Massachusetts Open",
+                                "1931 North & South Open Championship",
+                                "1931 Miami International Four-Ball"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1930",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1930 Mid-South Open Bestball"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "1936",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Sacramento Open"
+                            ],
+                            "secondContent": [
+                                "Defeated Bill Mehlhorn"
+                            ]
+                        },
+                        {
+                            "rowTitle": "1931",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "North & South Open Championship"
+                            ],
+                            "secondContent": [
+                                "Defeated Joe Turnesa"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "51349",
+            "tourCode": "R",
+            "events": "61",
+            "wins": "2",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "2",
+            "majorWins": null,
+            "cutsMade": "26/61",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "5",
+            "top25": "15",
+            "years": [
+                {
+                    "cutsMade": "18",
+                    "displaySeason": "2024",
+                    "events": "30",
+                    "officialMoney": "3,583,634",
+                    "second": "1",
+                    "standingsPoints": "367",
+                    "standingsRank": "110",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "2022-23",
+                    "events": "31",
+                    "officialMoney": "1,035,131",
+                    "second": "-",
+                    "standingsPoints": "417",
+                    "standingsRank": "107",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2023
+                }
+            ],
+            "officialMoney": "$4,618,765",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "M",
+                    "displayName": "LATINAMERICA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "61"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "2"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "2"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "26/61"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "4"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2023"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$4,618,765"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "2",
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2024 ZOZO CHAMPIONSHIP"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2022-2023",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2023 Puerto Rico Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

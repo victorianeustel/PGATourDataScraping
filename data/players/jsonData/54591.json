@@ -1,0 +1,168 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "54591",
+            "tourCode": "R",
+            "events": "76",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "52/76",
+            "runnerUp": "2",
+            "second": "2",
+            "third": "1",
+            "top10": "9",
+            "top25": "26",
+            "years": [
+                {
+                    "cutsMade": "25",
+                    "displaySeason": "2024",
+                    "events": "35",
+                    "officialMoney": "3,459,847",
+                    "second": "1",
+                    "standingsPoints": "895",
+                    "standingsRank": "61",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "25",
+                    "displaySeason": "2022-23",
+                    "events": "37",
+                    "officialMoney": "2,897,799",
+                    "second": "1",
+                    "standingsPoints": "747",
+                    "standingsRank": "63",
+                    "third": "1",
+                    "top10": "3",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2021-22",
+                    "events": "2",
+                    "officialMoney": "357,700",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2018-19",
+                    "events": "2",
+                    "officialMoney": "7,540",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                }
+            ],
+            "officialMoney": "$6,722,886",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "M",
+                    "displayName": "LATINAMERICA"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "76"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "52/76"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "2"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "9"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2023"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$6,722,886"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2022-2023",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Sanderson Farms Championship"
+                            ],
+                            "secondContent": [
+                                "Lost to Ludvig \u00c5berg, Luke List, Henrik Norlander, Scott Stallings"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

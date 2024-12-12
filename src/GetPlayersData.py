@@ -28,5 +28,3 @@ def GetPlayerData(playerId: str):
     response = requests.post(url, headers=headers, json=data)
 
     return response.json()
-
-def 
