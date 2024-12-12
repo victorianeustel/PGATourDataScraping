@@ -1,5 +1,5 @@
 import os
-from .CSVHelper import IsCSVEmpty
+from CSVHelper import IsCSVEmpty
 
 # Create directory 
 def CreateDirectory(directory_name):

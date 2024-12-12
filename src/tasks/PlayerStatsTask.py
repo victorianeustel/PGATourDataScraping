@@ -9,7 +9,7 @@ from helpers.FileHelper import CreateDirectory, CleanName
 
 # Call request for data and write file to data/<year>/...
 def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath: str):    
-    path = get_stats_path(year=year, statsId= statId)
+    path = GetStatsPath(year=year, statsId= statId)
     x = requests.get(path)
     
     if (x.status_code != 200):
