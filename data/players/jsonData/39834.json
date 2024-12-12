@@ -1,0 +1,202 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "39834",
+            "tourCode": "R",
+            "events": "14",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "7",
+            "majorWins": null,
+            "cutsMade": "8/14",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "1",
+            "top25": "3",
+            "years": [
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2024",
+                    "events": "2",
+                    "officialMoney": "90,220",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2022-23",
+                    "events": "2",
+                    "officialMoney": "65,215",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "2021-22",
+                    "events": "7",
+                    "officialMoney": "272,827",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2020-21",
+                    "events": "3",
+                    "officialMoney": "630,759",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                }
+            ],
+            "officialMoney": "$1,059,021",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "14"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "7"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "8/14"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,059,021"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "7",
+                    "rows": [
+                        {
+                            "rowTitle": "2017",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Abruzzo Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2018",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Open la Pinetina Memorial Giorgio Bordoni",
+                                "Abruzzo Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2019",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Magical Kenya Open presented by Absa",
+                                "Belgian Knockout"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2022",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Cazoo Open de France"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "KLM Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2020, 2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

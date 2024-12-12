@@ -1,0 +1,629 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "02241",
+            "tourCode": "R",
+            "events": "715",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "464/715",
+            "runnerUp": "6",
+            "second": "6",
+            "third": "6",
+            "top10": "50",
+            "top25": "165",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2007",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2007
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2001",
+                    "events": "1",
+                    "officialMoney": "4,887",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2001
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2000",
+                    "events": "4",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2000
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "1999",
+                    "events": "5",
+                    "officialMoney": "25,673",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1999
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "1998",
+                    "events": "32",
+                    "officialMoney": "171,854",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1998
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "1997",
+                    "events": "6",
+                    "officialMoney": "29,789",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1997
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "1996",
+                    "events": "32",
+                    "officialMoney": "142,003",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "2",
+                    "year": 1996
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "1995",
+                    "events": "30",
+                    "officialMoney": "166,527",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "1",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1995
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "1994",
+                    "events": "22",
+                    "officialMoney": "208,358",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1994
+                },
+                {
+                    "cutsMade": "8",
+                    "displaySeason": "1993",
+                    "events": "24",
+                    "officialMoney": "39,153",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1993
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "1992",
+                    "events": "15",
+                    "officialMoney": "30,382",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1992
+                },
+                {
+                    "cutsMade": "20",
+                    "displaySeason": "1991",
+                    "events": "31",
+                    "officialMoney": "206,503",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "2",
+                    "year": 1991
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "1990",
+                    "events": "28",
+                    "officialMoney": "190,613",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1990
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "1989",
+                    "events": "31",
+                    "officialMoney": "152,184",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "1",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1989
+                },
+                {
+                    "cutsMade": "25",
+                    "displaySeason": "1988",
+                    "events": "31",
+                    "officialMoney": "193,022",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1988
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "1987",
+                    "events": "30",
+                    "officialMoney": "342,173",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "7",
+                    "top25": "17",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1987
+                },
+                {
+                    "cutsMade": "25",
+                    "displaySeason": "1986",
+                    "events": "31",
+                    "officialMoney": "226,079",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "7",
+                    "top25": "15",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1986
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "1985",
+                    "events": "31",
+                    "officialMoney": "84,542",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1985
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "1984",
+                    "events": "31",
+                    "officialMoney": "108,335",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "3",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1984
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "1983",
+                    "events": "33",
+                    "officialMoney": "56,363",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "3",
+                    "year": 1983
+                },
+                {
+                    "cutsMade": "26",
+                    "displaySeason": "1982",
+                    "events": "34",
+                    "officialMoney": "69,400",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1982
+                },
+                {
+                    "cutsMade": "25",
+                    "displaySeason": "1981",
+                    "events": "34",
+                    "officialMoney": "58,346",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1981
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "1980",
+                    "events": "35",
+                    "officialMoney": "56,728",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1980
+                },
+                {
+                    "cutsMade": "21",
+                    "displaySeason": "1979",
+                    "events": "32",
+                    "officialMoney": "121,373",
+                    "second": "2",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "7",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1979
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "1978",
+                    "events": "32",
+                    "officialMoney": "70,426",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "5",
+                    "top25": "10",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1978
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "1977",
+                    "events": "33",
+                    "officialMoney": "20,867",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1977
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "1976",
+                    "events": "36",
+                    "officialMoney": "23,511",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "3",
+                    "year": 1976
+                },
+                {
+                    "cutsMade": "18",
+                    "displaySeason": "1975",
+                    "events": "29",
+                    "officialMoney": "23,330",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1975
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1974",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1974
+                }
+            ],
+            "officialMoney": "$2,822,418",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "S",
+                    "displayName": "CHAMPIONS"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "715"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "464/715"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "6"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "6"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "29"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "50"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$2,822,418"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "7",
+                    "rows": [
+                        {
+                            "rowTitle": "1971",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Virginia State Amateur"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1978",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "European Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1979",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Dunlop Phoenix"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1982",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Virginia State Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1986",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Dunlop Phoenix",
+                                "Virginia State Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1990",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Fred Meyer Challenge [with Lanny Wadkins]"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "1985",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Sea Pines Heritage"
+                            ],
+                            "secondContent": [
+                                "Lost to Bernhard Langer"
+                            ]
+                        },
+                        {
+                            "rowTitle": "1979",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "IVB-Philadelphia Golf Classic"
+                            ],
+                            "secondContent": [
+                                "Lost to Lou Graham"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

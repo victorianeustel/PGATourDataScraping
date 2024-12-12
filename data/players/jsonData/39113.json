@@ -1,0 +1,216 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "39113",
+            "tourCode": "R",
+            "events": "23",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "8",
+            "majorWins": null,
+            "cutsMade": "15/23",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "3",
+            "top25": "6",
+            "years": [
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2024",
+                    "events": "2",
+                    "officialMoney": "221,817",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2022-23",
+                    "events": "2",
+                    "officialMoney": "403,350",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2021-22",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2018-19",
+                    "events": "7",
+                    "officialMoney": "261,496",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "2017-18",
+                    "events": "11",
+                    "officialMoney": "91,357",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                }
+            ],
+            "officialMoney": "$978,019",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "23"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "8"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "15/23"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$978,019"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "8",
+                    "rows": [
+                        {
+                            "rowTitle": "2014",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Cochin Masters "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2016",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Players Championship ",
+                                "Kolkata Classic ",
+                                "Tata Open "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2017",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Joburg Open ",
+                                "TAKE Open Golf Championship ",
+                                "McLeod Russel Tour Championship "
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2018",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Maybank Championship "
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

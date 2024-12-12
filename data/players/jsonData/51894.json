@@ -1,0 +1,159 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "51894",
+            "tourCode": "R",
+            "events": "110",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "65/110",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "8",
+            "top25": "23",
+            "years": [
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2024",
+                    "events": "25",
+                    "officialMoney": "1,474,033",
+                    "second": "1",
+                    "standingsPoints": "285",
+                    "standingsRank": "123",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "2022-23",
+                    "events": "14",
+                    "officialMoney": "706,130",
+                    "second": "-",
+                    "standingsPoints": "22",
+                    "standingsRank": "222",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2021-22",
+                    "events": "29",
+                    "officialMoney": "1,039,817",
+                    "second": "-",
+                    "standingsPoints": "438",
+                    "standingsRank": "109",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2020-21",
+                    "events": "27",
+                    "officialMoney": "692,292",
+                    "second": "-",
+                    "standingsPoints": "373",
+                    "standingsRank": "140",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "2019-20",
+                    "events": "15",
+                    "officialMoney": "207,571",
+                    "second": "-",
+                    "standingsPoints": "106",
+                    "standingsRank": "183",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2020
+                }
+            ],
+            "officialMoney": "$4,119,842",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "110"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "65/110"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "8"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2020"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$4,119,842"
+                }
+            ],
+            "tables": []
+        }
+    }
+}

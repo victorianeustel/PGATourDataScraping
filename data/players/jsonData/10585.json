@@ -1,0 +1,538 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "10585",
+            "tourCode": "R",
+            "events": "444",
+            "wins": "3",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "254/444",
+            "runnerUp": "6",
+            "second": "6",
+            "third": "2",
+            "top10": "39",
+            "top25": "104",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2019-20",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2017-18",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2014-15",
+                    "events": "7",
+                    "officialMoney": "8,880",
+                    "second": "-",
+                    "standingsPoints": "9",
+                    "standingsRank": "249",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2013-14",
+                    "events": "12",
+                    "officialMoney": "22,794",
+                    "second": "-",
+                    "standingsPoints": "2",
+                    "standingsRank": "253",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2013",
+                    "events": "8",
+                    "officialMoney": "6,060",
+                    "second": "-",
+                    "standingsPoints": "2",
+                    "standingsRank": "250",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2013
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2012",
+                    "events": "6",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2012
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "2011",
+                    "events": "22",
+                    "officialMoney": "436,270",
+                    "second": "-",
+                    "standingsPoints": "221",
+                    "standingsRank": "158",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2011
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2010",
+                    "events": "29",
+                    "officialMoney": "642,543",
+                    "second": "-",
+                    "standingsPoints": "354",
+                    "standingsRank": "130",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2010
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2009",
+                    "events": "27",
+                    "officialMoney": "980,819",
+                    "second": "-",
+                    "standingsPoints": "719",
+                    "standingsRank": "82",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2009
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2008",
+                    "events": "22",
+                    "officialMoney": "952,070",
+                    "second": "1",
+                    "standingsPoints": "96,901",
+                    "standingsRank": "91",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2008
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2006",
+                    "events": "15",
+                    "officialMoney": "175,727",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2006
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2005",
+                    "events": "24",
+                    "officialMoney": "977,517",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2005
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2004",
+                    "events": "27",
+                    "officialMoney": "790,720",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2004
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "2003",
+                    "events": "27",
+                    "officialMoney": "1,250,849",
+                    "second": "1",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "11",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2003
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "2002",
+                    "events": "28",
+                    "officialMoney": "1,896,714",
+                    "second": "2",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "5",
+                    "top25": "10",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2002
+                },
+                {
+                    "cutsMade": "23",
+                    "displaySeason": "2001",
+                    "events": "25",
+                    "officialMoney": "1,793,506",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "4",
+                    "top25": "15",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2001
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2000",
+                    "events": "30",
+                    "officialMoney": "495,975",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2000
+                },
+                {
+                    "cutsMade": "18",
+                    "displaySeason": "1999",
+                    "events": "27",
+                    "officialMoney": "400,678",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1999
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "1998",
+                    "events": "28",
+                    "officialMoney": "414,247",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1998
+                },
+                {
+                    "cutsMade": "16",
+                    "displaySeason": "1997",
+                    "events": "26",
+                    "officialMoney": "852,459",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "7",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "1",
+                    "year": 1997
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "1996",
+                    "events": "27",
+                    "officialMoney": "404,329",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1996
+                },
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "1995",
+                    "events": "25",
+                    "officialMoney": "147,371",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 1995
+                }
+            ],
+            "officialMoney": "$12,649,527",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "S",
+                    "displayName": "CHAMPIONS"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "444"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "3"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "254/444"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "6"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "21"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "39"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "1995"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$12,649,527"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "3",
+                    "rows": [
+                        {
+                            "rowTitle": "2001",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2001 BellSouth Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1997",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1997 BellSouth Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1996",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1996 Freeport-McDermott Classic"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "5",
+                    "rows": [
+                        {
+                            "rowTitle": "1998",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Franklin Templeton Shark Shootout [with Bruce Lietzke]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2000",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Franklin Templeton Shootout [with Brad Faxon]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2001",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Franklin Templeton Shootout [with Brad Faxon]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2002",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Fred Meyer Challenge [with Brian Henninger]"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2015-2016",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "TaylorMade Pebble Beach Invitational"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2004",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Reno-Tahoe Open"
+                            ],
+                            "secondContent": [
+                                "Lost to Steve Allan, Hunter Mahan, Vaughn Taylor"
+                            ]
+                        },
+                        {
+                            "rowTitle": "2003",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Las Vegas Invitational"
+                            ],
+                            "secondContent": [
+                                "Lost to Stuart Appleby"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

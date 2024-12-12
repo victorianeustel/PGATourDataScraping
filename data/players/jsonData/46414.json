@@ -1,0 +1,222 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "46414",
+            "tourCode": "R",
+            "events": "92",
+            "wins": "1",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "5",
+            "majorWins": null,
+            "cutsMade": "67/92",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "1",
+            "top10": "11",
+            "top25": "33",
+            "years": [
+                {
+                    "cutsMade": "21",
+                    "displaySeason": "2024",
+                    "events": "25",
+                    "officialMoney": "4,613,515",
+                    "second": "1",
+                    "standingsPoints": "-6",
+                    "standingsRank": "23",
+                    "third": "-",
+                    "top10": "6",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "2022-23",
+                    "events": "32",
+                    "officialMoney": "2,470,341",
+                    "second": "-",
+                    "standingsPoints": "704",
+                    "standingsRank": "68",
+                    "third": "1",
+                    "top10": "3",
+                    "top25": "10",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2021-22",
+                    "events": "28",
+                    "officialMoney": "1,346,601",
+                    "second": "-",
+                    "standingsPoints": "519",
+                    "standingsRank": "93",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "2020-21",
+                    "events": "4",
+                    "officialMoney": "109,000",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2018-19",
+                    "events": "2",
+                    "officialMoney": "203,625",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2016-17",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                }
+            ],
+            "officialMoney": "$8,539,457",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "92"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "1"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "5"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "67/92"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "6"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "11"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2022"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$8,539,457"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2024",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2024 Wyndham Championship"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "5",
+                    "rows": [
+                        {
+                            "rowTitle": "2017",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Barclays Kenya Open",
+                                "Andaluc\u00eda Costa del Sol Match Play 9",
+                                "Le Vaudreuil Golf Challenge"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2018",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Honma Hong Kong Open presented by Amundi"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Aberdeen Standard Investments Scottish Open"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

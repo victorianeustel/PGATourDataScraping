@@ -1,0 +1,143 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "35451",
+            "tourCode": "R",
+            "events": "58",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "32/58",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "3",
+            "top25": "9",
+            "years": [
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2015-16",
+                    "events": "29",
+                    "officialMoney": "332,533",
+                    "second": "-",
+                    "standingsPoints": "258",
+                    "standingsRank": "169",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "17",
+                    "displaySeason": "2014-15",
+                    "events": "27",
+                    "officialMoney": "1,259,389",
+                    "second": "1",
+                    "standingsPoints": "761",
+                    "standingsRank": "83",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2012",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2012
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2011 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2011
+                }
+            ],
+            "officialMoney": "$1,591,922",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "58"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "32/58"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2015"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,591,922"
+                }
+            ],
+            "tables": []
+        }
+    }
+}

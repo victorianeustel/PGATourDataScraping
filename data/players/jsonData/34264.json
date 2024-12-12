@@ -1,0 +1,270 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "34264",
+            "tourCode": "R",
+            "events": "217",
+            "wins": "3",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "123/217",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "1",
+            "top10": "13",
+            "top25": "36",
+            "years": [
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "2021-22",
+                    "events": "21",
+                    "officialMoney": "1,714,926",
+                    "second": "-",
+                    "standingsPoints": "640",
+                    "standingsRank": "75",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "12",
+                    "displaySeason": "2020-21",
+                    "events": "29",
+                    "officialMoney": "1,759,907",
+                    "second": "1",
+                    "standingsPoints": "1,237",
+                    "standingsRank": "36",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "5",
+                    "displaySeason": "2019-20",
+                    "events": "10",
+                    "officialMoney": "314,285",
+                    "second": "-",
+                    "standingsPoints": "135",
+                    "standingsRank": "167",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "10",
+                    "displaySeason": "2018-19",
+                    "events": "20",
+                    "officialMoney": "545,191",
+                    "second": "-",
+                    "standingsPoints": "242",
+                    "standingsRank": "162",
+                    "third": "1",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2017-18",
+                    "events": "22",
+                    "officialMoney": "569,391",
+                    "second": "-",
+                    "standingsPoints": "245",
+                    "standingsRank": "156",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2016-17",
+                    "events": "28",
+                    "officialMoney": "2,246,090",
+                    "second": "-",
+                    "standingsPoints": "1,244",
+                    "standingsRank": "38",
+                    "third": "-",
+                    "top10": "4",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2017
+                },
+                {
+                    "cutsMade": "22",
+                    "displaySeason": "2015-16",
+                    "events": "30",
+                    "officialMoney": "1,027,314",
+                    "second": "-",
+                    "standingsPoints": "981",
+                    "standingsRank": "64",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2016
+                },
+                {
+                    "cutsMade": "18",
+                    "displaySeason": "2014-15",
+                    "events": "30",
+                    "officialMoney": "959,391",
+                    "second": "-",
+                    "standingsPoints": "776",
+                    "standingsRank": "81",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "2013-14",
+                    "events": "26",
+                    "officialMoney": "513,883",
+                    "second": "-",
+                    "standingsPoints": "351",
+                    "standingsRank": "146",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "5",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2010 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2010
+                }
+            ],
+            "officialMoney": "$9,650,377",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "217"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "3"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "123/217"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "5"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "13"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$9,650,377"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "3",
+                    "rows": [
+                        {
+                            "rowTitle": "2021-2022",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2022 The American Express"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020-2021",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2020 Corales Puntacana Resort & Club Championship (2020)"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2016-2017",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2017 CareerBuilder Challenge"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

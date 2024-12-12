@@ -1,0 +1,245 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "34587",
+            "tourCode": "R",
+            "events": "50",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "8",
+            "majorWins": null,
+            "cutsMade": "31/50",
+            "runnerUp": "",
+            "second": "",
+            "third": "",
+            "top10": "3",
+            "top25": "11",
+            "years": [
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2024",
+                    "events": "27",
+                    "officialMoney": "1,405,653",
+                    "second": "-",
+                    "standingsPoints": "452",
+                    "standingsRank": "94",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "7",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "2021-22",
+                    "events": "9",
+                    "officialMoney": "273,271",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "4",
+                    "displaySeason": "2020-21",
+                    "events": "6",
+                    "officialMoney": "148,751",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "2",
+                    "displaySeason": "2019-20",
+                    "events": "3",
+                    "officialMoney": "33,735",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2018-19",
+                    "events": "2",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2017-18",
+                    "events": "1",
+                    "officialMoney": "48,250",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2016-17",
+                    "events": "2",
+                    "officialMoney": "175,333",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                }
+            ],
+            "officialMoney": "$2,036,743",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                },
+                {
+                    "tourCode": "C",
+                    "displayName": "CANADA"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "50"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "8"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "31/50"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$2,036,743"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "8",
+                    "rows": [
+                        {
+                            "rowTitle": "2017",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Heiwa PGM Championship",
+                                "Shigeo Nagashima Invitational Sega Sammy Cup",
+                                "Gateway to The Open Mizuno Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2019",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Japan Open Golf Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Golf Nippon Series JT Cup"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Dunlop Phoenix",
+                                "Vantelin Tokai Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2022",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Casio World Open Golf Tournament"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

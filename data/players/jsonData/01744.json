@@ -1,0 +1,432 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "01744",
+            "tourCode": "R",
+            "events": "65",
+            "wins": "1",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "4",
+            "majorWins": null,
+            "cutsMade": "56/65",
+            "runnerUp": "",
+            "second": "",
+            "third": "1",
+            "top10": "15",
+            "top25": "30",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "1998",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1998
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "1983",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1983
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1980",
+                    "events": "4",
+                    "officialMoney": "3,858",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1980
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "1979",
+                    "events": "16",
+                    "officialMoney": "46,070",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "6",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1979
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "1978",
+                    "events": "17",
+                    "officialMoney": "46,143",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1978
+                },
+                {
+                    "cutsMade": "14",
+                    "displaySeason": "1977",
+                    "events": "16",
+                    "officialMoney": "107,765",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "1",
+                    "top10": "7",
+                    "top25": "8",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 1977
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1976",
+                    "events": "4",
+                    "officialMoney": "12,757",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "2",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1976
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1975",
+                    "events": "3",
+                    "officialMoney": "9,838",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1975
+                },
+                {
+                    "cutsMade": "3",
+                    "displaySeason": "1974",
+                    "events": "3",
+                    "officialMoney": "9,424",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "1",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 1974
+                }
+            ],
+            "officialMoney": "$235,854",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "S",
+                    "displayName": "CHAMPIONS"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "65"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "1"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "4"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "56/65"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "0"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "1"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "8"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "15"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$235,854"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "1977",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "1977 Heritage Classic"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "55",
+                    "rows": [
+                        {
+                            "rowTitle": "1970",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Watties Tournament",
+                                "Swiss Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1971",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Spaulding Masters",
+                                "Indian Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1972",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Swiss Open",
+                                "German Open",
+                                "Dunlop International"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1973",
+                            "rowTitleDetail": "4",
+                            "rowContent": [
+                                "Sunbeam Electric Scottish Open",
+                                "Thailand Open",
+                                "Indian Open",
+                                "Fuji Sankei Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1974",
+                            "rowTitleDetail": "5",
+                            "rowContent": [
+                                "Pepsi-Wilson",
+                                "Malaysian Open",
+                                "Fuji Sankei Classic",
+                                "Dunlop Wizard",
+                                "Tokyo Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1975",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Dunlop Wizard",
+                                "Tokyo Open",
+                                "Malaysian Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1976",
+                            "rowTitleDetail": "7",
+                            "rowContent": [
+                                "Benson & Hedges International",
+                                "Dunlop Open",
+                                "Suntory Open",
+                                "Dunlop Phoenix",
+                                "KBC Augusta",
+                                "Dunhill Match-Play",
+                                "Western Australia Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1977",
+                            "rowTitleDetail": "6",
+                            "rowContent": [
+                                "Lancome Trophy",
+                                "Colgate World Match-Play Championship",
+                                "Dunhill Match-Play",
+                                "Suntory Open",
+                                "Dunlop Wizard",
+                                "Chunichi Crowns"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1978",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Western Australia PGA"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1979",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Dutch Open",
+                                "ANA Sapporo Open",
+                                "Dunlop Masters"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1980",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Benson & Hedges International"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1981",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Dixcel Tissues European Open",
+                                "Chunichi Open",
+                                "Pepsi-Wilson"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1982",
+                            "rowTitleDetail": "5",
+                            "rowContent": [
+                                "Ford Dealers South Australian Open",
+                                "Australian Masters",
+                                "Mayn Nickless Australian PGA Championship",
+                                "Dunhill Queensland Open",
+                                "Mitsubishi Galant"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1983",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Yomiuri Open",
+                                "Resch's Pilsner Tweed Classic",
+                                "New Zealand PGA Championship"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1985",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Lawrence Batley International",
+                                "KLM Dutch Open",
+                                "Tokai Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1986",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Suntory Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1987",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Visa Taiheiyo Pacific Masters"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1989",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Sapporo Tokyo Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "1990",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Tokai Classic"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

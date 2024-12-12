@@ -1,0 +1,193 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "31193",
+            "tourCode": "R",
+            "events": "76",
+            "wins": "",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "0",
+            "majorWins": null,
+            "cutsMade": "24/76",
+            "runnerUp": "1",
+            "second": "1",
+            "third": "",
+            "top10": "3",
+            "top25": "6",
+            "years": [
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2018-19",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "7",
+                    "displaySeason": "2014-15",
+                    "events": "27",
+                    "officialMoney": "90,668",
+                    "second": "-",
+                    "standingsPoints": "63",
+                    "standingsRank": "210",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2015
+                },
+                {
+                    "cutsMade": "6",
+                    "displaySeason": "2013-14",
+                    "events": "25",
+                    "officialMoney": "763,978",
+                    "second": "1",
+                    "standingsPoints": "346",
+                    "standingsRank": "147",
+                    "third": "-",
+                    "top10": "1",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "1",
+                    "year": 2014
+                },
+                {
+                    "cutsMade": "11",
+                    "displaySeason": "2011",
+                    "events": "22",
+                    "officialMoney": "392,945",
+                    "second": "-",
+                    "standingsPoints": "149",
+                    "standingsRank": "181",
+                    "third": "-",
+                    "top10": "2",
+                    "top25": "3",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2011
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2008",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2008
+                }
+            ],
+            "officialMoney": "$1,247,591",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "76"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "0"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "0"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "24/76"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "1"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "0"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "3"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "2011"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$1,247,591"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "Additional Wins",
+                    "tableDetail": "6",
+                    "rows": [
+                        {
+                            "rowTitle": "2008",
+                            "rowTitleDetail": "3",
+                            "rowContent": [
+                                "Rhode Island Open",
+                                "Massachusetts Open",
+                                "Vermont Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2009",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "Maine Open",
+                                "Dothan Classic"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2010",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "Sunset Hills NGA Classic"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,330 @@
+{
+    "data": {
+        "playerProfileCareer": {
+            "playerId": "50525",
+            "tourCode": "R",
+            "events": "121",
+            "wins": "6",
+            "winsTitle": "PGA TOUR WINS",
+            "internationalWins": "1",
+            "majorWins": null,
+            "cutsMade": "102/121",
+            "runnerUp": "9",
+            "second": "9",
+            "third": "2",
+            "top10": "41",
+            "top25": "65",
+            "years": [
+                {
+                    "cutsMade": "20",
+                    "displaySeason": "2024",
+                    "events": "22",
+                    "officialMoney": "8,383,572",
+                    "second": "2",
+                    "standingsPoints": "-26",
+                    "standingsRank": "2",
+                    "third": "1",
+                    "top10": "8",
+                    "top25": "16",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2024
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2022-23",
+                    "events": "25",
+                    "officialMoney": "7,573,198",
+                    "second": "2",
+                    "standingsPoints": "-11",
+                    "standingsRank": "6",
+                    "third": "1",
+                    "top10": "7",
+                    "top25": "12",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "1",
+                    "year": 2023
+                },
+                {
+                    "cutsMade": "15",
+                    "displaySeason": "2021-22",
+                    "events": "19",
+                    "officialMoney": "4,837,271",
+                    "second": "2",
+                    "standingsPoints": "-8",
+                    "standingsRank": "21",
+                    "third": "-",
+                    "top10": "8",
+                    "top25": "9",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2022
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2020-21",
+                    "events": "23",
+                    "officialMoney": "7,059,908",
+                    "second": "1",
+                    "standingsPoints": "E",
+                    "standingsRank": "26",
+                    "third": "-",
+                    "top10": "8",
+                    "top25": "11",
+                    "tourCode": "R",
+                    "wins": "2",
+                    "withdrawn": "-",
+                    "year": 2021
+                },
+                {
+                    "cutsMade": "19",
+                    "displaySeason": "2019-20",
+                    "events": "21",
+                    "officialMoney": "5,250,868",
+                    "second": "1",
+                    "standingsPoints": "-13",
+                    "standingsRank": "6",
+                    "third": "-",
+                    "top10": "7",
+                    "top25": "13",
+                    "tourCode": "R",
+                    "wins": "2",
+                    "withdrawn": "-",
+                    "year": 2020
+                },
+                {
+                    "cutsMade": "9",
+                    "displaySeason": "2018-19",
+                    "events": "9",
+                    "officialMoney": "1,754,890",
+                    "second": "1",
+                    "standingsPoints": "840",
+                    "standingsRank": "59",
+                    "third": "-",
+                    "top10": "3",
+                    "top25": "4",
+                    "tourCode": "R",
+                    "wins": "1",
+                    "withdrawn": "-",
+                    "year": 2019
+                },
+                {
+                    "cutsMade": "1",
+                    "displaySeason": "2017-18 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2018
+                },
+                {
+                    "cutsMade": "-",
+                    "displaySeason": "2016-17 (a)",
+                    "events": "1",
+                    "officialMoney": "-",
+                    "second": "-",
+                    "standingsPoints": "-",
+                    "standingsRank": "-",
+                    "third": "-",
+                    "top10": "-",
+                    "top25": "-",
+                    "tourCode": "R",
+                    "wins": "-",
+                    "withdrawn": "-",
+                    "year": 2017
+                }
+            ],
+            "officialMoney": "$34,859,707",
+            "tourPills": [
+                {
+                    "tourCode": null,
+                    "displayName": "All"
+                },
+                {
+                    "tourCode": "R",
+                    "displayName": "PGATOUR"
+                },
+                {
+                    "tourCode": "H",
+                    "displayName": "KORNFERRY"
+                }
+            ],
+            "achievements": [
+                {
+                    "title": "Events Played",
+                    "value": "121"
+                },
+                {
+                    "title": "PGA TOUR WINS",
+                    "value": "6"
+                },
+                {
+                    "title": "International Wins",
+                    "value": "1"
+                },
+                {
+                    "title": "Cuts Made",
+                    "value": "102/121"
+                },
+                {
+                    "title": "Runner Up",
+                    "value": "9"
+                },
+                {
+                    "title": "Third Place Finishes",
+                    "value": "2"
+                },
+                {
+                    "title": "Top 5 Finishes",
+                    "value": "27"
+                },
+                {
+                    "title": "Top 10 Finishes",
+                    "value": "41"
+                },
+                {
+                    "title": "Year Joined Tour",
+                    "value": "-"
+                },
+                {
+                    "title": "Official Money",
+                    "value": "$34,859,707"
+                }
+            ],
+            "tables": [
+                {
+                    "tableName": "PGA TOUR WINS",
+                    "tableDetail": "6",
+                    "rows": [
+                        {
+                            "rowTitle": "2022-2023",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2023 ZOZO CHAMPIONSHIP"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020-2021",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "2021 The Open Championship",
+                                "2021 World Golf Championships-Workday Championship at The Concession"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2019-2020",
+                            "rowTitleDetail": "2",
+                            "rowContent": [
+                                "2020 PGA Championship",
+                                "2020 Workday Charity Open"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2018-2019",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "2019 Barracuda Championship"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "International Wins",
+                    "tableDetail": "1",
+                    "rows": [
+                        {
+                            "rowTitle": "2021",
+                            "rowTitleDetail": "1",
+                            "rowContent": [
+                                "DP World Tour Championship"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                },
+                {
+                    "tableName": "Playoff Record",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2022-2023",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Rocket Mortgage Classic"
+                            ],
+                            "secondContent": [
+                                "Lost to Rickie Fowler, Adam Hadwin"
+                            ]
+                        },
+                        {
+                            "rowTitle": "2020-2021",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "the Memorial Tournament presented by Nationwide"
+                            ],
+                            "secondContent": [
+                                "Lost to Patrick Cantlay"
+                            ]
+                        },
+                        {
+                            "rowTitle": "2019-2020",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Charles Schwab Challenge",
+                                "Workday Charity Open"
+                            ],
+                            "secondContent": [
+                                "Lost to Daniel Berger",
+                                "Defeated Justin Thomas"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tableName": "National Teams",
+                    "tableDetail": null,
+                    "rows": [
+                        {
+                            "rowTitle": "2022, 2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Presidents Cup"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020, 2023",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Ryder Cup"
+                            ],
+                            "secondContent": null
+                        },
+                        {
+                            "rowTitle": "2020, 2024",
+                            "rowTitleDetail": null,
+                            "rowContent": [
+                                "Olympic Games"
+                            ],
+                            "secondContent": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
