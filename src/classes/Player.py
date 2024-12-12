@@ -10,10 +10,16 @@ class Player():
         self.country = country
         self.countryFlag = countryFlag
         self.headshot = headshot
-        self.playerBio = PlayerBio(**playerBio)
-
-    def __str__(self):
-        return "Year: {0} DisplaySeason: {1}".format(self.year, self.displaySeason)
+        self.age = playerBio['age']
+        self.education = playerBio['education']
+        self.turnedPro = playerBio['turnedPro']
+        # self.playerBio = PlayerBio(**playerBio)
+        
+    def ToArray(self):
+        return [self.id, self.isActive, self.firstName, self.lastName, 
+                self.shortName, self.displayName, self.alphaSort, 
+                self.country, self.countryFlag, self.headshot, 
+                self.age, self.education, self.turnedPro]
     
 class PlayerBio():
     def __init__(self, id, age, education, turnedPro):
