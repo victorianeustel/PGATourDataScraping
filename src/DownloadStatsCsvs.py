@@ -113,5 +113,3 @@ def GetStatCsvs(year: int):
             summary = 'Category: {0} | SubCategory: {1} | StatId: {2} | Path: {3}'.format(category, subCategory, statId, path)
             print(summary)
             
-            
-     

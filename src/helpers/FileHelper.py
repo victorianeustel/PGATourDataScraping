@@ -49,12 +49,23 @@ def DeleteEmptyDirectories(root):
 
     return deleted
 
-# Delete empty CSV Data files
-def DeleteEmptyDataFiles(path: str):
+
+def GetAllFilesInDirectory(path: str):
+    arr = []
     for subdir, dirs, files in os.walk(path):
         for file in files:
-            if file.endswith(".csv"):
-                fullPath = os.path.join(subdir, file)
-                isEmpty = IsCSVEmpty(os.path.join(subdir, file))
-                if isEmpty == True:
-                    os.remove(fullPath)
+            fullPath = os.path.join(subdir, file)
+            arr.append(fullPath)
+            
+    return arr
+
+# Delete empty CSV Data files
+def DeleteEmptyDataFiles(path: str):
+    allFiles = GetAllFilesInDirectory(path)
+    
+    for filePath in allFiles:
+        if filePath.endswith(".csv"):
+            isEmpty = IsCSVEmpty(filePath)
+            if isEmpty == True:
+                os.remove(filePath)
+                    
