@@ -68,4 +68,15 @@ def DeleteEmptyDataFiles(path: str):
             isEmpty = IsCSVEmpty(filePath)
             if isEmpty == True:
                 os.remove(filePath)
-                    
+
+def GetPathFromFilePath(file_path: str):
+    file_name = os.path.basename(file_path)
+    return file_name
+
+def GetFileExtension(file_name: str):
+    file = os.path.splitext(file_name)
+    return file[1]
+
+def GetFileNameWithoutExtension(file_name: str):
+    file = os.path.splitext(file_name)
+    return file[0]
