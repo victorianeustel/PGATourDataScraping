@@ -1,10 +1,12 @@
-from helpers.PathBuilder import *
-import requests
-from classes.StatCategory import StatCategory
-from helpers.JSONDataMapping import *
-from pathlib import Path
 import csv
 import os.path
+import requests
+from pathlib import Path
+
+from helpers.PathBuilder import *
+from classes.StatCategory import StatCategory
+from helpers.JSONDataMapping import *
+
 from helpers.FileHelper import CreateDirectory, CleanName
 
 # Call request for data and write file to data/<year>/...

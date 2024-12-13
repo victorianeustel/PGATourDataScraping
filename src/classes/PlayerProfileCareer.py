@@ -1,3 +1,7 @@
+from classes.PlayerAchievement import *
+from classes.Tour import TourPill
+from classes.PlayerYear import PlayerYear
+
 class PlayerProfileCareer(): 
     def __init__(self, playerId, tourCode, events, wins, winsTitle, internationalWins, majorWins, cutsMade, runnerUp, second, third, top10, top25, years, officialMoney, tourPills,achievements,tables):
         self.playerId = playerId
@@ -13,10 +17,10 @@ class PlayerProfileCareer():
         self.third = third
         self.top10 = top10
         self.top25 = top25
-        self.years = years
+        self.years = [PlayerYear(**y) for y in years]
         self.officialMoney = officialMoney
-        self.tourPills = tourPills
-        self.achievements = achievements
+        self.tourPills = [TourPill(**t) for t in tourPills]
+        self.achievements = [PlayerAchievement(**a) for a in achievements]
         self.tables = tables
         
     # Get array of property names

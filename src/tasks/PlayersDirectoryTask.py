@@ -1,6 +1,7 @@
-from JSONDataMapping import *
-from Player import *
-from GenerateCSVData import *
+from helpers.JSONDataMapping import *
+from classes.Player import *
+from helpers.GenerateCSVData import *
+from helpers.PGADataCalls import *
 
 players = GetPlayers()
 mapped_players = [Player(**p) for p in players]
@@ -11,3 +12,4 @@ with open('data/players/players_directory.csv', "w", newline='\n') as csvfile:
     writer.writerow(header)
     for player in mapped_players:
         writer.writerow(player.ToArray())
+        

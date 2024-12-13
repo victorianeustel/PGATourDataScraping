@@ -4,3 +4,6 @@ from .StatCategory import *
 from .Year import *
 from .StatSubCategory import *
 from .StatDetail import *
+from .Tour import *
+from .PlayerAchievement import *
+from .PlayerAchievement import PlayerAchievement
