@@ -5,7 +5,7 @@ from classes.Player import Player
 from classes.PlayerProfileCareer import PlayerProfileCareer
 from helpers.JSONDataMapping import *
 from helpers.CSVHelper import *
-from PGADataCalls import *
+from helpers.PGADataCalls import *
 import os
 from helpers.GenerateCSVData import *
 
