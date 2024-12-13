@@ -25,12 +25,6 @@ class PlayerProfileCareer():
         
     # Get array of property names
     def GetListOfPropertyNames(self):
-        # keys = self.__dict__.keys()
-        # keyList = [*keys]
-        # to_be_removed = {'years', 'tourPills', 'achievements', 'tables'}
-        # [item for item in keyList if item not in to_be_removed ]
-        # return keyList
-        
         arr =  ['playerId',
             'tourCode',
             'events',
