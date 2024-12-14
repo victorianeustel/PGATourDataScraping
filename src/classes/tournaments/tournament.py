@@ -1,17 +1,4 @@
-class Schedule():
-    def __init__(self, completed, filters, seasonYear, tour, upcoming):
-        self.seasonYear = seasonYear
-        self.tour = tour
-        self.filters = filters
-        self.upcoming = [ScheduleMonth(**u) for u in upcoming]
-        self.completed = [ScheduleMonth(**c) for c in completed]
-        
-class ScheduleMonth():
-    def __init__(self, month, year, monthSort, tournaments):
-        self.month = month
-        self.year = year
-        self.monthSort = monthSort
-        self.tournaments = [Tournament(month, year, **t) for t in tournaments]
+from .tournament_champion import *
 
 class Tournament:
     def __init__(self, month, year, tournamentName, id, beautyImage, champion, champions, championEarnings, championId, 
@@ -76,8 +63,3 @@ class Tournament:
                 self.tourStandingValue,
                 self.tournamentSiteURL ]
             
-class TournamentChampion():
-    def __init__(self, tournamentId, displayName, playerId):
-        self.tournamentId = tournamentId
-        self.displayName = displayName
-        self.playerId = playerId

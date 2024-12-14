@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from tour.year import Year
 from players.player import Player
 from players.player_profile_career import *
-from classes.Schedule import *
+from classes.tournaments.schedule import *
 
 from file_helper import *
 from json_data_mapping import *
@@ -13,7 +13,7 @@ from pga_data_calls import *
 from tasks.player_tasks.player_career_profile_task import *
 from tasks.player_tasks.players_directory_task import *
 from tasks.player_tasks.player_stats_task import *
-from tasks.schedule_tasks.schedule_task import *
+from tasks.tournament_tasks.schedule_task import *
 
 load_dotenv()
 set_api_key(os.environ.get('PGA_TOUR_API_KEY'))
