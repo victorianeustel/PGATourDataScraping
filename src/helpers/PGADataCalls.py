@@ -92,7 +92,7 @@ def GetPlayerScorecards(playerId:str):
 
     return response.json()
 
-def GetPlayerDirectory(playerId:str):
+def GetPlayerDirectory():
     data = {
         "operationName": "PlayerDirectory",
         "variables": {
@@ -108,7 +108,7 @@ def GetPlayer(playerId:str):
     data = {
         "operationName": "Player",
         "variables": {
-            "playerId": "49303"
+            "playerId": playerId
         },
         "query": "query Player($playerId: ID!) {\n  player(id: $playerId) {\n    bioLink\n    countryFlag\n    country\n    displayName\n    firstName\n    id\n    lastName\n    playerBio {\n      deceased\n      deceasedDate\n      age\n      birthplace {\n        countryCode\n        country\n        city\n        state\n        stateCode\n      }\n      born\n      bornAccessibilityText\n      degree\n      careerEarnings\n      family\n      graduationYear\n      heightImperial\n      heightImperialAccessibilityText\n      heightMeters\n      overview\n      personal\n      playsFrom {\n        city\n        country\n        countryCode\n        state\n        stateCode\n      }\n      pronunciation\n      residence {\n        city\n        country\n        state\n        countryCode\n        stateCode\n      }\n      school\n      social {\n        type\n        url\n      }\n      turnedPro\n      weightImperial\n      weightKilograms\n      websiteURL\n      exemptions {\n        tour\n        description\n        expirationDate\n      }\n    }\n    rank {\n      rank\n      statName\n    }\n    owgr\n  }\n}"
     }
@@ -120,7 +120,7 @@ def GetPlayerProfileCareer(playerId:str):
     data = {
         "operationName": "PlayerProfileCareer",
         "variables": {
-            "playerId": "49303",
+            "playerId": playerId,
             "tourCode": "R"
         },
         "query": "query PlayerProfileCareer($playerId: String!, $tourCode: TourCode) {\n  playerProfileCareer(playerId: $playerId, tourCode: $tourCode) {\n    playerId\n    tourCode\n    events\n    wins\n    winsTitle\n    internationalWins\n    majorWins\n    cutsMade\n    runnerUp\n    second\n    third\n    top10\n    top25\n    years {\n      cutsMade\n      displaySeason\n      events\n      officialMoney\n      second\n      standingsPoints\n      standingsRank\n      third\n      top10\n      top25\n      tourCode\n      wins\n      withdrawn\n      year\n    }\n    officialMoney\n    tourPills {\n      tourCode\n      displayName\n    }\n    achievements {\n      title\n      value\n    }\n    tables {\n      tableName\n      tableDetail\n      rows {\n        rowTitle\n        rowTitleDetail\n        rowContent\n        secondContent\n      }\n    }\n    years {\n      tourCode\n      displaySeason\n      year\n      events\n      wins\n      second\n      third\n      top10\n      top25\n      cutsMade\n      withdrawn\n      officialMoney\n      standingsPoints\n      standingsRank\n    }\n  }\n}"
@@ -133,7 +133,7 @@ def GetPlayerProfileSeasonResults(playerId:str):
     data = {
         "operationName": "PlayerProfileSeasonResults",
         "variables": {
-            "playerId": "49303"
+            "playerId": playerId
         },
         "query": "query PlayerProfileSeasonResults($playerId: ID!, $tourCode: TourCode, $year: Int) {\n  playerProfileSeasonResults(\n    playerId: $playerId\n    tourCode: $tourCode\n    year: $year\n  ) {\n    playerId\n    tour\n    displayYear\n    year\n    events\n    wins\n    top10\n    top25\n    cutsMade\n    missedCuts\n    withdrew\n    runnerUp\n    seasonPills {\n      tourCode\n      years {\n        year\n        displaySeason\n      }\n    }\n    cupRank\n    cupPoints\n    cupName\n    cupLogo\n    cupLogoDark\n    cupLogoAccessibilityText\n    rankLogo\n    rankLogoDark\n    rankLogoAccessibilityText\n    officialMoney\n    tournaments {\n      linkable\n      tournamentId\n      tournamentEndDate\n      tournamentName\n      finishPosition\n      r1\n      r2\n      r3\n      r4\n      r5\n      total\n      toPar\n      pointsRank\n      points\n      money\n      tourcastURL\n      tourcastURLWeb\n      linkable\n      fedexFallRank\n      fedexFallPoints\n      courseName\n      courseId\n    }\n    seasonRecap {\n      tourCode\n      displayMostRecentSeason\n      mostRecentRecapYear\n      items {\n        year\n        displaySeason\n        items {\n          tournamentId\n          year\n          title\n          body\n        }\n      }\n    }\n    amateurHighlights\n    tourcastEligible\n    secondaryCup {\n      cupRank\n      cupPoints\n      cupName\n      cupLogo\n      cupLogoDark\n      cupLogoAccessibilityText\n      rankLogo\n      rankLogoDark\n      rankLogoAccessibilityText\n    }\n  }\n}"
     }
@@ -141,12 +141,12 @@ def GetPlayerProfileSeasonResults(playerId:str):
 
     return response.json()
 
-def GetPlayerScorecardCompressed(playerId:str):
+def GetPlayerScorecardCompressed(playerId:str, tournamentId: str):
     data = {
         "operationName": "ScorecardCompressedV3",
         "variables": {
-            "tournamentId": "R2024493",
-            "playerId": "49303"
+            "tournamentId": tournamentId,
+            "playerId": playerId
         },
         "query": "query ScorecardCompressedV3($tournamentId: ID!, $playerId: ID!) {\n  scorecardCompressedV3(tournamentId: $tournamentId, playerId: $playerId) {\n    id\n    payload\n  }\n}"
     }
@@ -154,14 +154,14 @@ def GetPlayerScorecardCompressed(playerId:str):
 
     return response.json()
 
-def GetCourseStatDetails():
+def GetCourseStatDetails(year: int):
     data = {
         "operationName": "CourseStatsDetails",
         "variables": {
             "tourCode": "R",
             "queryType": "TOUGHEST_COURSE",
             "round": "ALL",
-            "year": 2024
+            "year": year
         },
         "query": "query CourseStatsDetails($tourCode: TourCode!, $queryType: CourseStatsId!, $round: ToughestRound, $year: Int) {\n  courseStatsDetails(\n    tourCode: $tourCode\n    queryType: $queryType\n    round: $round\n    year: $year\n  ) {\n    tourCode\n    year\n    round\n    displayYear\n    seasons {\n      year\n      displaySeason\n    }\n    headers\n    displayName\n    tableName\n    rows {\n      rank\n      displayName\n      values {\n        value\n        tendency\n      }\n      tournamentId\n      tournamentName\n    }\n    shareURL\n    roundPills {\n      display\n      queryVal\n    }\n  }\n}"
     }
@@ -169,12 +169,12 @@ def GetCourseStatDetails():
 
     return response.json()
 
-def GetCourseStatOverview():
+def GetCourseStatOverview(year: int):
     data = {
         "operationName": "CourseStatsOverview",
         "variables": {
             "tourCode": "R",
-            "year": 2024
+            "year": year
         },
         "query": "query CourseStatsOverview($tourCode: TourCode!, $year: Int) {\n  courseStatsOverview(tourCode: $tourCode, year: $year) {\n    tourCode\n    year\n    categories {\n      header\n      detailId\n      items {\n        displayName\n        rank\n        image\n        details {\n          value\n          label\n        }\n      }\n    }\n  }\n}"
     }

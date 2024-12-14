@@ -17,10 +17,10 @@ class PlayerProfileCareer():
         self.third = third
         self.top10 = top10
         self.top25 = top25
-        self.years = [PlayerYear(**y) for y in years]
+        self.years = [PlayerYear(playerId, **y) for y in years]
         self.officialMoney = officialMoney
         self.tourPills = [TourPill(**t) for t in tourPills]
-        self.achievements = [PlayerAchievement(**a) for a in achievements]
+        self.achievements = [PlayerAchievement(playerId, **a) for a in achievements]
         self.tables = tables
         
     # Get array of property names

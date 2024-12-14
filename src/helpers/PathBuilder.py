@@ -14,7 +14,7 @@ def GetStatsPath(statsId: int, year: int, tourCode: str = 'R', timePeriod:str = 
     print(path)
     return path
 
-    # path = 'https://www.usga.org/Home/GetClubsActionResult?clubCity=&clubState=&clubName=&assocNum=19'
+# path = 'https://www.usga.org/Home/GetClubsActionResult?clubCity=&clubState=&clubName=&assocNum=19'
 def GetUSGACourses(clubCity: str = "", clubState: str = "", clubName: str = "", assocNum: str = ""):
     url = 'https://www.usga.org/Home/GetClubsActionResult?'
     params = {
