@@ -3,15 +3,15 @@ import os.path
 import requests
 from pathlib import Path
 
-from helpers.PathBuilder import *
-from classes.StatCategory import StatCategory
-from helpers.JSONDataMapping import *
+from path_builder import *
+from classes.player_stats.stat_category import StatCategory
+from json_data_mapping import *
 
-from helpers.FileHelper import CreateDirectory, CleanName
+from file_helper import CreateDirectory, CleanName
 
 # Call request for data and write file to data/<year>/...
-def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath: str):    
-    path = GetStatsPath(year=year, statsId= statId)
+def call_and_write_stat_data(category, subcategory, year: int, statId: int, filePath: str):    
+    path = get_stats_path(year=year, statsId= statId)
     x = requests.get(path)
     
     if (x.status_code != 200):
@@ -34,8 +34,8 @@ def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath
             file.write(x.content)
     
 # Get all CSV stat detail files for a given year
-def GetStatCsvs(year: int):
-    categories = GetStatCategories()
+def get_stat_csvs(year: int):
+    categories = get_stat_categories()
     categories = [StatCategory(**c) for c in categories]
 
     stat_details = []
@@ -92,7 +92,7 @@ def GetStatCsvs(year: int):
             # if file does not exist currently, call it 
             if current_file.is_file(): continue
             else:
-                try: CallAndWriteStatData(category, subCategory, year, statId, path)
+                try: call_and_write_stat_data(category, subCategory, year, statId, path)
                 except Exception: continue
                         
     # Create file mapper file

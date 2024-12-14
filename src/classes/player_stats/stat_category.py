@@ -1,4 +1,4 @@
-from  .StatSubCategory import StatSubCategory
+from  .stat_sub_category import StatSubCategory
 
 class StatCategory():
     def __init__(self, category, displayName, subCategories):
