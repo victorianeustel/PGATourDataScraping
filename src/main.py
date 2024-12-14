@@ -9,7 +9,6 @@ from helpers.FileHelper import *
 from helpers.JSONDataMapping import *
 from helpers.CSVHelper import *
 from helpers.PGADataCalls import *
-from helpers.GenerateCSVData import *
 
 from tasks.PlayerCareerProfileTask import *
 from tasks.PlayersDirectoryTask import *

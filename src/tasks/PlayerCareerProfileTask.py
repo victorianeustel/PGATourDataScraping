@@ -3,7 +3,7 @@ from helpers.PGADataCalls import *
 from classes.Player import *
 from classes.PlayerProfileCareer import *
 from helpers.CSVHelper import *
-from helpers.GenerateCSVData import *
+from helpers.CSVHelper import *
 from .PlayerYearsTask import *
 from .PlayerAchievementsTask import *
 

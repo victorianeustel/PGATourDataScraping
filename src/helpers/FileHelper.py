@@ -58,7 +58,13 @@ def GetAllFilesInDirectory(path: str):
             arr.append(fullPath)
             
     return arr
-
+            
+# def CreateDirectory(path):
+#     print(path)
+#     if (os.path.isdir(path)):
+#         return
+#     os.mkdir(path)
+    
 # Delete empty CSV Data files
 def DeleteEmptyDataFiles(path: str):
     allFiles = GetAllFilesInDirectory(path)

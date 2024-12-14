@@ -3,10 +3,10 @@ import os.path
 import requests
 from pathlib import Path
 
-from helpers.PathBuilder import *
 from classes.StatCategory import StatCategory
-from helpers.JSONDataMapping import *
 
+from helpers.PathBuilder import *
+from helpers.JSONDataMapping import *
 from helpers.FileHelper import CreateDirectory, CleanName
 
 # Call request for data and write file to data/<year>/...

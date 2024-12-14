@@ -1,6 +1,6 @@
 from helpers.JSONDataMapping import *
 from classes.Player import *
-from helpers.GenerateCSVData import *
+from helpers.CSVHelper import *
 from helpers.PGADataCalls import *
 
 def RunGetPlayersDirectoryTask(players: list[Player]):

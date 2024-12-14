@@ -17,14 +17,3 @@ def GetYears():
     years = data['pageProps']['statDetails']['yearPills']
     return years
 
-def GetPlayers():
-    data = LoadJSON('data/players/players-directory.json')
-
-    players = data['data']['playerDirectory']['players']
-    return players
-
-def GetPlayerJsonData(playerId: str):
-    data = LoadJSON('data/players/jsonData/' + playerId + '.json')
-        
-    return data
-

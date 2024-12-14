@@ -3,7 +3,6 @@ from helpers.PGADataCalls import *
 from classes.Player import *
 from classes.PlayerProfileCareer import *
 from helpers.CSVHelper import *
-from helpers.GenerateCSVData import * 
 
 def RunPlayersAchievementsTask(playerData: list[PlayerProfileCareer]):
     print(playerData)
