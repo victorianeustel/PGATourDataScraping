@@ -1,6 +1,7 @@
 import os
-from CSVHelper import IsCSVEmpty
+from .CSVHelper import IsCSVEmpty
 
+# Create directory 
 def CreateDirectory(directory_name):
     try:
         os.mkdir(directory_name)
@@ -29,6 +30,7 @@ def CleanName(name: str):
 
     return cleaned_name
 
+# Delete empty directories starting from child directory up
 def DeleteEmptyDirectories(root):
 
     deleted = set()
@@ -47,11 +49,34 @@ def DeleteEmptyDirectories(root):
 
     return deleted
 
-def DeleteEmptyDataFiles(path: str):
+
+def GetAllFilesInDirectory(path: str):
+    arr = []
     for subdir, dirs, files in os.walk(path):
         for file in files:
-            if file.endswith(".csv"):
-                fullPath = os.path.join(subdir, file)
-                isEmpty = IsCSVEmpty(os.path.join(subdir, file))
-                if isEmpty == True:
-                    os.remove(fullPath)
+            fullPath = os.path.join(subdir, file)
+            arr.append(fullPath)
+            
+    return arr
+
+# Delete empty CSV Data files
+def DeleteEmptyDataFiles(path: str):
+    allFiles = GetAllFilesInDirectory(path)
+    
+    for filePath in allFiles:
+        if filePath.endswith(".csv"):
+            isEmpty = IsCSVEmpty(filePath)
+            if isEmpty == True:
+                os.remove(filePath)
+
+def GetPathFromFilePath(file_path: str):
+    file_name = os.path.basename(file_path)
+    return file_name
+
+def GetFileExtension(file_name: str):
+    file = os.path.splitext(file_name)
+    return file[1]
+
+def GetFileNameWithoutExtension(file_name: str):
+    file = os.path.splitext(file_name)
+    return file[0]

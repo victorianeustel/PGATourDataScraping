@@ -1,14 +1,17 @@
-from helpers.PathBuilder import *
-import requests
-from classes.StatCategory import StatCategory
-from helpers.JSONDataMapping import *
-from pathlib import Path
 import csv
 import os.path
+import requests
+from pathlib import Path
+
+from helpers.PathBuilder import *
+from classes.StatCategory import StatCategory
+from helpers.JSONDataMapping import *
+
 from helpers.FileHelper import CreateDirectory, CleanName
 
+# Call request for data and write file to data/<year>/...
 def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath: str):    
-    path = get_stats_path(year=year, statsId= statId)
+    path = GetStatsPath(year=year, statsId= statId)
     x = requests.get(path)
     
     if (x.status_code != 200):
@@ -30,12 +33,15 @@ def CallAndWriteStatData(category, subcategory, year: int, statId: int, filePath
         with open(filePath, "wb") as file:
             file.write(x.content)
     
+# Get all CSV stat detail files for a given year
 def GetStatCsvs(year: int):
     categories = GetStatCategories()
     categories = [StatCategory(**c) for c in categories]
 
     stat_details = []
     current_year = str(year)
+    
+    # Dict
     stat_ids_dict = {}
 
     for c in categories:
@@ -51,7 +57,8 @@ def GetStatCsvs(year: int):
                 obj['statTitle'] = sd.statTitle
                 obj['statId'] = sd.statId
                 
-                if sd.statId in stat_ids_dict:
+                # If stat id is a duplicate
+                if (sd.statId in stat_ids_dict):
                     obj['path'] = stat_ids_dict[sd.statId]
                     obj['duplicatedStatId'] = True
                 else:
@@ -61,14 +68,13 @@ def GetStatCsvs(year: int):
                     obj['duplicatedStatId'] = False
 
                 stat_details.append(obj)
-
-    error_data = []
-
+                
+    # Mapping stat file data
     stat_detail_rows = []
     stat_detail_headers = ['Year', 'Index', 'Category', 'Subcategory', 'StatId', 'StatTitle', 'LocalPath']
     stat_detail_rows.append(stat_detail_headers)
 
-    for index, v in enumerate(stat_details):
+    for (index, v) in enumerate(stat_details):
         print('Progress: {0}/{1}'.format(index, len(stat_details)), flush=True )
 
         statId = v['statId']
@@ -76,34 +82,22 @@ def GetStatCsvs(year: int):
         subcategory = v['subCategory']
         path = v['path']
         statTitle = v['statTitle']
-        summary = 'Index: {0} | Category: {1} | SubCategory: {2} | StatId: {3} | Path: {4}'.format(index,category, subCategory, statId, path)
 
         row = [current_year, str(index), category, subcategory, statId, statTitle, path]
         stat_detail_rows.append(row)
         
-        if v['duplicatedStatId'] == False:
+        if (v['duplicatedStatId'] == False):
             current_file = Path(path)
             
             # if file does not exist currently, call it 
-            if current_file.is_file():
-                continue
+            if current_file.is_file(): continue
             else:
-                try:
-                    CallAndWriteStatData(category, subCategory, year, statId, path)
-                except Exception:
-                    error_data.append(v)
-                    print('ERROR: ' + summary)
-                    continue
+                try: CallAndWriteStatData(category, subCategory, year, statId, path)
+                except Exception: continue
                         
     # Create file mapper file
     with open('data/' + current_year +'/file_map.csv', "w", newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
         for row in stat_detail_rows:
             writer.writerow(row)
-
-    # Print errors
-    if error_data:
-        print('---------ERRORS---------')
-        for error in error_data:
-            summary = 'Category: {0} | SubCategory: {1} | StatId: {2} | Path: {3}'.format(category, subCategory, statId, path)
-            print(summary)
+            
