@@ -209,11 +209,11 @@ def get_tournaments_past_results(tournamentId: str, year: str = None):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def get_schedule(year:str = "2025"):
+def get_schedule(year:str = "2025", tourCode: str = "R"):
     data = {
         "operationName": "Schedule",
         "variables": {
-            "tourCode": "R",
+            "tourCode": tourCode,
             "year": year
         },
         "query": "query Schedule($tourCode: String!, $year: String, $filter: TournamentCategory) {\n  schedule(tourCode: $tourCode, year: $year, filter: $filter) {\n    completed {\n      month\n      year\n      monthSort\n      ...ScheduleTournament\n    }\n    filters {\n      type\n      name\n    }\n    seasonYear\n    tour\n    upcoming {\n      month\n      year\n      monthSort\n      ...ScheduleTournament\n    }\n  }\n}\n\nfragment ScheduleTournament on ScheduleMonth {\n  tournaments {\n    tournamentName\n    id\n    beautyImage\n    champion\n    champions {\n      displayName\n      playerId\n    }\n    championEarnings\n    championId\n    city\n    country\n    countryCode\n    courseName\n    date\n    dateAccessibilityText\n    purse\n    sortDate\n    startDate\n    state\n    stateCode\n    status {\n      roundDisplay\n      roundStatus\n      roundStatusColor\n      roundStatusDisplay\n    }\n    tournamentStatus\n    ticketsURL\n    tourStandingHeading\n    tourStandingValue\n    tournamentLogo\n    display\n    sequenceNumber\n    tournamentCategoryInfo {\n      type\n      logoLight\n      logoDark\n      label\n    }\n    tournamentSiteURL\n    tournamentStatus\n    useTournamentSiteURL\n  }\n}"
@@ -222,11 +222,11 @@ def get_schedule(year:str = "2025"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def get_schedule_years():
+def get_schedule_years(tourCode: str = "R"):
     data = {
         "operationName": "ScheduleYears",
         "variables": {
-            "tourCode": "H"
+            "tourCode": tourCode
         },
         "query": "query ScheduleYears($tourCode: TourCode!) {\n  scheduleYears(tourCode: $tourCode) {\n    years {\n      default\n      displayValue\n      queryValue\n    }\n  }\n}"
     }
@@ -234,15 +234,52 @@ def get_schedule_years():
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def get_upcoming_tournaments():
+def get_upcoming_tournaments(tourCode: str = "R"):
     data = {
         "operationName": "UpcomingSchedule",
         "variables": {
-            "tourCode": "H"
+            "tourCode": tourCode
         },
         "query": "query UpcomingSchedule($tourCode: String!, $year: String) {\n  upcomingSchedule(tourCode: $tourCode, year: $year) {\n    id\n    tournaments {\n      id\n      date\n      startDate\n      dateAccessibilityText\n      tournamentName\n      tournamentLogo\n      city\n      state\n      stateCode\n      country\n      countryCode\n      courseName\n      champion\n      championId\n      champions {\n        displayName\n        playerId\n      }\n      championEarnings\n      beautyImage\n      status {\n        roundStatusDisplay\n        roundDisplay\n        roundStatus\n        roundStatusColor\n      }\n      sortDate\n      sequenceNumber\n      purse\n      ticketsURL\n      tourStandingHeading\n      tourStandingValue\n      tournamentLogo\n      tournamentName\n      tournamentStatus\n      display\n      ticketsURL\n      sequenceNumber\n      tournamentSiteURL\n      useTournamentSiteURL\n    }\n  }\n}"
     }
     
     response = requests.post(url, headers=headers, json=data)
     return response.json()
+
+def get_tournament_weather(tournamentId: str):
+    data = {
+        "operationName": "Weather",
+        "variables": {
+            "tournamentId": tournamentId
+        },
+        "query": "query Weather($tournamentId: ID!) {\n  weather(tournamentId: $tournamentId) {\n    title\n    sponsorLogo\n    accessibilityText\n    hourly {\n      title\n      condition\n      windDirection\n      windSpeedKPH\n      windSpeedMPH\n      humidity\n      precipitation\n      temperature {\n        ... on StandardWeatherTemp {\n          __typename\n          tempC\n          tempF\n        }\n        ... on RangeWeatherTemp {\n          __typename\n          minTempC\n          minTempF\n          maxTempC\n          maxTempF\n        }\n      }\n    }\n    daily {\n      title\n      condition\n      windDirection\n      windSpeedKPH\n      windSpeedMPH\n      humidity\n      precipitation\n      temperature {\n        ... on StandardWeatherTemp {\n          __typename\n          tempC\n          tempF\n        }\n        ... on RangeWeatherTemp {\n          __typename\n          minTempC\n          minTempF\n          maxTempC\n          maxTempF\n        }\n      }\n    }\n  }\n}"
+    }
     
+    response = requests.post(url, headers=headers, json=data)
+    return response.json()
+
+def get_tournament_recap(tournamentId: str):
+    data = {
+        "operationName": "TournamentRecap",
+        "variables": {
+            "tournamentId": "R2023003",
+            "limit": 20
+        },
+        "query": "query TournamentRecap($tournamentId: String!, $limit: Int, $offset: Int) {\n  tournamentRecap(tournamentId: $tournamentId, limit: $limit, offset: $offset) {\n    tournamentId\n    durationDate\n    courses {\n      id\n      image\n      name\n      city\n      state\n      country\n      par\n      yardage\n    }\n    newsArticles {\n      id\n      headline\n      teaserHeadline\n      teaserContent\n      articleImage\n      url\n      shareURL\n      publishDate\n      updateDate\n      franchise\n      franchiseDisplayName\n      sponsor {\n        name\n        description\n        sponsorPrefix\n        logo\n        logoDark\n        image\n        websiteUrl\n        gam\n      }\n      brightcoveId\n      externalLinkOverride\n    }\n    videos {\n      ...VideoFragment\n    }\n  }\n}\n\nfragment VideoFragment on Video {\n  category\n  categoryDisplayName\n  created\n  description\n  descriptionNode {\n    ... on NewsArticleText {\n      __typename\n      value\n    }\n    ... on NewsArticleLink {\n      __typename\n      segments {\n        type\n        value\n        data\n        id\n        format {\n          variants\n        }\n        imageOrientation\n        imageDescription\n      }\n    }\n  }\n  duration\n  franchise\n  franchiseDisplayName\n  holeNumber\n  id\n  playerVideos {\n    firstName\n    id\n    lastName\n    shortName\n  }\n  poster\n  pubdate\n  roundNumber\n  shareUrl\n  shotNumber\n  startsAt\n  endsAt\n  thumbnail\n  title\n  tournamentId\n  tourCode\n  year\n  accountId\n  gamAccountId\n  videoAccountId\n  seqHoleNumber\n  sponsor {\n    name\n    description\n    logoPrefix\n    logo\n    logoDark\n    image\n    websiteUrl\n    gam\n  }\n  pinned\n  contentTournamentId\n}"
+    }
+    
+    response = requests.post(url, headers=headers, json=data)
+    return response.json()
+
+def get_tour_cup_split():
+    data = {
+        "operationName": "TourCupSplit",
+        "variables": {
+            "tourCode": "R",
+            "id": "fedex",
+            "year": 2024
+        },
+        "query": "query TourCupSplit($tourCode: TourCode!, $id: String, $year: Int, $eventQuery: StatDetailEventQuery) {\n  tourCupSplit(tourCode: $tourCode, id: $id, year: $year, eventQuery: $eventQuery) {\n    ...TourCupSplitMeta\n    fixedHeaders\n    columnHeaders\n    rankingsHeader\n    rankEyebrow\n    pointsEyebrow\n    message\n    partner\n    partnerLink\n    projectedPlayers {\n      ...Player\n      ...InfoRow\n    }\n    officialPlayers {\n      ...Player\n      ...InfoRow\n    }\n    yearPills {\n      year\n      displaySeason\n    }\n    winner {\n      id\n      rank\n      firstName\n      lastName\n      displayName\n      shortName\n      countryFlag\n      country\n      earnings\n      totals {\n        label\n        value\n      }\n    }\n  }\n}\n\nfragment TourCupSplitMeta on TourCupSplit {\n  id\n  title\n  detailCopy\n  projectedTitle\n  projectedLive\n  season\n  description\n  logo\n  options\n  tournamentPills {\n    tournamentId\n    displayName\n  }\n}\n\nfragment Player on TourCupCombinedPlayer {\n  __typename\n  id\n  firstName\n  lastName\n  displayName\n  shortName\n  countryFlag\n  country\n  rankingData {\n    projected\n    official\n    event\n    movement\n    movementAmount\n    logo\n    logoDark\n  }\n  pointData {\n    projected\n    official\n    event\n    movement\n    movementAmount\n    logo\n    logoDark\n  }\n  projectedSort\n  officialSort\n  thisWeekRank\n  previousWeekRank\n  columnData\n  tourBound\n}\n\nfragment InfoRow on TourCupCombinedInfo {\n  logo\n  logoDark\n  text\n  sortValue\n  toolTip\n}"
+    }
+    response = requests.post(url, headers=headers, json=data)
+    return response.json()

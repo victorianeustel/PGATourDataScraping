@@ -1,5 +1,5 @@
 import os
-from .csv_helper import IsCSVEmpty
+from .csv_helper import *
 
 # Create directory 
 def create_directory(directory_name):
@@ -71,7 +71,7 @@ def delete_empty_data_files(path: str):
     
     for filePath in allFiles:
         if filePath.endswith(".csv"):
-            isEmpty = IsCSVEmpty(filePath)
+            isEmpty = is_csv_empty(filePath)
             if isEmpty == True:
                 os.remove(filePath)
 

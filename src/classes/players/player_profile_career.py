@@ -1,6 +1,6 @@
-from players.player_achievement import *
-from tour.tour import TourPill
-from players.player_year import PlayerYear
+from .player_achievement import *
+from classes.tour.tour import *
+from .player_year import PlayerYear
 
 class PlayerProfileCareer(): 
     def __init__(self, playerId, tourCode, events, wins, winsTitle, internationalWins, majorWins, cutsMade, runnerUp, second, third, top10, top25, years, officialMoney, tourPills,achievements,tables):
@@ -19,7 +19,7 @@ class PlayerProfileCareer():
         self.top25 = top25
         self.years = [PlayerYear(playerId, **y) for y in years]
         self.officialMoney = officialMoney
-        self.tourPills = [TourPill(**t) for t in tourPills]
+        self.tourPills = [Tour(**t) for t in tourPills]
         self.achievements = [PlayerAchievement(playerId, **a) for a in achievements]
         self.tables = tables
         
