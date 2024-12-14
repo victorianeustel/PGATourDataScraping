@@ -7,3 +7,4 @@ from .StatDetail import *
 from .Tour import *
 from .PlayerAchievement import *
 from .PlayerAchievement import PlayerAchievement
+from .Schedule import *

@@ -11,13 +11,15 @@ class ScheduleMonth():
         self.month = month
         self.year = year
         self.monthSort = monthSort
-        self.tournaments = [Tournament(**t) for t in tournaments]
+        self.tournaments = [Tournament(month, year, **t) for t in tournaments]
 
 class Tournament:
-    def __init__(self, tournamentName, id, beautyImage, champion, champions, championEarnings, championId, 
+    def __init__(self, month, year, tournamentName, id, beautyImage, champion, champions, championEarnings, championId, 
                 city, country, countryCode, courseName, date, dateAccessibilityText, purse, sortDate, startDate, 
                 state, stateCode, status, tournamentStatus, ticketsURL, tourStandingHeading, tourStandingValue, 
                 tournamentLogo, display, sequenceNumber, tournamentCategoryInfo, tournamentSiteURL, useTournamentSiteURL):
+        self.month = month
+        self.year = year
         self.tournamentName = tournamentName
         self.id = id
         self.beautyImage = beautyImage
@@ -50,7 +52,30 @@ class Tournament:
 
     def __repr__(self):
         return f"Tournament(tournamentName={self.tournamentName}, tournament_id={self.id}, city={self.city}, country={self.country}, date={self.date})"
-
+    
+    def ToArray(self):
+        return [self.month,
+                self.year,
+                self.id,
+                self.tournamentName,
+                self.champion,
+                self.championEarnings,
+                self.championId,
+                self.city,
+                self.country,
+                self.countryCode,
+                self.courseName,
+                self.date,
+                self.purse,
+                self.startDate,
+                self.state,
+                self.stateCode,
+                self.status,
+                self.tournamentStatus,
+                self.tourStandingHeading,
+                self.tourStandingValue,
+                self.tournamentSiteURL ]
+            
 class TournamentChampion():
     def __init__(self, tournamentId, displayName, playerId):
         self.tournamentId = tournamentId
