@@ -1,6 +1,6 @@
 import unittest
 from urllib.parse import urlparse, parse_qsl
-from helpers.PathBuilder import get_stats_path 
+from path_builder import get_stats_path 
 
 class PathBuilderTests(unittest.TestCase):
 

@@ -1,4 +1,4 @@
-from .StatDetail import StatDetail
+from .stat_detail import StatDetail
 
 class StatSubCategory():
     def __init__(self, displayName, stats):

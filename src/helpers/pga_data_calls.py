@@ -1,7 +1,7 @@
 import requests
 
 api_key = ""
-def SetAPIKey(key: str):
+def set_api_key(key: str):
     api_key = key
 
 url = "https://orchestrator.pgatour.com/graphql"
@@ -11,12 +11,12 @@ headers = {
     "x-api-key": api_key,
 }
     
-def GetPlayerData(playerId: str, tourCode: str = "R"):
+def get_player_data(playerId: str):
     data = {
         "operationName":"PlayerProfileCareer",
         "variables":{
             "playerId": playerId,
-            "tourCode": tourCode
+            "tourCode":"R"
             },
         "query": "query PlayerProfileCareer($playerId: String!, $tourCode: TourCode) {\n  playerProfileCareer(playerId: $playerId, tourCode: $tourCode) {\n    playerId\n    tourCode\n    events\n    wins\n    winsTitle\n    internationalWins\n    majorWins\n    cutsMade\n    runnerUp\n    second\n    third\n    top10\n    top25\n    years {\n      cutsMade\n      displaySeason\n      events\n      officialMoney\n      second\n      standingsPoints\n      standingsRank\n      third\n      top10\n      top25\n      tourCode\n      wins\n      withdrawn\n      year\n    }\n    officialMoney\n    tourPills {\n      tourCode\n      displayName\n    }\n    achievements {\n      title\n      value\n    }\n    tables {\n      tableName\n      tableDetail\n      rows {\n        rowTitle\n        rowTitleDetail\n        rowContent\n        secondContent\n      }\n    }\n    years {\n      tourCode\n      displaySeason\n      year\n      events\n      wins\n      second\n      third\n      top10\n      top25\n      cutsMade\n      withdrawn\n      officialMoney\n      standingsPoints\n      standingsRank\n    }\n  }\n}"
         }
@@ -24,11 +24,11 @@ def GetPlayerData(playerId: str, tourCode: str = "R"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetStatsOverview(year: int, tourCode: str = "R"):
+def get_stats_overview(year: int):
     data = {
         "operationName":"StatOverview",
         "variables":{
-            "tourCode": tourCode,
+            "tourCode": "R",
             "year": year
         },
         "query": "query StatOverview($tourCode: TourCode!, $year: Int) {\n  statOverview(tourCode: $tourCode, year: $year) {\n    tourCode\n    year\n    categories {\n      category\n      displayName\n      subCategories {\n        displayName\n        stats {\n          statId\n          statTitle\n        }\n      }\n      categoryType\n    }\n    stats {\n      statName\n      tourAvg\n      statId\n      players {\n        statId\n        playerId\n        statTitle\n        statValue\n        playerName\n        rank\n        country\n        countryFlag\n      }\n    }\n  }\n}"        
@@ -37,7 +37,7 @@ def GetStatsOverview(year: int, tourCode: str = "R"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerFullStatsOverview(playerId:str):
+def get_player_full_stats_overview(playerId:str):
     data = {
         "operationName":"ProfileStatsFullV2",
         "variables":{
@@ -48,7 +48,7 @@ def GetPlayerFullStatsOverview(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerStatsYears(playerId:str):
+def get_player_stats_years(playerId:str):
     data = {
         "operationName":"PlayerProfileStatsYears",
         "variables":{
@@ -60,7 +60,7 @@ def GetPlayerStatsYears(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileStandings(playerId:str):
+def get_player_profile_standings(playerId:str):
     data = {
         "operationName":"PlayerProfileStandings",
         "variables":{
@@ -71,7 +71,7 @@ def GetPlayerProfileStandings(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerScorecards(playerId:str):
+def get_player_scorecards(playerId:str):
     data = {
         "operationName":"PlayerProfileScorecards",
         "variables":{
@@ -82,11 +82,11 @@ def GetPlayerScorecards(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerDirectory(tourCode: str = "R"):
+def get_player_directory():
     data = {
         "operationName": "PlayerDirectory",
         "variables": {
-            "tourCode": tourCode
+            "tourCode": "R"
         },
         "query": "query PlayerDirectory($tourCode: TourCode!, $active: Boolean) {\n  playerDirectory(tourCode: $tourCode, active: $active) {\n    tourCode\n    players {\n      id\n      isActive\n      firstName\n      lastName\n      shortName\n      displayName\n      alphaSort\n      country\n      countryFlag\n      headshot\n      playerBio {\n        id\n        age\n        education\n        turnedPro\n      }\n    }\n  }\n}"
     }
@@ -94,7 +94,7 @@ def GetPlayerDirectory(tourCode: str = "R"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayer(playerId:str):
+def get_player(playerId:str):
     data = {
         "operationName": "Player",
         "variables": {
@@ -106,12 +106,12 @@ def GetPlayer(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileCareer(playerId:str, tourCode: str = "R"):
+def get_player_profile_career(playerId:str):
     data = {
         "operationName": "PlayerProfileCareer",
         "variables": {
             "playerId": playerId,
-            "tourCode": tourCode
+            "tourCode": "R"
         },
         "query": "query PlayerProfileCareer($playerId: String!, $tourCode: TourCode) {\n  playerProfileCareer(playerId: $playerId, tourCode: $tourCode) {\n    playerId\n    tourCode\n    events\n    wins\n    winsTitle\n    internationalWins\n    majorWins\n    cutsMade\n    runnerUp\n    second\n    third\n    top10\n    top25\n    years {\n      cutsMade\n      displaySeason\n      events\n      officialMoney\n      second\n      standingsPoints\n      standingsRank\n      third\n      top10\n      top25\n      tourCode\n      wins\n      withdrawn\n      year\n    }\n    officialMoney\n    tourPills {\n      tourCode\n      displayName\n    }\n    achievements {\n      title\n      value\n    }\n    tables {\n      tableName\n      tableDetail\n      rows {\n        rowTitle\n        rowTitleDetail\n        rowContent\n        secondContent\n      }\n    }\n    years {\n      tourCode\n      displaySeason\n      year\n      events\n      wins\n      second\n      third\n      top10\n      top25\n      cutsMade\n      withdrawn\n      officialMoney\n      standingsPoints\n      standingsRank\n    }\n  }\n}"
     }
@@ -119,7 +119,7 @@ def GetPlayerProfileCareer(playerId:str, tourCode: str = "R"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileSeasonResults(playerId:str):
+def get_player_profile_season_results(playerId:str):
     data = {
         "operationName": "PlayerProfileSeasonResults",
         "variables": {
@@ -131,7 +131,7 @@ def GetPlayerProfileSeasonResults(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerScorecardCompressed(playerId:str, tournamentId: str):
+def get_player_scorecards_compressed(playerId:str, tournamentId: str):
     data = {
         "operationName": "ScorecardCompressedV3",
         "variables": {
@@ -144,11 +144,11 @@ def GetPlayerScorecardCompressed(playerId:str, tournamentId: str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetCourseStatDetails(year: int, tourCode: str = "R"):
+def get_course_stat_details(year: int):
     data = {
         "operationName": "CourseStatsDetails",
         "variables": {
-            "tourCode": tourCode,
+            "tourCode": "R",
             "queryType": "TOUGHEST_COURSE",
             "round": "ALL",
             "year": year
@@ -159,11 +159,11 @@ def GetCourseStatDetails(year: int, tourCode: str = "R"):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetCourseStatOverview(year: int, tourCode: str = "R"):
+def get_course_stat_overviews(year: int):
     data = {
         "operationName": "CourseStatsOverview",
         "variables": {
-            "tourCode": tourCode,
+            "tourCode": "R",
             "year": year
         },
         "query": "query CourseStatsOverview($tourCode: TourCode!, $year: Int) {\n  courseStatsOverview(tourCode: $tourCode, year: $year) {\n    tourCode\n    year\n    categories {\n      header\n      detailId\n      items {\n        displayName\n        rank\n        image\n        details {\n          value\n          label\n        }\n      }\n    }\n  }\n}"
@@ -171,77 +171,3 @@ def GetCourseStatOverview(year: int, tourCode: str = "R"):
     
     response = requests.post(url, headers=headers, json=data)
     return response.json()
-
-def GetTournaments(tournamentIdsList: list[str]):
-    data = {
-        "operationName": "Tournaments",
-        "variables": {
-            "ids": tournamentIdsList
-        },
-        "query": "query Tournaments($ids: [ID!]) {\n  tournaments(ids: $ids) {\n    ...TournamentFragment\n  }\n}\n\nfragment TournamentFragment on Tournament {\n  id\n  tournamentName\n  tournamentLogo\n  tournamentLocation\n  tournamentStatus\n  roundStatusDisplay\n  roundDisplay\n  roundStatus\n  roundStatusColor\n  currentRound\n  timezone\n  pdfUrl\n  seasonYear\n  displayDate\n  country\n  state\n  city\n  scoredLevel\n  infoPath\n  events {\n    id\n    eventName\n    leaderboardId\n  }\n  courses {\n    id\n    courseName\n    courseCode\n    hostCourse\n    scoringLevel\n  }\n  weather {\n    logo\n    logoDark\n    logoAccessibility\n    tempF\n    tempC\n    condition\n    windDirection\n    windSpeedMPH\n    windSpeedKPH\n    precipitation\n    humidity\n  }\n  ticketsURL\n  tournamentSiteURL\n  formatType\n  features\n  conductedByLabel\n  conductedByLink\n  beautyImage\n  hideRolexClock\n  hideSov\n  headshotBaseUrl\n  rightRailConfig {\n    imageUrl\n    imageAltText\n    buttonLink\n    buttonText\n  }\n  shouldSubscribe\n  ticketsEnabled\n  useTournamentSiteURL\n  tournamentCategoryInfo {\n    type\n    logoLight\n    logoDark\n    label\n  }\n}"
-    }
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-    
-def GetTournamentsOverview(tournamentId: str):
-    data = {
-        "operationName": "TournamentOverview",
-        "variables": {
-            "tournamentId": tournamentId
-        },
-        "query": "query TournamentOverview($tournamentId: ID!) {\n  tournamentOverview(tournamentId: $tournamentId) {\n    beautyImage\n    overview {\n      label\n      value\n      detail\n      secondaryDetail\n      wide\n      smallCopy\n    }\n    defendingChampion {\n      displaySeason\n      title\n      playerId\n      displayName\n      score\n      total\n      countryCode\n      seed\n      headshot\n    }\n    defendingTeamChampion {\n      displaySeason\n      title\n      playerId\n      displayName\n      score\n      total\n      countryCode\n      seed\n      headshot\n    }\n    pastChampions {\n      displaySeason\n      title\n      playerId\n      displayName\n      score\n      total\n      countryCode\n      seed\n      headshot\n    }\n    pastTeamChampions {\n      players {\n        displaySeason\n        title\n        playerId\n        displayName\n        score\n        total\n        countryCode\n        seed\n        headshot\n      }\n    }\n    ticketsURL\n    webviewBrowserControls\n    tourcastURL\n    tourcastURLWeb\n    shareURL\n    eventGuideURL\n    augmentedReality {\n      holes {\n        holeNumber\n      }\n    }\n    courses {\n      id\n      image\n      name\n      city\n      state\n      country\n      overview {\n        label\n        value\n        detail\n        secondaryDetail\n        wide\n        smallCopy\n      }\n    }\n    formatType\n    activation {\n      title\n      sponsorLogo\n      sponsorLogoDark\n      data\n      description\n      detail\n    }\n    tournamentCategoryInfo {\n      type\n      logoLight\n      logoDark\n      label\n    }\n  }\n}"
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-
-def GetTournamentPastResults(tournamentId: str, year: str = None):
-    data = {
-        "operationName": "TournamentPastResults",
-        "variables": {
-            "tournamentPastResultsId": tournamentId,
-            "year": year
-        },
-        "query": "query TournamentPastResults($tournamentPastResultsId: ID!, $year: Int) {\n  tournamentPastResults(id: $tournamentPastResultsId, year: $year) {\n    id\n    players {\n      id\n      position\n      player {\n        id\n        firstName\n        lastName\n        shortName\n        displayName\n        abbreviations\n        abbreviationsAccessibilityText\n        amateur\n        country\n        countryFlag\n        lineColor\n        seed\n        status\n        tourBound\n        assets {\n          ... on TourBoundAsset {\n            tourBoundLogo\n            tourBoundLogoDark\n          }\n        }\n      }\n      rounds {\n        score\n        parRelativeScore\n      }\n      additionalData\n      total\n      parRelativeScore\n    }\n    teams {\n      teamId\n      position\n      players {\n        id\n        firstName\n        lastName\n        shortName\n        displayName\n        abbreviations\n        abbreviationsAccessibilityText\n        amateur\n        country\n        countryFlag\n        lineColor\n        seed\n        status\n        tourBound\n        assets {\n          ... on TourBoundAsset {\n            tourBoundLogo\n            tourBoundLogoDark\n          }\n        }\n      }\n      additionalData\n      total\n      parRelativeScore\n      rounds {\n        score\n        parRelativeScore\n      }\n    }\n    rounds\n    additionalDataHeaders\n    availableSeasons {\n      year\n      displaySeason\n    }\n    winner {\n      id\n      firstName\n      lastName\n      totalStrokes\n      totalScore\n      countryFlag\n      countryName\n      purse\n      displayPoints\n      displayPurse\n      points\n      seed\n      pointsLabel\n      winnerIcon {\n        type\n        title\n        label\n        color\n      }\n    }\n    winningTeam {\n      id\n      firstName\n      lastName\n      totalStrokes\n      totalScore\n      countryFlag\n      countryName\n      purse\n      displayPoints\n      displayPurse\n      points\n      seed\n      pointsLabel\n      winnerIcon {\n        type\n        title\n        label\n        color\n      }\n    }\n    recap {\n      weather {\n        day\n        text\n      }\n      notes\n    }\n  }\n}"
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-
-def GetSchedule(year:str = "2025"):
-    data = {
-        "operationName": "Schedule",
-        "variables": {
-            "tourCode": "R",
-            "year": year
-        },
-        "query": "query Schedule($tourCode: String!, $year: String, $filter: TournamentCategory) {\n  schedule(tourCode: $tourCode, year: $year, filter: $filter) {\n    completed {\n      month\n      year\n      monthSort\n      ...ScheduleTournament\n    }\n    filters {\n      type\n      name\n    }\n    seasonYear\n    tour\n    upcoming {\n      month\n      year\n      monthSort\n      ...ScheduleTournament\n    }\n  }\n}\n\nfragment ScheduleTournament on ScheduleMonth {\n  tournaments {\n    tournamentName\n    id\n    beautyImage\n    champion\n    champions {\n      displayName\n      playerId\n    }\n    championEarnings\n    championId\n    city\n    country\n    countryCode\n    courseName\n    date\n    dateAccessibilityText\n    purse\n    sortDate\n    startDate\n    state\n    stateCode\n    status {\n      roundDisplay\n      roundStatus\n      roundStatusColor\n      roundStatusDisplay\n    }\n    tournamentStatus\n    ticketsURL\n    tourStandingHeading\n    tourStandingValue\n    tournamentLogo\n    display\n    sequenceNumber\n    tournamentCategoryInfo {\n      type\n      logoLight\n      logoDark\n      label\n    }\n    tournamentSiteURL\n    tournamentStatus\n    useTournamentSiteURL\n  }\n}"
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-
-def GetScheduleYears():
-    data = {
-        "operationName": "ScheduleYears",
-        "variables": {
-            "tourCode": "H"
-        },
-        "query": "query ScheduleYears($tourCode: TourCode!) {\n  scheduleYears(tourCode: $tourCode) {\n    years {\n      default\n      displayValue\n      queryValue\n    }\n  }\n}"
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-
-def GetUpcomingTournaments():
-    data = {
-        "operationName": "UpcomingSchedule",
-        "variables": {
-            "tourCode": "H"
-        },
-        "query": "query UpcomingSchedule($tourCode: String!, $year: String) {\n  upcomingSchedule(tourCode: $tourCode, year: $year) {\n    id\n    tournaments {\n      id\n      date\n      startDate\n      dateAccessibilityText\n      tournamentName\n      tournamentLogo\n      city\n      state\n      stateCode\n      country\n      countryCode\n      courseName\n      champion\n      championId\n      champions {\n        displayName\n        playerId\n      }\n      championEarnings\n      beautyImage\n      status {\n        roundStatusDisplay\n        roundDisplay\n        roundStatus\n        roundStatusColor\n      }\n      sortDate\n      sequenceNumber\n      purse\n      ticketsURL\n      tourStandingHeading\n      tourStandingValue\n      tournamentLogo\n      tournamentName\n      tournamentStatus\n      display\n      ticketsURL\n      sequenceNumber\n      tournamentSiteURL\n      useTournamentSiteURL\n    }\n  }\n}"
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    return response.json()
-    

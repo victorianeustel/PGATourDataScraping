@@ -1,38 +1,39 @@
 from dotenv import load_dotenv
 
-from classes.Year import Year
-from classes.Player import Player
-from classes.PlayerProfileCareer import *
+from tour.year import Year
+from players.player import Player
+from players.player_profile_career import *
 from classes.Schedule import *
 
-from helpers.FileHelper import *
-from helpers.JSONDataMapping import *
-from helpers.CSVHelper import *
-from helpers.PGADataCalls import *
+from file_helper import *
+from json_data_mapping import *
+from csv_helper import *
+from pga_data_calls import *
+from generate_csv_data import *
 
-from tasks.PlayerCareerProfileTask import *
-from tasks.PlayersDirectoryTask import *
-from tasks.PlayerStatsTask import *
+from tasks.player_tasks.player_career_profile_task import *
+from tasks.player_tasks.players_directory_task import *
+from tasks.player_tasks.player_stats_task import *
 from tasks.ScheduleTasks import *
 
 load_dotenv()
-SetAPIKey(os.environ.get('PGA_TOUR_API_KEY'))
+set_api_key(os.environ.get('PGA_TOUR_API_KEY'))
 
 # Get seasons / years that have data
-years = GetYears()
+years = get_years()
 mapped_years = [Year(**y) for y in years]
 
 # Trigger data ingestion call
 for year in mapped_years:
-    GetStatCsvs(year.year)
+    get_stat_csvs(year.year)
 
-players = GetPlayers()
+players = get_players()
 mapped_players = [Player(**p) for p in players]
 
 # Run Tasks
 RunGetScheduleTasks()
-RunGetPlayersDirectoryTask()
-RunGetPlayerCareerProfilesTask(
+run_players_directory_task()
+run_player_career_profiles_task(
     players = mapped_players, 
     save_career_profiles = False, 
     save_players_achievements = False, 
@@ -40,6 +41,6 @@ RunGetPlayerCareerProfilesTask(
     
 # Clean up data files and directories
 path = os.getcwd() + '/data'
-DeleteEmptyDataFiles(path)
-DeleteEmptyDirectories(path)
+delete_empty_data_files(path)
+delete_empty_directories(path)
 

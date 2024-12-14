@@ -1,13 +1,12 @@
-from helpers.JSONDataMapping import *
-from helpers.PGADataCalls import *
-from classes.Player import *
-from classes.PlayerProfileCareer import *
-from helpers.CSVHelper import *
-from helpers.CSVHelper import *
-from .PlayerYearsTask import *
-from .PlayerAchievementsTask import *
+from json_data_mapping import *
+from pga_data_calls import *
+from players.player import *
+from players.player_profile_career import *
+from csv_helper import *
+from .player_years_task import *
+from .player_achievements_task import *
 
-def RunGetPlayerCareerProfilesTask(
+def run_player_career_profiles_task(
     players: list[Player],
     save_career_profiles:bool = True, 
     save_players_years:bool = True, 
@@ -18,7 +17,7 @@ def RunGetPlayerCareerProfilesTask(
         header = ['playerId', 'tourCode', 'events', 'wins','winsTitle','internationalWins',
                 'majorWins','cutsMade','runnerUp','second','third','top10','top25','officialMoney']
         
-        CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "w", header = header )
+        create_or_append_csv(career_profiles_path, 'career_profiles.csv', "w", header = header )
 
     player_career_data = []
 
@@ -26,14 +25,14 @@ def RunGetPlayerCareerProfilesTask(
         print('Progress: {0}/{1}'.format(index, len(players)), flush=True )
 
         playerId = player.id
-        playerData = GetPlayerData(playerId)
+        playerData = get_player_data(playerId)
             
         player_career_data_obj = PlayerProfileCareer(**playerData['data']['playerProfileCareer'])
 
         player_career_data.append(player_career_data_obj)
 
         if (save_career_profiles): 
-            CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "a", content_rows=[player_career_data_obj.ToArray()]) 
+            create_or_append_csv(career_profiles_path, 'career_profiles.csv', "a", content_rows=[player_career_data_obj.ToArray()]) 
             
-    if (save_players_years):RunPlayerYearsTask(player_career_data)
-    if (save_players_achievements): RunPlayersAchievementsTask(player_career_data)
+    if (save_players_years):run_player_years_task(player_career_data)
+    if (save_players_achievements): run_players_achievements_task(player_career_data)
