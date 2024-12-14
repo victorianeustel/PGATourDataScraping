@@ -1,6 +1,7 @@
 import pandas as pd
+import csv
 
-def IsCSVEmpty(path):
+def is_csv_empty(path):
     df = pd.read_csv(path, sep=',', on_bad_lines='skip')
 
     if df.empty:

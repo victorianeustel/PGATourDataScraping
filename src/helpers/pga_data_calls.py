@@ -1,7 +1,7 @@
 import requests
 
 api_key = ""
-def SetAPIKey(key: str):
+def set_api_key(key: str):
     api_key = key
 
 url = "https://orchestrator.pgatour.com/graphql"
@@ -11,7 +11,7 @@ headers = {
     "x-api-key": api_key,
 }
     
-def GetPlayerData(playerId: str):
+def get_player_data(playerId: str):
     data = {
         "operationName":"PlayerProfileCareer",
         "variables":{
@@ -24,7 +24,7 @@ def GetPlayerData(playerId: str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetStatsOverview(year: int):
+def get_stats_overview(year: int):
     data = {
         "operationName":"StatOverview",
         "variables":{
@@ -37,7 +37,7 @@ def GetStatsOverview(year: int):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerFullStatsOverview(playerId:str):
+def get_player_full_stats_overview(playerId:str):
     data = {
         "operationName":"ProfileStatsFullV2",
         "variables":{
@@ -48,7 +48,7 @@ def GetPlayerFullStatsOverview(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerStatsYears(playerId:str):
+def get_player_stats_years(playerId:str):
     data = {
         "operationName":"PlayerProfileStatsYears",
         "variables":{
@@ -60,7 +60,7 @@ def GetPlayerStatsYears(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileStandings(playerId:str):
+def get_player_profile_standings(playerId:str):
     data = {
         "operationName":"PlayerProfileStandings",
         "variables":{
@@ -71,7 +71,7 @@ def GetPlayerProfileStandings(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerScorecards(playerId:str):
+def get_player_scorecards(playerId:str):
     data = {
         "operationName":"PlayerProfileScorecards",
         "variables":{
@@ -82,7 +82,7 @@ def GetPlayerScorecards(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerDirectory():
+def get_player_directory():
     data = {
         "operationName": "PlayerDirectory",
         "variables": {
@@ -94,7 +94,7 @@ def GetPlayerDirectory():
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayer(playerId:str):
+def get_player(playerId:str):
     data = {
         "operationName": "Player",
         "variables": {
@@ -106,7 +106,7 @@ def GetPlayer(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileCareer(playerId:str):
+def get_player_profile_career(playerId:str):
     data = {
         "operationName": "PlayerProfileCareer",
         "variables": {
@@ -119,7 +119,7 @@ def GetPlayerProfileCareer(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerProfileSeasonResults(playerId:str):
+def get_player_profile_season_results(playerId:str):
     data = {
         "operationName": "PlayerProfileSeasonResults",
         "variables": {
@@ -131,7 +131,7 @@ def GetPlayerProfileSeasonResults(playerId:str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetPlayerScorecardCompressed(playerId:str, tournamentId: str):
+def get_player_scorecards_compressed(playerId:str, tournamentId: str):
     data = {
         "operationName": "ScorecardCompressedV3",
         "variables": {
@@ -144,7 +144,7 @@ def GetPlayerScorecardCompressed(playerId:str, tournamentId: str):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetCourseStatDetails(year: int):
+def get_course_stat_details(year: int):
     data = {
         "operationName": "CourseStatsDetails",
         "variables": {
@@ -159,7 +159,7 @@ def GetCourseStatDetails(year: int):
     response = requests.post(url, headers=headers, json=data)
     return response.json()
 
-def GetCourseStatOverview(year: int):
+def get_course_stat_overviews(year: int):
     data = {
         "operationName": "CourseStatsOverview",
         "variables": {

@@ -20,10 +20,3 @@ class Player():
                 self.shortName, self.displayName, self.alphaSort, 
                 self.country, self.countryFlag, self.headshot, 
                 self.age, self.education, self.turnedPro]
-    
-class PlayerBio():
-    def __init__(self, id, age, education, turnedPro):
-        self.playerId = id
-        self.age = age
-        self.education = education
-        self.turnedPro = turnedPro
