@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+
 from classes.Year import Year
 from classes.Player import Player
 from classes.PlayerProfileCareer import *
@@ -11,6 +13,9 @@ from helpers.GenerateCSVData import *
 from tasks.PlayerCareerProfileTask import *
 from tasks.PlayersDirectoryTask import *
 from tasks.PlayerStatsTask import *
+
+load_dotenv()
+SetAPIKey(os.environ.get('PGA_TOUR_API_KEY'))
 
 # Get seasons / years that have data
 years = GetYears()

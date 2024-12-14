@@ -1,5 +1,9 @@
 import requests
 
+api_key = ""
+def SetAPIKey(key: str):
+    api_key = key
+
 url = "https://orchestrator.pgatour.com/graphql"
 headers = {
     "accept": "*/*",
@@ -13,7 +17,7 @@ headers = {
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-site",
     "x-amz-user-agent": "aws-amplify/3.0.7",
-    "x-api-key": "da2-gsrx5bibzbb4njvhl7t37wqyl4",
+    "x-api-key": api_key,
     "x-pgat-platform": "web"
 }
     
