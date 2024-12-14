@@ -5,7 +5,7 @@ def is_csv_empty(path):
     df = pd.read_csv(path, sep=',', on_bad_lines='skip')
     return df.empty
 
-def ReadCSV(directory_path:str, file_name: str, new_line:str = ''):
+def read_csv(directory_path:str, file_name: str, new_line:str = ''):
     file_path = '/'.join(directory_path, file_name)
     with open(file_path, newline=new_line) as f:
         reader = csv.reader(f)
@@ -13,7 +13,7 @@ def ReadCSV(directory_path:str, file_name: str, new_line:str = ''):
         for row in reader:
             print(row)
             
-def CreateOrAppendCSV(path:str, 
+def create_or_append_csv(path:str, 
     fileName: str, 
     fileWritingType: str = "w", 
     header: list = None, 

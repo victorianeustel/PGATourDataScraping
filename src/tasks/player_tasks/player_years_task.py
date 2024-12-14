@@ -3,7 +3,6 @@ from pga_data_calls import *
 from players.player import *
 from players.player_profile_career import *
 from csv_helper import *
-from generate_csv_data import * 
 
 def run_player_years_task(playerData: list[PlayerProfileCareer]):
     file_name = 'players_years.csv'

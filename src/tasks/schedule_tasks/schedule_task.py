@@ -1,8 +1,8 @@
-from helpers.JSONDataMapping import *
-from helpers.CSVHelper import *
-from helpers.PGADataCalls import *
+from helpers.json_data_mapping import *
+from helpers.csv_helper import *
+from helpers.pga_data_calls import *
 from classes.Schedule import *
-from classes.Year import *
+from classes.tour.year import *
 
 tournaments_header = ['month',
                 'year',
@@ -26,16 +26,16 @@ tournaments_header = ['month',
                 'tourStandingValue',
                 'tournamentSiteURL' ]
 
-def RunGetScheduleTasks():
+def run_schedule_tasks():
     
-    schedule_years = GetScheduleYears()
+    schedule_years = get_schedule_years()
     schedule_years_json = schedule_years['data']['scheduleYears']['years']
     mapped_schedule_years = [Year(sy['queryValue'], sy['displayValue']) for sy in schedule_years_json]
 
     schedules = []
     for (index, year) in enumerate(mapped_schedule_years):
         print("{0} / {1}".format(index, len(mapped_schedule_years)))
-        schedule = GetSchedule(year.year)
+        schedule = get_schedule(year.year)
         mapped_schedule = Schedule(**schedule['data']['schedule'])
         schedules.append(mapped_schedule)
     

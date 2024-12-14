@@ -1,7 +1,7 @@
 from json_data_mapping import *
 from players.player import *
-from generate_csv_data import *
 from pga_data_calls import *
+from csv_helper import *
 
 def run_players_directory_task(players: list[Player]):
     with open('data/players/players_directory.csv', "w", newline='\n') as csvfile:
