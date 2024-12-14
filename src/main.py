@@ -65,5 +65,13 @@ from tasks.sample_data_task import *
 # write_sample_data('tournaments', tournaments)
 
 
-tournament_past_results = get_tournaments_past_results('R2023003', 19320)
-write_sample_data('tournament_past_results', tournament_past_results)
+# tournament_past_results = get_tournaments_past_results('R2023003', 19320)
+# write_sample_data('tournament_past_results', tournament_past_results)
+
+from tasks.merge_stats_task import *
+
+run_merge_csv_groups_task()
+
+# test = 'data/stats/2010/points_rankings/points/%_of_potential_pts_won_fedexcup_playoffs.csv'
+
+# print(test.split('/')[2])
