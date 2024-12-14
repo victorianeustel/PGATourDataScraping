@@ -2,6 +2,7 @@ from helpers.JSONDataMapping import *
 from helpers.GenerateCSVData import *
 from helpers.PGADataCalls import *
 from classes.Schedule import *
+from classes.Year import *
 
 tournaments_header = ['month',
                 'year',
@@ -25,7 +26,19 @@ tournaments_header = ['month',
                 'tourStandingValue',
                 'tournamentSiteURL' ]
 
-def RunGetScheduleTasks(schedules: list[Schedule]):
+def RunGetScheduleTasks():
+    
+    schedule_years = GetScheduleYears()
+    schedule_years_json = schedule_years['data']['scheduleYears']['years']
+    mapped_schedule_years = [Year(sy['queryValue'], sy['displayValue']) for sy in schedule_years_json]
+
+    schedules = []
+    for (index, year) in enumerate(mapped_schedule_years):
+        print("{0} / {1}".format(index, len(mapped_schedule_years)))
+        schedule = GetSchedule(year.year)
+        mapped_schedule = Schedule(**schedule['data']['schedule'])
+        schedules.append(mapped_schedule)
+    
     with open('data/tournaments/tournaments.csv', "w", newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
         writer.writerow(tournaments_header)

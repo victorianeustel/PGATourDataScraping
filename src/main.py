@@ -19,48 +19,28 @@ from tasks.ScheduleTasks import *
 load_dotenv()
 SetAPIKey(os.environ.get('PGA_TOUR_API_KEY'))
 
-import json
-
 # Get seasons / years that have data
 years = GetYears()
 mapped_years = [Year(**y) for y in years]
 
-schedule_years = GetScheduleYears()
-schedule_years_json = schedule_years['data']['scheduleYears']['years']
-mapped_schedule_years = [Year(sy['queryValue'], sy['displayValue']) for sy in schedule_years_json]
+# Trigger data ingestion call
+for year in mapped_years:
+    GetStatCsvs(year.year)
 
-# arr_schedule_years = [[sy['queryValue'], sy['displayValue']] for sy in schedule_years_json]
-# CreateOrAppendCSV('data/schedule', 'schedule.csv', "w", ['year', 'displayValue'], arr_schedule_years)
+players = GetPlayers()
+mapped_players = [Player(**p) for p in players]
 
-schedules = []
-for (index, year) in enumerate(mapped_schedule_years):
-    print("{0} / {1}".format(index, len(mapped_years)))
-    schedule = GetSchedule(year.year)
-    mapped_schedule = Schedule(**schedule['data']['schedule'])
-    schedules.append(mapped_schedule)
-RunGetScheduleTasks(schedules)
-# with open('data/test-data-json/schedule-2024.json', "w") as file:
-#     json.dump(schedule, file)
-
-
-
-# # Trigger data ingestion call
-# for year in mapped_years:
-#     GetStatCsvs(year.year)
-
-# players = GetPlayers()
-# mapped_players = [Player(**p) for p in players]
-
-# # Run Tasks
-# RunGetPlayersDirectoryTask()
-# RunGetPlayerCareerProfilesTask(
-#     players = mapped_players, 
-#     save_career_profiles = False, 
-#     save_players_achievements = False, 
-#     save_players_years = False)
+# Run Tasks
+RunGetScheduleTasks()
+RunGetPlayersDirectoryTask()
+RunGetPlayerCareerProfilesTask(
+    players = mapped_players, 
+    save_career_profiles = False, 
+    save_players_achievements = False, 
+    save_players_years = False)
     
-# # Clean up data files and directories
-# path = os.getcwd() + '/data'
-# DeleteEmptyDataFiles(path)
-# DeleteEmptyDirectories(path)
+# Clean up data files and directories
+path = os.getcwd() + '/data'
+DeleteEmptyDataFiles(path)
+DeleteEmptyDirectories(path)
 
