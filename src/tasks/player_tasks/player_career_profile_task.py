@@ -3,7 +3,6 @@ from pga_data_calls import *
 from players.player import *
 from players.player_profile_career import *
 from csv_helper import *
-from generate_csv_data import *
 from .player_years_task import *
 from .player_achievements_task import *
 

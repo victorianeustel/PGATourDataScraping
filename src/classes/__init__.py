@@ -11,3 +11,8 @@ from .players.player_year import *
 
 from .tour.year import *
 from .tour.tour import *
+
+from .tournaments.schedule import *
+from .tournaments.schedule_month import *
+from .tournaments.tournament import *
+from .tournaments.tournament_champion import *
