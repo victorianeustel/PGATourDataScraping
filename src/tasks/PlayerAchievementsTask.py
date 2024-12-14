@@ -15,6 +15,5 @@ def RunPlayersAchievementsTask(playerData: list[PlayerProfileCareer]):
     CreateOrAppendCSV(players_path, file_name, "w", header = header )
     
     for player in playerData:
-        
         CreateOrAppendCSV(players_path, file_name, "a", content_rows= [a.ToArray() for a in player.achievements] )
 

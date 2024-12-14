@@ -7,21 +7,23 @@ from helpers.GenerateCSVData import *
 from .PlayerYearsTask import *
 from .PlayerAchievementsTask import *
 
-def RunGetPlayerCareerProfilesTask():
-    career_profiles_path =  '/'.join(['data', 'players'])
+def RunGetPlayerCareerProfilesTask(
+    players: list[Player],
+    save_career_profiles:bool = True, 
+    save_players_years:bool = True, 
+    save_players_achievements:bool = True):
+    if (save_career_profiles):
+        career_profiles_path =  '/'.join(['data', 'players'])
 
-    header = ['playerId', 'tourCode', 'events', 'wins','winsTitle','internationalWins',
-            'majorWins','cutsMade','runnerUp','second','third','top10','top25','officialMoney']
-    
-    # CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "w", header = header )
-    
-    players = GetPlayers()
-    mapped_players = [Player(**p) for p in players]
+        header = ['playerId', 'tourCode', 'events', 'wins','winsTitle','internationalWins',
+                'majorWins','cutsMade','runnerUp','second','third','top10','top25','officialMoney']
+        
+        CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "w", header = header )
 
     player_career_data = []
 
-    for index, player in enumerate(mapped_players):
-        print('Progress: {0}/{1}'.format(index, len(mapped_players)), flush=True )
+    for (index, player) in enumerate(players):
+        print('Progress: {0}/{1}'.format(index, len(players)), flush=True )
 
         playerId = player.id
         playerData = GetPlayerData(playerId)
@@ -30,6 +32,8 @@ def RunGetPlayerCareerProfilesTask():
 
         player_career_data.append(player_career_data_obj)
 
-        # CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "a", content_rows=[player_career_data_obj.ToArray()]) 
-    RunPlayerYearsTask(player_career_data)
-    RunPlayersAchievementsTask(player_career_data)
+        if (save_career_profiles): 
+            CreateOrAppendCSV(career_profiles_path, 'career_profiles.csv', "a", content_rows=[player_career_data_obj.ToArray()]) 
+            
+    if (save_players_years):RunPlayerYearsTask(player_career_data)
+    if (save_players_achievements): RunPlayersAchievementsTask(player_career_data)

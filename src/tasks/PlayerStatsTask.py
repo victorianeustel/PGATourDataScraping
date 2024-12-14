@@ -58,7 +58,7 @@ def GetStatCsvs(year: int):
                 obj['statId'] = sd.statId
                 
                 # If stat id is a duplicate
-                if sd.statId in stat_ids_dict:
+                if (sd.statId in stat_ids_dict):
                     obj['path'] = stat_ids_dict[sd.statId]
                     obj['duplicatedStatId'] = True
                 else:
@@ -68,16 +68,13 @@ def GetStatCsvs(year: int):
                     obj['duplicatedStatId'] = False
 
                 stat_details.append(obj)
-
-    # Arr to hold errors
-    error_data = []
-
+                
     # Mapping stat file data
     stat_detail_rows = []
     stat_detail_headers = ['Year', 'Index', 'Category', 'Subcategory', 'StatId', 'StatTitle', 'LocalPath']
     stat_detail_rows.append(stat_detail_headers)
 
-    for index, v in enumerate(stat_details):
+    for (index, v) in enumerate(stat_details):
         print('Progress: {0}/{1}'.format(index, len(stat_details)), flush=True )
 
         statId = v['statId']
@@ -89,29 +86,18 @@ def GetStatCsvs(year: int):
         row = [current_year, str(index), category, subcategory, statId, statTitle, path]
         stat_detail_rows.append(row)
         
-        if v['duplicatedStatId'] == False:
+        if (v['duplicatedStatId'] == False):
             current_file = Path(path)
             
             # if file does not exist currently, call it 
-            if current_file.is_file():
-                continue
+            if current_file.is_file(): continue
             else:
-                try:
-                    CallAndWriteStatData(category, subCategory, year, statId, path)
-                except Exception:
-                    error_data.append(v)
-                    continue
+                try: CallAndWriteStatData(category, subCategory, year, statId, path)
+                except Exception: continue
                         
     # Create file mapper file
     with open('data/' + current_year +'/file_map.csv', "w", newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
         for row in stat_detail_rows:
             writer.writerow(row)
-
-    # Print errors
-    if error_data:
-        print('---------ERRORS---------')
-        for error in error_data:
-            summary = 'Category: {0} | SubCategory: {1} | StatId: {2} | Path: {3}'.format(category, subCategory, statId, path)
-            print(summary)
             
