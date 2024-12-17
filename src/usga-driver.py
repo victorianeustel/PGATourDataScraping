@@ -42,23 +42,25 @@ filter_len_select = mydriver.find_element(By.XPATH, "//div[@id='resultTable_leng
 filter_select = Select(filter_len_select)
 filter_select.select_by_value('100')
 
+def pull_table_data(rows):
+    for row in rows:
+        cols = row.find_elements(By.TAG_NAME, "td")
+        facility_name = cols[0].text
+        
+        course_name = cols[1].text
+        a_ele = cols[1].find_element(By.TAG_NAME, "a")
+        course_detail_path = a_ele.get_attribute('href')
+        
+        course_id = int(course_detail_path.split('https://ncrdb.usga.org/courseTeeInfo?CourseID=')[1])
+        
+        city = cols[2].text
+        state = cols[3].text
+        
+        course = USGA_CourseSummary(course_id, facility_name, course_name, city, state, course_detail_path)
+        course.AddToCSV()
+
 # Get result table
 table = mydriver.find_element(By.ID, 'resultTable')
 tbody = table.find_element(By.TAG_NAME, "tbody")
 rows = tbody.find_elements(By.TAG_NAME, "tr")
-for row in rows:
-    cols = row.find_elements(By.TAG_NAME, "td")
-    facility_name = cols[0].text
-    
-    course_name = cols[1].text
-    a_ele = cols[1].find_element(By.TAG_NAME, "a")
-    course_detail_path = a_ele.get_attribute('href')
-    
-    course_id = int(course_detail_path.split('https://ncrdb.usga.org/courseTeeInfo?CourseID=')[1])
-    
-    city = cols[2].text
-    state = cols[3].text
-    
-    course = USGA_CourseSummary(course_id, facility_name, course_name, city, state, course_detail_path)
-    course.AddToCSV()
-    print(course.ToArray())
+pull_table_data(rows)
