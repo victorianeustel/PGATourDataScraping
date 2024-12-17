@@ -62,18 +62,21 @@ def pull_table_data(rows):
         course = USGA_CourseSummary(course_id, facility_name, course_name, city, state, course_detail_path)
         course.AddToCSV()
 
-# Get result table
-table = mydriver.find_element(By.ID, 'resultTable')
-tbody = table.find_element(By.TAG_NAME, "tbody")
-rows = tbody.find_elements(By.TAG_NAME, "tr")
-pull_table_data(rows)
-
 table_next_button = mydriver.find_element(By.ID, 'resultTable_next')
-mydriver.execute_script("arguments[0].click();", table_next_button)
-time.sleep(1)
 
-table = mydriver.find_element(By.ID, 'resultTable')
-tbody = table.find_element(By.TAG_NAME, "tbody")
-rows = tbody.find_elements(By.TAG_NAME, "tr")
-pull_table_data(rows)
+# Get result table
+while True:
+    table = mydriver.find_element(By.ID, 'resultTable')
+    tbody = table.find_element(By.TAG_NAME, "tbody")
+    rows = tbody.find_elements(By.TAG_NAME, "tr")
+    pull_table_data(rows)
+
+    time.sleep(1)
+    
+    table_next_button = mydriver.find_element(By.ID, 'resultTable_next')
+    if ('disabled' in table_next_button.get_attribute('class').split()):
+        break
+    
+    mydriver.execute_script("arguments[0].click();", table_next_button)
+
 
