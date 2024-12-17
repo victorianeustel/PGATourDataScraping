@@ -42,7 +42,6 @@ options.add_experimental_option("detach", True)
 
 mydriver = webdriver.Chrome(options=options)
 mydriver.get(baseurl)
-# mydriver.maximize_window()
 
 # Select state
 state_select = Select(mydriver.find_element(By.ID, 'ddlStates'))
@@ -86,6 +85,7 @@ for index, state in enumerate(state_select_options[31:len(state_select_options)]
     except:
         continue
 
+# Delete null rows 
 df = pd.read_csv('data/usga/usga_courses.csv', sep=',')
 df = df.dropna()
 df.to_csv('data/usga/usga_courses.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)

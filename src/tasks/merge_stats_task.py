@@ -1,6 +1,4 @@
-import pandas
 from helpers.file_helper import *
-
 
 def get_groups_of_files():
     files = get_all_files_in_directory('data/stats')
@@ -23,7 +21,6 @@ def get_df_from_file(file_path: str):
 
     return df
 
-
 def run_merge_csv_groups_task():
     file_names = get_groups_of_files()
     for file in file_names:
@@ -33,9 +30,3 @@ def run_merge_csv_groups_task():
             current_df = get_df_from_file(fp)
             df = df._append(current_df, ignore_index=True)
         df.to_csv('data/combined_stats/' + file, index=False)  
-
-        # print(' --- ' + file + ' --- ')
-        # print(paths)
-
-
-# result = [x for x in myList if x.endswith('foo')]

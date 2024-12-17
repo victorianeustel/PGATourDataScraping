@@ -22,6 +22,3 @@ class USGA_CourseSummary():
                             fileName= self.csv_file_name,
                             fileWritingType='a',
                             content_rows=[self.ToArray()])
-        # with open(self.csv_path, 'a') as file:
-        #     writer = csv.writer(file, delimiter=',')
-        #     writer.writerow(self.ToArray())
