@@ -1,4 +1,5 @@
 import time
+import pandas as pd
 
 from classes.usga.course_summary import *
 from helpers.csv_helper import *
@@ -12,10 +13,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 
-# create_or_append_csv(path=USGA_CourseSummary.csv_path, 
-#                     fileName= USGA_CourseSummary.csv_file_name,
-#                     header=USGA_CourseSummary.header, 
-#                     fileWritingType='w')
+create_or_append_csv(path=USGA_CourseSummary.csv_path, 
+                    fileName= USGA_CourseSummary.csv_file_name,
+                    header=USGA_CourseSummary.header, 
+                    fileWritingType='w')
 
 def pull_table_data(rows):
     for row in rows:
@@ -85,3 +86,6 @@ for index, state in enumerate(state_select_options[31:len(state_select_options)]
     except:
         continue
 
+df = pd.read_csv('data/usga/usga_courses.csv', sep=',')
+df = df.dropna()
+df.to_csv('data/usga/usga_courses.csv', index=False, quoting=csv.QUOTE_NONNUMERIC)
