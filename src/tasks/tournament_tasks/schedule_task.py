@@ -4,8 +4,6 @@ from helpers.pga_data_calls import *
 from classes.tournaments.schedule import *
 from classes.tour.year import *
 
-
-
 def run_schedule_tasks():
     
     schedule_years = get_schedule_years()

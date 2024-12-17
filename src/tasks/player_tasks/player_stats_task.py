@@ -3,11 +3,11 @@ import os.path
 import requests
 from pathlib import Path
 
-from path_builder import *
-from classes.player_stats.stat_category import StatCategory
-from json_data_mapping import *
+from helpers.path_builder import *
+from classes.player_stats.stat_category import *
+from helpers.json_data_mapping import *
 
-from file_helper import CreateDirectory, CleanName
+from helpers.file_helper import *
 
 # Call request for data and write file to data/<year>/...
 def call_and_write_stat_data(category, subcategory, year: int, statId: int, filePath: str):    
@@ -22,13 +22,13 @@ def call_and_write_stat_data(category, subcategory, year: int, statId: int, file
         subcategoryDir = '/'.join(['data', year, category, subcategory])
         
         if os.path.isdir(yearDir) == False:
-            CreateDirectory(year)
+            create_directory(year)
             
         if os.path.isdir(categoryDir) == False:
-            CreateDirectory(categoryDir)
+            create_directory(categoryDir)
             
         if os.path.isdir(subcategoryDir) == False:
-            CreateDirectory(subcategoryDir)
+            create_directory(subcategoryDir)
             
         with open(filePath, "wb") as file:
             file.write(x.content)
@@ -45,10 +45,10 @@ def get_stat_csvs(year: int):
     stat_ids_dict = {}
 
     for c in categories:
-        category = CleanName(c.category)
+        category = clean_name(c.category)
         
         for sc in c.subCategories:
-            subCategory = CleanName(sc.displayName)
+            subCategory = clean_name(sc.displayName)
 
             for sd in sc.stats:
                 obj = {}
@@ -62,7 +62,7 @@ def get_stat_csvs(year: int):
                     obj['path'] = stat_ids_dict[sd.statId]
                     obj['duplicatedStatId'] = True
                 else:
-                    file_name = CleanName(sd.statTitle) + '.csv'
+                    file_name = clean_name(sd.statTitle) + '.csv'
                     obj['path'] = '/'.join(['data', current_year, category, subCategory, file_name])
                     stat_ids_dict[sd.statId] = obj['path']
                     obj['duplicatedStatId'] = False

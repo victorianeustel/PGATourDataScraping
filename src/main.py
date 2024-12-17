@@ -1,19 +1,20 @@
 from dotenv import load_dotenv
 
-from tour.year import Year
-from players.player import Player
-from players.player_profile_career import *
+from classes.tour.year import Year
+from classes.players.player import Player
+from classes.players.player_profile_career import *
 from classes.tournaments.schedule import *
 
-from file_helper import *
-from json_data_mapping import *
-from csv_helper import *
-from pga_data_calls import *
+from helpers.file_helper import *
+from helpers.json_data_mapping import *
+from helpers.csv_helper import *
+from helpers.pga_data_calls import *
 
 from tasks.player_tasks.player_career_profile_task import *
 from tasks.player_tasks.players_directory_task import *
 from tasks.player_tasks.player_stats_task import *
 from tasks.tournament_tasks.schedule_task import *
+from tasks.merge_stats_task import *
 
 load_dotenv()
 set_api_key(os.environ.get('PGA_TOUR_API_KEY'))
@@ -37,6 +38,7 @@ run_player_career_profiles_task(
     save_career_profiles = False, 
     save_players_achievements = False, 
     save_players_years = False)
+run_merge_csv_groups_task()
     
 # Clean up data files and directories
 path = os.getcwd() + '/data'

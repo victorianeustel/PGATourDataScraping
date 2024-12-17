@@ -1,8 +1,8 @@
-from json_data_mapping import *
-from pga_data_calls import *
-from players.player import *
-from players.player_profile_career import *
-from csv_helper import *
+from helpers.json_data_mapping import *
+from helpers.pga_data_calls import *
+from classes.players.player import *
+from classes.players.player_profile_career import *
+from helpers.csv_helper import *
 
 def run_players_achievements_task(playerData: list[PlayerProfileCareer]):
     print(playerData)
