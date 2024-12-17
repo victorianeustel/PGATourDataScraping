@@ -27,8 +27,11 @@ mydriver.get(baseurl)
 # mydriver.maximize_window()
 
 # Select state
-select = Select(mydriver.find_element(By.ID, 'ddlStates'))
-select.select_by_value('US-AL')
+state_select = Select(mydriver.find_element(By.ID, 'ddlStates'))
+state_select_options = [state.get_attribute('value') for state in state_select.options]
+
+print(state_select_options)
+state_select.select_by_value('US-AL')
 
 # Click submit form
 ele = mydriver.find_element(By.ID, 'myButton')
@@ -64,3 +67,13 @@ table = mydriver.find_element(By.ID, 'resultTable')
 tbody = table.find_element(By.TAG_NAME, "tbody")
 rows = tbody.find_elements(By.TAG_NAME, "tr")
 pull_table_data(rows)
+
+table_next_button = mydriver.find_element(By.ID, 'resultTable_next')
+mydriver.execute_script("arguments[0].click();", table_next_button)
+time.sleep(1)
+
+table = mydriver.find_element(By.ID, 'resultTable')
+tbody = table.find_element(By.TAG_NAME, "tbody")
+rows = tbody.find_elements(By.TAG_NAME, "tr")
+pull_table_data(rows)
+
