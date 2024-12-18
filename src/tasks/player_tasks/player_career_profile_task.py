@@ -1,6 +1,7 @@
 from helpers.json_data_mapping import *
-from helpers.pga_data_calls import *
 from helpers.csv_helper import *
+
+from data.pga.players import *
 
 from classes.players.player import *
 from classes.players.player_profile_career import *
@@ -27,7 +28,7 @@ def run_player_career_profiles_task(
         print('Progress: {0}/{1}'.format(index, len(players)), flush=True )
 
         playerId = player.id
-        playerData = get_player_data(playerId)
+        playerData = get_player_profile_career(playerId)
             
         player_career_data_obj = PlayerProfileCareer(**playerData['data']['playerProfileCareer'])
 
