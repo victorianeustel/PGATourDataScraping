@@ -3,7 +3,7 @@ from helpers.csv_helper import *
 class Year():
     header = ['Year', 'DisplayName']
     
-    def __init__(self, year, displaySeason):
+    def __init__(self, year: int, displaySeason: str):
         self.year = year
         self.displaySeason = displaySeason
 
@@ -13,7 +13,7 @@ class Year():
     def ToArray(self):
         return [self.year, self.displaySeason]
     
-    # def AppendToCSV(self, file_path):
-    #     create_or_append_csv(path=file_path,
-    #                         fileWritingType='a',
-    #                         content_rows=[self.ToArray()])
+    def AppendToCSV(self, file_path):
+        create_or_append_csv(path=file_path,
+                            fileWritingType='a',
+                            content_rows=[self.ToArray()])
