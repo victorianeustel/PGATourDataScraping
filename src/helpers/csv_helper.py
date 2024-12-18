@@ -13,13 +13,15 @@ def read_csv(directory_path:str, file_name: str, new_line:str = ''):
         for row in reader:
             print(row)
             
-def create_or_append_csv(path:str, 
-    fileName: str, 
+def create_or_append_csv(path:str = "", 
+    fileName: str = None, 
     fileWritingType: str = "w", 
     header: list = None, 
     content_rows: list = None):
     
-    filePath = '/'.join([path, fileName])
+    if (fileName == None): filePath = path
+    else: filePath = '/'.join([path, fileName])
+    
     with open(filePath, fileWritingType, newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
         if (header is not None):
