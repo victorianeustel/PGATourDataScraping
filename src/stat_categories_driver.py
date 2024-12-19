@@ -10,17 +10,13 @@ from classes.tour.year import *
 stat_cats_header = StatDetail.header
 stat_cats = []
 
-year = 2024
-stat_data = get_stat_details(year)
+stat_data = get_stat_details()
 
 stat_cats_json = stat_data['data']['statDetails']['statCategories']
 stat_cats_objs = [StatCategory(**c) for c in stat_cats_json]
 
 for c in stat_cats_objs:
-    print('Category: ' + c.displayName)
     for sc in c.subCategories:
-        print('Subcategory: ' + sc.displayName)
-        print (sc.stats)
         for sd in sc.stats:
             stat_cats.append(sd.ToArray())
 

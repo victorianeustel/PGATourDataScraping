@@ -15,6 +15,7 @@ def get_stats_overview(year: int, tourCode: str = "R"):
     response = requests.post(PGA_API.url, headers=PGA_API.headers, json=data)
     return response.json()
 
+
 def get_stat_details(statId:str = "109", year:int = 2024, tourCode:str = "R"):
     data = {
         "operationName": "StatDetails",
