@@ -1,4 +1,3 @@
-from helpers.json_data_mapping import *
 from classes.players.player import *
 from helpers.csv_helper import *
 

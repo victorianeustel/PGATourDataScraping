@@ -1,4 +1,3 @@
-from helpers.json_data_mapping import *
 from helpers.csv_helper import *
 
 from data.pga.players import *

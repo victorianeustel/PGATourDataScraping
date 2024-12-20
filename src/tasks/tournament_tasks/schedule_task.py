@@ -1,4 +1,3 @@
-from helpers.json_data_mapping import *
 from helpers.csv_helper import *
 from classes.tournaments.schedule import *
 from classes.tour.year import *

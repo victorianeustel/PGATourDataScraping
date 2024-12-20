@@ -21,7 +21,6 @@ def create_or_append_csv(path:str = "",
     
     if (fileName == None): filePath = path
     else: filePath = '/'.join([path, fileName])
-    
     with open(filePath, fileWritingType, newline='\n') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_ALL)
         if (header is not None):

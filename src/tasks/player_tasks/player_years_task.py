@@ -1,5 +1,3 @@
-from helpers.json_data_mapping import *
-
 from classes.players.player import *
 from classes.players.player_profile_career import *
 
