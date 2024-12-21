@@ -28,3 +28,7 @@ def create_or_append_csv(path:str = "",
         if (content_rows is not None):
             for row in content_rows:
                 writer.writerow(row)
+
+def move_column_inplace(df, col, pos):
+    col = df.pop(col)
+    df.insert(pos, col.name, col)

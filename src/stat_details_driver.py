@@ -1,4 +1,6 @@
 from helpers.dataframe_comparer import *
+from helpers.csv_helper import *
+
 from data.pga.stats import *
 
 import csv
@@ -36,34 +38,15 @@ for y in stat_years[0:1]:
             stats_file_dict[stat_id] = file_name
         
         filePath = "data/stats/stat_details/" + file_name
-
-        writing_type = writing_type 
         
         path = get_stats_path(year=y, statsId= stat_id)
         response = requests.get(path, stream=True)
         response_bytes = response.content.decode('utf-8')
 
-        df = pd.read_fwf(io.StringIO(response_bytes))
+        df = pd.read_csv(io.StringIO(response_bytes))
+        df['YEAR'] = y
+        move_column_inplace(df, 'YEAR', 0)
+        # print(df)
         
-        print(df)
-        # resp_content = str(response.content).split('\\n')
-
-        # with open(filePath, writing_type) as file:
-        #     writer = csv.writer(file, delimiter= ',')
-            
-        #     reader = csv.reader(resp_content, delimiter=',')
-                        
-        #     csv_rows = []
-            
-        #     if (writing_type == "w"):
-        #         header = next(reader)
-        #         header.append('YEAR')
-        #         csv_rows.append(header)
-                
-        #     for row in reader:
-        #         row.append(y)
-        #         csv_rows.append(row)
-                
-        #     writer.writerows(csv_rows)
-
-            
+        if (writing_type == "w"):
+            df.to_csv()
