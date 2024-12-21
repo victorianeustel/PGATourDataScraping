@@ -4,7 +4,7 @@ class StatCategory():
     def __init__(self, category, displayName, subCategories):
         self.category = category
         self.displayName = displayName
-        self.subCategories = [StatSubCategory(**sc) for sc in subCategories]
+        self.subCategories = [StatSubCategory(category, displayName, **sc) for sc in subCategories]
 
     def __str__(self):
         string_arr = [str(sc) for sc in self.subCategories]

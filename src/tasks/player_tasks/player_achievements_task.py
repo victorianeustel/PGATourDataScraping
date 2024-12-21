@@ -1,11 +1,8 @@
-from helpers.json_data_mapping import *
-from helpers.pga_data_calls import *
 from classes.players.player import *
 from classes.players.player_profile_career import *
 from helpers.csv_helper import *
 
 def run_players_achievements_task(playerData: list[PlayerProfileCareer]):
-    print(playerData)
     file_name = 'players_achievements.csv'
     players_path =  '/'.join(['data', 'players'])
 

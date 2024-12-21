@@ -1,9 +1,9 @@
 from .stat_detail import StatDetail
 
 class StatSubCategory():
-    def __init__(self, displayName, stats):
+    def __init__(self, category, categoryDisplayName, displayName, stats):
         self.displayName = displayName
-        self.stats = [StatDetail(**s) for s in stats]
+        self.stats = [StatDetail(category, categoryDisplayName, displayName, **s) for s in stats]
 
     def __str__(self):
         string_arr = [str(s) for s in self.stats]

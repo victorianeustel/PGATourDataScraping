@@ -1,5 +1,6 @@
 from helpers.csv_helper import *
-from helpers.pga_data_calls import *
+
+from data_queries.pga.schedule import *
 
 def run_get_schedule_years_task():
     schedule_years = get_schedule_years()

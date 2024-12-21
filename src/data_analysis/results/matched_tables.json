@@ -1,0 +1,162 @@
+{
+    "STROKES_GAINED": {
+        "Strokes Gained": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,AVG,TOTAL SG:T,TOTAL SG:T2G,TOTAL SG:P,MEASURED ROUNDS",
+            "matched": [
+                "sg_tee-to-green.csv"
+            ],
+            "unmatched": [
+                "sg_off-the-tee.csv",
+                "sg_approach_the_green.csv",
+                "sg_around-the-green.csv",
+                "sg_putting.csv"
+            ]
+        }
+    },
+    "OFF_TEE": {
+        "Scoring": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,RTP SCORE",
+            "matched": [
+                "left_rough_tendency_(rtp_score).csv"
+            ],
+            "unmatched": []
+        }
+    },
+    "APPROACH_GREEN": {
+        "Holeouts, Other": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,HOLE OUTS",
+            "matched": [],
+            "unmatched": [
+                "longest_hole_outs_(in_yards).csv",
+                "average_approach_shot_distance.csv",
+                "average_approach_distance_birdie_or_better.csv",
+                "average_approach_distance_par.csv",
+                "average_approach_distance_bogey_or_worse.csv",
+                "average_distance_to_hole_after_tee_shot.csv"
+            ]
+        }
+    },
+    "AROUND_GREEN": {
+        "Scoring": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,AVG RTP,TOTAL HOLES,TOTAL RTP",
+            "matched": [
+                "scrambling_20-30_yds_(rtp_score).csv",
+                "scrambling_10-20_yds_(rtp_score).csv",
+                "scrambling_fringe_(rtp_score).csv",
+                "scrambling_rough_(rtp_score).csv"
+            ],
+            "unmatched": []
+        }
+    },
+    "PUTTING": {
+        "GIR Putts Made by Dist.": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,% MADE,ATTEMPTS,PUTTS MADE",
+            "matched": [
+                "gir_putting_avg_30-35'.csv",
+                "gir_putting_avg_25-30'.csv",
+                "gir_putting_greater-than_25'.csv",
+                "gir_putting_20-25'.csv",
+                "gir_putting_15-20'.csv",
+                "gir_putting_10-15'.csv",
+                "gir_putting_5-10'.csv",
+                "gir_putting_inside_5'.csv"
+            ],
+            "unmatched": []
+        }
+    },
+    "SCORING": {
+        "Scoring Off the 10th Tee": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,AVG,TOTAL STROKES,TOTAL 10TH TEE EARLY RDS.",
+            "matched": [
+                "tenth_tee_late_scoring_average.csv",
+                "tenth_tee_early_par_3_scoring_average.csv",
+                "tenth_tee_late_par_3_scoring_average.csv",
+                "tenth_tee_early_par_4_scoring_average.csv",
+                "tenth_tee_late_par_4_scoring_average.csv",
+                "tenth_tee_early_par_5_scoring_average.csv",
+                "tenth_tee_late_par_5_scoring_average.csv",
+                "tenth_tee_early_round_1_scoring_average.csv",
+                "tenth_tee_late_round_1_scoring_average.csv",
+                "tenth_tee_early_round_2_scoring_average.csv",
+                "tenth_tee_late_round_2_scoring_average.csv",
+                "tenth_tee_early_round_3_scoring_average.csv",
+                "tenth_tee_late_round_3_scoring_average.csv",
+                "tenth_tee_early_round_4_scoring_average.csv",
+                "tenth_tee_late_round_4_scoring_average.csv",
+                "tenth_tee_early_round_5_scoring_average.csv",
+                "tenth_tee_late_round_5_scoring_average.csv"
+            ],
+            "unmatched": [
+                "tenth_tee_early_lowest_round.csv",
+                "tenth_tee_late_lowest_round.csv"
+            ]
+        }
+    },
+    "STREAKS": {
+        "Scoring Streaks": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,CAREER BEST STREAK,BEST YTD STREAK",
+            "matched": [
+                "best_sub-par_rounds_streak.csv"
+            ],
+            "unmatched": [
+                "ytd_rounds_in_60's_streak.csv",
+                "ytd_sub-par_rounds_streak.csv",
+                "current_par_or_better_streak.csv",
+                "ytd_par_or_better_streak.csv",
+                "consecutive_par_3_birdies.csv",
+                "consecutive_par_4_birdies.csv",
+                "consecutive_par_5_birdies.csv",
+                "consecutive_holes_below_par.csv",
+                "consecutive_birdies_streak.csv",
+                "consecutive_birdieseagles_streak.csv"
+            ]
+        }
+    },
+    "MONEY_FINISHES": {
+        "Money": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,MONEY,YTD VICTORIES",
+            "matched": [
+                "non-member_earnings.csv",
+                "money_per_event_leaders.csv"
+            ],
+            "unmatched": [
+                "career_money_leaders.csv",
+                "career_earnings.csv",
+                "non-member_off+wgc_earnings.csv",
+                "money_leaders_fall_series.csv",
+                "fedexcup_bonus_money.csv",
+                "total_money_(official_and_unofficial).csv",
+                "percentage_of_available_purse_won.csv",
+                "percentage_of_potential_money_won.csv"
+            ]
+        }
+    },
+    "POINTS_RANKINGS": {
+        "Rankings": {
+            "base": "YEAR,RANK,MOVEMENT,PLAYER_ID,PLAYER,TOTAL",
+            "matched": [
+                "rsm_birdies_fore_love.csv",
+                "power_rating.csv",
+                "accuracy_rating.csv",
+                "short_game_rating.csv",
+                "putting_rating.csv",
+                "scoring_rating.csv",
+                "last_5_events_power.csv",
+                "last_5_events_accuracy.csv",
+                "last_5_events_short_game.csv",
+                "last_5_events_putting.csv",
+                "last_5_events_scoring.csv",
+                "last_15_events_power.csv",
+                "last_15_events_accuracy.csv",
+                "last_15_events_short_game.csv",
+                "last_15_events_putting.csv",
+                "last_15_events_scoring.csv"
+            ],
+            "unmatched": [
+                "fedex_air_&_ground_\u00ae.csv",
+                "fedex_ground_top_performer_\u00ae.csv",
+                "official_world_golf_ranking.csv"
+            ]
+        }
+    }
+}
