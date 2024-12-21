@@ -1,64 +1,61 @@
 from helpers.dataframe_comparer import *
+from data.pga.stats import *
 
+import csv
 import pandas as pd
 import json
+import requests
+import io
 
+stat_years = []
 
-df = pd.read_csv('data/stats/stat_categories.csv', sep=',', on_bad_lines='skip')
-unique_categories = df['category'].unique()
-print(unique_categories)
-dict = {}
-
-matched_tables={}
-
-for uc in unique_categories:
-    dict[uc] = {}
-    print(uc)
-    cat_df = df[df['category'] == uc]
-    sc_cat = cat_df['subcategory_name'].unique()
-    print(sc_cat)
-    for sc in sc_cat:
-        temp = cat_df[cat_df['subcategory_name'] == sc]
-        cat_files = temp['file_name'].unique()
-        dict[uc][sc] = cat_files 
-
-    # sub_cats = df['subcategory_name'].unique()
-    # dict[uc] = sub_cats 
-    # dict[uc] = cat_files 
-    
-# print(dict)
-
-for cindex, uc in enumerate(unique_categories):
-    sc_df = df[df['category'] == uc]
-    subcats = sc_df['subcategory_name'].unique()
-    for sc in subcats:
+with open('data/stats/stat_years.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    reader.__next__()
+    for row in reader:
+        stat_years.append(int(row[0]))
         
-        
-        try:
-            files = dict[uc][sc]
-            matched_tables[uc] = {}
-            base_columns = pd.read_csv('data/combined_stats/' + files[0], sep=',').columns
-            base_cols_str = ','.join(base_columns)
-            match = []
-            unmatched = []
-            for index, f in enumerate(files[1: len(files)]):
-                print('category: {0} / {1} subcategory {2} / {3}'.format(cindex, len(unique_categories), index + 1, len(files)))
+df = pd.read_csv('data/stats/stat_categories.csv', sep=',', on_bad_lines='skip', dtype = str)
+stat_data = df[['stat_id', 'file_name']].groupby('stat_id', axis=0).first()
+# stat_ids = df['stat_id'].unique()
 
-                try:
-                    next_columns = pd.read_csv('data/combined_stats/' +f, sep=',').columns
-                    if (len(base_columns) == len(next_columns)):
-                        match.append(f)
-                    else:
-                        unmatched.append(f)
-                except:
-                    continue
+unique_stat_ct = len(stat_data)
+print(unique_stat_ct)
+stats_file_dict = {}
+
+# each year
+for y in stat_years:
+    for i, file_name in stat_data.itertuples():    # print(f"Row {i}: {df.loc[i]}")
+        df_row = stat_data.loc[i]
+        row_num = df_row.name
+        stat_id = i
+        writing_type = "w"
+        if stat_id in stats_file_dict:
+            writing_type = "a"
+        else:
+            stats_file_dict[stat_id] = file_name
+        
+        filePath = "data/stats/stat_details/" + file_name
+
+        writing_type = writing_type + "b"
+        
+        path = get_stats_path(year=y, statsId= stat_id)
+        response = requests.get(path)
+        with open(filePath, writing_type) as file:
+            # file.write(response.content)
+            writer = csv.writer(file, delimiter= ',',quoting=csv.QUOTE_ALL )
+            f = io.StringIO(response.text)
+            reader = csv.reader(f, delimiter=',')
+            
+            csv_rows = []
+            header = next(reader)
+            
+            if (writing_type == "wb"):
+                header.append("YEAR")
+                writer.writerow(header)
                 
-            if len(match) > 0 or len(unmatched) > 0:
-                matched_tables[uc][sc] = { "base": base_cols_str,
-                                "matched": match, 
-                                "unmatched": unmatched}
-        except:
-            continue
-print(matched_tables)
-with open('data/matched_tables.json', 'w') as k:
-    json.dump(matched_tables, k)
+            for row in reader:
+                row.append(y)
+                writer.writerow(row)
+            
+            f.close()
