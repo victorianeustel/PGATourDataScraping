@@ -24,7 +24,7 @@ print(unique_stat_ct)
 stats_file_dict = {}
 
 # each year
-for y in stat_years:
+for y in stat_years[0:1]:
     for i, file_name in stat_data.itertuples():    # print(f"Row {i}: {df.loc[i]}")
         df_row = stat_data.loc[i]
         row_num = df_row.name
@@ -37,28 +37,30 @@ for y in stat_years:
         
         filePath = "data/stats/stat_details/" + file_name
 
-        writing_type = writing_type + "b"
+        writing_type = writing_type 
         
         path = get_stats_path(year=y, statsId= stat_id)
         response = requests.get(path)
         resp_content = str(response.content).split('\\n')
 
         with open(filePath, writing_type) as file:
-            writer = csv.writer(file, delimiter= ',',quoting=csv.QUOTE_ALL )
+            writer = csv.writer(file, delimiter= ',')
             
             reader = csv.reader(resp_content, delimiter=',')
             
-            print(next(reader))
+            # print(next(reader))
             
-            # csv_rows = []
-            # header = next(reader)
+            csv_rows = []
             
-            # if (writing_type == "wb"):
-            #     header.append("YEAR")
-            #     writer.writerow(header)
+            if (writing_type == "w"):
+                header = next(reader)
+                header.append('YEAR')
+                csv_rows.append(header)
                 
-            # for row in reader:
-            #     row.append(y)
-            #     writer.writerow(row)
+            for row in reader:
+                row.append(y)
+                csv_rows.append(row)
+                
+            writer.writerows(csv_rows)
+
             
-            # f.close()
