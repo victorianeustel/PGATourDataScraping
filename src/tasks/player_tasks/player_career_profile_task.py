@@ -1,6 +1,6 @@
 from helpers.csv_helper import *
 
-from data.pga.players import *
+from data_queries.pga.players import *
 
 from classes.players.player import *
 from classes.players.player_profile_career import *

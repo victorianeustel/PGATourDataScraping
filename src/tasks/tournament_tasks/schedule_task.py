@@ -1,7 +1,7 @@
 from helpers.csv_helper import *
 from classes.tournaments.schedule import *
 from classes.tour.year import *
-from data.pga.schedule import *
+from data_queries.pga.schedule import *
 
 def run_schedule_tasks():
     
