@@ -1,7 +1,6 @@
-from helpers.dataframe_comparer import *
 from helpers.csv_helper import *
 
-from data.pga.stats import *
+from data_queries.pga.stats import *
 
 import csv
 import pandas as pd
@@ -29,7 +28,7 @@ for index, y in enumerate(stat_years):
     stat_index = 1
     for stat_id, file_name in stat_data.itertuples(): 
         stat_index = stat_index + 1
-        print("YEAR {0} ({1} / {2}) - STAT {3} {4} / {5}"
+        print("YEAR {0} ({1} / {2}) - STAT {3} ({4} / {5})"
             .format(y, 
                     index, 
                     len(stat_years), 

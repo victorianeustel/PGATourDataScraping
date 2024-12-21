@@ -1,5 +1,5 @@
-from data.pga.courses import *
-from data.pga.stats import *
+from data_queries.pga.courses import *
+from data_queries.pga.stats import *
 
 from helpers.csv_helper import *
 
