@@ -41,21 +41,24 @@ for y in stat_years:
         
         path = get_stats_path(year=y, statsId= stat_id)
         response = requests.get(path)
+        resp_content = str(response.content).split('\\n')
+
         with open(filePath, writing_type) as file:
-            # file.write(response.content)
             writer = csv.writer(file, delimiter= ',',quoting=csv.QUOTE_ALL )
-            f = io.StringIO(response.text)
-            reader = csv.reader(f, delimiter=',')
             
-            csv_rows = []
-            header = next(reader)
+            reader = csv.reader(resp_content, delimiter=',')
             
-            if (writing_type == "wb"):
-                header.append("YEAR")
-                writer.writerow(header)
+            print(next(reader))
+            
+            # csv_rows = []
+            # header = next(reader)
+            
+            # if (writing_type == "wb"):
+            #     header.append("YEAR")
+            #     writer.writerow(header)
                 
-            for row in reader:
-                row.append(y)
-                writer.writerow(row)
+            # for row in reader:
+            #     row.append(y)
+            #     writer.writerow(row)
             
-            f.close()
+            # f.close()
