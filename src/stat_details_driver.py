@@ -20,7 +20,7 @@ stat_data = df[['stat_id', 'file_name']].groupby('stat_id', axis=0).first()
 # stat_ids = df['stat_id'].unique()
 
 unique_stat_ct = len(stat_data)
-print(unique_stat_ct)
+# print(unique_stat_ct)
 stats_file_dict = {}
 
 # each year
@@ -40,27 +40,30 @@ for y in stat_years[0:1]:
         writing_type = writing_type 
         
         path = get_stats_path(year=y, statsId= stat_id)
-        response = requests.get(path)
-        resp_content = str(response.content).split('\\n')
+        response = requests.get(path, stream=True)
+        response_bytes = response.content.decode('utf-8')
 
-        with open(filePath, writing_type) as file:
-            writer = csv.writer(file, delimiter= ',')
+        df = pd.read_fwf(io.StringIO(response_bytes))
+        
+        print(df)
+        # resp_content = str(response.content).split('\\n')
+
+        # with open(filePath, writing_type) as file:
+        #     writer = csv.writer(file, delimiter= ',')
             
-            reader = csv.reader(resp_content, delimiter=',')
+        #     reader = csv.reader(resp_content, delimiter=',')
+                        
+        #     csv_rows = []
             
-            # print(next(reader))
-            
-            csv_rows = []
-            
-            if (writing_type == "w"):
-                header = next(reader)
-                header.append('YEAR')
-                csv_rows.append(header)
+        #     if (writing_type == "w"):
+        #         header = next(reader)
+        #         header.append('YEAR')
+        #         csv_rows.append(header)
                 
-            for row in reader:
-                row.append(y)
-                csv_rows.append(row)
+        #     for row in reader:
+        #         row.append(y)
+        #         csv_rows.append(row)
                 
-            writer.writerows(csv_rows)
+        #     writer.writerows(csv_rows)
 
             
