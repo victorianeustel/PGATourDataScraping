@@ -26,11 +26,23 @@ unique_stat_ct = len(stat_data)
 stats_file_dict = {}
 
 # each year
-for y in stat_years[0:1]:
-    for i, file_name in stat_data.itertuples():    # print(f"Row {i}: {df.loc[i]}")
-        df_row = stat_data.loc[i]
-        row_num = df_row.name
-        stat_id = i
+for index, y in enumerate(stat_years):
+    stat_index = 1
+    for stat_id, file_name in stat_data.itertuples(): 
+    # for stat_id, file_name in {"02675": "sg_total.csv"}.items():
+        stat_index = stat_index + 1
+        df_row = stat_data.loc[stat_id]
+        print("YEAR {0} ({1} / {2}) - STAT {3} {4} / {5}"
+            .format(y, 
+                    index, 
+                    len(stat_years), 
+                    stat_id,
+                    stat_index,
+                    unique_stat_ct 
+                    ), 
+            end='\r'
+            )
+
         writing_type = "w"
         if stat_id in stats_file_dict:
             writing_type = "a"
@@ -42,11 +54,23 @@ for y in stat_years[0:1]:
         path = get_stats_path(year=y, statsId= stat_id)
         response = requests.get(path, stream=True)
         response_bytes = response.content.decode('utf-8')
+        header = pd.read_csv(io.StringIO(response_bytes), index_col=0, nrows=0).columns.tolist()
+        # print(header)
+        # col_count = len(header)
 
-        df = pd.read_csv(io.StringIO(response_bytes))
+        df = pd.read_csv(io.StringIO(response_bytes), usecols=header)
         df['YEAR'] = y
         move_column_inplace(df, 'YEAR', 0)
-        # print(df)
+        cols = df.columns.tolist()
         
+        if df.empty:
+            continue
         if (writing_type == "w"):
-            df.to_csv()
+            df.to_csv(filePath, index=False)
+        elif (writing_type == "a"):
+            base_df = pd.read_csv(filePath)
+            if (len(base_df.columns.tolist()) != len(cols)):
+                continue
+            
+            temp = pd.concat([base_df, df])
+            temp.to_csv(filePath, index = False)
