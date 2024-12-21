@@ -5,7 +5,6 @@ from data.pga.stats import *
 
 import csv
 import pandas as pd
-import json
 import requests
 import io
 
@@ -19,23 +18,17 @@ with open('data/stats/stat_years.csv', newline='') as csvfile:
         
 df = pd.read_csv('data/stats/stat_categories.csv', sep=',', on_bad_lines='skip', dtype = str)
 stat_data = df[['stat_id', 'file_name']].groupby('stat_id', axis=0).first()
-# print(stat_data['stat_id'].unique())
 stat_ids = df['stat_id'].unique()
-print(stat_ids)
 
 unique_stat_ct = len(stat_data)
-# print(unique_stat_ct)
 # The `stats_file_dict` dictionary is used to keep track of the file paths where the statistical data
 # for each stat_id is being stored.
 stat_files_set = set()
 
-# each year
 for index, y in enumerate(stat_years):
     stat_index = 1
     for stat_id, file_name in stat_data.itertuples(): 
-    # for stat_id, file_name in {"2347": "last_5_events_power.csv"}.items():
         stat_index = stat_index + 1
-        # df_row = stat_data.loc[stat_id]
         print("YEAR {0} ({1} / {2}) - STAT {3} {4} / {5}"
             .format(y, 
                     index, 
