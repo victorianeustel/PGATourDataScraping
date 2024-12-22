@@ -3,8 +3,6 @@ from .summary_row import *
 
 class RoundHoleStats():
     def __init__(self, roundHeader, roundNum, live, holeStats):
-        for h in holeStats:
-            print(h)
         self.holeNumber = roundHeader
         self.roundNum = roundNum
         self.holeStats = [HoleStats(holeNumber=hole['courseHoleNum'],
