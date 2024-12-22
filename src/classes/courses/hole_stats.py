@@ -1,6 +1,6 @@
 class HoleStats():
     header = ['course_id',
-            'round_number'
+            'round_number',
             'hole_number',
             'par_value',
             'yards',

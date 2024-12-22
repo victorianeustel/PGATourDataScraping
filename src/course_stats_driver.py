@@ -28,21 +28,26 @@ for index, t_id in enumerate(tournament_ids[0:1]):
 
         courses = [PGA_Course(**c) for c in json_obj]
 
-        for c in courses:
-            id = c.courseId
-            if id in course_ids:
-                continue
-            else:
-                # Add courses for tournaments
-                
-                #Add courses
-                
-                # Add course overviews
-                
-                # Add round hole stats 
-                
-                # Add course hole stats summary row
-                
-                course_ids.add(id)
+        # for c in courses:
+        c = courses[0]
+        id = c.courseId
+        if id in course_ids:
+            continue
+        else:
+            # Add courses for tournaments
+            AppendTournamentCourses(courses)
+            #Add courses
+            AppendCourses(courses)
+            
+            # Add course overviews
+            AppendCoursesOverviews(courses)
+            
+            # Add round hole stats 
+            AppendCourseHoleStats(courses)
+            
+            # Add course hole stats summary row
+            AppendCourseHoleSummaryStats(courses)
+            
+            course_ids.add(id)
                 
                 

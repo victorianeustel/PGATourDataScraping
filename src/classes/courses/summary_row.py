@@ -4,9 +4,9 @@ class SummaryRow():
             "eagles", "birdies", "pars", "bogeys", "double_bogeys"]
     
     
-    def __init__(self, roundNumber, course_id, rowType, par, scoringAverageDiff, scoringDiffTendency, yardage, scoringAverage, eagles, birdies, pars, bogeys, doubleBogeys):
+    def __init__(self,courseId, roundNumber, rowType, par, scoringAverageDiff, scoringDiffTendency, yardage, scoringAverage, eagles, birdies, pars, bogeys, doubleBogeys):
+        self.courseId = courseId
         self.roundNumber = roundNumber,
-        self.courseId = course_id
         self.rowType = rowType
         self.par = par
         self.scoringAverageDiff = scoringAverageDiff
@@ -20,7 +20,7 @@ class SummaryRow():
         self.doubleBogeys = doubleBogeys
         
     def ToArray(self):
-        return [self.courseId, self.roundNumber,  self.par, self.scoringAverageDiff,
+        return [self.courseId, self.roundNumber[0],  self.par, self.scoringAverageDiff,
                 self.scoringDiffTendency, self.yardage, self.scoringAverage,
                 self.eagles, self.birdies, self.pars, self.bogeys,
                 self.doubleBogeys]

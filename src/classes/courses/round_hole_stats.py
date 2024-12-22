@@ -25,8 +25,8 @@ class RoundHoleStats():
                             pinGreen = hole['pinGreen']
                             ) for hole in holeStats if hole['__typename'] == "CourseHoleStats"]
         self.summaryRow = [SummaryRow(
-            roundNumber = roundNum,
-            courseId = courseId,
+                            courseId = courseId,
+                            roundNumber = roundNum,
                             rowType=hole['rowType'],
                             par=hole['par'],
                             scoringAverageDiff = hole['scoringAverageDiff'],
