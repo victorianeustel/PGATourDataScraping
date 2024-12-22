@@ -12,7 +12,7 @@ course_ids = set()
 
 InitializeCourseCSVs()
 
-for index, t_id in enumerate(tournament_ids[0:1]):
+for index, t_id in enumerate(tournament_ids):
         print("TournamentID: {0} ({1} / {2}) "
             .format( 
                     t_id, 
@@ -31,11 +31,12 @@ for index, t_id in enumerate(tournament_ids[0:1]):
         # for c in courses:
         c = courses[0]
         id = c.courseId
+        # Add courses for tournaments
+        AppendTournamentCourses(courses)
+
         if id in course_ids:
             continue
         else:
-            # Add courses for tournaments
-            AppendTournamentCourses(courses)
             #Add courses
             AppendCourses(courses)
             
