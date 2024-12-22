@@ -2,10 +2,13 @@ from .hole_stats import *
 from .summary_row import *
 
 class RoundHoleStats():
-    def __init__(self, roundHeader, roundNum, live, holeStats):
+    def __init__(self, courseId, roundHeader, roundNum, live, holeStats):
+        self.courseId = courseId
         self.holeNumber = roundHeader
         self.roundNum = roundNum
-        self.holeStats = [HoleStats(holeNumber=hole['courseHoleNum'],
+        self.holeStats = [HoleStats(courseId = courseId,
+                                    roundNumber = roundNum, 
+                            holeNumber=hole['courseHoleNum'],
                             parValue=hole['parValue'],
                             yards = hole['yards'],
                             scoringAverage = hole['scoringAverage'],
@@ -21,7 +24,10 @@ class RoundHoleStats():
                             holePickleGreenLeftToRight = hole['holePickleGreenLeftToRight'],
                             pinGreen = hole['pinGreen']
                             ) for hole in holeStats if hole['__typename'] == "CourseHoleStats"]
-        self.summaryRow = [SummaryRow(rowType=hole['rowType'],
+        self.summaryRow = [SummaryRow(
+            roundNumber = roundNum,
+            courseId = courseId,
+                            rowType=hole['rowType'],
                             par=hole['par'],
                             scoringAverageDiff = hole['scoringAverageDiff'],
                             scoringDiffTendency = hole['scoringDiffTendency'],

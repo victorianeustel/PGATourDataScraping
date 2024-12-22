@@ -1,24 +1,28 @@
 class HoleStats():
-    header = ['holeNumber',
-            'parValue',
+    header = ['course_id',
+            'round_number'
+            'hole_number',
+            'par_value',
             'yards',
-            'scoringAverage',
-            'scoringAverageDiff',
-            'scoringAverageTendency',
+            'scoring_average',
+            'scoring_average_diff',
+            'scoring_average_tendency',
             'eagles',
             'birdies',
             'pars',
             'bogeys',
-            'doubleBogeys',
+            'double_bogeys',
             'rank',
-            'holeImage',
-            'holePickleGreenLeftToRight'
+            'hole_image',
+            'hole_pickle_green_left_to_right'
         ]
     
-    def __init__(self, holeNumber, parValue, yards, scoringAverage,
+    def __init__(self, courseId, roundNumber, holeNumber, parValue, yards, scoringAverage,
                 scoringAverageDiff, scoringDiffTendency, eagles, birdies,
                 pars, bogeys, doubleBogeys, rank, holeImage, holePickleGreenLeftToRight,
                 pinGreen):
+        self.courseId = courseId
+        self.roundNumber = roundNumber
         self.holeNumber = holeNumber
         self.parValue = parValue
         self.yards = yards
@@ -36,7 +40,9 @@ class HoleStats():
         # self.pinGreen = PinGreen(**pinGreen)
     
     def ToArray(self):
-        return [self.holeNumber,
+        return [self.courseId, 
+                self.roundNumber,
+            self.holeNumber,
             self.parValue,
             self.yards,
             self.scoringAverage,

@@ -1,4 +1,5 @@
 from classes.courses.course import *
+from helpers.driver_helpers.courses_helper import *
 from data_queries.pga.courses import *
 
 import pandas as pd
@@ -8,6 +9,8 @@ tournaments = df[['year', 'tournament_id']]
 tournament_ids = df['tournament_id'].unique().tolist()
 
 course_ids = set()
+
+InitializeCourseCSVs()
 
 for index, t_id in enumerate(tournament_ids[0:1]):
         print("TournamentID: {0} ({1} / {2}) "
@@ -30,4 +33,16 @@ for index, t_id in enumerate(tournament_ids[0:1]):
             if id in course_ids:
                 continue
             else:
+                # Add courses for tournaments
+                
+                #Add courses
+                
+                # Add course overviews
+                
+                # Add round hole stats 
+                
+                # Add course hole stats summary row
+                
                 course_ids.add(id)
+                
+                

@@ -7,5 +7,5 @@ class CourseOverview():
         self.city = city
         self.state = state
         self.country = country
-        self.overview = [CourseOverviewItem(**item) for item in overview]
+        self.overviewItems = [CourseOverviewItem(id, **item) for item in overview]
         
