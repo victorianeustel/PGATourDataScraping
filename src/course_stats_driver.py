@@ -29,6 +29,8 @@ for index, t_id in enumerate(tournament_ids):
         courses = [PGA_Course(**c) for c in json_obj]
 
         # for c in courses:
+        if len(courses) <= 0: continue
+        
         c = courses[0]
         id = c.courseId
         # Add courses for tournaments
