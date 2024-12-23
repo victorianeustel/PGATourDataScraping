@@ -48,7 +48,7 @@ for index, y in enumerate(stat_years):
         path = get_stats_path(year=y, statsId= stat_id)
         response = requests.get(path, stream=True)
         response_bytes = response.content.decode('utf-8')
-        header = pd.read_csv(io.StringIO(response_bytes), index_col=0, nrows=0).columns.tolist()
+        header = pd.read_csv(io.StringIO(response_bytes), nrows=0).columns.tolist()
 
         df = pd.read_csv(io.StringIO(response_bytes), usecols=header)
         df['YEAR'] = y
