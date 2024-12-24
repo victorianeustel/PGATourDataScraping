@@ -12,7 +12,7 @@ class GraphQLEnum():
     header = ["enum_name", "enum_values"]
     def __init__(self, name, enumValues):
         self.enumName = name
-        self.enumValues = enumValues
+        self.enumValues = [e["name"] for e in enumValues]
         
     def ToArray(self):
         return [self.enumName, self.enumValues]
