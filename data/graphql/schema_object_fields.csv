@@ -1,0 +1,4398 @@
+object_name,field_name,field_type,field_description
+Query,liveVideoOverride,NON_NULL,
+Query,videoLandingPage,OBJECT,
+Query,videoNavigation,OBJECT,
+Query,contentFragmentTabs,NON_NULL,
+Query,ryderCupContentPageTabs,NON_NULL,
+Query,scatterData,NON_NULL,
+Query,signatureStandings,NON_NULL,
+Query,franchises,NON_NULL,
+Query,videoFranchises,OBJECT,
+Query,newsFranchises,NON_NULL,
+Query,podcastEpisodes,NON_NULL,
+Query,podcasts,NON_NULL,
+Query,leaderboardV2,NON_NULL,
+Query,leaderboardV3,NON_NULL,
+Query,leaderboardStrokes,NON_NULL,
+Query,leaderboardStrokesCompressed,NON_NULL,
+Query,leaderboardStats,NON_NULL,
+Query,tournamentPastResults,NON_NULL,
+Query,leaderboardCompressedV2,NON_NULL,
+Query,leaderboardCompressedV3,NON_NULL,
+Query,teamStrokePlayLeaderboard,NON_NULL,
+Query,teamStrokePlayLeaderboardCompressed,NON_NULL,
+Query,teamStrokePlayScorecard,NON_NULL,
+Query,teamStrokePlayScorecardRounds,NON_NULL,
+Query,teamStrokePlayTeeTimes,NON_NULL,
+Query,teamStrokePlayTeeTimesCompressed,NON_NULL,
+Query,matchPlayLeaderboard,NON_NULL,
+Query,matchPlayLeaderboardCompressed,NON_NULL,
+Query,matchPlayScorecard,NON_NULL,
+Query,matchPlayPlayoffScorecard,NON_NULL,
+Query,matchPlayTeeTimes,NON_NULL,
+Query,matchPlayTeeTimesCompressed,NON_NULL,
+Query,matchPlayScorecardResults,NON_NULL,
+Query,groupStageRankings,NON_NULL,
+Query,leaderboardOddsToWinV2,NON_NULL,
+Query,leaderboardOddsToWinCompressedV2,NON_NULL,
+Query,schedule,NON_NULL,
+Query,completeSchedule,NON_NULL,
+Query,upcomingSchedule,NON_NULL,
+Query,scorecardV2,NON_NULL,
+Query,scorecardCompressedV3,NON_NULL,
+Query,scorecardV3,NON_NULL,
+Query,scorecardStats,NON_NULL,
+Query,scorecardStatsV3Compressed,NON_NULL,
+Query,scorecardStatsV3,NON_NULL,
+Query,historicalScorecardStats,NON_NULL,
+Query,playoffScorecard,NON_NULL,
+Query,playoffScorecardV2,LIST,
+Query,shotDetails,NON_NULL,
+Query,tourcastShotDetails,NON_NULL,
+Query,shotDetailsCompressed,NON_NULL,
+Query,shotDetailsCompressedV3,NON_NULL,
+Query,shotDetailsV3,NON_NULL,
+Query,playoffShotDetails,NON_NULL,
+Query,playoffShotDetailsCompressed,NON_NULL,
+Query,tspPlayoffShotDetails,NON_NULL,
+Query,tspPlayoffShotDetailsCompressed,NON_NULL,
+Query,teeTimes,NON_NULL,
+Query,teeTimesCompressed,NON_NULL,
+Query,teeTimesV2,NON_NULL,
+Query,teeTimesCompressedV2,NON_NULL,
+Query,tournaments,NON_NULL,
+Query,field,NON_NULL,
+Query,groupedField,NON_NULL,
+Query,fieldStats,NON_NULL,
+Query,videos,NON_NULL,
+Query,videoRecommendations,NON_NULL,
+Query,player,NON_NULL,
+Query,players,NON_NULL,
+Query,liveAudioStream,NON_NULL,
+Query,playerDirectory,NON_NULL,
+Query,coverage,NON_NULL,
+Query,broadcastTimes,NON_NULL,
+Query,networks,NON_NULL,
+Query,upcomingNetworks,NON_NULL,
+Query,newsArticles,NON_NULL,
+Query,adTagConfig,NON_NULL,
+Query,articleAdConfig,NON_NULL,
+Query,playerSponsorships,NON_NULL,
+Query,sponsorships,NON_NULL,
+Query,defaultTourCup,NON_NULL,
+Query,tourCups,NON_NULL,
+Query,tourCup,NON_NULL,
+Query,tourCupCombined,NON_NULL,
+Query,tourCupSplit,OBJECT,
+Query,playerProfileOverview,NON_NULL,
+Query,playerProfileStats,NON_NULL,
+Query,playerProfileStatsYears,NON_NULL,
+Query,playerProfileStatsFull,NON_NULL,
+Query,playerProfileStatsFullV2,NON_NULL,
+Query,playerProfileStandings,NON_NULL,
+Query,playerProfileSeasonResults,NON_NULL,
+Query,playerProfileCareer,NON_NULL,
+Query,playerProfileCourseResults,OBJECT,
+Query,playerProfileMajorResults,OBJECT,
+Query,playerProfileCareerResults,NON_NULL,
+Query,playerProfileTournamentResults,NON_NULL,
+Query,playerProfileScorecards,NON_NULL,
+Query,courseStats,NON_NULL,
+Query,holeDetails,NON_NULL,
+Query,courseHolesStats,NON_NULL,
+Query,yourTour,NON_NULL,
+Query,yourTourNews,NON_NULL,
+Query,promoSection,NON_NULL,
+Query,statLeaders,NON_NULL,
+Query,statsLeadersMobile,NON_NULL,
+Query,statOverview,NON_NULL,
+Query,statDetails,NON_NULL,
+Query,articleDetailsCompressed,NON_NULL,
+Query,ryderCupArticleDetailsCompressed,NON_NULL,
+Query,ryderCupMixedMedia,NON_NULL,
+Query,ryderCupMixedMediaCompressed,NON_NULL,
+Query,getRCPhotoGallery,NON_NULL,
+Query,ryderCupContentOptions,NON_NULL,
+Query,ryderCupTeamRankings,OBJECT,
+Query,getExpertPicksTable,NON_NULL,
+Query,getPowerRankingsTable,NON_NULL,
+Query,getRelatedFact,NON_NULL,
+Query,genericContent,NON_NULL,
+Query,genericContentCompressed,NON_NULL,
+Query,legalDocsCompressed,NON_NULL,
+Query,tourcastVideos,NON_NULL,
+Query,weather,NON_NULL,
+Query,tournamentOverview,NON_NULL,
+Query,presentedBy,NON_NULL,
+Query,courseStatsDetails,NON_NULL,
+Query,courseStatsOverview,NON_NULL,
+Query,scheduleYears,NON_NULL,
+Query,eventGuideConfig,NON_NULL,
+Query,contentFragmentsCompressed,NON_NULL,
+Query,ryderCupContentFragmentsCompressed,NON_NULL,
+Query,ryderCupTournaments,NON_NULL,
+Query,ryderCupTournament,OBJECT,
+Query,tournamentHistory,OBJECT,
+Query,tournamentRecap,NON_NULL,
+Query,videoHero,NON_NULL,
+Query,videoById,OBJECT,
+Query,ryderCupVideoById,OBJECT,
+Query,sponsoredArticles,NON_NULL,
+Query,sponsoredArticlesV2,NON_NULL,
+Query,tourcastTable,NON_NULL,
+Query,alltoursponsors,NON_NULL,
+Query,universityRankings,NON_NULL,
+Query,priorityRankings,NON_NULL,
+Query,aon,NON_NULL,
+Query,rsm,NON_NULL,
+Query,rsmLeaderboard,NON_NULL,
+Query,oddsTable,NON_NULL,
+Query,oddsGraph,NON_NULL,
+Query,historicalOdds,OBJECT,
+Query,historicalTournamentsOdds,OBJECT,"  End
+ Market Abstractions"
+Query,eaglesForImpact,NON_NULL,
+Query,tournamentOddsV2,NON_NULL,
+Query,tournamentOddsCompressedV2,NON_NULL,
+Query,entityOdds,NON_NULL,
+Query,leaderboardLegend,NON_NULL,
+Query,playerComparison,NON_NULL,
+Query,playersOddsComparison,NON_NULL,
+Query,newletterSubscriptions,NON_NULL,
+Query,searchBarFeatures,NON_NULL,
+Query,rankingsWinners,NON_NULL,
+Query,playerFinishStats,OBJECT,
+Query,cupPlayOverviewLeaderboard,NON_NULL,
+Query,cupRoundLeaderboard,NON_NULL,
+Query,cupRoundLeaderboardCompressed,NON_NULL,
+Query,cupScorecard,NON_NULL,
+Query,cupTeeTimes,NON_NULL,
+Query,cupTeamRoster,NON_NULL,
+Query,cupPastResults,NON_NULL,
+Query,leaderboardHoleByHole,NON_NULL,
+Query,contentFragmentType,OBJECT,
+Query,allTimeRecordStat,NON_NULL,
+Query,allTimeRecordCategories,NON_NULL,
+Query,tournamentOddsToWin,NON_NULL,
+Query,currentLeadersCompressed,OBJECT,
+Query,universityTotalPoints,NON_NULL,
+Query,scorecardStatsComparison,OBJECT,
+Query,tglSchedule,NON_NULL,
+Query,tglMatches,NON_NULL,
+Query,tglMatch,OBJECT,
+Query,groupLocations,NON_NULL,
+LiveVideoOverride,tourCode,NON_NULL,
+LiveVideoOverride,videos,NON_NULL,
+LiveVideoOverride,simulcast,OBJECT,
+Video,id,NON_NULL,
+Video,guid,SCALAR,Built-in String
+Video,title,NON_NULL,
+Video,description,SCALAR,Built-in String
+Video,rating,SCALAR,Built-in String
+Video,thumbnailAsset,NON_NULL,
+Video,poster,NON_NULL,
+Video,pubdate,NON_NULL,
+Video,publishDate,SCALAR,Built-in String
+Video,startsAt,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+Video,endsAt,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+Video,created,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+Video,category,NON_NULL,
+Video,categoryDisplayName,NON_NULL,
+Video,franchise,NON_NULL,
+Video,franchiseDisplayName,NON_NULL,
+Video,playerVideos,LIST,
+Video,year,SCALAR,Built-in String
+Video,tourCode,NON_NULL,
+Video,tournamentId,SCALAR,Built-in String
+Video,contentTournamentId,SCALAR,Built-in String
+Video,roundNumber,SCALAR,Built-in String
+Video,shareUrl,SCALAR,Built-in String
+Video,duration,NON_NULL,
+Video,holeNumber,SCALAR,Built-in String
+Video,seqHoleNumber,SCALAR,Built-in String
+Video,shotNumber,SCALAR,Built-in String
+Video,sponsor,OBJECT,
+Video,gamAccountId,SCALAR,Built-in String
+Video,videoAccountId,SCALAR,Built-in String
+Video,descriptionNode,LIST,
+Video,highestRatedOnHole,SCALAR,Built-in Boolean
+Video,pinned,NON_NULL,
+Video,team,ENUM,
+Video,players,LIST,
+Video,tags,LIST,
+Video,categories,LIST,
+Video,topics,LIST,
+Video,years,LIST,
+ImageAsset,imageOrg,NON_NULL,
+ImageAsset,imagePath,NON_NULL,
+PlayerVideo,id,NON_NULL,
+PlayerVideo,firstName,SCALAR,Built-in String
+PlayerVideo,lastName,SCALAR,Built-in String
+PlayerVideo,shortName,SCALAR,Built-in String
+VideoSponsor,name,NON_NULL,
+VideoSponsor,description,SCALAR,Built-in String
+VideoSponsor,logoPrefix,SCALAR,Built-in String
+VideoSponsor,logoAsset,NON_NULL,
+VideoSponsor,logoDarkAsset,NON_NULL,
+VideoSponsor,image,SCALAR,Built-in String
+VideoSponsor,websiteUrl,SCALAR,Built-in String
+VideoSponsor,gam,SCALAR,Built-in String
+NewsArticleText,value,SCALAR,Built-in String
+NewsArticleLink,segments,NON_NULL,
+NewsArticleContentSegment,type,NON_NULL,
+NewsArticleContentSegment,value,SCALAR,Built-in String
+NewsArticleContentSegment,data,SCALAR,Built-in String
+NewsArticleContentSegment,id,SCALAR,Built-in String
+NewsArticleContentSegment,format,OBJECT,
+NewsArticleContentSegment,imageOrientation,ENUM,
+NewsArticleContentSegment,imageDescription,SCALAR,Built-in String
+NewsArticleFormat,variants,LIST,
+NewsArticleFormat,styles,LIST,
+Style,key,NON_NULL,
+Style,value,NON_NULL,
+RyderCupContentPlayer,id,NON_NULL,
+RyderCupContentPlayer,name,NON_NULL,
+RyderCupContentPlayer,displayName,NON_NULL,
+RyderCupContentTags,id,NON_NULL,
+RyderCupContentTags,name,NON_NULL,
+RyderCupContentCategories,id,NON_NULL,
+RyderCupContentCategories,name,NON_NULL,
+ContentTopics,value,SCALAR,Built-in String
+ContentTopics,displayValue,SCALAR,Built-in String
+BroadcastFullTelecast,id,NON_NULL,
+BroadcastFullTelecast,streamTitle,NON_NULL,
+BroadcastFullTelecast,roundNumber,NON_NULL,
+BroadcastFullTelecast,roundDisplay,NON_NULL,
+BroadcastFullTelecast,channelTitle,NON_NULL,
+BroadcastFullTelecast,startTime,NON_NULL,
+BroadcastFullTelecast,endTime,NON_NULL,
+BroadcastFullTelecast,promoImage,SCALAR,Built-in String
+BroadcastFullTelecast,promoImages,NON_NULL,
+BroadcastFullTelecast,liveStatus,NON_NULL,
+BroadcastFullTelecast,network,NON_NULL,
+BroadcastNetwork,id,NON_NULL,
+BroadcastNetwork,networkName,NON_NULL,
+BroadcastNetwork,backgroundColor,SCALAR,Built-in String
+BroadcastNetwork,backgroundColorDark,SCALAR,Built-in String
+BroadcastNetwork,networkLogo,SCALAR,Built-in String
+BroadcastNetwork,networkLogoDark,SCALAR,Built-in String
+BroadcastNetwork,priorityNum,SCALAR,Built-in Int
+BroadcastNetwork,url,SCALAR,Built-in String
+BroadcastNetwork,iOSLink,NON_NULL,
+BroadcastNetwork,appleAppStore,NON_NULL,
+BroadcastNetwork,androidLink,NON_NULL,
+BroadcastNetwork,googlePlayStore,NON_NULL,
+BroadcastNetwork,simulcast,SCALAR,Built-in Boolean
+BroadcastNetwork,simulcastUrl,SCALAR,Built-in String
+BroadcastNetwork,streamUrl,SCALAR,Built-in String
+BroadcastNetwork,iosStreamUrl,SCALAR,Built-in String
+BroadcastNetwork,androidStreamUrl,SCALAR,Built-in String
+BroadcastNetwork,caid,SCALAR,Built-in String
+BroadcastNetwork,flag,SCALAR,Built-in String
+BroadcastNetwork,metr,SCALAR,Built-in String
+BroadcastNetwork,mode,SCALAR,Built-in String
+BroadcastNetwork,nw,SCALAR,Built-in String
+BroadcastNetwork,asnw,SCALAR,Built-in String
+BroadcastNetwork,prof,SCALAR,Built-in String
+BroadcastNetwork,resp,SCALAR,Built-in String
+BroadcastNetwork,ssnw,SCALAR,Built-in String
+BroadcastNetwork,vrdu,SCALAR,Built-in String
+BroadcastNetwork,vdty,SCALAR,Built-in String
+BroadcastNetwork,fwCoppa,SCALAR,Built-in String
+BroadcastNetwork,fwHReferer,SCALAR,Built-in String
+BroadcastNetwork,fwNielsenAppId,SCALAR,Built-in String
+BroadcastNetwork,daiStreamActivityId,SCALAR,Built-in String
+BroadcastNetwork,daiAssetKey,SCALAR,Built-in String
+BroadcastNetwork,daiPreRollUrl,SCALAR,Built-in String
+BroadcastNetwork,descriptionUrl,SCALAR,Built-in String
+BroadcastNetwork,liveAssetId,SCALAR,Built-in String
+BroadcastNetwork,sz,SCALAR,Built-in String
+BroadcastNetwork,channelId,SCALAR,Built-in String
+WatchLanding,tourCode,NON_NULL,
+WatchLanding,mobileWebVideoLimit,NON_NULL,
+WatchLanding,featuredVideos,LIST,
+WatchLanding,mobileVideos,LIST,
+WatchLanding,landingSections,NON_NULL,
+WatchLandingSection,videoPillType,NON_NULL,
+WatchLandingSection,pillConfig,UNION,
+WatchLandingSection,title,NON_NULL,
+WatchLandingSection,videos,NON_NULL,
+VideoFilterPillConfig,pinnedFranchises,NON_NULL,
+VideoFilterPillConfig,franchises,NON_NULL,
+Franchise,queryValue,NON_NULL,
+Franchise,displayName,NON_NULL,
+FranchisePillConfig,category,SCALAR,Built-in String
+FranchisePillConfig,franchises,NON_NULL,
+FranchisePillConfig,rating,SCALAR,Built-in Int
+TournamentsPillConfig,currentSeason,NON_NULL,
+TopicStoriesPillConfig,label,NON_NULL,
+VideoNavigation,tourCode,NON_NULL,
+VideoNavigation,items,NON_NULL,
+VideoNavigation,liveOverride,NON_NULL,
+VideoPill,defaultView,NON_NULL,
+VideoPill,videoPillType,NON_NULL,
+VideoPill,displayText,NON_NULL,
+VideoPill,enabledCompanionPills,LIST,
+VideoPill,pillConfig,UNION,
+ContentFragmentTabs,path,NON_NULL,
+ContentFragmentTabs,pageHeader,NON_NULL,
+ContentFragmentTabs,tabs,NON_NULL,
+ContentFragmentTab,path,NON_NULL,
+ContentFragmentTab,contentType,NON_NULL,
+ContentFragmentTab,label,SCALAR,Built-in String
+ContentFragmentTab,webview,SCALAR,Built-in String
+ScatterData,id,NON_NULL,
+ScatterData,tournamentId,NON_NULL,
+ScatterData,courseId,NON_NULL,
+ScatterData,hole,NON_NULL,
+ScatterData,rounds,NON_NULL,
+ScatterRound,display,SCALAR,Built-in String
+ScatterRound,num,NON_NULL,
+ScatterRound,strokes,NON_NULL,
+ScatterRound,pinCoords,NON_NULL,
+ScatterStroke,strokeNumber,NON_NULL,
+ScatterStroke,playerShots,NON_NULL,
+ScatterCoord,result,NON_NULL,
+ScatterCoord,player,NON_NULL,
+ScatterCoord,shotCoords,NON_NULL,
+ScatterPlayer,id,NON_NULL,
+ScatterPlayer,name,NON_NULL,
+ScatterShotData,green,NON_NULL,
+ScatterShotData,overview,NON_NULL,
+ScatterShotCoordData,portraitCoords,OBJECT,
+ScatterShotCoordData,landscapeCoords,OBJECT,
+ScattterXYData,x,NON_NULL,
+ScattterXYData,y,NON_NULL,
+SignatureStandings,tournamentID,NON_NULL,
+SignatureStandings,tournamentInfo,NON_NULL,
+SignatureStandings,infoTitle,NON_NULL,
+SignatureStandings,infoDescription,NON_NULL,
+SignatureStandings,mobileLogoAsset,NON_NULL,
+SignatureStandings,linktoField,NON_NULL,
+SignatureStandings,noFieldText,SCALAR,Built-in String
+SignatureStandings,noFieldToolTipTitle,SCALAR,Built-in String
+SignatureStandings,noFieldToolTipText,SCALAR,Built-in String
+SignatureStandings,official,NON_NULL,
+SignatureStandings,interim,NON_NULL,
+SignatureStandingsTournamentInfo,tournamentName,NON_NULL,
+SignatureStandingsTournamentInfo,tournamentLogoAsset,NON_NULL,
+SignatureStandingsTournamentInfo,tournamentStatus,NON_NULL,
+SignatureStandingsTournamentInfo,displayDate,NON_NULL,
+SignatureStandingsTournamentInfo,roundStatusDisplay,NON_NULL,
+SignatureStandingsTournamentInfo,roundStatus,NON_NULL,
+SignatureStandingsTournamentInfo,roundStatusColor,NON_NULL,
+SignatureStandingsData,title,NON_NULL,
+SignatureStandingsData,tooltipText,SCALAR,Built-in String
+SignatureStandingsData,sponsorLogoAsset,NON_NULL,
+SignatureStandingsData,sponsorName,SCALAR,Built-in String
+SignatureStandingsData,description,SCALAR,Built-in String
+SignatureStandingsData,eyebrowText,SCALAR,Built-in String
+SignatureStandingsData,players,NON_NULL,
+SignatureStandingsData,emptyTableTitle,SCALAR,Built-in String
+SignatureStandingsData,emptyTableDescription,SCALAR,Built-in String
+SignaturePlayer,playerId,NON_NULL,
+SignaturePlayer,displayName,NON_NULL,
+SignaturePlayer,shortName,NON_NULL,
+SignaturePlayer,countryName,NON_NULL,
+SignaturePlayer,countryFlag,NON_NULL,
+SignaturePlayer,started,NON_NULL,
+SignaturePlayer,projected,NON_NULL,
+SignaturePlayer,projectedPoints,NON_NULL,
+SignaturePlayer,movementAmount,NON_NULL,
+SignaturePlayer,movementDirection,NON_NULL,
+SignatureInfoLine,text,NON_NULL,
+TourCategories,tourCode,NON_NULL,
+TourCategories,categories,NON_NULL,
+Category,queryValue,NON_NULL,
+Category,displayName,NON_NULL,
+Category,franchises,NON_NULL,
+NewsFranchise,franchise,NON_NULL,
+NewsFranchise,franchiseLabel,NON_NULL,
+Episode,title,NON_NULL,
+Episode,description,NON_NULL,
+Episode,date,NON_NULL,
+Episode,duration,NON_NULL,
+Episode,streamUrl,NON_NULL,
+Episode,podcastId,NON_NULL,
+Audio,id,NON_NULL,
+Audio,title,NON_NULL,
+Audio,imageUrl,NON_NULL,
+Audio,summary,NON_NULL,
+Audio,shareUrl,NON_NULL,
+Audio,rssFeed,NON_NULL,
+Audio,numEpisodes,NON_NULL,
+Audio,latestPubDate,NON_NULL,
+Audio,streamUrls,NON_NULL,
+StreamUrls,applePodcast,NON_NULL,
+StreamUrls,googlePodcast,NON_NULL,
+StreamUrls,tuneIn,NON_NULL,
+StreamUrls,stitcher,NON_NULL,
+StreamUrls,spotify,NON_NULL,
+LeaderboardV2,id,NON_NULL,
+LeaderboardV2,players,NON_NULL,
+LeaderboardV2,roundStatusDisplay,NON_NULL,
+LeaderboardV2,roundDisplay,NON_NULL,
+LeaderboardV2,roundStatus,NON_NULL,
+LeaderboardV2,roundStatusColor,NON_NULL,
+LeaderboardV2,leaderboardRoundHeader,NON_NULL,
+LeaderboardV2,formatType,NON_NULL,
+LeaderboardV2,timezone,NON_NULL,
+LeaderboardV2,winner,OBJECT,
+LeaderboardV2,courses,NON_NULL,
+LeaderboardV2,messages,NON_NULL,
+LeaderboardV2,tourcastURI,SCALAR,Built-in String
+LeaderboardV2,tournamentStatus,NON_NULL,
+LeaderboardV2,rounds,NON_NULL,
+LeaderboardV2,isPlayoffActive,NON_NULL,
+LeaderboardV2,scorecardEnabled,NON_NULL,
+LeaderboardV2,profileEnabled,NON_NULL,
+LeaderboardV2,subEvent,NON_NULL,
+LeaderboardV2,leaderboardFeatures,LIST,
+LeaderboardV2,standingsEnabled,NON_NULL,
+LeaderboardV2,standingsHeader,NON_NULL,
+PlayerRowV2,id,NON_NULL,
+PlayerRowV2,leaderboardSortOrder,NON_NULL,
+PlayerRowV2,position,NON_NULL,
+PlayerRowV2,player,NON_NULL,
+PlayerRowV2,total,NON_NULL,
+PlayerRowV2,totalSort,NON_NULL,
+PlayerRowV2,thru,NON_NULL,
+PlayerRowV2,thruSort,NON_NULL,
+PlayerRowV2,score,NON_NULL,
+PlayerRowV2,scoreSort,NON_NULL,
+PlayerRowV2,teeTime,NON_NULL,
+PlayerRowV2,groupNumber,NON_NULL,
+PlayerRowV2,currentRound,NON_NULL,
+PlayerRowV2,roundHeader,NON_NULL,
+PlayerRowV2,roundStatus,NON_NULL,
+PlayerRowV2,courseId,NON_NULL,
+PlayerRowV2,backNine,NON_NULL,
+PlayerRowV2,oddsToWin,SCALAR,Built-in String
+PlayerRowV2,oddsSwing,ENUM,
+PlayerRowV2,oddsOptionId,SCALAR,Built-in String
+PlayerRowV2,oddsUrl,SCALAR,Built-in String
+PlayerRowV2,rounds,NON_NULL,
+PlayerRowV2,movementDirection,NON_NULL,
+PlayerRowV2,movementAmount,NON_NULL,
+PlayerRowV2,playerState,NON_NULL,
+PlayerRowV2,rankingMovement,NON_NULL,
+PlayerRowV2,rankingMovementAmount,NON_NULL,
+PlayerRowV2,rankingMovementAmountSort,NON_NULL,
+PlayerRowV2,rankLogoLight,SCALAR,Built-in String
+PlayerRowV2,rankLogoDark,SCALAR,Built-in String
+PlayerRowV2,totalStrokes,NON_NULL,
+PlayerRowV2,official,NON_NULL,
+PlayerRowV2,officialSort,NON_NULL,
+PlayerRowV2,projected,NON_NULL,
+PlayerRowV2,projectedSort,NON_NULL,
+PlayerRowV2,hasStoryContent,NON_NULL,
+PlayerRowV2,storyContentRound,SCALAR,Built-in Int
+PlayerRowV2,storyContentRounds,NON_NULL,
+PlayerRowV2,oddsSort,SCALAR,Built-in Float
+Player,id,NON_NULL,
+Player,firstName,NON_NULL,
+Player,lastName,NON_NULL,
+Player,shortName,NON_NULL,
+Player,displayName,NON_NULL,
+Player,abbreviations,NON_NULL,
+Player,abbreviationsAccessibilityText,NON_NULL,
+Player,amateur,NON_NULL,
+Player,country,NON_NULL,
+Player,countryFlag,NON_NULL,
+Player,lineColor,NON_NULL,
+Player,seed,SCALAR,Built-in String
+Player,status,SCALAR,Built-in String
+Player,tourBound,SCALAR,Built-in Boolean
+Player,assets,LIST,
+Player,bettingProfile,SCALAR,Built-in String
+Player,playerBioOverrideLink,SCALAR,Built-in String
+TourBoundAsset,tourBoundLogo,SCALAR,Built-in String
+TourBoundAsset,tourBoundLogoDark,SCALAR,Built-in String
+InformationRow,id,NON_NULL,
+InformationRow,leaderboardSortOrder,NON_NULL,
+InformationRow,displayText,NON_NULL,
+InformationSection,title,NON_NULL,
+InformationSection,sponsorImages,LIST,
+InformationSection,items,NON_NULL,
+SponsorImage,logoAsset,NON_NULL,
+SponsorImage,logoDarkAsset,NON_NULL,
+SponsorImage,accessibilityText,NON_NULL,
+SponsorImage,link,SCALAR,Built-in String
+Abbreviations,key,NON_NULL,
+Abbreviations,title,NON_NULL,
+Abbreviations,description,SCALAR,Built-in String
+Legend,title,NON_NULL,
+Legend,icon,NON_NULL,
+Legend,iconUrl,SCALAR,Built-in String
+Legend,text,SCALAR,Built-in String
+Legend,subText,SCALAR,Built-in String
+Legend,accessibilityText,SCALAR,Built-in String
+Winner,id,NON_NULL,
+Winner,firstName,NON_NULL,
+Winner,lastName,NON_NULL,
+Winner,totalStrokes,NON_NULL,
+Winner,totalScore,NON_NULL,
+Winner,countryFlag,NON_NULL,
+Winner,countryName,NON_NULL,
+Winner,purse,SCALAR,Built-in String
+Winner,displayPoints,NON_NULL,
+Winner,displayPurse,NON_NULL,
+Winner,points,SCALAR,Built-in String
+Winner,seed,SCALAR,Built-in String
+Winner,pointsLabel,SCALAR,Built-in String
+Winner,winnerIcon,OBJECT,
+WinnerIcon,type,NON_NULL,
+WinnerIcon,title,NON_NULL,
+WinnerIcon,label,NON_NULL,
+WinnerIcon,color,NON_NULL,
+Course,id,NON_NULL,
+Course,courseName,NON_NULL,
+Course,courseCode,NON_NULL,
+Course,hostCourse,NON_NULL,
+Course,scoringLevel,NON_NULL,
+Course,enabled,SCALAR,Built-in Boolean
+LeaderboardMessage,messageText,NON_NULL,
+LeaderboardMessage,messageIcon,NON_NULL,
+LeaderboardMessage,messageLink,SCALAR,Built-in String
+LeaderboardMessage,externalLink,SCALAR,Built-in Boolean
+LeaderboardMessage,platforms,NON_NULL,
+LeaderboardMessage,timing,SCALAR,Built-in Int
+LBRound,roundNumber,NON_NULL,
+LBRound,displayText,NON_NULL,
+FeatureItem,name,NON_NULL,
+FeatureItem,new,NON_NULL,
+FeatureItem,tooltipText,SCALAR,Built-in String
+FeatureItem,tooltipTitle,SCALAR,Built-in String
+FeatureItem,fieldStatType,ENUM,
+FeatureItem,leaderboardFeatures,ENUM,
+FeatureItem,sponsor,OBJECT,
+FeatureSponsor,sponsorLogoAsset,NON_NULL,
+FeatureSponsor,sponsorLogoDarkAsset,NON_NULL,
+FeatureSponsor,sponsorText,NON_NULL,
+LeaderboardV3,id,NON_NULL,
+LeaderboardV3,tournamentId,NON_NULL,
+LeaderboardV3,players,NON_NULL,
+LeaderboardV3,leaderboardRoundHeader,NON_NULL,
+LeaderboardV3,formatType,NON_NULL,
+LeaderboardV3,timezone,NON_NULL,
+LeaderboardV3,winners,LIST,
+LeaderboardV3,courses,NON_NULL,
+LeaderboardV3,messages,NON_NULL,
+LeaderboardV3,tourcastURI,SCALAR,Built-in String
+LeaderboardV3,tournamentStatus,NON_NULL,
+LeaderboardV3,rounds,NON_NULL,
+LeaderboardV3,isPlayoffActive,NON_NULL,
+LeaderboardV3,scorecardEnabled,NON_NULL,
+LeaderboardV3,profileEnabled,NON_NULL,
+LeaderboardV3,subEvent,NON_NULL,
+LeaderboardV3,leaderboardFeatures,LIST,
+LeaderboardV3,standingsEnabled,NON_NULL,
+LeaderboardV3,standingsHeader,NON_NULL,
+LeaderboardV3,hideSov,NON_NULL,
+LeaderboardV3,disableOdds,NON_NULL,
+PlayerRowV3,id,NON_NULL,
+PlayerRowV3,leaderboardSortOrder,NON_NULL,
+PlayerRowV3,player,NON_NULL,
+PlayerRowV3,scoringData,NON_NULL,
+LeaderboardScoringDataV3,groupNumber,NON_NULL,
+LeaderboardScoringDataV3,currentRound,NON_NULL,
+LeaderboardScoringDataV3,backNine,NON_NULL,
+LeaderboardScoringDataV3,playerState,NON_NULL,
+LeaderboardScoringDataV3,teeTime,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+LeaderboardScoringDataV3,totalStrokes,NON_NULL,
+LeaderboardScoringDataV3,total,NON_NULL,
+LeaderboardScoringDataV3,totalSort,NON_NULL,
+LeaderboardScoringDataV3,thru,NON_NULL,
+LeaderboardScoringDataV3,thruSort,NON_NULL,
+LeaderboardScoringDataV3,score,NON_NULL,
+LeaderboardScoringDataV3,scoreSort,NON_NULL,
+LeaderboardScoringDataV3,movementDirection,NON_NULL,
+LeaderboardScoringDataV3,movementAmount,NON_NULL,
+LeaderboardScoringDataV3,position,NON_NULL,
+LeaderboardScoringDataV3,rounds,NON_NULL,
+LeaderboardScoringDataV3,roundHeader,NON_NULL,
+LeaderboardScoringDataV3,roundStatus,NON_NULL,
+LeaderboardScoringDataV3,courseId,NON_NULL,
+LeaderboardScoringDataV3,official,NON_NULL,
+LeaderboardScoringDataV3,officialSort,NON_NULL,
+LeaderboardScoringDataV3,projected,NON_NULL,
+LeaderboardScoringDataV3,projectedSort,NON_NULL,
+LeaderboardScoringDataV3,rankingMovement,NON_NULL,
+LeaderboardScoringDataV3,rankingMovementAmount,NON_NULL,
+LeaderboardScoringDataV3,rankingMovementAmountSort,NON_NULL,
+LeaderboardScoringDataV3,rankLogoLight,SCALAR,Built-in String
+LeaderboardScoringDataV3,rankLogoDark,SCALAR,Built-in String
+LeaderboardScoringDataV3,oddsToWin,SCALAR,Built-in String
+LeaderboardScoringDataV3,oddsSwing,ENUM,
+LeaderboardScoringDataV3,oddsOptionId,SCALAR,Built-in String
+LeaderboardScoringDataV3,oddsSort,SCALAR,Built-in Float
+LeaderboardScoringDataV3,hasStoryContent,NON_NULL,
+LeaderboardScoringDataV3,storyContentRound,SCALAR,Built-in Int
+LeaderboardScoringDataV3,storyContentRounds,NON_NULL,
+LeaderboardStrokes,id,NON_NULL,
+LeaderboardStrokes,strokes,NON_NULL,
+LeaderboardStrokes,playoffs,LIST,
+LeaderboardStroke,id,NON_NULL,
+LeaderboardStroke,strokeId,NON_NULL,
+LeaderboardStroke,playerId,NON_NULL,
+LeaderboardStroke,currentHoleDisplay,NON_NULL,
+LeaderboardStroke,currentHole,NON_NULL,
+LeaderboardStroke,playoffHole,NON_NULL,
+LeaderboardStroke,playoffHoleDisplay,NON_NULL,
+LeaderboardStroke,currentShotDisplay,NON_NULL,
+LeaderboardStroke,currentShot,NON_NULL,
+LeaderboardStroke,currentRound,NON_NULL,
+LeaderboardStroke,playByPlay,NON_NULL,
+LeaderboardStroke,finalStroke,NON_NULL,
+LeaderboardStroke,scoreStatus,NON_NULL,
+LeaderboardStroke,par,NON_NULL,
+LeaderboardStroke,yardage,NON_NULL,
+LeaderboardStroke,parSort,NON_NULL,
+LeaderboardStroke,yardageSort,NON_NULL,
+LeaderboardStrokesCompressed,id,NON_NULL,
+LeaderboardStrokesCompressed,payload,NON_NULL,
+LeaderboardStats,id,NON_NULL,
+LeaderboardStats,type,NON_NULL,
+LeaderboardStats,titles,NON_NULL,
+LeaderboardStats,statIds,LIST,
+LeaderboardStats,players,NON_NULL,
+LeaderboardStats,rounds,LIST,
+LeaderboardStatsPlayer,playerId,NON_NULL,
+LeaderboardStatsPlayer,stats,NON_NULL,
+LeaderboardStatItem,statId,NON_NULL,
+LeaderboardStatItem,value,NON_NULL,
+LeaderboardStatItem,sortValue,NON_NULL,
+LeaderboardStatItem,rank,NON_NULL,
+LeaderboardStatItem,color,NON_NULL,
+LeaderboardStatItem,supportValues,LIST,
+LeaderboardOddsSwing,swing,NON_NULL,
+LeaderboardSupportingString,data,NON_NULL,
+LeaderboardRoundStats,roundNumber,NON_NULL,
+LeaderboardRoundStats,roundDisplayText,NON_NULL,
+LeaderboardRoundStats,players,NON_NULL,
+HistoricalLeaderboard,id,NON_NULL,
+HistoricalLeaderboard,players,NON_NULL,
+HistoricalLeaderboard,teams,LIST,
+HistoricalLeaderboard,rounds,NON_NULL,
+HistoricalLeaderboard,additionalDataHeaders,NON_NULL,
+HistoricalLeaderboard,availableSeasons,NON_NULL,
+HistoricalLeaderboard,winner,OBJECT,
+HistoricalLeaderboard,winningTeam,LIST,
+HistoricalLeaderboard,recap,OBJECT,
+HistoricalLeaderboard,tournamentResultsMessage,OBJECT,
+HistoricalLeaderboardRow,id,NON_NULL,
+HistoricalLeaderboardRow,position,NON_NULL,
+HistoricalLeaderboardRow,player,NON_NULL,
+HistoricalLeaderboardRow,rounds,NON_NULL,
+HistoricalLeaderboardRow,additionalData,NON_NULL,
+HistoricalLeaderboardRow,total,NON_NULL,
+HistoricalLeaderboardRow,parRelativeScore,NON_NULL,
+HistoricalRoundScore,score,NON_NULL,
+HistoricalRoundScore,parRelativeScore,NON_NULL,
+HistoricalLeaderboardTeamRow,teamId,NON_NULL,
+HistoricalLeaderboardTeamRow,position,NON_NULL,
+HistoricalLeaderboardTeamRow,players,NON_NULL,
+HistoricalLeaderboardTeamRow,rounds,LIST,
+HistoricalLeaderboardTeamRow,additionalData,NON_NULL,
+HistoricalLeaderboardTeamRow,total,NON_NULL,
+HistoricalLeaderboardTeamRow,parRelativeScore,NON_NULL,
+StatYearPills,year,NON_NULL,
+StatYearPills,displaySeason,NON_NULL,
+WeatherNotes,weather,NON_NULL,
+WeatherNotes,notes,NON_NULL,
+DayWeather,day,NON_NULL,
+DayWeather,text,NON_NULL,
+TournamentResultsMessage,message,SCALAR,Built-in String
+LeaderboardCompressedV2,id,NON_NULL,
+LeaderboardCompressedV2,payload,NON_NULL,
+LeaderboardCompressedV3,id,NON_NULL,
+LeaderboardCompressedV3,payload,NON_NULL,
+TSPLeaderboard,id,NON_NULL,
+TSPLeaderboard,leaderboard,NON_NULL,
+TSPLeaderboard,currentRound,NON_NULL,
+TSPLeaderboard,rounds,NON_NULL,
+TSPLeaderboard,formatType,NON_NULL,
+TSPLeaderboard,winner,OBJECT,
+TSPLeaderboard,currentRoundScoringFormat,SCALAR,Built-in String
+TSPLeaderboard,informationSections,NON_NULL,
+TSPLeaderboard,messages,NON_NULL,
+TSPLeaderboard,tournamentStatus,NON_NULL,
+TSPLeaderboard,playoff,OBJECT,
+TSPLeaderboard,timezone,SCALAR,Built-in String
+TSPLeaderboard,shortTimezone,NON_NULL,
+TSPLeaderboard,infoUrl,NON_NULL,
+TSPLeaderboard,tourcastURI,SCALAR,Built-in String
+TSPLeaderboard,scorecardEnabled,NON_NULL,
+TspTeamRow,teamId,NON_NULL,
+TspTeamRow,teamName,NON_NULL,
+TspTeamRow,status,ENUM,
+TspTeamRow,startHole,SCALAR,Built-in String
+TspTeamRow,leaderboardSortOrder,NON_NULL,
+TspTeamRow,position,NON_NULL,
+TspTeamRow,players,NON_NULL,
+TspTeamRow,total,NON_NULL,
+TspTeamRow,totalSort,NON_NULL,
+TspTeamRow,thru,NON_NULL,
+TspTeamRow,thruSort,NON_NULL,
+TspTeamRow,score,NON_NULL,
+TspTeamRow,scoreSort,NON_NULL,
+TspTeamRow,teeTime,NON_NULL,
+TspTeamRow,groupNumber,NON_NULL,
+TspTeamRow,currentRound,NON_NULL,
+TspTeamRow,oddsToWin,SCALAR,Built-in String
+TspTeamRow,oddsSwing,ENUM,
+TspTeamRow,oddsOptionId,SCALAR,Built-in String
+TspTeamRow,oddsSort,SCALAR,Built-in Float
+TspTeamRow,courseId,NON_NULL,
+TspTeamRow,rounds,NON_NULL,
+TspTeamRow,totalStrokes,NON_NULL,
+TspTeamRow,backNine,NON_NULL,
+TspTeamRow,movementDirection,NON_NULL,
+TspTeamRow,movementAmount,NON_NULL,
+TspPlayer,id,NON_NULL,
+TspPlayer,firstName,NON_NULL,
+TspPlayer,lastName,NON_NULL,
+TspPlayer,shortName,NON_NULL,
+TspPlayer,displayName,NON_NULL,
+TspPlayer,abbreviations,NON_NULL,
+TspPlayer,abbreviationsAccessibilityText,NON_NULL,
+TspPlayer,amateur,NON_NULL,
+TspPlayer,country,NON_NULL,
+TspPlayer,countryFlag,NON_NULL,
+TspPlayer,lineColor,NON_NULL,
+TspPlayer,rankingMovement,NON_NULL,
+TspPlayer,rankingMovementAmount,NON_NULL,
+TspPlayer,official,NON_NULL,
+TspPlayer,projected,NON_NULL,
+TspPlayer,rankLogoLight,SCALAR,Built-in String
+TspPlayer,rankLogoDark,SCALAR,Built-in String
+TSPLeaderboardRound,round,NON_NULL,
+TSPLeaderboardRound,roundHeader,NON_NULL,
+TSPLeaderboardRound,roundTypeSubHead,NON_NULL,
+TSPLeaderboardRound,roundStatusSubHead,NON_NULL,
+TSPLeaderboardRound,roundHeaderShort,NON_NULL,
+TspWinner,teamId,NON_NULL,
+TspWinner,totalStrokes,NON_NULL,
+TspWinner,totalScore,NON_NULL,
+TspWinner,purse,SCALAR,Built-in String
+TspWinner,points,SCALAR,Built-in String
+TspWinner,winningTeam,NON_NULL,
+TspWinningPlayer,id,NON_NULL,
+TspWinningPlayer,firstName,NON_NULL,
+TspWinningPlayer,lastName,NON_NULL,
+TspWinningPlayer,countryFlag,NON_NULL,
+TspWinningPlayer,countryName,NON_NULL,
+TspPlayoff,currentHole,NON_NULL,
+TspPlayoff,location,SCALAR,Built-in String
+TspPlayoff,holes,NON_NULL,
+TspPlayoff,teams,NON_NULL,
+TspPlayoff,thru,SCALAR,Built-in String
+PlayoffHole,playoffHole,NON_NULL,
+PlayoffHole,courseHole,NON_NULL,
+PlayoffHole,par,NON_NULL,
+PlayoffHole,format,SCALAR,Built-in String
+PlayoffTeams,active,NON_NULL,
+PlayoffTeams,position,NON_NULL,
+PlayoffTeams,teamId,NON_NULL,
+PlayoffTeams,players,NON_NULL,
+PlayoffTeams,scores,NON_NULL,
+TspSCPlayer,id,NON_NULL,
+TspSCPlayer,firstName,NON_NULL,
+TspSCPlayer,lastName,NON_NULL,
+TspSCPlayer,shortName,NON_NULL,
+TspSCPlayer,superShortName,SCALAR,Built-in String
+TspSCPlayer,displayName,NON_NULL,
+TspSCPlayer,abbreviations,NON_NULL,
+TspSCPlayer,abbreviationsAccessibilityText,NON_NULL,
+TspSCPlayer,amateur,NON_NULL,
+TspSCPlayer,country,NON_NULL,
+TspSCPlayer,countryFlag,NON_NULL,
+TspSCPlayer,lineColor,NON_NULL,
+SimpleScore,holeNumber,NON_NULL,
+SimpleScore,score,NON_NULL,
+SimpleScore,status,NON_NULL,
+LeaderboardCompressed,id,NON_NULL,
+LeaderboardCompressed,payload,NON_NULL,
+TSPScorecard,id,NON_NULL,
+TSPScorecard,currentHole,SCALAR,Built-in Int
+TSPScorecard,currentRound,NON_NULL,
+TSPScorecard,groupState,NON_NULL,
+TSPScorecard,courseId,SCALAR,Built-in Int
+TSPScorecard,roundNumber,NON_NULL,
+TSPScorecard,roundFormat,NON_NULL,
+TSPScorecard,currentRoundTotal,NON_NULL,
+TSPScorecard,total,NON_NULL,
+TSPScorecard,totalStrokes,NON_NULL,
+TSPScorecard,parTotal,NON_NULL,
+TSPScorecard,thru,NON_NULL,
+TSPScorecard,backNine,NON_NULL,
+TSPScorecard,teeTime,NON_NULL,
+TSPScorecard,groupNumber,NON_NULL,
+TSPScorecard,roundDisplay,NON_NULL,
+TSPScorecard,locationDetail,NON_NULL,
+TSPScorecard,position,NON_NULL,
+TSPScorecard,scorecardTitle,NON_NULL,
+TSPScorecard,firstNine,OBJECT,
+TSPScorecard,secondNine,OBJECT,
+TSPScorecard,players,NON_NULL,
+TSPScorecard,tourcastURI,SCALAR,Built-in String
+TeamPlayScoreCardRow,total,NON_NULL,
+TeamPlayScoreCardRow,totalLabel,NON_NULL,
+TeamPlayScoreCardRow,parTotal,NON_NULL,
+TeamPlayScoreCardRow,holes,NON_NULL,
+TeamPlayHole,holeNumber,NON_NULL,
+TeamPlayHole,parValue,NON_NULL,
+TeamPlayHole,yardage,NON_NULL,
+TeamPlayHole,round,NON_NULL,
+TeamPlayHole,playerScores,NON_NULL,
+TeamPlayHole,teamplayHoleScore,NON_NULL,
+TspPlayerHole,playerId,NON_NULL,
+TspPlayerHole,strokes,NON_NULL,
+TspPlayerHole,strokesValue,NON_NULL,
+TspPlayerHole,status,ENUM,
+TspPlayerHole,playerTotal,SCALAR,Built-in String
+TspPlayerHole,statsScoreId,SCALAR,Built-in String
+TspPlayerHole,inTheHoleTimestamp,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+TspPlayerHole,playComplete,SCALAR,Built-in Boolean
+TspTeamHole,teamId,NON_NULL,
+TspTeamHole,strokes,NON_NULL,
+TspTeamHole,strokesValue,NON_NULL,
+TspTeamHole,status,ENUM,
+TspTeamHole,teamTotal,SCALAR,Built-in String
+TspTeamHole,statsScoreId,SCALAR,Built-in String
+TspTeamHole,inTheHoleTimestamp,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+TspTeamHole,playComplete,SCALAR,Built-in Boolean
+TSPScorecardRounds,id,NON_NULL,
+TSPScorecardRounds,scorecards,NON_NULL,
+TSPTeeTimes,id,NON_NULL,
+TSPTeeTimes,courses,NON_NULL,
+TSPTeeTimes,rounds,NON_NULL,
+TSPTeeTimes,teeTimeHeaders,NON_NULL,
+TSPTeeTimes,defaultRound,NON_NULL,
+TSPTeeTimes,timezone,NON_NULL,
+TSPTeeTimes,informationSections,NON_NULL,
+TSPTeeTimes,roundFilters,NON_NULL,
+TSPTeeTimes,courseFilters,NON_NULL,
+TSPTeeTimes,drawersEnabled,NON_NULL,
+TSPTeeTimeRound,roundNumber,NON_NULL,
+TSPTeeTimeRound,roundFormat,NON_NULL,
+TSPTeeTimeRound,groups,NON_NULL,
+TSPTeeTimeGroup,groupNumber,NON_NULL,
+TSPTeeTimeGroup,teeTime,NON_NULL,
+TSPTeeTimeGroup,startTee,NON_NULL,
+TSPTeeTimeGroup,groupStatus,NON_NULL,
+TSPTeeTimeGroup,groupState,NON_NULL,
+TSPTeeTimeGroup,holeLocation,SCALAR,Built-in String
+TSPTeeTimeGroup,teams,NON_NULL,
+TSPTeeTimeGroup,courseId,SCALAR,Built-in String
+TSPTeeTimeTeam,teamId,NON_NULL,
+TSPTeeTimeTeam,players,NON_NULL,
+TSPTeeTimePlayer,id,NON_NULL,
+TSPTeeTimePlayer,firstName,NON_NULL,
+TSPTeeTimePlayer,lastName,NON_NULL,
+TSPTeeTimePlayer,shortName,NON_NULL,
+TSPTeeTimePlayer,displayName,NON_NULL,
+TSPTeeTimePlayer,isAmateur,NON_NULL,
+TSPTeeTimePlayer,country,NON_NULL,
+TSPTeeTimePlayer,countryFlag,NON_NULL,
+TSPTeeTimeHeaders,time,NON_NULL,
+TSPTeeTimeHeaders,tee,NON_NULL,
+TSPTeeTimeHeaders,team,NON_NULL,
+TSPTeeTimeHeaders,status,NON_NULL,
+RoundFilter,roundNumbers,NON_NULL,
+RoundFilter,displayText,NON_NULL,
+CourseFilter,courseId,NON_NULL,
+CourseFilter,courseName,NON_NULL,
+TeeTimesCompressed,id,NON_NULL,
+TeeTimesCompressed,payload,NON_NULL,
+MPLeaderboard,id,NON_NULL,
+MPLeaderboard,formatType,NON_NULL,
+MPLeaderboard,currentRound,NON_NULL,
+MPLeaderboard,rounds,NON_NULL,
+MPLeaderboard,messages,NON_NULL,
+MPLeaderboard,timezone,NON_NULL,
+MPLeaderboard,shortTimezone,NON_NULL,
+MPLeaderboard,courses,NON_NULL,
+MPLeaderboard,informationSections,NON_NULL,
+MPLeaderboard,tourcastURI,SCALAR,Built-in String
+MPLeaderboard,winner,OBJECT,
+MPLeaderboard,infoWebUrl,NON_NULL,
+MPLeaderboard,roundFilters,NON_NULL,
+MPLeaderboard,drawersEnabled,NON_NULL,
+MPLeaderboardRound,brackets,NON_NULL,
+MPLeaderboardRound,round,NON_NULL,
+MPLeaderboardRound,roundHeader,NON_NULL,
+MPLeaderboardRound,roundTypeSubHead,NON_NULL,
+MPLeaderboardRound,roundStatusSubHead,NON_NULL,
+MPLeaderboardBracket,bracketNum,SCALAR,Built-in Int
+MPLeaderboardBracket,bracketHeader,NON_NULL,
+MPLeaderboardBracket,matches,NON_NULL,
+MPLeaderboardBracket,upcomingMatches,LIST,
+MPLeaderboardMatch,matchId,NON_NULL,
+MPLeaderboardMatch,players,NON_NULL,
+MPLeaderboardMatch,bracketPlayerSwap,SCALAR,Built-in Boolean
+MPLeaderboardMatch,teeTime,NON_NULL,
+MPLeaderboardMatch,matchScore,SCALAR,Built-in String
+MPLeaderboardMatch,matchScoreColor,SCALAR,Built-in String
+MPLeaderboardMatch,matchScoreColorDark,SCALAR,Built-in String
+MPLeaderboardMatch,thru,SCALAR,Built-in String
+MPLeaderboardMatch,thruNumberOfHoles,SCALAR,Built-in Int
+MPLeaderboardMatch,matchStatus,NON_NULL,
+MPLeaderboardPlayer,playerId,NON_NULL,
+MPLeaderboardPlayer,firstName,NON_NULL,
+MPLeaderboardPlayer,lastName,NON_NULL,
+MPLeaderboardPlayer,shortName,SCALAR,Built-in String
+MPLeaderboardPlayer,displayName,NON_NULL,
+MPLeaderboardPlayer,displayColor,NON_NULL,
+MPLeaderboardPlayer,tournamentSeed,NON_NULL,
+MPLeaderboardPlayer,bracketSeed,NON_NULL,
+MPLeaderboardPlayer,matchStatus,SCALAR,Built-in String
+MPLeaderboardPlayer,record,SCALAR,Built-in String
+MPLeaderboardPlayer,countryFlag,NON_NULL,
+MPLeaderboardPlayer,countryName,NON_NULL,
+MPLeaderboardPlayer,isAmateur,NON_NULL,
+MPLeaderboardPlayer,activeInPlayoff,SCALAR,Built-in Boolean
+UpcomingMatch,matchId,NON_NULL,
+UpcomingMatch,isConsolationMatch,NON_NULL,
+UpcomingMatch,potentialPlayers,NON_NULL,
+UpcomingMatchPotentialPlayer,isKnown,NON_NULL,
+UpcomingMatchPotentialPlayer,nameLabel,NON_NULL,
+UpcomingMatchPotentialPlayer,relationshipLabel,SCALAR,Built-in String
+UpcomingMatchPotentialPlayer,players,NON_NULL,
+MPScorecard,id,NON_NULL,
+MPScorecard,matchName,NON_NULL,
+MPScorecard,currentHole,SCALAR,Built-in Int
+MPScorecard,tourcastURI,SCALAR,Built-in String
+MPScorecard,scorecardTitle,NON_NULL,
+MPScorecard,matchHoleScores,NON_NULL,
+MPScorecard,matchPlayers,NON_NULL,
+MPScorecard,messages,NON_NULL,
+MPScorecard,infoWebUrl,SCALAR,Built-in String
+MatchHole,holeNumber,NON_NULL,
+MatchHole,courseHoleNumber,NON_NULL,
+MatchHole,holeNumberColor,NON_NULL,
+MatchHole,parValue,NON_NULL,
+MatchHole,matchScore,SCALAR,Built-in String
+MatchHole,matchScoreColor,NON_NULL,
+MatchHole,matchHolePlayers,NON_NULL,
+MatchHole,holePlayedStatus,NON_NULL,
+MPHolePlayer,playerId,NON_NULL,
+MPHolePlayer,holeScore,SCALAR,Built-in String
+MPHolePlayer,holeScores,LIST,
+MPHolePlayer,holeScoreStatus,ENUM,
+MPHolePlayer,holePoints,SCALAR,Built-in String
+MatchHoleScore,playerId,NON_NULL,
+MatchHoleScore,holeScore,SCALAR,Built-in String
+MatchHoleScore,holeScoreStatus,ENUM,
+MPScorecardPlayer,playerId,NON_NULL,
+MPScorecardPlayer,firstName,NON_NULL,
+MPScorecardPlayer,lastName,NON_NULL,
+MPScorecardPlayer,shortName,NON_NULL,
+MPScorecardPlayer,displayName,NON_NULL,
+MPScorecardPlayer,seed,NON_NULL,
+MPScorecardPlayer,displayColor,NON_NULL,
+MPScorecardPlayer,isAmateur,NON_NULL,
+MPScorecardPlayer,countryFlag,NON_NULL,
+Message,title,SCALAR,Built-in String
+Message,body,NON_NULL,
+MPPlayoffScorecard,id,NON_NULL,
+MPPlayoffScorecard,currentHole,SCALAR,Built-in Int
+MPPlayoffScorecard,scorecardTitle,NON_NULL,
+MPPlayoffScorecard,playoff,NON_NULL,
+MPPlayoffScorecard,infoWebUrl,SCALAR,Built-in String
+MPPlayoffScorecard,tourcastURI,SCALAR,Built-in String
+Playoff,currentHole,NON_NULL,
+Playoff,holes,NON_NULL,
+Playoff,players,NON_NULL,
+Playoff,thru,SCALAR,Built-in String
+PlayoffPlayer,active,NON_NULL,
+PlayoffPlayer,position,NON_NULL,
+PlayoffPlayer,player,NON_NULL,
+PlayoffPlayer,scores,NON_NULL,
+MPTeeTimes,id,NON_NULL,
+MPTeeTimes,title,NON_NULL,
+MPTeeTimes,teeTimeHeaders,NON_NULL,
+MPTeeTimes,rounds,NON_NULL,
+MPTeeTimes,roundFilters,NON_NULL,
+MPTeeTimes,defaultRound,NON_NULL,
+MPTeeTimes,drawersEnabled,NON_NULL,
+TeeTimeHeader,time,NON_NULL,
+TeeTimeHeader,tee,NON_NULL,
+TeeTimeHeader,players,NON_NULL,
+TeeTimeHeader,status,NON_NULL,
+MPRoundTeeTimes,roundNumber,NON_NULL,
+MPRoundTeeTimes,matchTeeTimes,NON_NULL,
+MPMatchTeeTimes,teeTime,NON_NULL,
+MPMatchTeeTimes,timezone,NON_NULL,
+MPMatchTeeTimes,tee,NON_NULL,
+MPMatchTeeTimes,matchId,NON_NULL,
+MPMatchTeeTimes,players,NON_NULL,
+MPMatchTeeTimes,status,NON_NULL,
+MPTeeTimePlayer,playerId,NON_NULL,
+MPTeeTimePlayer,displayName,NON_NULL,
+MPTeeTimePlayer,shortName,NON_NULL,
+MPTeeTimePlayer,countryFlag,NON_NULL,
+MPScorecardResults,tournamentId,NON_NULL,
+MPScorecardResults,roundNum,NON_NULL,
+MPScorecardResults,matchId,NON_NULL,
+MPScorecardResults,players,NON_NULL,
+MPScorecardResults,messages,LIST,
+MPScorecardResultsPlayer,playerId,NON_NULL,
+MPScorecardResultsPlayer,displayName,NON_NULL,
+MPScorecardResultsPlayer,previousRounds,NON_NULL,
+PreviousRounds,roundHeader,NON_NULL,
+PreviousRounds,roundNumber,NON_NULL,
+PreviousRounds,matches,LIST,
+PreviousMatch,matchId,NON_NULL,
+PreviousMatch,roundNumber,NON_NULL,
+PreviousMatch,opponent,NON_NULL,
+PreviousMatch,matchScore,NON_NULL,
+PreviousMatch,matchStatus,NON_NULL,
+PreviousMatch,matchResult,NON_NULL,
+PreviousMatch,roundDisplayText,NON_NULL,
+PreviousMatchOpponent,playerId,NON_NULL,
+PreviousMatchOpponent,headshot,NON_NULL,
+PreviousMatchOpponent,firstName,NON_NULL,
+PreviousMatchOpponent,lastName,NON_NULL,
+PreviousMatchOpponent,shortName,NON_NULL,
+PreviousMatchOpponent,displayName,NON_NULL,
+PreviousMatchOpponent,tournamentSeed,NON_NULL,
+PreviousMatchOpponent,bracketSeed,NON_NULL,
+PreviousMatchOpponent,countryFlag,NON_NULL,
+GroupStageRankings,tournamentId,NON_NULL,
+GroupStageRankings,title,NON_NULL,
+GroupStageRankings,groupStageHeaders,NON_NULL,
+GroupStageRankings,groups,NON_NULL,
+GroupStageRankings,informationSections,NON_NULL,
+GroupStageHeader,type,NON_NULL,
+GroupStageHeader,player,NON_NULL,
+GroupStageHeader,won,NON_NULL,
+GroupStageHeader,lost,NON_NULL,
+GroupStageHeader,tied,NON_NULL,
+GroupStageHeader,points,NON_NULL,
+GroupStageGroup,groupHeader,NON_NULL,
+GroupStageGroup,groupPlayers,NON_NULL,
+GroupStagePlayer,playerId,NON_NULL,
+GroupStagePlayer,firstName,NON_NULL,
+GroupStagePlayer,lastName,NON_NULL,
+GroupStagePlayer,shortName,NON_NULL,
+GroupStagePlayer,displayName,NON_NULL,
+GroupStagePlayer,countryFlag,NON_NULL,
+GroupStagePlayer,countryName,NON_NULL,
+GroupStagePlayer,position,NON_NULL,
+GroupStagePlayer,tournamentSeed,NON_NULL,
+GroupStagePlayer,bracketSeed,NON_NULL,
+GroupStagePlayer,groupRankDisplayText,SCALAR,Built-in String
+GroupStagePlayer,record,NON_NULL,
+GroupStagePlayer,previousMatches,NON_NULL,
+GroupStagePlayer,playoffWinner,NON_NULL,
+GroupStagePlayer,latestMatchId,NON_NULL,
+GroupStagePlayer,latestRound,NON_NULL,
+PlayerRecord,wins,NON_NULL,
+PlayerRecord,losses,NON_NULL,
+PlayerRecord,ties,NON_NULL,
+PlayerRecord,points,NON_NULL,
+PreviousMatches,header,NON_NULL,
+PreviousMatches,matches,LIST,
+PreviousMatches,messages,LIST,
+Schedule,tour,NON_NULL,
+Schedule,seasonYear,NON_NULL,
+Schedule,upcoming,NON_NULL,
+Schedule,completed,NON_NULL,
+Schedule,filters,LIST,
+ScheduleMonth,month,NON_NULL,
+ScheduleMonth,year,NON_NULL,
+ScheduleMonth,tournaments,NON_NULL,
+ScheduleMonth,monthSort,SCALAR,Built-in Int
+ScheduleTournament,id,NON_NULL,
+ScheduleTournament,date,NON_NULL,
+ScheduleTournament,startDate,NON_NULL,
+ScheduleTournament,dateAccessibilityText,NON_NULL,
+ScheduleTournament,tournamentName,NON_NULL,
+ScheduleTournament,tournamentLogoAsset,NON_NULL,
+ScheduleTournament,city,NON_NULL,
+ScheduleTournament,state,NON_NULL,
+ScheduleTournament,stateCode,NON_NULL,
+ScheduleTournament,country,NON_NULL,
+ScheduleTournament,countryCode,NON_NULL,
+ScheduleTournament,courseName,NON_NULL,
+ScheduleTournament,champion,NON_NULL,
+ScheduleTournament,championId,NON_NULL,
+ScheduleTournament,champions,NON_NULL,
+ScheduleTournament,championEarnings,SCALAR,Built-in String
+ScheduleTournament,beautyImageAsset,OBJECT,
+ScheduleTournament,status,OBJECT,
+ScheduleTournament,tournamentStatus,NON_NULL,
+ScheduleTournament,sortDate,SCALAR,Built-in String
+ScheduleTournament,sequenceNumber,NON_NULL,
+ScheduleTournament,purse,SCALAR,Built-in String
+ScheduleTournament,ticketsURL,SCALAR,Built-in String
+ScheduleTournament,tourStandingHeading,SCALAR,Built-in String
+ScheduleTournament,tourStandingValue,SCALAR,Built-in String
+ScheduleTournament,display,NON_NULL,
+ScheduleTournament,tournamentCategoryInfo,OBJECT,
+ScheduleTournament,ticketmasterAttractionId,SCALAR,Built-in String
+ScheduleTournament,androidTicketmasterApiKey,SCALAR,Built-in String
+ScheduleTournament,androidTicketmasterScheme,SCALAR,Built-in String
+ScheduleTournament,iosTicketmasterApiKey,SCALAR,Built-in String
+ScheduleTournament,ticketsEnabled,NON_NULL,
+ScheduleTournament,tournamentSiteURL,SCALAR,Built-in String
+ScheduleTournament,useTournamentSiteURL,NON_NULL,
+ScheduleChampion,displayName,NON_NULL,
+ScheduleChampion,playerId,NON_NULL,
+ScheduleTournamentStatus,roundStatusDisplay,NON_NULL,
+ScheduleTournamentStatus,roundDisplay,NON_NULL,
+ScheduleTournamentStatus,roundStatus,NON_NULL,
+ScheduleTournamentStatus,roundStatusColor,NON_NULL,
+TournamentCategoryInfo,type,NON_NULL,
+TournamentCategoryInfo,logoLightAsset,NON_NULL,
+TournamentCategoryInfo,logoDarkAsset,NON_NULL,
+TournamentCategoryInfo,label,NON_NULL,
+ScheduleTournamentFilter,type,NON_NULL,
+ScheduleTournamentFilter,name,NON_NULL,
+ScheduleUpcoming,id,NON_NULL,
+ScheduleUpcoming,tournaments,NON_NULL,
+ScheduleUpcoming,filters,LIST,
+LeaderboardDrawerV2,tournamentName,NON_NULL,
+LeaderboardDrawerV2,id,NON_NULL,
+LeaderboardDrawerV2,currentHole,SCALAR,Built-in Int
+LeaderboardDrawerV2,currentRound,NON_NULL,
+LeaderboardDrawerV2,player,NON_NULL,
+LeaderboardDrawerV2,backNine,NON_NULL,
+LeaderboardDrawerV2,teeTime,NON_NULL,
+LeaderboardDrawerV2,groupNumber,NON_NULL,
+LeaderboardDrawerV2,playerState,ENUM,
+LeaderboardDrawerV2,roundScores,NON_NULL,
+RoundScore,roundNumber,NON_NULL,
+RoundScore,currentRound,NON_NULL,
+RoundScore,currentHole,NON_NULL,
+RoundScore,complete,NON_NULL,
+RoundScore,groupNumber,NON_NULL,
+RoundScore,firstNine,NON_NULL,
+RoundScore,secondNine,NON_NULL,
+RoundScore,parTotal,NON_NULL,
+RoundScore,total,NON_NULL,
+RoundScore,scoreToPar,NON_NULL,
+RoundScore,courseName,NON_NULL,
+RoundScore,courseId,SCALAR,Built-in String
+RoundScore,tourcastURI,SCALAR,Built-in String
+ScorecardRow,total,NON_NULL,
+ScorecardRow,totalLabel,NON_NULL,
+ScorecardRow,parTotal,NON_NULL,
+ScorecardRow,holes,NON_NULL,
+HoleScore,holeNumber,NON_NULL,
+HoleScore,par,NON_NULL,
+HoleScore,yardage,NON_NULL,
+HoleScore,sequenceNumber,NON_NULL,
+HoleScore,score,NON_NULL,
+HoleScore,status,NON_NULL,
+HoleScore,roundScore,NON_NULL,
+ScorecardCompressedV3,id,NON_NULL,
+ScorecardCompressedV3,payload,NON_NULL,
+ScorecardV3,tournamentName,NON_NULL,
+ScorecardV3,id,NON_NULL,
+ScorecardV3,currentHole,SCALAR,Built-in Int
+ScorecardV3,currentRound,NON_NULL,
+ScorecardV3,player,NON_NULL,
+ScorecardV3,backNine,NON_NULL,
+ScorecardV3,teeTime,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+ScorecardV3,groupNumber,NON_NULL,
+ScorecardV3,playerState,ENUM,
+ScorecardV3,roundScores,NON_NULL,
+ScorecardV3,hideSov,NON_NULL,
+ScorecardV3,profileEnabled,NON_NULL,
+PlayerScorecardStats,id,NON_NULL,
+PlayerScorecardStats,rounds,NON_NULL,
+PlayerScorecardRoundStats,round,NON_NULL,
+PlayerScorecardRoundStats,displayName,NON_NULL,
+PlayerScorecardRoundStats,roundStatus,NON_NULL,
+PlayerScorecardRoundStats,strokesGained,NON_NULL,
+PlayerScorecardRoundStats,performance,NON_NULL,
+PlayerScorecardRoundStats,scoring,NON_NULL,
+StrokesGainedStats,statId,NON_NULL,
+StrokesGainedStats,graph,NON_NULL,
+StrokesGainedStats,label,NON_NULL,
+StrokesGainedStats,shortLabel,NON_NULL,
+StrokesGainedStats,total,NON_NULL,
+StrokesGainedStats,totalNum,NON_NULL,
+StrokesGainedStats,rank,NON_NULL,
+StrokesGainedStats,yearToDate,NON_NULL,
+StrokesGainedStats,yearToDateNum,NON_NULL,
+ScorecardStatsItem,label,NON_NULL,
+ScorecardStatsItem,total,NON_NULL,
+ScorecardStatsItem,rank,NON_NULL,
+ScorecardStatsItem,yearToDate,NON_NULL,
+ScorecardStatsItem,statId,NON_NULL,
+PlayerScorecardStatsCompressed,id,NON_NULL,
+PlayerScorecardStatsCompressed,payload,NON_NULL,
+HistoricalPlayerScorecards,playerId,NON_NULL,
+HistoricalPlayerScorecards,tours,NON_NULL,
+HistoricalScorecardTour,tourCode,NON_NULL,
+HistoricalScorecardTour,years,NON_NULL,
+HistoricalScorecardYear,year,NON_NULL,
+HistoricalScorecardYear,displayYear,NON_NULL,
+HistoricalScorecardYear,tournamentPills,NON_NULL,
+StatTournamentPill,tournamentId,NON_NULL,
+StatTournamentPill,displayName,NON_NULL,
+StatTournamentPill,endDateDisplay,SCALAR,Built-in String
+PlayoffScorecard,id,NON_NULL,
+PlayoffScorecard,holeDetail,NON_NULL,
+PlayoffScorecard,tourcastURI,SCALAR,Built-in String
+PlayoffScorecard,locationDetail,NON_NULL,
+PlayoffScorecard,courseId,NON_NULL,
+PlayoffScorecard,courseName,NON_NULL,
+PlayoffScorecard,players,NON_NULL,
+PlayoffScorecard,playoff,NON_NULL,
+PlayoffScorecard,drawersEnabled,NON_NULL,
+PlayoffScorecard,detailViewEnabled,NON_NULL,
+PlayoffScorecard,title,NON_NULL,
+ScorecardHeaderPlayer,active,NON_NULL,
+ScorecardHeaderPlayer,finalRoundTotal,NON_NULL,
+ScorecardHeaderPlayer,position,NON_NULL,
+ScorecardHeaderPlayer,roundDisplay,NON_NULL,
+ScorecardHeaderPlayer,total,NON_NULL,
+ScorecardHeaderPlayer,player,NON_NULL,
+ShotDetails,displayType,NON_NULL,
+ShotDetails,id,NON_NULL,
+ShotDetails,playerId,NON_NULL,
+ShotDetails,tournamentId,NON_NULL,
+ShotDetails,round,NON_NULL,
+ShotDetails,lineColor,NON_NULL,
+ShotDetails,textColor,SCALAR,Built-in String
+ShotDetails,message,NON_NULL,
+ShotDetails,holes,NON_NULL,
+ShotDetails,defaultHolePickle,NON_NULL,
+ShotDetailHole,holeNumber,NON_NULL,
+ShotDetailHole,displayHoleNumber,NON_NULL,
+ShotDetailHole,par,NON_NULL,
+ShotDetailHole,score,NON_NULL,
+ShotDetailHole,rank,SCALAR,Built-in String
+ShotDetailHole,yardage,NON_NULL,
+ShotDetailHole,green,NON_NULL,
+ShotDetailHole,status,NON_NULL,
+ShotDetailHole,fairwayCenter,NON_NULL,
+ShotDetailHole,teeOverview,NON_NULL,
+ShotDetailHole,teeGreen,NON_NULL,
+ShotDetailHole,pinOverview,NON_NULL,
+ShotDetailHole,pinGreen,NON_NULL,
+ShotDetailHole,holePickleLeftToRightAsset,NON_NULL,
+ShotDetailHole,holePickleBottomToTopAsset,NON_NULL,
+ShotDetailHole,holePickleGreenBottomToTopAsset,NON_NULL,
+ShotDetailHole,holePickleGreenLeftToRightAsset,NON_NULL,
+ShotDetailHole,strokes,NON_NULL,
+ShotDetailHole,enhancedPickle,OBJECT,
+StrokeCoordinates,x,NON_NULL,
+StrokeCoordinates,y,NON_NULL,
+StrokeCoordinates,z,NON_NULL,
+StrokeCoordinates,tourcastX,NON_NULL,
+StrokeCoordinates,tourcastY,NON_NULL,
+StrokeCoordinates,tourcastZ,NON_NULL,
+StrokeCoordinates,enhancedX,NON_NULL,
+StrokeCoordinates,enhancedY,NON_NULL,
+PointOfInterestCoords,leftToRightCoords,NON_NULL,
+PointOfInterestCoords,bottomToTopCoords,NON_NULL,
+HoleStroke,strokeNumber,NON_NULL,
+HoleStroke,playByPlay,NON_NULL,
+HoleStroke,playByPlayLabel,NON_NULL,
+HoleStroke,distance,NON_NULL,
+HoleStroke,distanceRemaining,NON_NULL,
+HoleStroke,strokeType,NON_NULL,
+HoleStroke,overview,NON_NULL,
+HoleStroke,green,NON_NULL,
+HoleStroke,finalStroke,NON_NULL,
+HoleStroke,showMarker,NON_NULL,
+HoleStroke,groupShowMarker,NON_NULL,
+HoleStroke,markerText,NON_NULL,
+HoleStroke,videoId,SCALAR,Built-in String
+HoleStroke,player,OBJECT,
+HoleStroke,fromLocationCode,NON_NULL,
+HoleStroke,toLocationCode,NON_NULL,
+HoleStroke,fromLocation,NON_NULL,
+HoleStroke,toLocation,NON_NULL,
+HoleStroke,radarData,OBJECT,
+ShotLinkCoordWrapper,leftToRightCoords,NON_NULL,
+ShotLinkCoordWrapper,bottomToTopCoords,NON_NULL,
+ShotLinkCoordinates,fromCoords,NON_NULL,
+ShotLinkCoordinates,toCoords,NON_NULL,
+TspStrokePlayer,firstName,SCALAR,Built-in String
+TspStrokePlayer,lastName,SCALAR,Built-in String
+TspStrokePlayer,color,SCALAR,Built-in String
+TspStrokePlayer,playerId,SCALAR,Built-in Int
+TspStrokePlayer,playerIdString,SCALAR,Built-in String
+TspStrokePlayer,displayName,SCALAR,Built-in String
+TspStrokePlayer,shortName,SCALAR,Built-in String
+RadarData,apexRange,NON_NULL,
+RadarData,apexSide,NON_NULL,
+RadarData,apexHeight,NON_NULL,
+RadarData,clubSpeed,NON_NULL,
+RadarData,ballSpeed,NON_NULL,
+RadarData,smashFactor,NON_NULL,
+RadarData,launchSpin,NON_NULL,
+RadarData,spinAxis,NON_NULL,
+RadarData,verticalLaunchAngle,NON_NULL,
+RadarData,horizontalLaunchAngle,NON_NULL,
+RadarData,actualFlightTime,NON_NULL,
+RadarData,ballImpactMeasured,SCALAR,Built-in String
+RadarData,ballTrajectory,NON_NULL,
+RadarData,normalizedTrajectoryV2,NON_NULL,
+RadarBallTracjectory,kind,NON_NULL,
+RadarBallTracjectory,xFit,NON_NULL,
+RadarBallTracjectory,yFit,NON_NULL,
+RadarBallTracjectory,zFit,NON_NULL,
+RadarBallTracjectory,spinRateFit,NON_NULL,
+RadarBallTracjectory,timeInterval,NON_NULL,
+RadarBallTracjectory,validTimeInterval,NON_NULL,
+RadarBallTracjectory,measuredTimeInterval,NON_NULL,
+RadarBallTracjectory,type,SCALAR,Built-in String
+RadarNormalizedTrajectory,valid,NON_NULL,
+RadarNormalizedTrajectory,carry,SCALAR,Built-in Int
+RadarNormalizedTrajectory,carrySide,SCALAR,Built-in Int
+RadarNormalizedTrajectory,curve,SCALAR,Built-in Int
+RadarNormalizedTrajectory,maxHeight,SCALAR,Built-in Int
+RadarNormalizedTrajectory,xFit,LIST,
+RadarNormalizedTrajectory,yFit,LIST,
+RadarNormalizedTrajectory,zFit,LIST,
+RadarNormalizedTrajectory,timeInterval,LIST,
+RadarNormalizedTrajectory,windVelocity,LIST,
+RadarNormalizedTrajectory,spinAxis,SCALAR,Built-in Float
+RadarNormalizedTrajectory,validTimeInterval,LIST,
+RadarNormalizedTrajectoryV2,valid,NON_NULL,
+RadarNormalizedTrajectoryV2,carry,SCALAR,Built-in Float
+RadarNormalizedTrajectoryV2,carrySide,SCALAR,Built-in Float
+RadarNormalizedTrajectoryV2,curve,SCALAR,Built-in Float
+RadarNormalizedTrajectoryV2,maxHeight,SCALAR,Built-in Float
+RadarNormalizedTrajectoryV2,xFit,LIST,
+RadarNormalizedTrajectoryV2,yFit,LIST,
+RadarNormalizedTrajectoryV2,zFit,LIST,
+RadarNormalizedTrajectoryV2,timeInterval,LIST,
+RadarNormalizedTrajectoryV2,windVelocity,LIST,
+RadarNormalizedTrajectoryV2,spinAxis,SCALAR,Built-in Float
+RadarNormalizedTrajectoryV2,validTimeInterval,LIST,
+HolePickle,leftToRight,NON_NULL,
+HolePickle,bottomToTop,NON_NULL,
+HolePickle,greenLeftToRight,NON_NULL,
+HolePickle,greenBottomToTop,NON_NULL,
+HolePickle,leftToRightAsset,NON_NULL,
+HolePickle,bottomToTopAsset,NON_NULL,
+HolePickle,greenLeftToRightAsset,NON_NULL,
+HolePickle,greenBottomToTopAsset,NON_NULL,
+ShotDetailsCompressed,id,NON_NULL,
+ShotDetailsCompressed,payload,NON_NULL,
+ShotDetailsCompressedV3,id,NON_NULL,
+ShotDetailsCompressedV3,payload,NON_NULL,
+GroupShotDetails,id,NON_NULL,
+GroupShotDetails,tournamentId,NON_NULL,
+GroupShotDetails,groupNumber,NON_NULL,
+GroupShotDetails,round,NON_NULL,
+GroupShotDetails,displayType,NON_NULL,
+GroupShotDetails,message,NON_NULL,
+GroupShotDetails,players,NON_NULL,
+GroupShotDetails,holes,NON_NULL,
+GroupShotDetails,shotVideo,OBJECT,
+GroupShotDetails,shotVideos,LIST,
+GroupShotDetails,defaultHolePickle,NON_NULL,
+GroupShotDetailsPlayer,id,NON_NULL,
+GroupShotDetailsPlayer,firstName,NON_NULL,
+GroupShotDetailsPlayer,lastName,NON_NULL,
+GroupShotDetailsPlayer,displayName,NON_NULL,
+GroupShotDetailsPlayer,shortName,NON_NULL,
+GroupShotDetailsPlayer,lineColor,NON_NULL,
+GroupShotDetailsHole,holeNumber,NON_NULL,
+GroupShotDetailsHole,displayHoleNumber,NON_NULL,
+GroupShotDetailsHole,par,NON_NULL,
+GroupShotDetailsHole,rank,SCALAR,Built-in String
+GroupShotDetailsHole,yardage,NON_NULL,
+GroupShotDetailsHole,green,NON_NULL,
+GroupShotDetailsHole,activePlayers,NON_NULL,
+GroupShotDetailsHole,teeOverview,NON_NULL,
+GroupShotDetailsHole,teeGreen,NON_NULL,
+GroupShotDetailsHole,pinOverview,NON_NULL,
+GroupShotDetailsHole,pinGreen,NON_NULL,
+GroupShotDetailsHole,fairwayCenter,NON_NULL,
+GroupShotDetailsHole,holePickleLeftToRightAsset,NON_NULL,
+GroupShotDetailsHole,holePickleBottomToTopAsset,NON_NULL,
+GroupShotDetailsHole,holePickleGreenBottomToTopAsset,NON_NULL,
+GroupShotDetailsHole,holePickleGreenLeftToRightAsset,NON_NULL,
+GroupShotDetailsHole,strokes,NON_NULL,
+GroupShotDetailsHole,enhancedPickle,OBJECT,
+GroupShotDetailsStroke,strokeNumber,NON_NULL,
+GroupShotDetailsStroke,playByPlayLabel,NON_NULL,
+GroupShotDetailsStroke,players,NON_NULL,
+GroupShotDetailsStrokePlayer,playerId,NON_NULL,
+GroupShotDetailsStrokePlayer,displayName,NON_NULL,
+GroupShotDetailsStrokePlayer,shortName,NON_NULL,
+GroupShotDetailsStrokePlayer,playByPlay,NON_NULL,
+GroupShotDetailsStrokePlayer,strokeType,NON_NULL,
+GroupShotDetailsStrokePlayer,finalShot,NON_NULL,
+GroupShotDetailsStrokePlayer,distance,NON_NULL,
+GroupShotDetailsStrokePlayer,distanceRemaining,NON_NULL,
+GroupShotDetailsStrokePlayer,status,NON_NULL,
+GroupShotDetailsStrokePlayer,score,NON_NULL,
+GroupShotDetailsStrokePlayer,overview,NON_NULL,
+GroupShotDetailsStrokePlayer,green,NON_NULL,
+GroupShotDetailsStrokePlayer,showMarker,NON_NULL,
+GroupShotDetailsStrokePlayer,markerText,NON_NULL,
+GroupShotDetailsStrokePlayer,videoId,SCALAR,Built-in String
+GroupShotDetailsStrokePlayer,fromLocationCode,NON_NULL,
+GroupShotDetailsStrokePlayer,toLocationCode,NON_NULL,
+GroupShotDetailsStrokePlayer,fromLocation,NON_NULL,
+GroupShotDetailsStrokePlayer,toLocation,NON_NULL,
+GroupShotDetailsStrokePlayer,radarData,OBJECT,
+GroupShotDetailsCompressed,id,NON_NULL,
+GroupShotDetailsCompressed,payload,NON_NULL,
+TeamShotDetails,id,NON_NULL,
+TeamShotDetails,tournamentId,NON_NULL,
+TeamShotDetails,groupNumber,NON_NULL,
+TeamShotDetails,round,NON_NULL,
+TeamShotDetails,displayType,NON_NULL,
+TeamShotDetails,message,NON_NULL,
+TeamShotDetails,teams,NON_NULL,
+TeamShotDetails,holes,NON_NULL,
+TeamShotDetails,shotVideo,OBJECT,
+TeamShotDetails,shotVideos,LIST,
+TeamShotDetails,defaultHolePickle,NON_NULL,
+GroupShotDetailsTeam,teamId,NON_NULL,
+GroupShotDetailsTeam,teamName,NON_NULL,
+GroupShotDetailsTeam,players,LIST,
+TeamShotDetailsCompressed,id,NON_NULL,
+TeamShotDetailsCompressed,payload,NON_NULL,
+TeeTimes,id,NON_NULL,
+TeeTimes,courses,NON_NULL,
+TeeTimes,rounds,NON_NULL,
+TeeTimes,defaultRound,NON_NULL,
+TeeTimes,timezone,NON_NULL,
+TeeTimes,informationSections,NON_NULL,
+TeeTimes,drawersEnabled,NON_NULL,
+TeeTimes,hideSov,NON_NULL,
+TeeTimeRound,id,NON_NULL,
+TeeTimeRound,roundInt,NON_NULL,
+TeeTimeRound,roundStatusDisplay,NON_NULL,
+TeeTimeRound,roundDisplay,NON_NULL,
+TeeTimeRound,roundStatus,NON_NULL,
+TeeTimeRound,roundStatusColor,NON_NULL,
+TeeTimeRound,groups,NON_NULL,
+Group,groupNumber,NON_NULL,
+Group,teeTime,NON_NULL,
+Group,startTee,NON_NULL,
+Group,groupHole,NON_NULL,
+Group,groupSort,NON_NULL,
+Group,groupLocation,NON_NULL,
+Group,groupLocationCode,NON_NULL,
+Group,tourcastURI,SCALAR,Built-in String
+Group,groupStatus,NON_NULL,
+Group,holeLocation,NON_NULL,
+Group,backNine,NON_NULL,
+Group,players,NON_NULL,
+Group,courseId,SCALAR,Built-in String
+Group,courseName,SCALAR,Built-in String
+Group,showScorecard,NON_NULL,
+TeeTimesV2,id,NON_NULL,
+TeeTimesV2,courses,NON_NULL,
+TeeTimesV2,rounds,NON_NULL,
+TeeTimesV2,defaultRound,NON_NULL,
+TeeTimesV2,timezone,NON_NULL,
+TeeTimesV2,informationSections,NON_NULL,
+TeeTimesV2,teeTimesFeatures,NON_NULL,
+TeeTimesV2,drawersEnabled,NON_NULL,
+TeeTimesV2,hideSov,NON_NULL,
+TeeTimeRoundV2,id,NON_NULL,
+TeeTimeRoundV2,roundInt,NON_NULL,
+TeeTimeRoundV2,roundStatusDisplay,NON_NULL,
+TeeTimeRoundV2,roundDisplay,NON_NULL,
+TeeTimeRoundV2,roundStatus,NON_NULL,
+TeeTimeRoundV2,roundStatusColor,NON_NULL,
+TeeTimeRoundV2,groups,NON_NULL,
+GroupV2,groupNumber,NON_NULL,
+GroupV2,teeTime,NON_NULL,
+GroupV2,startTee,NON_NULL,
+GroupV2,tourcastURI,SCALAR,Built-in String
+GroupV2,backNine,NON_NULL,
+GroupV2,players,NON_NULL,
+GroupV2,courseId,SCALAR,Built-in String
+GroupV2,courseName,SCALAR,Built-in String
+GroupV2,showScorecard,NON_NULL,
+Tournament,id,NON_NULL,
+Tournament,tournamentName,NON_NULL,
+Tournament,tournamentLogoAsset,NON_NULL,
+Tournament,tournamentLocation,NON_NULL,
+Tournament,tournamentStatus,NON_NULL,
+Tournament,features,LIST,
+Tournament,formatType,NON_NULL,
+Tournament,roundStatusDisplay,NON_NULL,
+Tournament,roundDisplay,NON_NULL,
+Tournament,roundStatus,NON_NULL,
+Tournament,roundStatusColor,NON_NULL,
+Tournament,currentRound,NON_NULL,
+Tournament,timezone,NON_NULL,
+Tournament,seasonYear,NON_NULL,
+Tournament,displayDate,NON_NULL,
+Tournament,country,NON_NULL,
+Tournament,state,NON_NULL,
+Tournament,city,NON_NULL,
+Tournament,scoredLevel,NON_NULL,
+Tournament,events,NON_NULL,
+Tournament,courses,NON_NULL,
+Tournament,weather,OBJECT,
+Tournament,ticketsURL,SCALAR,Built-in String
+Tournament,tournamentSiteURL,SCALAR,Built-in String
+Tournament,useTournamentSiteURL,NON_NULL,
+Tournament,pdfUrl,SCALAR,Built-in String
+Tournament,conductedByLabel,SCALAR,Built-in String
+Tournament,conductedByLink,SCALAR,Built-in String
+Tournament,beautyImageAsset,NON_NULL,
+Tournament,shouldSubscribe,SCALAR,Built-in Boolean
+Tournament,infoPath,SCALAR,Built-in String
+Tournament,hideRolexClock,NON_NULL,
+Tournament,hideSov,NON_NULL,
+Tournament,ticketsEnabled,NON_NULL,
+Tournament,headshotBaseUrl,SCALAR,Built-in String
+Tournament,rightRailConfig,OBJECT,
+Tournament,tournamentCategoryInfo,OBJECT,
+Event,id,NON_NULL,
+Event,eventName,NON_NULL,
+Event,leaderboardId,NON_NULL,
+TournamentWeather,logoAsset,NON_NULL,
+TournamentWeather,logoDarkAsset,NON_NULL,
+TournamentWeather,logoAccessibility,NON_NULL,
+TournamentWeather,tempF,NON_NULL,
+TournamentWeather,tempC,NON_NULL,
+TournamentWeather,condition,NON_NULL,
+TournamentWeather,windDirection,NON_NULL,
+TournamentWeather,windSpeedMPH,NON_NULL,
+TournamentWeather,windSpeedKPH,NON_NULL,
+TournamentWeather,precipitation,NON_NULL,
+TournamentWeather,humidity,NON_NULL,
+TournamentRightRailConfig,imageUrl,NON_NULL,
+TournamentRightRailConfig,imageAltText,NON_NULL,
+TournamentRightRailConfig,buttonLink,SCALAR,Built-in String
+TournamentRightRailConfig,buttonText,SCALAR,Built-in String
+Field,tournamentName,NON_NULL,
+Field,id,NON_NULL,
+Field,lastUpdated,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+Field,message,SCALAR,Built-in String
+Field,players,NON_NULL,
+Field,alternates,NON_NULL,
+Field,features,NON_NULL,
+Field,standingsHeader,NON_NULL,
+Field,hideSov,NON_NULL,
+PlayerField,id,NON_NULL,
+PlayerField,alphaSort,NON_NULL,
+PlayerField,firstName,NON_NULL,
+PlayerField,lastName,NON_NULL,
+PlayerField,shortName,NON_NULL,
+PlayerField,displayName,NON_NULL,
+PlayerField,amateur,NON_NULL,
+PlayerField,favorite,NON_NULL,
+PlayerField,country,NON_NULL,
+PlayerField,countryFlag,NON_NULL,
+PlayerField,qualifier,SCALAR,Built-in String
+PlayerField,alternate,NON_NULL,
+PlayerField,withdrawn,NON_NULL,
+PlayerField,status,NON_NULL,
+PlayerField,owgr,SCALAR,Built-in String
+PlayerField,rankingPoints,SCALAR,Built-in String
+PlayerField,rankLogoLight,SCALAR,Built-in String
+PlayerField,rankLogoDark,SCALAR,Built-in String
+PlayerField,teammate,OBJECT,
+PlayerFieldTeammate,id,NON_NULL,
+PlayerFieldTeammate,alphaSort,NON_NULL,
+PlayerFieldTeammate,firstName,NON_NULL,
+PlayerFieldTeammate,lastName,NON_NULL,
+PlayerFieldTeammate,shortName,NON_NULL,
+PlayerFieldTeammate,displayName,NON_NULL,
+PlayerFieldTeammate,amateur,NON_NULL,
+PlayerFieldTeammate,favorite,NON_NULL,
+PlayerFieldTeammate,country,NON_NULL,
+PlayerFieldTeammate,countryFlag,NON_NULL,
+PlayerFieldTeammate,qualifier,SCALAR,Built-in String
+PlayerFieldTeammate,qualifierId,SCALAR,Built-in String
+PlayerFieldTeammate,alternate,NON_NULL,
+PlayerFieldTeammate,withdrawn,NON_NULL,
+PlayerFieldTeammate,status,NON_NULL,
+PlayerFieldTeammate,owgr,SCALAR,Built-in String
+PlayerFieldTeammate,rankingPoints,SCALAR,Built-in String
+GroupedField,tournamentName,NON_NULL,
+GroupedField,id,NON_NULL,
+GroupedField,lastUpdated,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+GroupedField,message,SCALAR,Built-in String
+GroupedField,players,NON_NULL,
+GroupedField,alternates,NON_NULL,
+GroupedField,features,NON_NULL,
+GroupedField,standingsHeader,NON_NULL,
+PlayerGroup,title,NON_NULL,
+PlayerGroup,fieldGroups,NON_NULL,
+FieldGroup,groupId,SCALAR,Built-in String
+FieldGroup,groupTitle,NON_NULL,
+FieldGroup,players,NON_NULL,
+FieldStats,tournamentId,NON_NULL,
+FieldStats,fieldStatType,NON_NULL,
+FieldStats,players,NON_NULL,
+FieldStats,statHeaders,LIST,
+FieldStats,tournamentSeasonHeaders,LIST,
+FieldStatCurrentForm,playerId,NON_NULL,
+FieldStatCurrentForm,totalRounds,NON_NULL,
+FieldStatCurrentForm,tournamentResults,NON_NULL,
+FieldStatCurrentForm,strokesGained,NON_NULL,
+FieldStatCurrentForm,strokesGainedHeader,NON_NULL,
+FieldStatTournamentResult,tournamentId,NON_NULL,
+FieldStatTournamentResult,endDate,NON_NULL,
+FieldStatTournamentResult,name,NON_NULL,
+FieldStatTournamentResult,tourCode,NON_NULL,
+FieldStatTournamentResult,position,NON_NULL,
+FieldStatTournamentResult,score,NON_NULL,
+FieldStatTournamentResult,season,NON_NULL,
+FieldStatTournamentResult,columnIndex,NON_NULL,
+FieldStatStrokesGained,statId,NON_NULL,
+FieldStatStrokesGained,statValue,NON_NULL,
+FieldStatStrokesGained,statColor,NON_NULL,
+FieldStatCourseFit,playerId,NON_NULL,
+FieldStatCourseFit,totalRounds,NON_NULL,
+FieldStatCourseFit,score,NON_NULL,
+FieldStatCourseFit,stats,NON_NULL,
+FieldStatCourseFitStat,statValue,NON_NULL,
+FieldStatCourseFitStat,statRank,NON_NULL,
+FieldStatCourseFitStat,statColor,NON_NULL,
+SeasonDisplayHeader,startYear,NON_NULL,
+SeasonDisplayHeader,endYear,SCALAR,Built-in Int
+PlayerBioWrapper,id,NON_NULL,
+PlayerBioWrapper,firstName,NON_NULL,
+PlayerBioWrapper,lastName,NON_NULL,
+PlayerBioWrapper,displayName,NON_NULL,
+PlayerBioWrapper,country,NON_NULL,
+PlayerBioWrapper,countryFlag,NON_NULL,
+PlayerBioWrapper,bioLink,NON_NULL,
+PlayerBioWrapper,playerBio,OBJECT,
+PlayerBioWrapper,owgr,SCALAR,Built-in Int
+PlayerBioWrapper,rank,OBJECT,
+PlayerBio,heightImperial,SCALAR,Built-in String
+PlayerBio,heightImperialAccessibilityText,SCALAR,Built-in String
+PlayerBio,heightMeters,SCALAR,Built-in String
+PlayerBio,weightImperial,SCALAR,Built-in String
+PlayerBio,weightKilograms,SCALAR,Built-in String
+PlayerBio,age,SCALAR,Built-in String
+PlayerBio,born,SCALAR,Built-in String
+PlayerBio,bornAccessibilityText,SCALAR,Built-in String
+PlayerBio,birthplace,NON_NULL,
+PlayerBio,turnedPro,SCALAR,Built-in String
+PlayerBio,overview,SCALAR,Built-in String
+PlayerBio,school,SCALAR,Built-in String
+PlayerBio,degree,SCALAR,Built-in String
+PlayerBio,graduationYear,SCALAR,Built-in String
+PlayerBio,residence,NON_NULL,
+PlayerBio,playsFrom,NON_NULL,
+PlayerBio,family,SCALAR,Built-in String
+PlayerBio,social,LIST,
+PlayerBio,personal,LIST,
+PlayerBio,careerEarnings,SCALAR,Built-in String
+PlayerBio,pronunciation,SCALAR,Built-in String
+PlayerBio,exemptions,LIST,
+PlayerBio,websiteURL,SCALAR,Built-in String
+PlayerBio,deceased,NON_NULL,
+PlayerBio,deceasedDate,SCALAR,Built-in String
+PlayerBio,primaryTour,SCALAR,Built-in String
+PlayerBioLocation,city,SCALAR,Built-in String
+PlayerBioLocation,state,SCALAR,Built-in String
+PlayerBioLocation,stateCode,SCALAR,Built-in String
+PlayerBioLocation,country,SCALAR,Built-in String
+PlayerBioLocation,countryCode,SCALAR,Built-in String
+PlayerBioSocial,type,NON_NULL,
+PlayerBioSocial,url,NON_NULL,
+PlayerBioExemption,tour,ENUM,
+PlayerBioExemption,description,SCALAR,Built-in String
+PlayerBioExemption,expirationDate,SCALAR,Built-in String
+BioRank,rank,NON_NULL,
+BioRank,statName,NON_NULL,
+AudioStream,id,NON_NULL,
+AudioStream,live,NON_NULL,
+AudioStream,streamTitle,NON_NULL,
+AudioStream,streamUrl,NON_NULL,
+AudioStream,posterImage,NON_NULL,
+AudioStream,shareUrl,NON_NULL,
+PlayerDirectory,tourCode,NON_NULL,
+PlayerDirectory,players,NON_NULL,
+PlayerDirectoryPlayer,id,NON_NULL,
+PlayerDirectoryPlayer,isActive,NON_NULL,
+PlayerDirectoryPlayer,firstName,NON_NULL,
+PlayerDirectoryPlayer,lastName,NON_NULL,
+PlayerDirectoryPlayer,shortName,NON_NULL,
+PlayerDirectoryPlayer,displayName,NON_NULL,
+PlayerDirectoryPlayer,alphaSort,NON_NULL,
+PlayerDirectoryPlayer,country,NON_NULL,
+PlayerDirectoryPlayer,countryFlag,NON_NULL,
+PlayerDirectoryPlayer,playerBio,NON_NULL,
+PlayerDirectoryBio,id,NON_NULL,
+PlayerDirectoryBio,education,SCALAR,Built-in String
+PlayerDirectoryBio,turnedPro,SCALAR,Built-in String
+PlayerDirectoryBio,age,SCALAR,Built-in String
+BroadcastCoverage,id,NON_NULL,
+BroadcastCoverage,tournamentName,NON_NULL,
+BroadcastCoverage,countryCode,NON_NULL,
+BroadcastCoverage,livePillLabel,NON_NULL,
+BroadcastCoverage,coverageType,NON_NULL,
+BroadcastAudioStream,id,NON_NULL,
+BroadcastAudioStream,streamTitle,NON_NULL,
+BroadcastAudioStream,roundNumber,NON_NULL,
+BroadcastAudioStream,roundDisplay,NON_NULL,
+BroadcastAudioStream,channelTitle,NON_NULL,
+BroadcastAudioStream,startTime,NON_NULL,
+BroadcastAudioStream,endTime,NON_NULL,
+BroadcastAudioStream,liveStatus,NON_NULL,
+BroadcastAudioStream,network,NON_NULL,
+BroadcastFeaturedGroup,id,NON_NULL,
+BroadcastFeaturedGroup,streamTitle,NON_NULL,
+BroadcastFeaturedGroup,roundNumber,NON_NULL,
+BroadcastFeaturedGroup,roundDisplay,NON_NULL,
+BroadcastFeaturedGroup,channelTitle,NON_NULL,
+BroadcastFeaturedGroup,startTime,NON_NULL,
+BroadcastFeaturedGroup,endTime,NON_NULL,
+BroadcastFeaturedGroup,courseId,SCALAR,Built-in String
+BroadcastFeaturedGroup,groups,NON_NULL,
+BroadcastFeaturedGroup,promoImage,SCALAR,Built-in String
+BroadcastFeaturedGroup,promoImages,NON_NULL,
+BroadcastFeaturedGroup,liveStatus,NON_NULL,
+BroadcastFeaturedGroup,network,NON_NULL,
+BroadcastGroup,id,NON_NULL,
+BroadcastGroup,extendedCoverage,SCALAR,Built-in Boolean
+BroadcastGroup,playerLastNames,LIST,
+BroadcastGroup,liveStatus,NON_NULL,
+BroadcastFeaturedHole,id,NON_NULL,
+BroadcastFeaturedHole,streamTitle,NON_NULL,
+BroadcastFeaturedHole,roundNumber,NON_NULL,
+BroadcastFeaturedHole,roundDisplay,NON_NULL,
+BroadcastFeaturedHole,channelTitle,NON_NULL,
+BroadcastFeaturedHole,startTime,NON_NULL,
+BroadcastFeaturedHole,endTime,NON_NULL,
+BroadcastFeaturedHole,courseId,SCALAR,Built-in String
+BroadcastFeaturedHole,featuredHoles,NON_NULL,
+BroadcastFeaturedHole,promoImage,SCALAR,Built-in String
+BroadcastFeaturedHole,promoImages,NON_NULL,
+BroadcastFeaturedHole,liveStatus,NON_NULL,
+BroadcastFeaturedHole,network,NON_NULL,
+BroadcastCoverageCarousel,carousel,NON_NULL,
+BroadcastNetworks,networks,NON_NULL,
+UpcomingBroadcastNetworks,upcomingNetworks,NON_NULL,
+UpcomingBroadcastNetwork,tournamentId,NON_NULL,
+UpcomingBroadcastNetwork,networks,NON_NULL,
+NewsArticles,articles,NON_NULL,
+NewsArticles,franchiseSponsors,LIST,
+NewsArticles,integratedComponents,NON_NULL,
+NewsArticle,id,NON_NULL,
+NewsArticle,contentTournamentId,SCALAR,Built-in String
+NewsArticle,headline,SCALAR,Built-in String
+NewsArticle,teaserHeadline,SCALAR,Built-in String
+NewsArticle,articleImageAlt,NON_NULL,
+NewsArticle,teaserContent,SCALAR,Built-in String
+NewsArticle,articleImage,SCALAR,Built-in String
+NewsArticle,teaserImageOverride,SCALAR,Built-in String
+NewsArticle,url,NON_NULL,
+NewsArticle,shareURL,NON_NULL,
+NewsArticle,publishDate,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+NewsArticle,updateDate,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+NewsArticle,franchise,NON_NULL,
+NewsArticle,franchiseDisplayName,NON_NULL,
+NewsArticle,sponsor,OBJECT,
+NewsArticle,brightcoveId,SCALAR,Built-in String
+NewsArticle,externalLinkOverride,SCALAR,Built-in String
+NewsArticle,articleFormType,ENUM,
+NewsArticle,isLive,NON_NULL,
+NewsArticle,author,OBJECT,
+NewsArticle,players,LIST,
+NewsArticle,pinned,NON_NULL,
+NewsArticle,franchiseTags,LIST,
+NewsArticle,articleLabel,SCALAR,Built-in String
+NewsArticle,analyticsTags,LIST,
+NewsArticle,photoGalleryPath,SCALAR,Built-in String
+NewsArticle,isBreakingNews,SCALAR,Built-in Boolean
+NewsArticleSponsor,name,NON_NULL,
+NewsArticleSponsor,description,SCALAR,Built-in String
+NewsArticleSponsor,sponsorPrefix,SCALAR,Built-in String
+NewsArticleSponsor,logo,NON_NULL,
+NewsArticleSponsor,logoDark,NON_NULL,
+NewsArticleSponsor,image,SCALAR,Built-in String
+NewsArticleSponsor,websiteUrl,SCALAR,Built-in String
+NewsArticleSponsor,gam,SCALAR,Built-in String
+NewsArticleAuthor,firstName,NON_NULL,
+NewsArticleAuthor,lastName,NON_NULL,
+NewsArticleAuthor,byLine,SCALAR,Built-in String
+NewsArticleAuthor,byLineIcon,SCALAR,Built-in String
+NewsArticleAuthor,byLineLink,SCALAR,Built-in String
+NewsArticleAuthor,byLineLinkDisplay,SCALAR,Built-in String
+NewsArticleAuthor,twitter,SCALAR,Built-in String
+NewsArticleAuthor,headshot,SCALAR,Built-in String
+ArticlePlayer,id,NON_NULL,
+ArticlePlayer,name,NON_NULL,
+NewsSponsor,franchise,NON_NULL,
+NewsSponsor,image,NON_NULL,
+NewsSponsor,label,NON_NULL,
+NewsSponsor,accessibilityText,NON_NULL,
+NewsSponsor,backgroundColor,NON_NULL,
+IntegratedComponent,index,NON_NULL,
+IntegratedComponent,partner,NON_NULL,
+AdConfig,config,NON_NULL,
+AdConfig,mobileYourTourHomeStory,OBJECT,
+AdConfig,leaderboardFavorites,OBJECT,
+AdConfig,leaderboard,OBJECT,
+AdConfig,teeTimes,OBJECT,
+AdConfig,homepage,OBJECT,
+AdConfig,odds,OBJECT,
+AdConfig,fedexCup,OBJECT,
+AdConfig,news,OBJECT,
+AdConfig,schedule,OBJECT,
+AdConfig,players,OBJECT,
+AdConfig,playerProfile,OBJECT,
+AdConfig,scorecard,OBJECT,
+AdConfig,scorecardOdds,OBJECT,
+AdConfig,statsSection,OBJECT,
+AdConfig,comcastTop10,OBJECT,
+AdConfig,aon,OBJECT,
+AdConfig,rsm,OBJECT,
+AdConfig,newsArticles,OBJECT,
+AdConfig,groupStageStandings,OBJECT,
+AdConfig,knockoutLeaderboard,OBJECT,
+AdConfig,groupStageLeaderboard,OBJECT,
+AdConfig,university,OBJECT,
+AdConfig,training,OBJECT,
+AdConfig,fedexcupSection,OBJECT,
+AdConfig,the25Section,OBJECT,
+AdConfig,the25pointsList,OBJECT,
+AdConfig,schwabCup,OBJECT,
+AdConfig,schwabcupSection,OBJECT,
+AdConfig,fortinetCup,OBJECT,
+AdConfig,fortinetcupSection,OBJECT,
+AdConfig,totalPlayCup,OBJECT,
+AdConfig,totalplaycupSection,OBJECT,
+AdConfig,playoffScorecard,OBJECT,
+AdConfig,groupScorecard,OBJECT,
+AdConfig,standings,OBJECT,
+AdConfig,fantasy,OBJECT,
+AdConfig,more,OBJECT,
+AdConfig,stats,OBJECT,
+AdConfig,tournament,OBJECT,
+AdConfig,course,OBJECT,
+AdConfig,watch,OBJECT,
+AdConfig,audio,OBJECT,
+AdConfig,sidebarTicker,OBJECT,
+AdConfig,tournamentSection,OBJECT,
+AdConfig,golfBet,OBJECT,
+AdConfig,groupstageStandings,OBJECT,
+AdConfig,comcastSection,OBJECT,
+AdConfig,aonSection,OBJECT,
+AdConfig,netflix,OBJECT,
+AdConfig,leaderboardLandscape,OBJECT,
+AdConfig,leaderboardCutline,OBJECT,
+AdConfig,rsmSection,OBJECT,
+AdConfig,yahooLeaderboard,OBJECT,
+AdConfig,playerScorecard,OBJECT,
+AdConfig,tourcast,OBJECT,
+AdConfig,payneStewartaward,OBJECT,
+AdConfig,liveLeaderboard,OBJECT,
+AdConfig,leaderboardRow50,OBJECT,
+AdConfig,newsArticlemidcontent,OBJECT,
+AdConfig,mobilePlayerStory,OBJECT,
+AdConfig,playerProfileResults,OBJECT,
+AdConfig,playerProfileStats,OBJECT,
+AdConfig,playerProfileBio,OBJECT,
+AdConfig,cupLeaderboardGroup,OBJECT,
+AdConfig,cupLeaderboardSingles,OBJECT,
+AdConfig,cupTeeTimesGroup,OBJECT,
+AdConfig,cupTeeTimesSingles,OBJECT,
+AdConfig,dpwtRankings,OBJECT,
+AdConfig,webPlayerStories,OBJECT,
+AdConfig,leaderboardShotDetails,OBJECT,
+AdConfig,leaderboardProbability,OBJECT,
+AdConfig,leaderboardOdds,OBJECT,
+AdConfig,leaderboardLandscapeProbability,OBJECT,
+AdConfig,leaderboardLandscapeShotDetails,OBJECT,
+AdConfig,leaderboardLandscapeOdds,OBJECT,
+AdConfig,playerProfileEquipment,OBJECT,
+AdConfig,leaderboardStrokesGained,OBJECT,
+AdConfig,leaderboardHoleByHole,OBJECT,
+AdConfig,leaderboardLandscapeStrokesGained,OBJECT,
+AdConfig,leaderboardLandscapeHoleByHole,OBJECT,
+AdConfig,tickets,OBJECT,
+AdConfig,studios,OBJECT,
+AdConfig,webTopicStories,OBJECT,
+AdConfig,mobileTopicStory,OBJECT,
+GlobalAdConfig,adUnitId,NON_NULL,
+GlobalAdConfig,networkId,NON_NULL,
+GlobalAdConfig,fluid,NON_NULL,
+GlobalAdConfig,refresh,NON_NULL,
+GlobalAdConfig,actRefresh,NON_NULL,
+GlobalAdConfig,environment,NON_NULL,
+GlobalAdConfig,playerSponsorship,NON_NULL,
+GlobalAdConfig,timedRefresh,SCALAR,Built-in Boolean
+GlobalAdConfig,injectAds,SCALAR,Built-in Boolean
+AdTagConfig,s1,NON_NULL,
+AdTagConfig,s2,SCALAR,Built-in String
+AdTagConfig,uniqueId,NON_NULL,
+AdTagConfig,rows,NON_NULL,
+AdTagConfig,refresh,SCALAR,Built-in Int
+AdTagConfig,adTest,SCALAR,Built-in String
+AdTagConfig,environment,SCALAR,Built-in String
+AdTagConfig,actRefresh,SCALAR,Built-in Boolean
+AdTagConfig,timedRefresh,SCALAR,Built-in Boolean
+AdTagConfig,injectAds,SCALAR,Built-in Boolean
+AdTagRowConfig,index,NON_NULL,
+AdTagRowConfig,pos,NON_NULL,
+AdTagRowConfig,fluid,SCALAR,Built-in Boolean
+AdTagRowConfig,container,OBJECT,
+AdTagRowConfig,containerSmall,OBJECT,
+AdTagRowConfig,containerMedium,OBJECT,
+AdTagRowConfig,containerLarge,OBJECT,
+AdTagRowConfig,sizes,LIST,
+AdTagRowConfig,playerSponsorship,SCALAR,Built-in Boolean
+AdSize,width,NON_NULL,
+AdSize,height,NON_NULL,
+PlayerSponsorship,playerId,NON_NULL,
+PlayerSponsorship,sponsor,ENUM,
+PlayerSponsors,playerId,NON_NULL,
+PlayerSponsors,defaultSponsor,OBJECT,
+PlayerSponsors,sponsors,NON_NULL,
+Sponsor,sponsor,NON_NULL,
+Sponsor,logoAsset,NON_NULL,
+Sponsor,logoDarkAsset,NON_NULL,
+Sponsor,logoTabletAsset,NON_NULL,
+Sponsor,logoTabletDarkAsset,NON_NULL,
+Sponsor,accessibilityText,NON_NULL,
+TourCupRankingEvent,id,NON_NULL,
+TourCupRankingEvent,title,NON_NULL,
+TourCupRankingEvent,live,NON_NULL,
+TourCupRankingEvent,logoAsset,NON_NULL,
+TourCupRankingEvent,logoDarkAsset,NON_NULL,
+TourCupRankingEvent,showInLeaderboard,NON_NULL,
+TourCupRankingEvent,options,NON_NULL,
+TourCupRankingEvent,description,NON_NULL,
+TourCupRankingEvent,detailCopy,SCALAR,Built-in String
+TourCupRankingEvent,standings,NON_NULL,
+TourCupRankingEvent,webviewUrl,SCALAR,Built-in String
+TourCupRankingEvent,webviewBrowserControls,SCALAR,Built-in Boolean
+TourCupRankingEvent,rankingsHeader,NON_NULL,
+TourCupRankingEvent,rankings,NON_NULL,
+TourCupRankingEvent,partner,SCALAR,Built-in String
+TourCupRankingEvent,partnerLink,SCALAR,Built-in String
+TourCupRankingEvent,winner,OBJECT,
+TourCupRankingEvent,bannerMessage,OBJECT,
+StandardCupRanking,rankings,NON_NULL,
+CupRankingPlayer,position,NON_NULL,
+CupRankingPlayer,rankLogoLight,SCALAR,Built-in String
+CupRankingPlayer,rankLogoDark,SCALAR,Built-in String
+CupRankingPlayer,movement,NON_NULL,
+CupRankingPlayer,movementDirection,NON_NULL,
+CupRankingPlayer,id,NON_NULL,
+CupRankingPlayer,name,NON_NULL,
+CupRankingPlayer,playerCountry,NON_NULL,
+CupRankingPlayer,totals,NON_NULL,
+CupRankingPlayer,total,NON_NULL,
+CupRankingPlayer,winner,SCALAR,Built-in Boolean
+CupRankingPlayer,tourBound,SCALAR,Built-in Boolean
+CupRankingTotal,display,NON_NULL,
+CupRankingTotal,value,NON_NULL,
+SegmentedCupRankingWrapper,segments,LIST,
+SegmentedCupRanking,title,NON_NULL,
+SegmentedCupRanking,rankings,NON_NULL,
+SegmentedCupRanking,defaultSelection,NON_NULL,
+CupRankingPlayerInfoRow,text,NON_NULL,
+CupRankingPlayerInfoRow,image,SCALAR,Built-in String
+CupRankingPlayerInfoRow,imageDark,SCALAR,Built-in String
+TourCupWinner,id,NON_NULL,
+TourCupWinner,name,NON_NULL,
+TourCupWinner,playerCountry,NON_NULL,
+TourCupWinner,totalLabel,NON_NULL,
+TourCupWinner,totalValue,NON_NULL,
+TourCupCombined,id,NON_NULL,
+TourCupCombined,title,NON_NULL,
+TourCupCombined,projectedTitle,NON_NULL,
+TourCupCombined,season,NON_NULL,
+TourCupCombined,description,NON_NULL,
+TourCupCombined,detailCopy,NON_NULL,
+TourCupCombined,logoAsset,NON_NULL,
+TourCupCombined,options,NON_NULL,
+TourCupCombined,projectedLive,NON_NULL,
+TourCupCombined,fixedHeaders,NON_NULL,
+TourCupCombined,columnHeaders,NON_NULL,
+TourCupCombined,players,NON_NULL,
+TourCupCombined,tournamentPills,NON_NULL,
+TourCupCombined,yearPills,NON_NULL,
+TourCupCombined,rankingsHeader,NON_NULL,
+TourCupCombined,winner,OBJECT,
+TourCupCombined,message,SCALAR,Built-in String
+TourCupCombined,partner,SCALAR,Built-in String
+TourCupCombined,partnerLink,SCALAR,Built-in String
+TourCupCombined,cutOffNumber,SCALAR,Built-in Int
+TourCupCombined,cutOffButtonText,SCALAR,Built-in String
+TourCupCombined,pointsEyebrow,SCALAR,Built-in String
+TourCupCombined,rankEyebrow,SCALAR,Built-in String
+TourCupCombined,bannerMessage,OBJECT,
+TourCupCombinedPlayer,id,NON_NULL,
+TourCupCombinedPlayer,firstName,NON_NULL,
+TourCupCombinedPlayer,lastName,NON_NULL,
+TourCupCombinedPlayer,displayName,NON_NULL,
+TourCupCombinedPlayer,shortName,NON_NULL,
+TourCupCombinedPlayer,countryFlag,NON_NULL,
+TourCupCombinedPlayer,country,NON_NULL,
+TourCupCombinedPlayer,rankingData,OBJECT,
+TourCupCombinedPlayer,pointData,OBJECT,
+TourCupCombinedPlayer,projectedSort,NON_NULL,
+TourCupCombinedPlayer,officialSort,NON_NULL,
+TourCupCombinedPlayer,thisWeekRank,NON_NULL,
+TourCupCombinedPlayer,previousWeekRank,NON_NULL,
+TourCupCombinedPlayer,rankLogoLightAsset,OBJECT,
+TourCupCombinedPlayer,rankLogoDarkAsset,OBJECT,
+TourCupCombinedPlayer,columnData,NON_NULL,
+TourCupCombinedPlayer,tourBound,SCALAR,Built-in Boolean
+TourCupCombinedData,projected,NON_NULL,
+TourCupCombinedData,official,NON_NULL,
+TourCupCombinedData,event,NON_NULL,
+TourCupCombinedData,movement,NON_NULL,
+TourCupCombinedData,movementAmount,NON_NULL,
+TourCupCombinedData,logoAsset,OBJECT,
+TourCupCombinedData,logoDarkAsset,OBJECT,
+TourCupCombinedInfo,logoAsset,OBJECT,
+TourCupCombinedInfo,logoDarkAsset,OBJECT,
+TourCupCombinedInfo,text,NON_NULL,
+TourCupCombinedInfo,sortValue,NON_NULL,
+TourCupCombinedInfo,toolTip,SCALAR,Built-in String
+TourCupCombinedWinner,id,NON_NULL,
+TourCupCombinedWinner,rank,NON_NULL,
+TourCupCombinedWinner,firstName,NON_NULL,
+TourCupCombinedWinner,lastName,NON_NULL,
+TourCupCombinedWinner,displayName,NON_NULL,
+TourCupCombinedWinner,shortName,NON_NULL,
+TourCupCombinedWinner,countryFlag,NON_NULL,
+TourCupCombinedWinner,country,NON_NULL,
+TourCupCombinedWinner,earnings,NON_NULL,
+TourCupCombinedWinner,totals,NON_NULL,
+TourCupCombinedTotal,label,NON_NULL,
+TourCupCombinedTotal,value,NON_NULL,
+TourCupSplit,id,NON_NULL,
+TourCupSplit,title,NON_NULL,
+TourCupSplit,projectedTitle,NON_NULL,
+TourCupSplit,season,NON_NULL,
+TourCupSplit,description,NON_NULL,
+TourCupSplit,detailCopy,NON_NULL,
+TourCupSplit,logoAsset,NON_NULL,
+TourCupSplit,options,NON_NULL,
+TourCupSplit,projectedLive,NON_NULL,
+TourCupSplit,fixedHeaders,NON_NULL,
+TourCupSplit,columnHeaders,NON_NULL,
+TourCupSplit,projectedPlayers,NON_NULL,
+TourCupSplit,officialPlayers,NON_NULL,
+TourCupSplit,tournamentPills,NON_NULL,
+TourCupSplit,yearPills,NON_NULL,
+TourCupSplit,rankingsHeader,NON_NULL,
+TourCupSplit,winner,OBJECT,
+TourCupSplit,message,SCALAR,Built-in String
+TourCupSplit,partner,SCALAR,Built-in String
+TourCupSplit,partnerLink,SCALAR,Built-in String
+TourCupSplit,cutOffNumber,SCALAR,Built-in Int
+TourCupSplit,cutOffButtonText,SCALAR,Built-in String
+TourCupSplit,pointsEyebrow,SCALAR,Built-in String
+TourCupSplit,rankEyebrow,SCALAR,Built-in String
+TourCupSplit,bannerMessage,OBJECT,
+TournamentOdds,id,NON_NULL,
+TournamentOdds,country,NON_NULL,
+TournamentOdds,oddsProvider,NON_NULL,
+TournamentOdds,oddsMessage,OBJECT,
+TournamentOdds,availableMarkets,NON_NULL,
+TournamentOdds,drawersEnabled,NON_NULL,
+OddsBanner,disclaimer,NON_NULL,
+OddsBanner,image,NON_NULL,
+OddsBanner,label,NON_NULL,
+OddsBanner,cta,OBJECT,
+CallToAction,text,NON_NULL,
+CallToAction,link,NON_NULL,
+CallToAction,webViewLink,SCALAR,Built-in String
+OddsMessage,header,NON_NULL,
+OddsMessage,body,NON_NULL,
+AvailableMarket,market,NON_NULL,
+AvailableMarket,subMarket,SCALAR,Built-in String
+AvailableMarket,oddsOptions,NON_NULL,
+OddsToWin,id,NON_NULL,
+OddsToWin,position,NON_NULL,
+OddsToWin,displayName,NON_NULL,
+OddsToWin,firstName,NON_NULL,
+OddsToWin,lastName,NON_NULL,
+OddsToWin,countryFlag,SCALAR,Built-in String
+OddsToWin,total,NON_NULL,
+OddsToWin,thru,SCALAR,Built-in String
+OddsToWin,seed,SCALAR,Built-in Int
+OddsToWin,score,NON_NULL,
+OddsToWin,odds,NON_NULL,
+OddsToWin,optionsId,NON_NULL,
+OddsToWin,oddsSwing,ENUM,
+OddsToWin,currentRound,SCALAR,Built-in Int
+OddsToWin,matchId,SCALAR,Built-in Int
+OddsFinishes,id,NON_NULL,
+OddsFinishes,displayName,NON_NULL,
+OddsFinishes,firstName,NON_NULL,
+OddsFinishes,lastName,NON_NULL,
+OddsFinishes,seed,SCALAR,Built-in Int
+OddsFinishes,countryFlag,SCALAR,Built-in String
+OddsFinishes,odds,NON_NULL,
+OddsFinishes,optionsId,NON_NULL,
+OddsFinishes,oddsSwing,ENUM,
+OddsFinishes,currentRound,SCALAR,Built-in Int
+OddsFinishes,matchId,SCALAR,Built-in Int
+OddsCutsPlayers,id,NON_NULL,
+OddsCutsPlayers,position,NON_NULL,
+OddsCutsPlayers,displayName,NON_NULL,
+OddsCutsPlayers,firstName,NON_NULL,
+OddsCutsPlayers,lastName,NON_NULL,
+OddsCutsPlayers,countryFlag,SCALAR,Built-in String
+OddsCutsPlayers,total,NON_NULL,
+OddsCutsPlayers,yesOdds,NON_NULL,
+OddsCutsPlayers,yesOptionsId,NON_NULL,
+OddsCutsPlayers,yesOddsSwing,ENUM,
+OddsCutsPlayers,noOdds,NON_NULL,
+OddsCutsPlayers,noOptionsId,NON_NULL,
+OddsCutsPlayers,noOddsSwing,ENUM,
+OddsCutsPlayers,seed,SCALAR,Built-in Int
+OddsCutsPlayers,currentRound,SCALAR,Built-in Int
+OddsCutsPlayers,matchId,SCALAR,Built-in Int
+OddsLeadersPlayers,id,NON_NULL,
+OddsLeadersPlayers,displayName,NON_NULL,
+OddsLeadersPlayers,firstName,NON_NULL,
+OddsLeadersPlayers,lastName,NON_NULL,
+OddsLeadersPlayers,seed,SCALAR,Built-in Int
+OddsLeadersPlayers,countryFlag,SCALAR,Built-in String
+OddsLeadersPlayers,odds,NON_NULL,
+OddsLeadersPlayers,oddsSwing,ENUM,
+OddsLeadersPlayers,optionsId,NON_NULL,
+OddsLeadersPlayers,currentRound,SCALAR,Built-in Int
+OddsLeadersPlayers,matchId,SCALAR,Built-in Int
+OddsNationality,id,NON_NULL,
+OddsNationality,displayName,NON_NULL,
+OddsNationality,firstName,NON_NULL,
+OddsNationality,lastName,NON_NULL,
+OddsNationality,seed,SCALAR,Built-in Int
+OddsNationality,countryFlag,SCALAR,Built-in String
+OddsNationality,odds,NON_NULL,
+OddsNationality,optionsId,NON_NULL,
+OddsNationality,oddsSwing,ENUM,
+OddsNationality,currentRound,SCALAR,Built-in Int
+OddsNationality,matchId,SCALAR,Built-in Int
+OddsMatchups,id,NON_NULL,
+OddsMatchups,subMarket,NON_NULL,
+OddsMatchups,matchupPlayers,NON_NULL,
+MatchupsPlayer,id,NON_NULL,
+MatchupsPlayer,displayName,NON_NULL,
+MatchupsPlayer,firstName,NON_NULL,
+MatchupsPlayer,lastName,NON_NULL,
+MatchupsPlayer,seed,SCALAR,Built-in Int
+MatchupsPlayer,countryFlag,SCALAR,Built-in String
+MatchupsPlayer,odds,NON_NULL,
+MatchupsPlayer,optionsId,NON_NULL,
+MatchupsPlayer,oddsSwing,ENUM,
+MatchupsPlayer,currentRound,SCALAR,Built-in Int
+MatchupsPlayer,matchId,SCALAR,Built-in Int
+OddsGroup,id,NON_NULL,
+OddsGroup,subMarket,NON_NULL,
+OddsGroup,matchupPlayers,NON_NULL,
+TournamentOddsCompressed,id,NON_NULL,
+TournamentOddsCompressed,tournamentOddsPayload,NON_NULL,
+PlayerOdds,id,NON_NULL,
+PlayerOdds,oddsMessage,OBJECT,
+PlayerOdds,tournamentNumber,NON_NULL,
+PlayerOdds,tourCode,NON_NULL,
+PlayerOdds,seasonYear,NON_NULL,
+PlayerOdds,country,NON_NULL,
+PlayerOdds,oddsProvider,NON_NULL,
+PlayerOdds,oddsBanner,NON_NULL,
+PlayerOdds,playerOddsMarkets,NON_NULL,
+PlayerOdds,bettingProfile,SCALAR,Built-in String
+PlayerOddsMarket,id,NON_NULL,
+PlayerOddsMarket,market,NON_NULL,
+PlayerOddsMarket,subMarket,SCALAR,Built-in String
+PlayerOddsMarket,playerOddsOptions,NON_NULL,
+ProfileOverview,id,NON_NULL,
+ProfileOverview,headshot,NON_NULL,
+ProfileOverview,profileStandings,NON_NULL,
+ProfileOverview,performance,NON_NULL,
+ProfileOverview,snapshot,NON_NULL,
+ProfileHeadshot,image,NON_NULL,
+ProfileHeadshot,country,NON_NULL,
+ProfileHeadshot,countryFlag,NON_NULL,
+ProfileHeadshot,firstName,NON_NULL,
+ProfileHeadshot,lastName,NON_NULL,
+ProfileStandings,id,NON_NULL,
+ProfileStandings,logoAsset,NON_NULL,
+ProfileStandings,logoDarkAsset,NON_NULL,
+ProfileStandings,title,NON_NULL,
+ProfileStandings,description,NON_NULL,
+ProfileStandings,total,NON_NULL,
+ProfileStandings,totalLabel,NON_NULL,
+ProfileStandings,rank,NON_NULL,
+ProfileStandings,rankLogoAsset,OBJECT,
+ProfileStandings,rankLogoDarkAsset,OBJECT,
+ProfileStandings,owgr,SCALAR,Built-in String
+ProfileStandings,totals,LIST,
+ProfileStandings,webview,SCALAR,Built-in String
+ProfileStandings,webviewBrowserControls,SCALAR,Built-in Boolean
+ProfileStandings,detailCopy,SCALAR,Built-in String
+ProfileStandings,detailUrl,SCALAR,Built-in String
+ProfileStandingsTotal,total,NON_NULL,
+ProfileStandingsTotal,totalLabel,NON_NULL,
+ProfileFedExFallStandings,id,NON_NULL,
+ProfileFedExFallStandings,logoAsset,NON_NULL,
+ProfileFedExFallStandings,logoDarkAsset,NON_NULL,
+ProfileFedExFallStandings,title,NON_NULL,
+ProfileFedExFallStandings,description,NON_NULL,
+ProfileFedExFallStandings,total,NON_NULL,
+ProfileFedExFallStandings,totalLabel,NON_NULL,
+ProfileFedExFallStandings,rank,NON_NULL,
+ProfileFedExFallStandings,rankLogoAsset,OBJECT,
+ProfileFedExFallStandings,rankLogoDarkAsset,OBJECT,
+ProfileFedExFallStandings,totals,LIST,
+ProfileFedExFallStandings,webview,SCALAR,Built-in String
+ProfileFedExFallStandings,webviewBrowserControls,SCALAR,Built-in Boolean
+ProfileFedExFallStandings,detailCopy,SCALAR,Built-in String
+ProfilePerformance,tour,NON_NULL,
+ProfilePerformance,season,NON_NULL,
+ProfilePerformance,displaySeason,NON_NULL,
+ProfilePerformance,stats,NON_NULL,
+ProfilePerformanceStat,title,NON_NULL,
+ProfilePerformanceStat,value,NON_NULL,
+ProfilePerformanceStat,career,SCALAR,Built-in String
+ProfilePerformanceStat,wide,SCALAR,Built-in Boolean
+ProfileSnapshotItem,title,NON_NULL,
+ProfileSnapshotItem,value,NON_NULL,
+ProfileSnapshotItem,description,SCALAR,Built-in String
+PlayerProfileStat,tour,NON_NULL,
+PlayerProfileStat,categories,NON_NULL,
+PlayerProfileStat,stats,NON_NULL,
+PlayerProfileStatCategory,category,NON_NULL,
+PlayerProfileStatCategory,displayTitle,NON_NULL,
+PlayerProfileStatItem,statId,NON_NULL,
+PlayerProfileStatItem,title,NON_NULL,
+PlayerProfileStatItem,value,NON_NULL,
+PlayerProfileStatItem,rank,NON_NULL,
+PlayerProfileStatItem,fieldAverage,NON_NULL,
+PlayerProfileStatItem,aboveOrBelow,NON_NULL,
+PlayerProfileStatItem,rankDeviation,SCALAR,Built-in Float
+PlayerProfileStatItem,category,NON_NULL,
+PlayerProfileStatItem,supportingStat,OBJECT,
+PlayerProfileStatItem,supportingValue,OBJECT,
+PlayerProfileStatItemDetail,description,NON_NULL,
+PlayerProfileStatItemDetail,value,NON_NULL,
+PlayerProfileStatYear,year,NON_NULL,
+PlayerProfileStatYear,season,NON_NULL,
+PlayerProfileStatYear,tours,NON_NULL,
+PlayerProfileStatFull,tour,NON_NULL,
+PlayerProfileStatFull,season,NON_NULL,
+PlayerProfileStatFull,displaySeason,NON_NULL,
+PlayerProfileStatFull,categories,NON_NULL,
+PlayerProfileStatFull,stats,NON_NULL,
+PlayerProfileStatFull,overview,NON_NULL,
+PlayerProfileStatFull,topStats,NON_NULL,
+PlayerProfileStatsFullV2,playerProfileStatsFull,NON_NULL,
+PlayerProfileStatsFullV2,messages,LIST,
+PlayerProfileMessage,message,SCALAR,Built-in String
+PlayerOverviewStandings,tour,NON_NULL,
+PlayerOverviewStandings,displaySeason,NON_NULL,
+PlayerOverviewStandings,standings,NON_NULL,
+PlayerResults,playerId,NON_NULL,
+PlayerResults,tour,NON_NULL,
+PlayerResults,displayYear,NON_NULL,
+PlayerResults,year,NON_NULL,
+PlayerResults,events,SCALAR,Built-in String
+PlayerResults,wins,SCALAR,Built-in String
+PlayerResults,top10,SCALAR,Built-in String
+PlayerResults,top25,SCALAR,Built-in String
+PlayerResults,cutsMade,SCALAR,Built-in String
+PlayerResults,missedCuts,SCALAR,Built-in String
+PlayerResults,withdrew,SCALAR,Built-in String
+PlayerResults,runnerUp,SCALAR,Built-in String
+PlayerResults,seasonPills,NON_NULL,
+PlayerResults,officialMoney,SCALAR,Built-in String
+PlayerResults,tournaments,NON_NULL,
+PlayerResults,seasonRecap,OBJECT,
+PlayerResults,amateurHighlights,LIST,
+PlayerResults,tourcastEligible,NON_NULL,
+PlayerResults,standingsDetails,NON_NULL,
+PlayerResultsSeasonPills,tourCode,NON_NULL,
+PlayerResultsSeasonPills,years,NON_NULL,
+SecondaryCupDetails,cupRank,SCALAR,Built-in String
+SecondaryCupDetails,cupPoints,SCALAR,Built-in String
+SecondaryCupDetails,cupName,SCALAR,Built-in String
+SecondaryCupDetails,cupLogo,SCALAR,Built-in String
+SecondaryCupDetails,cupLogoDark,SCALAR,Built-in String
+SecondaryCupDetails,cupLogoAccessibilityText,SCALAR,Built-in String
+SecondaryCupDetails,rankLogo,SCALAR,Built-in String
+SecondaryCupDetails,rankLogoDark,SCALAR,Built-in String
+SecondaryCupDetails,rankLogoAccessibilityText,SCALAR,Built-in String
+PlayerResultTournament,tournamentId,NON_NULL,
+PlayerResultTournament,tournamentEndDate,NON_NULL,
+PlayerResultTournament,tournamentName,NON_NULL,
+PlayerResultTournament,finishPosition,NON_NULL,
+PlayerResultTournament,r1,NON_NULL,
+PlayerResultTournament,r2,NON_NULL,
+PlayerResultTournament,r3,NON_NULL,
+PlayerResultTournament,r4,NON_NULL,
+PlayerResultTournament,r5,NON_NULL,
+PlayerResultTournament,total,NON_NULL,
+PlayerResultTournament,toPar,NON_NULL,
+PlayerResultTournament,pointsRank,SCALAR,Built-in String
+PlayerResultTournament,points,SCALAR,Built-in String
+PlayerResultTournament,fedexFallPoints,SCALAR,Built-in String
+PlayerResultTournament,fedexFallRank,SCALAR,Built-in String
+PlayerResultTournament,money,NON_NULL,
+PlayerResultTournament,tourcastURI,SCALAR,Built-in String
+PlayerResultTournament,linkable,NON_NULL,
+PlayerResultTournament,courseName,NON_NULL,
+PlayerResultTournament,courseId,NON_NULL,
+SeasonRecap,tourCode,NON_NULL,
+SeasonRecap,displayMostRecentSeason,SCALAR,Built-in String
+SeasonRecap,mostRecentRecapYear,SCALAR,Built-in Int
+SeasonRecap,items,LIST,
+SeasonRecapSeason,year,NON_NULL,
+SeasonRecapSeason,displaySeason,NON_NULL,
+SeasonRecapSeason,items,NON_NULL,
+SeasonRecapItems,tournamentId,NON_NULL,
+SeasonRecapItems,year,NON_NULL,
+SeasonRecapItems,title,NON_NULL,
+SeasonRecapItems,body,NON_NULL,
+ResultsStandingsDetail,cupRank,SCALAR,Built-in String
+ResultsStandingsDetail,cupPoints,SCALAR,Built-in String
+ResultsStandingsDetail,cupName,SCALAR,Built-in String
+ResultsStandingsDetail,cupLogoAsset,OBJECT,
+ResultsStandingsDetail,cupLogoDarkAsset,OBJECT,
+ResultsStandingsDetail,cupLogoAccessibilityText,SCALAR,Built-in String
+ResultsStandingsDetail,rankLogoAsset,OBJECT,
+ResultsStandingsDetail,rankLogoDarkAsset,OBJECT,
+ResultsStandingsDetail,rankLogoAccessibilityText,SCALAR,Built-in String
+PlayerProfileCareer,playerId,NON_NULL,
+PlayerProfileCareer,tourCode,ENUM,
+PlayerProfileCareer,events,SCALAR,Built-in String
+PlayerProfileCareer,wins,SCALAR,Built-in String
+PlayerProfileCareer,winsTitle,SCALAR,Built-in String
+PlayerProfileCareer,internationalWins,SCALAR,Built-in String
+PlayerProfileCareer,majorWins,SCALAR,Built-in String
+PlayerProfileCareer,cutsMade,SCALAR,Built-in String
+PlayerProfileCareer,runnerUp,SCALAR,Built-in String
+PlayerProfileCareer,second,SCALAR,Built-in String
+PlayerProfileCareer,third,SCALAR,Built-in String
+PlayerProfileCareer,top5,SCALAR,Built-in String
+PlayerProfileCareer,top10,SCALAR,Built-in String
+PlayerProfileCareer,top25,SCALAR,Built-in String
+PlayerProfileCareer,officialMoney,SCALAR,Built-in String
+PlayerProfileCareer,tourPills,NON_NULL,
+PlayerProfileCareer,achievements,NON_NULL,
+PlayerProfileCareer,tables,NON_NULL,
+PlayerProfileCareer,years,NON_NULL,
+TourPills,tourCode,ENUM,
+TourPills,displayName,NON_NULL,
+PlayerProfileAchievement,title,NON_NULL,
+PlayerProfileAchievement,value,NON_NULL,
+PlayerProfileTable,tableName,NON_NULL,
+PlayerProfileTable,tableDetail,SCALAR,Built-in String
+PlayerProfileTable,rows,NON_NULL,
+PlayerProfileRows,rowTitle,NON_NULL,
+PlayerProfileRows,rowTitleDetail,SCALAR,Built-in String
+PlayerProfileRows,rowContent,NON_NULL,
+PlayerProfileRows,secondContent,LIST,
+PlayerProfileCareerYear,tourCode,NON_NULL,
+PlayerProfileCareerYear,displaySeason,NON_NULL,
+PlayerProfileCareerYear,year,NON_NULL,
+PlayerProfileCareerYear,events,SCALAR,Built-in String
+PlayerProfileCareerYear,wins,SCALAR,Built-in String
+PlayerProfileCareerYear,second,SCALAR,Built-in String
+PlayerProfileCareerYear,third,SCALAR,Built-in String
+PlayerProfileCareerYear,top5,SCALAR,Built-in String
+PlayerProfileCareerYear,top10,SCALAR,Built-in String
+PlayerProfileCareerYear,top25,SCALAR,Built-in String
+PlayerProfileCareerYear,cutsMade,SCALAR,Built-in String
+PlayerProfileCareerYear,withdrawn,SCALAR,Built-in String
+PlayerProfileCareerYear,officialMoney,SCALAR,Built-in String
+PlayerProfileCareerYear,standingsPoints,SCALAR,Built-in String
+PlayerProfileCareerYear,standingsRank,SCALAR,Built-in String
+PlayerProfileCourseResults,playerId,NON_NULL,
+PlayerProfileCourseResults,tourPills,NON_NULL,
+PlayerProfileCourseResults,coursePills,NON_NULL,
+PlayerProfileCourseResults,tourCode,NON_NULL,
+PlayerProfileCourseResults,courses,NON_NULL,
+CoursePills,courseId,NON_NULL,
+CoursePills,courseName,NON_NULL,
+PlayerCourse,courseId,NON_NULL,
+PlayerCourse,courseName,NON_NULL,
+PlayerCourse,courseImage,NON_NULL,
+PlayerCourse,courseCity,NON_NULL,
+PlayerCourse,courseState,SCALAR,Built-in String
+PlayerCourse,courseCountryCode,NON_NULL,
+PlayerCourse,courseCountry,NON_NULL,
+PlayerCourse,cupEyebrowText,NON_NULL,
+PlayerCourse,overview,NON_NULL,
+PlayerCourse,tournaments,NON_NULL,
+PlayerProfileOverviewItem,title,NON_NULL,
+PlayerProfileOverviewItem,value,NON_NULL,
+CourseResultsTournament,tournamentId,NON_NULL,
+CourseResultsTournament,tournamentName,NON_NULL,
+CourseResultsTournament,season,NON_NULL,
+CourseResultsTournament,year,NON_NULL,
+CourseResultsTournament,position,NON_NULL,
+CourseResultsTournament,roundScores,NON_NULL,
+CourseResultsTournament,total,NON_NULL,
+CourseResultsTournament,toPar,NON_NULL,
+CourseResultsTournament,points,NON_NULL,
+CourseResultsTournament,winnings,NON_NULL,
+CourseResultsTournament,tourcastURI,SCALAR,Built-in String
+RoundScoreItem,roundNum,NON_NULL,
+RoundScoreItem,roundDisplay,NON_NULL,
+RoundScoreItem,roundScore,NON_NULL,
+PlayerProfileMajors,playerId,NON_NULL,
+PlayerProfileMajors,timelineHeaders,NON_NULL,
+PlayerProfileMajors,timelineTournaments,NON_NULL,
+PlayerProfileMajors,tournaments,NON_NULL,
+MajorTimeline,tournamentNum,NON_NULL,
+MajorTimeline,tournamentName,NON_NULL,
+MajorTimeline,finishes,NON_NULL,
+MajorResultsTournament,tournamentId,NON_NULL,
+MajorResultsTournament,tournamentName,NON_NULL,
+MajorResultsTournament,courseName,NON_NULL,
+MajorResultsTournament,date,NON_NULL,
+MajorResultsTournament,year,NON_NULL,
+MajorResultsTournament,position,NON_NULL,
+MajorResultsTournament,roundScores,NON_NULL,
+MajorResultsTournament,total,NON_NULL,
+MajorResultsTournament,toPar,NON_NULL,
+MajorResultsTournament,money,NON_NULL,
+MajorResultsTournament,tourcastURI,SCALAR,Built-in String
+PlayerProfileCareerResults,playerId,NON_NULL,
+PlayerProfileCareerResults,tourPills,NON_NULL,
+PlayerProfileCareerResults,yearResults,NON_NULL,
+PlayerProfileTournamentResults,playerId,NON_NULL,
+PlayerProfileTournamentResults,tournamentPills,NON_NULL,
+PlayerProfileTournamentResults,tourPills,NON_NULL,
+PlayerProfileTournamentResults,tournaments,NON_NULL,
+TournamentResultPill,tournamentNum,NON_NULL,
+TournamentResultPill,tournamentName,NON_NULL,
+TournamentResults,tournamentNum,NON_NULL,
+TournamentResults,overview,NON_NULL,
+TournamentResults,cupEyebrowText,NON_NULL,
+TournamentResults,tournaments,NON_NULL,
+TournamentResults,tournamentOverview,OBJECT,
+PlayerProfileInfoItem,title,NON_NULL,
+PlayerProfileInfoItem,value,NON_NULL,
+PlayerProfileInfoItem,logo,SCALAR,Built-in String
+PlayerProfileInfoItem,wide,NON_NULL,
+PlayerProfileTournamentRow,tournamentId,NON_NULL,
+PlayerProfileTournamentRow,tournamentName,NON_NULL,
+PlayerProfileTournamentRow,courseName,NON_NULL,
+PlayerProfileTournamentRow,date,NON_NULL,
+PlayerProfileTournamentRow,year,NON_NULL,
+PlayerProfileTournamentRow,position,NON_NULL,
+PlayerProfileTournamentRow,roundScores,NON_NULL,
+PlayerProfileTournamentRow,total,NON_NULL,
+PlayerProfileTournamentRow,toPar,NON_NULL,
+PlayerProfileTournamentRow,points,NON_NULL,
+PlayerProfileTournamentRow,winnings,NON_NULL,
+PlayerProfileTournamentRow,tourcastURI,SCALAR,Built-in String
+TournamentResultOverview,tournamentId,NON_NULL,
+TournamentResultOverview,tournamentLogo,NON_NULL,
+TournamentResultOverview,tournamentLogoAsset,NON_NULL,
+TournamentResultOverview,tournamentName,NON_NULL,
+TournamentResultOverview,courseCity,NON_NULL,
+TournamentResultOverview,courseState,SCALAR,Built-in String
+TournamentResultOverview,courseCountry,NON_NULL,
+TournamentResultOverview,courseName,NON_NULL,
+TournamentResultOverview,displaySeason,NON_NULL,
+TournamentHoleStats,tournamentId,NON_NULL,
+TournamentHoleStats,courses,NON_NULL,
+CourseStat,tournamentId,NON_NULL,
+CourseStat,courseId,NON_NULL,
+CourseStat,courseName,NON_NULL,
+CourseStat,courseCode,NON_NULL,
+CourseStat,holeDetailsAvailability,NON_NULL,
+CourseStat,par,NON_NULL,
+CourseStat,yardage,NON_NULL,
+CourseStat,hostCourse,NON_NULL,
+CourseStat,courseImage,NON_NULL,
+CourseStat,roundPills,LIST,
+CourseStat,roundHoleStats,NON_NULL,
+CourseStat,courseOverview,NON_NULL,
+CourseStat,shotlinkLogo,SCALAR,Built-in String
+CourseRound,roundHeader,NON_NULL,
+CourseRound,roundNum,SCALAR,Built-in Int
+CourseRound,live,NON_NULL,
+CourseRound,holeStats,NON_NULL,
+CourseHoleStats,courseHoleNum,NON_NULL,
+CourseHoleStats,parValue,NON_NULL,
+CourseHoleStats,yards,NON_NULL,
+CourseHoleStats,scoringAverage,NON_NULL,
+CourseHoleStats,scoringAverageDiff,NON_NULL,
+CourseHoleStats,scoringDiffTendency,NON_NULL,
+CourseHoleStats,eagles,SCALAR,Built-in Int
+CourseHoleStats,birdies,SCALAR,Built-in Int
+CourseHoleStats,pars,SCALAR,Built-in Int
+CourseHoleStats,bogeys,SCALAR,Built-in Int
+CourseHoleStats,doubleBogey,SCALAR,Built-in Int
+CourseHoleStats,rank,SCALAR,Built-in Int
+CourseHoleStats,holeImage,NON_NULL,
+CourseHoleStats,holePickleGreenLeftToRightAsset,NON_NULL,
+CourseHoleStats,pinGreen,NON_NULL,
+SummaryRow,rowType,NON_NULL,
+SummaryRow,par,NON_NULL,
+SummaryRow,scoringAverage,NON_NULL,
+SummaryRow,scoringAverageDiff,NON_NULL,
+SummaryRow,scoringDiffTendency,NON_NULL,
+SummaryRow,yardage,NON_NULL,
+SummaryRow,eagles,SCALAR,Built-in Int
+SummaryRow,birdies,SCALAR,Built-in Int
+SummaryRow,pars,SCALAR,Built-in Int
+SummaryRow,bogeys,SCALAR,Built-in Int
+SummaryRow,doubleBogey,SCALAR,Built-in Int
+TournamentCourse,id,NON_NULL,
+TournamentCourse,image,NON_NULL,
+TournamentCourse,name,NON_NULL,
+TournamentCourse,city,SCALAR,Built-in String
+TournamentCourse,state,SCALAR,Built-in String
+TournamentCourse,country,SCALAR,Built-in String
+TournamentCourse,overview,NON_NULL,
+InformationData,label,NON_NULL,
+InformationData,value,NON_NULL,
+InformationData,detail,SCALAR,Built-in String
+InformationData,secondaryDetail,SCALAR,Built-in String
+InformationData,wide,SCALAR,Built-in Boolean
+InformationData,smallCopy,SCALAR,Built-in Boolean
+HoleDetail,id,NON_NULL,
+HoleDetail,tournamentId,NON_NULL,
+HoleDetail,statsAvailability,NON_NULL,
+HoleDetail,holeNum,NON_NULL,
+HoleDetail,courseId,NON_NULL,
+HoleDetail,holeImage,NON_NULL,
+HoleDetail,holeImageLandscape,NON_NULL,
+HoleDetail,tourcastURI,SCALAR,Built-in String
+HoleDetail,statsSummary,NON_NULL,
+HoleDetail,holeInfo,NON_NULL,
+HoleDetail,rounds,NON_NULL,
+HoleStatSummary,tournamentId,NON_NULL,
+HoleStatSummary,courseId,NON_NULL,
+HoleStatSummary,holeNum,NON_NULL,
+HoleStatSummary,eagles,SCALAR,Built-in Int
+HoleStatSummary,eaglesPercent,NON_NULL,
+HoleStatSummary,birdies,SCALAR,Built-in Int
+HoleStatSummary,birdiesPercent,NON_NULL,
+HoleStatSummary,pars,SCALAR,Built-in Int
+HoleStatSummary,parsPercent,NON_NULL,
+HoleStatSummary,bogeys,SCALAR,Built-in Int
+HoleStatSummary,bogeysPercent,NON_NULL,
+HoleStatSummary,doubleBogeys,SCALAR,Built-in Int
+HoleStatSummary,doubleBogeysPercent,NON_NULL,
+HoleStatSummary,scoringAverage,SCALAR,Built-in String
+HoleDetailInfo,holeNum,NON_NULL,
+HoleDetailInfo,par,NON_NULL,
+HoleDetailInfo,yards,NON_NULL,
+HoleDetailInfo,scoringAverageDiff,NON_NULL,
+HoleDetailInfo,holePickleLeftToRightAsset,NON_NULL,
+HoleDetailInfo,holePickleBottomToTopAsset,NON_NULL,
+HoleDetailInfo,holePickleGreenLeftToRightAsset,NON_NULL,
+HoleDetailInfo,holePickleGreenBottomToTopAsset,NON_NULL,
+HoleDetailInfo,pinGreen,NON_NULL,
+HoleDetailInfo,aboutThisHole,NON_NULL,
+HoleDetailInfo,rounds,SCALAR,Built-in Int
+HoleDetailInfo,rank,SCALAR,Built-in Int
+HoleDetailRound,roundNum,NON_NULL,
+HoleDetailRound,groups,NON_NULL,
+HoleDetailRound,teamGroups,LIST,
+HoleDetailRound,matches,LIST,
+HoleGroup,groupNumber,NON_NULL,
+HoleGroup,groupLocation,NON_NULL,
+HoleGroup,groupLocationCode,NON_NULL,
+HoleGroup,tourcastURI,SCALAR,Built-in String
+HoleGroup,players,NON_NULL,
+HoleGroupPlayer,playerId,NON_NULL,
+HoleGroupPlayer,firstName,NON_NULL,
+HoleGroupPlayer,lastName,NON_NULL,
+HoleGroupPlayer,countryFlag,NON_NULL,
+HoleGroupPlayer,position,NON_NULL,
+HoleGroupPlayer,total,NON_NULL,
+HoleGroupPlayer,roundScore,NON_NULL,
+HoleGroupPlayer,country,NON_NULL,
+TeamHoleGroups,groupNumber,NON_NULL,
+TeamHoleGroups,groupLocation,NON_NULL,
+TeamHoleGroups,groupLocationCode,NON_NULL,
+TeamHoleGroups,tourcastURI,SCALAR,Built-in String
+TeamHoleGroups,teams,NON_NULL,
+HoleGroupTeam,players,NON_NULL,
+HoleMatch,match,OBJECT,
+HoleMatch,groupName,SCALAR,Built-in String
+HoleMatch,matchLocation,NON_NULL,
+HoleMatch,matchLocationCode,NON_NULL,
+HoleMatch,tourcastURI,SCALAR,Built-in String
+YourTourStory,id,NON_NULL,
+YourTourStory,cards,NON_NULL,
+YourTourStory,homeCard,UNION,
+YourTourStory,videoStories,NON_NULL,
+YourTourStory,tglMatchIds,LIST,
+YTCoverCard,title,NON_NULL,
+YTCoverCard,subTitle,SCALAR,Built-in String
+YTCoverCard,props,NON_NULL,
+YTCardProps,cardHeading,SCALAR,Built-in String
+YTCardProps,cardSubHead,SCALAR,Built-in String
+YTCardProps,link,NON_NULL,
+YTCardProps,deepLink,NON_NULL,
+YTCardProps,image,SCALAR,Built-in String
+YTCardProps,backgroundColor,SCALAR,Built-in String
+YTCardProps,videoId,SCALAR,Built-in String
+YTCardProps,opacity,NON_NULL,
+YTCardProps,ctaText,SCALAR,Built-in String
+YTCardProps,tourCastCta,NON_NULL,
+YTCardProps,textPosition,NON_NULL,
+YTCardProps,textColor,NON_NULL,
+YTCardProps,date,NON_NULL,
+YTCardProps,cta,OBJECT,
+YTCardProps,sponsorLogoAsset,NON_NULL,
+YTCardProps,sponsorText,SCALAR,Built-in String
+YTCardProps,disableSlowZoom,NON_NULL,
+YTCardProps,cardName,SCALAR,Built-in String
+YTCardProps,cardFranchise,LIST,
+YTCardProps,deepLinkCard,NON_NULL,
+YTCardCtaProps,text,NON_NULL,
+YTCardCtaProps,link,NON_NULL,
+YTCardCtaProps,isTourCastCta,NON_NULL,
+YTCardCtaProps,color,SCALAR,Built-in String
+YTHighlightCard,title,NON_NULL,
+YTHighlightCard,hole,SCALAR,Built-in String
+YTHighlightCard,props,NON_NULL,
+YTTournamentUpdateCard,title,NON_NULL,
+YTTournamentUpdateCard,props,NON_NULL,
+YTArticleCard,title,NON_NULL,
+YTArticleCard,props,NON_NULL,
+YTNuggetCard,title,NON_NULL,
+YTNuggetCard,subText,NON_NULL,
+YTNuggetCard,props,NON_NULL,
+YTAdInterstitialCard,adUrl,NON_NULL,
+YTAdInterstitialCard,props,NON_NULL,
+YTSponsorActivationCard,title,NON_NULL,
+YTSponsorActivationCard,subTitle,SCALAR,Built-in String
+YTSponsorActivationCard,props,NON_NULL,
+YTSponsorActivationCard,sponsorProps,NON_NULL,
+YTCardSponsorProps,sponsorLogoAsset,NON_NULL,
+YTCardSponsorProps,tournamentName,NON_NULL,
+YTCardSponsorProps,tournamentLogoAsset,NON_NULL,
+YTCardSponsorProps,activationTitle,NON_NULL,
+YTCardSponsorProps,activationSubtitle,NON_NULL,
+YTCardSponsorProps,activationData,NON_NULL,
+YTActivationData,title,SCALAR,Built-in String
+YTActivationData,data,NON_NULL,
+YTActivationData,description,SCALAR,Built-in String
+YTScorecardCard,title,NON_NULL,
+YTScorecardCard,player,NON_NULL,
+YTScorecardCard,tournament,NON_NULL,
+YTScorecardCard,props,NON_NULL,
+YTPlayer,id,NON_NULL,
+YTPlayer,name,NON_NULL,
+YTTournament,id,NON_NULL,
+YTTournament,round,NON_NULL,
+YTRound,roundNumber,NON_NULL,
+YTRound,roundDisplay,NON_NULL,
+YTLeaderboardCard,title,NON_NULL,
+YTLeaderboardCard,tournament,NON_NULL,
+YTLeaderboardCard,players,NON_NULL,
+YTLeaderboardCard,props,NON_NULL,
+YtVideoStory,type,NON_NULL,
+YtVideoStory,topicLabel,SCALAR,Built-in String
+PromoSectionContainer,sections,NON_NULL,
+PromoSection,title,NON_NULL,
+PromoSection,items,NON_NULL,
+PromoSectionItem,logo,NON_NULL,
+PromoSectionItem,accessibilityText,NON_NULL,
+PromoSectionItem,backgroundColor,NON_NULL,
+PromoSectionItem,label,SCALAR,Built-in String
+PromoSectionItem,labelColor,NON_NULL,
+PromoSectionItem,webview,NON_NULL,
+PromoSectionItem,webviewTitle,NON_NULL,
+PromoSectionItem,webviewBrowserControls,NON_NULL,
+PromoSectionItem,externalLaunch,NON_NULL,
+PromoSectionNewsSection,title,NON_NULL,
+PromoSectionNewsSection,franchises,NON_NULL,
+FieldPromoSection,title,NON_NULL,
+FieldPromoSection,tournamentIds,NON_NULL,
+StatLeaderCategory,tourCode,NON_NULL,
+StatLeaderCategory,year,NON_NULL,
+StatLeaderCategory,displayYear,NON_NULL,
+StatLeaderCategory,categoryHeader,NON_NULL,
+StatLeaderCategory,statCategory,NON_NULL,
+StatLeaderCategory,otherCategories,NON_NULL,
+StatLeaderCategory,subCategories,NON_NULL,
+StatCategoryConfig,category,NON_NULL,
+StatCategoryConfig,displayName,NON_NULL,
+StatCategoryConfig,subCategories,NON_NULL,
+StatCategoryConfig,categoryType,ENUM,
+StatSubCategory,displayName,SCALAR,Built-in String
+StatSubCategory,stats,NON_NULL,
+StatCategoryStat,statId,NON_NULL,
+StatCategoryStat,statTitle,NON_NULL,
+StatLeaderSubCategory,subCategoryName,NON_NULL,
+StatLeaderSubCategory,stats,NON_NULL,
+StatLeaderSubCategory,subCatPromo,OBJECT,
+LeaderStat,statId,NON_NULL,
+LeaderStat,playerId,NON_NULL,
+LeaderStat,statTitle,NON_NULL,
+LeaderStat,statValue,NON_NULL,
+LeaderStat,playerName,NON_NULL,
+LeaderStat,rank,NON_NULL,
+LeaderStat,country,NON_NULL,
+LeaderStat,countryFlag,NON_NULL,
+StatLeaderSubCategoryPromo,link,NON_NULL,
+StatLeaderSubCategoryPromo,image,NON_NULL,
+StatLeaderSubCategoryPromo,title,NON_NULL,
+MobileStatLeaders,tourCode,NON_NULL,
+MobileStatLeaders,year,NON_NULL,
+MobileStatLeaders,categoryPills,NON_NULL,
+MobileStatLeaders,categories,NON_NULL,
+MobileCategoryPill,displayName,NON_NULL,
+MobileCategoryPill,category,ENUM,
+MobileStatCategoryLeaders,category,NON_NULL,
+MobileStatCategoryLeaders,categoryHeader,NON_NULL,
+MobileStatCategoryLeaders,leaders,NON_NULL,
+MobileStatCategoryLeaders,stats,NON_NULL,
+MobileStat,statId,NON_NULL,
+MobileStat,statTitle,NON_NULL,
+OverviewStats,tourCode,NON_NULL,
+OverviewStats,year,NON_NULL,
+OverviewStats,categories,NON_NULL,
+OverviewStats,stats,NON_NULL,
+OverviewStat,statName,NON_NULL,
+OverviewStat,tourAvg,SCALAR,Built-in String
+OverviewStat,statId,NON_NULL,
+OverviewStat,players,NON_NULL,
+StatDetails,tourCode,NON_NULL,
+StatDetails,year,NON_NULL,
+StatDetails,displaySeason,NON_NULL,
+StatDetails,statId,NON_NULL,
+StatDetails,statType,NON_NULL,
+StatDetails,tournamentPills,NON_NULL,
+StatDetails,yearPills,NON_NULL,
+StatDetails,statTitle,NON_NULL,
+StatDetails,statDescription,NON_NULL,
+StatDetails,tourAvg,SCALAR,Built-in String
+StatDetails,sponsorLogoAsset,NON_NULL,
+StatDetails,lastProcessed,NON_NULL,
+StatDetails,statHeaders,NON_NULL,
+StatDetails,statCategories,NON_NULL,
+StatDetails,rows,NON_NULL,
+StatDetails,cutOffNumber,SCALAR,Built-in Int
+StatDetails,cutOffButtonText,SCALAR,Built-in String
+StatDetailsPlayer,playerId,NON_NULL,
+StatDetailsPlayer,playerName,NON_NULL,
+StatDetailsPlayer,country,NON_NULL,
+StatDetailsPlayer,countryFlag,NON_NULL,
+StatDetailsPlayer,rank,NON_NULL,
+StatDetailsPlayer,rankDiff,NON_NULL,
+StatDetailsPlayer,rankLogoLight,SCALAR,Built-in String
+StatDetailsPlayer,rankLogoDark,SCALAR,Built-in String
+StatDetailsPlayer,rankChangeTendency,ENUM,
+StatDetailsPlayer,stats,NON_NULL,
+StatDetailsPlayer,filter,SCALAR,Built-in String
+CategoryPlayerStat,statName,NON_NULL,
+CategoryPlayerStat,statValue,NON_NULL,
+CategoryPlayerStat,color,NON_NULL,
+StatDetailTourAvg,displayName,NON_NULL,
+StatDetailTourAvg,value,NON_NULL,
+NewsArticleDetails,path,NON_NULL,
+NewsArticleDetails,url,NON_NULL,
+NewsArticleDetails,shareURL,NON_NULL,
+NewsArticleDetails,headline,NON_NULL,
+NewsArticleDetails,articleImageAlt,NON_NULL,
+NewsArticleDetails,readTime,NON_NULL,
+NewsArticleDetails,franchise,NON_NULL,
+NewsArticleDetails,franchiseDisplayName,NON_NULL,
+NewsArticleDetails,authorReference,OBJECT,
+NewsArticleDetails,datePublished,NON_NULL,
+NewsArticleDetails,hero,OBJECT,
+NewsArticleDetails,relatedFacts,LIST,
+NewsArticleDetails,metadata,OBJECT,
+NewsArticleDetails,sponsor,OBJECT,
+NewsArticleDetails,brandedContent,NON_NULL,
+NewsArticleDetails,nodes,NON_NULL,
+NewsArticleDetails,overviewNodes,LIST,
+NewsArticleDetails,teaserAsset,SCALAR,Built-in String
+NewsArticleDetails,moreNewsTitle,SCALAR,Built-in String
+NewsArticleDetails,cta,OBJECT,
+NewsArticleDetails,articleSponsor,SCALAR,Built-in String
+NewsArticleDetails,canonicalUrl,SCALAR,Built-in String
+NewsArticleDetails,leadVideoId,SCALAR,Built-in String
+NewsArticleDetails,leadVideoTitle,SCALAR,Built-in String
+NewsArticleDetails,disableAds,NON_NULL,
+NewsArticleDetails,tourName,SCALAR,Built-in String
+NewsArticleDetails,tournamentName,SCALAR,Built-in String
+NewsArticleDetails,contentTournamentId,SCALAR,Built-in String
+NewsArticleDetails,isLive,NON_NULL,
+NewsArticleDetails,players,LIST,
+NewsArticleDetails,analyticsTags,LIST,
+NewsArticleDetails,team,ENUM,
+NewsArticleDetails,tags,LIST,
+NewsArticleDetails,topics,LIST,
+NewsArticleDetails,articleLabel,SCALAR,Built-in String
+NewsArticleDetails,longForm,SCALAR,Built-in Boolean
+NewsArticleDetails,photoPosition,SCALAR,Built-in String
+NewsArticleDetails,isBreakingNews,SCALAR,Built-in Boolean
+NewsArticleHero,image,SCALAR,Built-in String
+NewsArticleHero,imageDescription,SCALAR,Built-in String
+NewsArticleHero,video,OBJECT,
+NewsArticleMetadata,metadata,LIST,
+NewsArticleMetadataSegment,name,NON_NULL,
+NewsArticleMetadataSegment,value,SCALAR,Built-in String
+NewsArticleHeader,style,SCALAR,Built-in String
+NewsArticleHeader,headerSegments,LIST,
+NewsArticleHeaderSegment,headerType,NON_NULL,
+NewsArticleHeaderSegment,class,SCALAR,Built-in String
+NewsArticleHeaderSegment,segments,LIST,
+NewsArticleLineBreak,breakValue,SCALAR,Built-in String
+NewsArticleParagraph,segments,NON_NULL,
+NewsArticleParagraph,id,SCALAR,Built-in String
+NewsArticleVideo,video,OBJECT,
+NewsArticleImage,segments,NON_NULL,
+NewsArticleDivider,value,SCALAR,Built-in String
+NewsArticlePhotoGallery,images,NON_NULL,
+NewsArticleStats,stats,NON_NULL,
+NewsArticleStats,statType,NON_NULL,
+NewsArticleStats,playerId,SCALAR,Built-in String
+NewsArticleStats,playerName,SCALAR,Built-in String
+NewsArticleStats,season,SCALAR,Built-in String
+NewsArticleStats,tournamentId,SCALAR,Built-in String
+ContentStat,statName,NON_NULL,
+ContentStat,statId,NON_NULL,
+NewsArticleScoreCard,playerId,SCALAR,Built-in String
+NewsArticleScoreCard,playerName,SCALAR,Built-in String
+NewsArticleScoreCard,season,SCALAR,Built-in String
+NewsArticleScoreCard,tournamentId,SCALAR,Built-in String
+NewsArticleScoreCard,class,SCALAR,Built-in String
+NewsArticleScoreCard,round,SCALAR,Built-in String
+NewsArticleHowToWatch,season,SCALAR,Built-in String
+NewsArticleHowToWatch,tournamentId,SCALAR,Built-in String
+NewsArticleHowToWatch,class,SCALAR,Built-in String
+NewsArticleHowToWatch,round,SCALAR,Built-in Int
+NewsArticleWeather,season,SCALAR,Built-in String
+NewsArticleWeather,tournamentId,SCALAR,Built-in String
+NewsArticleWeather,tour,SCALAR,Built-in String
+NewsArticleWeather,class,SCALAR,Built-in String
+NewsArticlePlayerComparison,tournamentId,SCALAR,Built-in String
+NewsArticlePlayerComparison,season,SCALAR,Built-in String
+NewsArticlePlayerComparison,statCategory,SCALAR,Built-in String
+NewsArticlePlayerComparison,playerIds,LIST,
+NewsArticlePlayerComparison,playerNames,LIST,
+NewsArticlePlayerComparison,class,SCALAR,Built-in String
+NewsArticlePlayerComparison,type,NON_NULL,
+NewsArticleOddsGraph,playerIds,LIST,
+NewsArticleOddsGraph,marketId,ENUM,
+NewsArticleOddsGraph,oddsTimeType,ENUM, Odds Graph
+NewsArticleOddsGraph,tournamentId,NON_NULL,
+NewsArticleOddsGraph,round,SCALAR,Built-in Int
+NewsArticleEmbedded,height,SCALAR,Built-in String
+NewsArticleEmbedded,mobileHeight,SCALAR,Built-in String
+NewsArticleEmbedded,frameborder,SCALAR,Built-in Boolean
+NewsArticleEmbedded,scroll,SCALAR,Built-in Boolean
+NewsArticleEmbedded,class,SCALAR,Built-in String
+NewsArticleEmbedded,url,SCALAR,Built-in String
+TableFragment,table,OBJECT,
+TableFragment,border,SCALAR,Built-in String
+TableFragment,cellpadding,SCALAR,Built-in String
+TableFragment,width,SCALAR,Built-in String
+TableFragment,cellspacing,SCALAR,Built-in String
+TableFragment,class,SCALAR,Built-in String
+TableFragment,id,SCALAR,Built-in String
+TableBody,rows,NON_NULL,
+TableHeaderRow,columns,LIST,
+TableHeaderRow,class,SCALAR,Built-in String
+TableColumn,value,LIST,
+TableColumn,class,SCALAR,Built-in String
+TableColumn,width,SCALAR,Built-in String
+TableColumn,height,SCALAR,Built-in String
+TableColumn,colspan,SCALAR,Built-in String
+TableColumn,rowspan,SCALAR,Built-in String
+TableColumn,valign,SCALAR,Built-in String
+TableColumnSegment,type,NON_NULL,
+TableColumnSegment,value,SCALAR,Built-in String
+TableColumnSegment,data,SCALAR,Built-in String
+TableColumnSegment,oddsSwing,ENUM,
+TableColumnSegment,format,OBJECT,
+UnorderedListNode,ordered,SCALAR,Built-in Boolean
+UnorderedListNode,items,NON_NULL,
+UnorderedListNode,historicalTournamentOddsArgs,OBJECT,
+ListItem,segments,NON_NULL,
+NewsArticlePlayerTournamentOdds,playerId,NON_NULL,
+NewsArticlePlayerTournamentOdds,tournamentId,NON_NULL,
+NewsArticlePlayerTournamentOdds,tournamentMarketType,ENUM,  End Market Abstractions
+NewsArticlePlayerTournamentOdds,timeStamp,SCALAR,"The `AWSDateTime` scalar type provided by AWS AppSync, represents a valid ***extended*** [ISO 8601 DateTime](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) string. In other words, this scalar type accepts datetime strings of the form `YYYY-MM-DDThh:mm:ss.SSSZ`.  The scalar can also accept ""negative years"" of the form `-YYYY` which correspond to years before `0000`. For example, ""**-2017-01-01T00:00Z**"" and ""**-9999-01-01T00:00Z**"" are both valid datetime strings.  The field after the two digit seconds field is a nanoseconds field. It can accept between 1 and 9 digits. So, for example, ""**1970-01-01T12:00:00.2Z**"", ""**1970-01-01T12:00:00.277Z**"" and ""**1970-01-01T12:00:00.123456789Z**"" are all valid datetime strings.  The seconds and nanoseconds fields are optional (the seconds field must be specified if the nanoseconds field is to be used).  The [time zone offset](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators) is compulsory for this scalar. The time zone offset must either be `Z` (representing the UTC time zone) or be in the format `±hh:mm:ss`. The seconds field in the timezone offset will be considered valid even though it is not part of the ISO 8601 standard."
+HistoricalTournamentOddsArgs,tournamentId,NON_NULL,
+HistoricalTournamentOddsArgs,marketId,NON_NULL,
+HistoricalTournamentOddsArgs,timeStamp,SCALAR,"The `AWSDateTime` scalar type provided by AWS AppSync, represents a valid ***extended*** [ISO 8601 DateTime](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) string. In other words, this scalar type accepts datetime strings of the form `YYYY-MM-DDThh:mm:ss.SSSZ`.  The scalar can also accept ""negative years"" of the form `-YYYY` which correspond to years before `0000`. For example, ""**-2017-01-01T00:00Z**"" and ""**-9999-01-01T00:00Z**"" are both valid datetime strings.  The field after the two digit seconds field is a nanoseconds field. It can accept between 1 and 9 digits. So, for example, ""**1970-01-01T12:00:00.2Z**"", ""**1970-01-01T12:00:00.277Z**"" and ""**1970-01-01T12:00:00.123456789Z**"" are all valid datetime strings.  The seconds and nanoseconds fields are optional (the seconds field must be specified if the nanoseconds field is to be used).  The [time zone offset](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators) is compulsory for this scalar. The time zone offset must either be `Z` (representing the UTC time zone) or be in the format `±hh:mm:ss`. The seconds field in the timezone offset will be considered valid even though it is not part of the ISO 8601 standard."
+TableDataRow,columns,LIST,
+TableDataRow,class,SCALAR,Built-in String
+ArticleOddsTableQuery,tournamentId,NON_NULL,
+ArticleOddsTableQuery,tournamentName,NON_NULL,
+ArticleOddsTableQuery,markets,LIST,
+ArticleOddsTableQuery,players,LIST,
+ArticleOddsTableQuery,timeStamp,SCALAR,Built-in String
+ArticleOddsMarkets,market,NON_NULL,
+ArticleOddsMarkets,class,NON_NULL,
+ArticleOddsPlayer,playerName,SCALAR,Built-in String
+ArticleOddsPlayer,playerId,NON_NULL,
+NewsArticleTweetNode,tweetId,NON_NULL,
+ExpertPicksNode,path,NON_NULL,
+ExpertPicksNode,isPowerRankings,NON_NULL,
+NewsArticleBlockQuote,playerId,SCALAR,Built-in String
+NewsArticleBlockQuote,playerName,SCALAR,Built-in String
+NewsArticleBlockQuote,otherAttribute,SCALAR,Built-in String
+NewsArticleBlockQuote,quote,SCALAR,Built-in String
+NewsArticleBlockQuote,class,SCALAR,Built-in String
+NewsArticleInstagram,class,SCALAR,Built-in String
+NewsArticleInstagram,url,SCALAR,Built-in String
+NewsArticleOddsParagraph,content,NON_NULL,
+NewsArticleInlineOdds,marketId,NON_NULL,
+NewsArticleInlineOdds,playerId,NON_NULL,
+NewsArticleInlineOdds,playerName,NON_NULL,
+NewsArticleInlineOdds,tournamentId,NON_NULL,
+NewsArticleInlineOdds,timeStamp,SCALAR,"The `AWSDateTime` scalar type provided by AWS AppSync, represents a valid ***extended*** [ISO 8601 DateTime](https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations) string. In other words, this scalar type accepts datetime strings of the form `YYYY-MM-DDThh:mm:ss.SSSZ`.  The scalar can also accept ""negative years"" of the form `-YYYY` which correspond to years before `0000`. For example, ""**-2017-01-01T00:00Z**"" and ""**-9999-01-01T00:00Z**"" are both valid datetime strings.  The field after the two digit seconds field is a nanoseconds field. It can accept between 1 and 9 digits. So, for example, ""**1970-01-01T12:00:00.2Z**"", ""**1970-01-01T12:00:00.277Z**"" and ""**1970-01-01T12:00:00.123456789Z**"" are all valid datetime strings.  The seconds and nanoseconds fields are optional (the seconds field must be specified if the nanoseconds field is to be used).  The [time zone offset](https://en.wikipedia.org/wiki/ISO_8601#Time_zone_designators) is compulsory for this scalar. The time zone offset must either be `Z` (representing the UTC time zone) or be in the format `±hh:mm:ss`. The seconds field in the timezone offset will be considered valid even though it is not part of the ISO 8601 standard."
+RelatedFactsNode,path,NON_NULL,
+TGLBoxScore,matchId,NON_NULL,
+CerosEmbedPlugin,id,NON_NULL,
+CerosEmbedPlugin,title,NON_NULL,
+CerosEmbedPlugin,url,NON_NULL,
+CerosEmbedPlugin,padding,NON_NULL,
+CerosEmbedPlugin,aspectRatio,NON_NULL,
+CerosEmbedPlugin,mobileAspectRatio,NON_NULL,
+NewsArticleDetailsCompressed,path,NON_NULL,
+NewsArticleDetailsCompressed,payload,NON_NULL,
+RCPhotoGallery,id,NON_NULL,
+RCPhotoGallery,date,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+RCPhotoGallery,sectionTitle,SCALAR,Built-in String
+RCPhotoGallery,url,SCALAR,Built-in String
+RCPhotoGallery,subhead,SCALAR,Built-in String
+RCPhotoGallery,cta,OBJECT,
+RCPhotoGallery,images,LIST,
+RCPhotoGallery,sponsor,OBJECT,
+RCPhotoGallery,authorReference,OBJECT,
+RCPhotoGallery,team,ENUM,
+RCPhotoGallery,eventYears,LIST,
+RCPhotoGallery,tags,LIST,
+Image,url,SCALAR,Built-in String
+Image,imageOrientation,ENUM,
+Image,imageDescription,SCALAR,Built-in String
+Image,imageCreator,SCALAR,Built-in String
+RyderCupContentCompressed,input,OBJECT,
+RyderCupContentCompressed,payload,NON_NULL,
+PaginationDetails,limit,SCALAR,Built-in Int
+PaginationDetails,offset,SCALAR,Built-in Int
+RyderCupMediaSearchOptions,contentTypes,NON_NULL,
+RyderCupMediaSearchOptions,teamOptions,NON_NULL,
+RyderCupMediaSearchOptions,yearOptions,NON_NULL,
+RyderCupMediaSearchOptions,topicOptions,NON_NULL,
+RyderCupMediaSearchOptions,playerOptions,NON_NULL,
+RCContentTypeParent,queryValue,NON_NULL,
+RCContentTypeParent,displayValue,NON_NULL,
+RCTeamTypeParent,queryValue,NON_NULL,
+RCTeamTypeParent,displayValue,NON_NULL,
+RyderCupTopicOption,value,NON_NULL,
+RyderCupTopicOption,displayValue,NON_NULL,
+RyderCupPlayerOption,name,NON_NULL,
+RyderCupPlayerOption,id,NON_NULL,
+RyderCupPlayerOption,displayName,NON_NULL,
+RyderCupTeamRankings,usBanner,NON_NULL,
+RyderCupTeamRankings,euroBanner,NON_NULL,
+RyderCupTeamRankings,usHeader,NON_NULL,
+RyderCupTeamRankings,euroHeader,NON_NULL,
+RyderCupTeamRankings,usToolTips,LIST,
+RyderCupTeamRankings,usRankings,NON_NULL,
+RyderCupTeamRankings,usYear,SCALAR,Built-in Int
+RyderCupTeamRankings,usDisplaySeason,SCALAR,Built-in String
+RyderCupTeamRankings,usTournamentPills,LIST,
+RyderCupTeamRankings,usYears,LIST,
+RyderCupTeamRankings,euroToolTips,LIST,
+RyderCupTeamRankings,euroRankings,NON_NULL,
+RyderCupTeamRankings,euroYear,SCALAR,Built-in Int
+RyderCupTeamRankings,euroDisplaySeason,SCALAR,Built-in String
+RyderCupTeamRankings,euroTournamentPills,LIST,
+RyderCupTeamRankings,euroYears,LIST,
+RyderCupTeamRankings,defaultUS,NON_NULL,
+RyderCupTeamRankings,usInfoBlurb,SCALAR,Built-in String
+RyderCupTeamRankings,usCaptainLabel,SCALAR,Built-in String
+RyderCupTeamRankings,usViceCaptainLabel,SCALAR,Built-in String
+RyderCupTeamRankings,usCaptain,SCALAR,Built-in String
+RyderCupTeamRankings,usViceCaptain,SCALAR,Built-in String
+RyderCupTeamRankings,europeInfoBlurb,SCALAR,Built-in String
+RyderCupTeamRankings,euroCaptainLabel,SCALAR,Built-in String
+RyderCupTeamRankings,euroViceCaptainLabel,SCALAR,Built-in String
+RyderCupTeamRankings,europeCaptain,SCALAR,Built-in String
+RyderCupTeamRankings,europeViceCaptain,SCALAR,Built-in String
+ToolTipComponent,logo,NON_NULL,
+ToolTipComponent,header,NON_NULL,
+ToolTipComponent,detailCopy,SCALAR,Built-in String
+ExpertPicks,tournamentName,NON_NULL,
+ExpertPicks,expertPicksTableRows,NON_NULL,
+ExpertPicksTableRow,expertName,SCALAR,Built-in String
+ExpertPicksTableRow,expertTitle,SCALAR,Built-in String
+ExpertPicksTableRow,lineup,NON_NULL,
+ExpertPicksTableRow,winner,OBJECT,
+ExpertPicksTableRow,comment,NON_NULL,
+ExpertPicksTableRow,percentSelected,SCALAR,Built-in String
+ExpertPicksTableRow,percentSelectedColor,ENUM,
+PlayerInfo,id,NON_NULL,
+PlayerInfo,firstName,NON_NULL,
+PlayerInfo,lastName,NON_NULL,
+PlayerInfo,countryFlag,NON_NULL,
+PlayerInfo,countryName,NON_NULL,
+PowerRankings,tournamentName,NON_NULL,
+PowerRankings,tableTitle,NON_NULL,
+PowerRankings,powerRankingsTableRow,NON_NULL,
+PowerRankings,ascendingOrder,NON_NULL,
+PowerRankings,unorderedList,NON_NULL,
+PowerRankingsTableRow,player,OBJECT,
+PowerRankingsTableRow,rank,SCALAR,Built-in Int
+PowerRankingsTableRow,comment,NON_NULL,
+PowerRankingsTableRow,commentNodes,LIST,
+RelatedFact,photo,SCALAR,Built-in String
+RelatedFact,factText,LIST,
+GenericContent,path,NON_NULL,
+GenericContent,headline,NON_NULL,
+GenericContent,authorReference,OBJECT,
+GenericContent,datePublished,NON_NULL,
+GenericContent,metadata,OBJECT,
+GenericContent,nodes,NON_NULL,
+GenericContentCompressed,path,NON_NULL,
+GenericContentCompressed,payload,NON_NULL,
+WeatherSummary,title,NON_NULL,
+WeatherSummary,sponsorLogoAsset,NON_NULL,
+WeatherSummary,sponsorLogoDarkAsset,NON_NULL,
+WeatherSummary,modalSponsorLogoAsset,NON_NULL,
+WeatherSummary,modalSponsorLogoDarkAsset,NON_NULL,
+WeatherSummary,sponsorDescription,SCALAR,Built-in String
+WeatherSummary,accessibilityText,SCALAR,Built-in String
+WeatherSummary,hourly,NON_NULL,
+WeatherSummary,daily,NON_NULL,
+WeatherDetails,title,NON_NULL,
+WeatherDetails,condition,NON_NULL,
+WeatherDetails,windDirection,NON_NULL,
+WeatherDetails,windSpeedKPH,NON_NULL,
+WeatherDetails,windSpeedMPH,NON_NULL,
+WeatherDetails,humidity,NON_NULL,
+WeatherDetails,precipitation,NON_NULL,
+WeatherDetails,temperature,NON_NULL,
+StandardWeatherTemp,tempC,NON_NULL,
+StandardWeatherTemp,tempF,NON_NULL,
+RangeWeatherTemp,minTempC,NON_NULL,
+RangeWeatherTemp,minTempF,NON_NULL,
+RangeWeatherTemp,maxTempC,NON_NULL,
+RangeWeatherTemp,maxTempF,NON_NULL,
+TournamentOverview,beautyImageAsset,NON_NULL,
+TournamentOverview,overview,NON_NULL,
+TournamentOverview,defendingChampion,OBJECT,
+TournamentOverview,defendingTeamChampion,LIST,
+TournamentOverview,pastChampions,NON_NULL,
+TournamentOverview,pastTeamChampions,LIST,
+TournamentOverview,ticketsURL,SCALAR,Built-in String
+TournamentOverview,ticketmasterAttractionId,SCALAR,Built-in String
+TournamentOverview,androidTicketmasterApiKey,SCALAR,Built-in String
+TournamentOverview,androidTicketmasterScheme,SCALAR,Built-in String
+TournamentOverview,iosTicketmasterApiKey,SCALAR,Built-in String
+TournamentOverview,webviewBrowserControls,NON_NULL,
+TournamentOverview,tourcastURI,SCALAR,Built-in String
+TournamentOverview,shareURL,SCALAR,Built-in String
+TournamentOverview,eventGuideURL,SCALAR,Built-in String
+TournamentOverview,augmentedReality,OBJECT,
+TournamentOverview,courses,NON_NULL,
+TournamentOverview,formatType,NON_NULL,
+TournamentOverview,activation,OBJECT,
+TournamentOverview,tournamentCategoryInfo,OBJECT,
+TournamentOverview,tournamentResultsMessage,OBJECT,
+TournamentChampion,displaySeason,NON_NULL,
+TournamentChampion,title,NON_NULL,
+TournamentChampion,playerId,NON_NULL,
+TournamentChampion,displayName,NON_NULL,
+TournamentChampion,score,NON_NULL,
+TournamentChampion,total,NON_NULL,
+TournamentChampion,countryCode,NON_NULL,
+TournamentChampion,seed,SCALAR,Built-in String
+TournamentChampion,headshot,SCALAR,Built-in String
+TournamentTeamChampion,players,NON_NULL,
+AugmentedRealityConfig,holes,NON_NULL,
+ARHole,holeNumber,NON_NULL,
+TournamentActivation,title,NON_NULL,
+TournamentActivation,sponsorLogoAsset,NON_NULL,
+TournamentActivation,sponsorLogoDarkAsset,NON_NULL,
+TournamentActivation,data,NON_NULL,
+TournamentActivation,description,NON_NULL,
+TournamentActivation,detail,SCALAR,Built-in String
+PresentedByConfig,splashScreen,NON_NULL,
+PresentedByConfig,presentedBy,NON_NULL,
+CourseStatsDetails,tourCode,NON_NULL,
+CourseStatsDetails,year,NON_NULL,
+CourseStatsDetails,round,NON_NULL,
+CourseStatsDetails,roundPills,NON_NULL,
+CourseStatsDetails,displayYear,NON_NULL,
+CourseStatsDetails,seasons,NON_NULL,
+CourseStatsDetails,headers,NON_NULL,
+CourseStatsDetails,displayName,NON_NULL,
+CourseStatsDetails,tableName,NON_NULL,
+CourseStatsDetails,shareURL,SCALAR,Built-in String
+CourseStatsDetails,rows,NON_NULL,
+ToughestCourseRoundPills,display,NON_NULL,
+ToughestCourseRoundPills,queryVal,NON_NULL,
+CourseStatsDetailsRow,rank,NON_NULL,
+CourseStatsDetailsRow,displayName,NON_NULL,
+CourseStatsDetailsRow,tournamentId,NON_NULL,
+CourseStatsDetailsRow,tournamentName,NON_NULL,
+CourseStatsDetailsRow,values,NON_NULL,
+CourseDetailRowValue,value,NON_NULL,
+CourseDetailRowValue,tendency,ENUM,
+CourseStatsOverview,tourCode,NON_NULL,
+CourseStatsOverview,year,NON_NULL,
+CourseStatsOverview,categories,NON_NULL,
+CourseStatsCategory,header,NON_NULL,
+CourseStatsCategory,detailId,NON_NULL,
+CourseStatsCategory,items,NON_NULL,
+CourseOverviewItem,displayName,NON_NULL,
+CourseOverviewItem,rank,NON_NULL,
+CourseOverviewItem,image,NON_NULL,
+CourseOverviewItem,details,NON_NULL,
+CourseOverviewItemDetails,value,NON_NULL,
+CourseOverviewItemDetails,label,NON_NULL,
+ScheduleYears,years,NON_NULL,
+ScheduleYear,default,NON_NULL,
+ScheduleYear,displayValue,NON_NULL,
+ScheduleYear,queryValue,NON_NULL,
+EventGuideConfig,id,NON_NULL,
+EventGuideConfig,eventGuideURL,SCALAR,Built-in String
+EventGuideConfig,augmentedReality,OBJECT,
+EventGuideConfig,eventGuideMap,SCALAR,Built-in String
+ContentFragmentsCompressed,tourCode,NON_NULL,
+ContentFragmentsCompressed,path,SCALAR,Built-in String
+ContentFragmentsCompressed,limit,SCALAR,Built-in Int
+ContentFragmentsCompressed,offset,SCALAR,Built-in Int
+ContentFragmentsCompressed,payload,NON_NULL,
+RyderCupTournamentOverview,tournamentName,NON_NULL,
+RyderCupTournamentOverview,year,NON_NULL,
+RyderCupTournamentOverview,usScore,NON_NULL,
+RyderCupTournamentOverview,usTeamLogo,NON_NULL,
+RyderCupTournamentOverview,euroScore,NON_NULL,
+RyderCupTournamentOverview,euroTeamLogo,NON_NULL,
+RyderCupTournamentOverview,course,OBJECT,
+RyderCupTournamentOverview,logoAsset,NON_NULL,
+RyderCupTournamentOverview,winner,SCALAR,Built-in String
+RyderCupTournamentOverview,startDate,SCALAR,Built-in String
+RyderCupTournamentOverview,endDate,SCALAR,Built-in String
+RyderCupCourse,courseCity,SCALAR,Built-in String
+RyderCupCourse,courseState,SCALAR,Built-in String
+RyderCupCourse,courseCountry,SCALAR,Built-in String
+RyderCupCourse,courseName,SCALAR,Built-in String
+RyderCupCourse,countryCode,SCALAR,Built-in String
+RyderCupTournament,year,NON_NULL,
+RyderCupTournament,course,OBJECT,
+RyderCupTournament,usScore,NON_NULL,
+RyderCupTournament,euroScore,NON_NULL,
+RyderCupTournament,winner,NON_NULL,
+RyderCupTournament,usTeam,NON_NULL,
+RyderCupTournament,euroTeam,NON_NULL,
+RyderCupTournament,historyInfo,OBJECT,
+RyderCupTeam,captain,NON_NULL,
+RyderCupTeam,players,NON_NULL,
+RyderCupTeam,teamName,NON_NULL,
+RyderCupTeam,teamLogo,NON_NULL,
+RyderCupCaptain,displayName,NON_NULL,
+RyderCupCaptain,firstName,NON_NULL,
+RyderCupCaptain,lastName,NON_NULL,
+RyderCupCaptain,playerId,NON_NULL,
+RyderCupPlayer,displayName,NON_NULL,
+RyderCupPlayer,firstName,NON_NULL,
+RyderCupPlayer,lastName,NON_NULL,
+RyderCupPlayer,playerId,NON_NULL,
+RyderCupPlayer,countryName,SCALAR,Built-in String
+RyderCupPlayer,countryCode,SCALAR,Built-in String
+HistoryInfo,contentCarousel,NON_NULL,
+HistoryInfo,infoText,LIST,
+HistoryInfo,usCaptain,SCALAR,Built-in String
+HistoryInfo,europeCaptain,SCALAR,Built-in String
+HistoryInfo,displayCta,SCALAR,Built-in Boolean
+HistoryInfo,cta,OBJECT,
+TournamentHistory,tourCode,NON_NULL,
+TournamentHistory,tournamentNum,NON_NULL,
+TournamentHistory,tournamentName,NON_NULL,
+TournamentHistory,defendingChampion,NON_NULL,
+TournamentHistory,pastChampions,NON_NULL,
+TournamentHistory,courses,NON_NULL,
+TournamentHistoryPlayerTable,header,NON_NULL,
+TournamentHistoryPlayerTable,players,NON_NULL,
+TournamentHistoryPlayer,playerId,NON_NULL,
+TournamentHistoryPlayer,playerName,NON_NULL,
+TournamentHistoryPlayer,year,NON_NULL,
+TournamentHistoryPlayer,displaySeason,NON_NULL,
+TournamentHistoryPlayer,totalScore,NON_NULL,
+TournamentHistoryPlayer,relativeToPar,NON_NULL,
+TournamentHistoryPlayer,countryFlag,NON_NULL,
+TournamentHistoryCourseTable,header,NON_NULL,
+TournamentHistoryCourseTable,courses,NON_NULL,
+TournamentHistoryCourse,courseId,NON_NULL,
+TournamentHistoryCourse,courseName,NON_NULL,
+TournamentHistoryCourse,year,NON_NULL,
+TournamentHistoryCourse,displaySeason,NON_NULL,
+TournamentHistoryCourse,courseImage,NON_NULL,
+TournamentHistoryCourse,par,NON_NULL,
+TournamentHistoryCourse,yardage,NON_NULL,
+TournamentRecap,tournamentId,NON_NULL,
+TournamentRecap,durationDate,NON_NULL,
+TournamentRecap,courses,NON_NULL,
+TournamentRecap,newsArticles,NON_NULL,
+TournamentRecap,videos,NON_NULL,
+TournamentRecapCourse,id,NON_NULL,
+TournamentRecapCourse,image,NON_NULL,
+TournamentRecapCourse,name,NON_NULL,
+TournamentRecapCourse,city,NON_NULL,
+TournamentRecapCourse,state,SCALAR,Built-in String
+TournamentRecapCourse,country,SCALAR,Built-in String
+TournamentRecapCourse,par,NON_NULL,
+TournamentRecapCourse,yardage,NON_NULL,
+VideoHero,video,OBJECT,
+VideoHero,videos,NON_NULL,
+RCVideoPage,video,OBJECT,
+RCVideoPage,upNextVideos,LIST,
+SponsoredArticles,articles,NON_NULL,
+SponsoredArticles,articleSponsor,NON_NULL,
+SponsoredArticles,moreNewsTitle,SCALAR,Built-in String
+SponsoredArticles,cta,OBJECT,
+TourcastTable,tournamentId,NON_NULL,
+TourcastTable,informationSections,NON_NULL,
+TourcastTable,winner,UNION,
+TourcastTable,courses,NON_NULL,
+TourcastCourse,courseId,NON_NULL,
+TourcastCourse,playoff,OBJECT,
+TourcastCourse,holes,NON_NULL,
+TourcastPlayoff,players,NON_NULL,
+TourcastPlayoff,playOffHole,NON_NULL,
+TourcastPlayoff,holeNum,NON_NULL,
+TourcastPlayoff,tourcastURI,SCALAR,Built-in String
+TourcastPlayoffPlayer,playerId,NON_NULL,
+TourcastPlayoffPlayer,displayName,NON_NULL,
+TourcastPlayoffPlayer,shortName,NON_NULL,
+TourcastPlayoffPlayer,countryCode,NON_NULL,
+TourcastHole,holeNum,NON_NULL,
+TourcastHole,par,NON_NULL,
+TourcastHole,yardage,NON_NULL,
+TourcastHole,scoringAvg,NON_NULL,
+TourcastHole,rank,NON_NULL,
+TourcastHole,displayRank,NON_NULL,
+TourcastHole,round,NON_NULL,
+TourcastHole,groups,NON_NULL,
+TourcastHole,matches,NON_NULL,
+TourcastHole,teamGroups,NON_NULL,
+TourcastHole,cupMatches,LIST,
+TourcastGroup,groupNum,NON_NULL,
+TourcastGroup,groupName,NON_NULL,
+TourcastGroup,teeTime,NON_NULL,
+TourcastGroup,location,NON_NULL,
+TourcastGroup,tourcastURI,SCALAR,Built-in String
+TourcastGroup,roundNum,NON_NULL,
+TourcastGroup,players,NON_NULL,
+TourcastPlayer,playerId,NON_NULL,
+TourcastPlayer,countryCode,NON_NULL,
+TourcastPlayer,country,NON_NULL,
+TourcastPlayer,displayName,NON_NULL,
+TourcastPlayer,shortName,NON_NULL,
+TourcastPlayer,total,NON_NULL,
+TourcastPlayer,roundScore,NON_NULL,
+TourcastPlayer,thru,NON_NULL,
+TourcastPlayer,amateur,NON_NULL,
+TourcastPlayer,backNine,NON_NULL,
+TourcastTeamGroup,groupNum,NON_NULL,
+TourcastTeamGroup,groupName,NON_NULL,
+TourcastTeamGroup,teeTime,NON_NULL,
+TourcastTeamGroup,location,NON_NULL,
+TourcastTeamGroup,tourcastURI,SCALAR,Built-in String
+TourcastTeamGroup,roundNum,NON_NULL,
+TourcastTeamGroup,teams,NON_NULL,
+TourcastTeam,teamId,NON_NULL,
+TourcastTeam,total,NON_NULL,
+TourcastTeam,roundScore,NON_NULL,
+TourcastTeam,thru,NON_NULL,
+TourcastTeam,backNine,NON_NULL,
+TourcastTeam,players,NON_NULL,
+CupLeaderboardMatch,matchId,NON_NULL,
+CupLeaderboardMatch,matchTitle,NON_NULL,
+CupLeaderboardMatch,displayScore,NON_NULL,
+CupLeaderboardMatch,matchStatus,NON_NULL,
+CupLeaderboardMatch,teeTime,NON_NULL,
+CupLeaderboardMatch,matchStatusColor,NON_NULL,
+CupLeaderboardMatch,matchStatusFlag,SCALAR,Built-in String
+CupLeaderboardMatch,startingTee,NON_NULL,
+CupLeaderboardMatch,location,NON_NULL,
+CupLeaderboardMatch,locationDescription,SCALAR,Built-in String
+CupLeaderboardMatch,locationSort,NON_NULL,
+CupLeaderboardMatch,tourcastURI,SCALAR,Built-in String
+CupLeaderboardMatch,teams,NON_NULL,
+CupLeaderboardMatchTeam,teamId,NON_NULL,
+CupLeaderboardMatchTeam,teamColor,NON_NULL,
+CupLeaderboardMatchTeam,textColor,SCALAR,Built-in String
+CupLeaderboardMatchTeam,teamFlag,NON_NULL,
+CupLeaderboardMatchTeam,flagSurroundColor,SCALAR,Built-in String
+CupLeaderboardMatchTeam,flagSurroundColorDark,SCALAR,Built-in String
+CupLeaderboardMatchTeam,teamScore,SCALAR,Built-in String
+CupLeaderboardMatchTeam,teamName,NON_NULL,
+CupLeaderboardMatchTeam,players,NON_NULL,
+CupLeaderboardMatchTeam,status,NON_NULL,
+CupLeaderboardMatchPlayer,playerId,NON_NULL,
+CupLeaderboardMatchPlayer,displayName,NON_NULL,
+CupLeaderboardMatchPlayer,shortName,NON_NULL,
+CupLeaderboardMatchPlayer,hideHeadshot,SCALAR,Built-in Boolean
+CupLeaderboardMatchPlayer,results,OBJECT,
+CupLeaderboardMatchPlayer,color,SCALAR,Built-in String
+CupLeaderboardMatchPlayerResults,wins,NON_NULL,
+CupLeaderboardMatchPlayerResults,ties,NON_NULL,
+CupLeaderboardMatchPlayerResults,losses,NON_NULL,
+CupLeaderboardMatchPlayerResults,total,NON_NULL,
+TourSponsor,_path,SCALAR,Built-in String
+TourSponsor,sponsorName,SCALAR,Built-in String
+TourSponsor,sponsorWebsiteUrl,SCALAR,Built-in String
+TourSponsor,sponsorImage,SCALAR,Built-in String
+TourSponsor,sponsorLogoAsset,NON_NULL,
+TourSponsor,sponsorDescription,NON_NULL,
+UniversityRankings,year,NON_NULL,
+UniversityRankings,displayYear,NON_NULL,
+UniversityRankings,throughText,NON_NULL,
+UniversityRankings,disclaimer,SCALAR,Built-in String
+UniversityRankings,weekNum,NON_NULL,
+UniversityRankings,title,NON_NULL,
+UniversityRankings,description,NON_NULL,
+UniversityRankings,sponsorName,NON_NULL,
+UniversityRankings,sponsorImage,SCALAR,Built-in String
+UniversityRankings,yearPills,NON_NULL,
+UniversityRankings,weekPills,NON_NULL,
+UniversityRankings,players,NON_NULL,
+StatWeekPill,week,NON_NULL,
+StatWeekPill,displayWeek,NON_NULL,
+UniversityRankingPlayer,playerId,NON_NULL,
+UniversityRankingPlayer,rank,NON_NULL,
+UniversityRankingPlayer,rankColor,NON_NULL,
+UniversityRankingPlayer,rankingMovement,NON_NULL,
+UniversityRankingPlayer,rankingMovementAmount,NON_NULL,
+UniversityRankingPlayer,rankingMovementAmountSort,NON_NULL,
+UniversityRankingPlayer,displayName,NON_NULL,
+UniversityRankingPlayer,schoolName,NON_NULL,
+UniversityRankingPlayer,country,NON_NULL,
+UniversityRankingPlayer,wins,NON_NULL,
+UniversityRankingPlayer,top10,NON_NULL,
+UniversityRankingPlayer,avg,NON_NULL,
+UniversityRankingPlayer,events,NON_NULL,
+UniversityRankingPlayer,tournaments,NON_NULL,
+UniversityRankingsTournament,playedYear,NON_NULL,
+UniversityRankingsTournament,name,NON_NULL,
+UniversityRankingsTournament,finishPosition,NON_NULL,
+UniversityRankingsTournament,points,NON_NULL,
+UniversityRankingsTournament,week,NON_NULL,
+PriorityRankings,tourCode,NON_NULL,
+PriorityRankings,year,NON_NULL,
+PriorityRankings,yearPills,NON_NULL,
+PriorityRankings,displayYear,NON_NULL,
+PriorityRankings,throughText,NON_NULL,
+PriorityRankings,categories,NON_NULL,
+PriorityCategory,displayName,NON_NULL,
+PriorityCategory,detail,SCALAR,Built-in String
+PriorityCategory,players,NON_NULL,
+PriorityPlayer,playerId,NON_NULL,
+PriorityPlayer,displayName,NON_NULL,
+Aon,title,NON_NULL,
+Aon,description,NON_NULL,
+Aon,leaders,NON_NULL,
+Aon,players,NON_NULL,
+Aon,upcomingTournaments,NON_NULL,
+Aon,logo,NON_NULL,
+Aon,pastTournaments,NON_NULL,
+AonPlayer,playerId,NON_NULL,
+AonPlayer,displayName,NON_NULL,
+AonPlayer,position,NON_NULL,
+AonPlayer,roundsPlayed,NON_NULL,
+AonPlayer,roundsToGo,NON_NULL,
+AonPlayer,score,NON_NULL,
+AonPlayer,countryCode,NON_NULL,
+AonHole,tournamentId,NON_NULL,
+AonHole,tournamentName,NON_NULL,
+AonHole,dateText,NON_NULL,
+AonHole,courseName,NON_NULL,
+AonHole,holeNum,NON_NULL,
+AonHole,par,NON_NULL,
+AonHole,yardage,NON_NULL,
+AonHole,holeImage,NON_NULL,
+RSMStandings,currentLeaderboard,NON_NULL,
+RSMStandings,weeklyWinners,NON_NULL,
+RSMStandings,previousWinners,NON_NULL,
+RSMPlayer,rank,NON_NULL,
+RSMPlayer,firstName,NON_NULL,
+RSMPlayer,lastName,NON_NULL,
+RSMPlayer,playerId,NON_NULL,
+RSMPlayer,birdies,NON_NULL,
+RSMPlayer,country,NON_NULL,
+RSMPlayer,countryFlag,NON_NULL,
+RSMPlayer,leading,NON_NULL,
+RSMEventWinner,firstName,NON_NULL,
+RSMEventWinner,lastName,NON_NULL,
+RSMEventWinner,playerId,NON_NULL,
+RSMEventWinner,birdies,NON_NULL,
+RSMEventWinner,country,NON_NULL,
+RSMEventWinner,countryFlag,NON_NULL,
+RSMEventWinner,tournamentId,NON_NULL,
+RSMEventWinner,tournamentName,NON_NULL,
+RSMHistoricalWinner,year,NON_NULL,
+RSMHistoricalWinner,displaySeason,NON_NULL,
+RSMHistoricalWinner,winners,NON_NULL,
+RSMLeaderboard,tournamentId,NON_NULL,
+RSMLeaderboard,tournamentName,NON_NULL,
+RSMLeaderboard,isLive,SCALAR,Built-in Boolean
+RSMLeaderboard,dateText,SCALAR,Built-in String
+RSMLeaderboard,round,SCALAR,Built-in String
+RSMLeaderboard,players,NON_NULL,
+RSMLeaderboard,livePlayers,NON_NULL,
+RSMLeaderboardPlayer,projectedRank,NON_NULL,
+RSMLeaderboardPlayer,projectedRankSort,NON_NULL,
+RSMLeaderboardPlayer,firstName,NON_NULL,
+RSMLeaderboardPlayer,lastName,NON_NULL,
+RSMLeaderboardPlayer,playerId,NON_NULL,
+RSMLeaderboardPlayer,countryFlag,NON_NULL,
+RSMLeaderboardPlayer,countryName,NON_NULL,
+RSMLeaderboardPlayer,eventTotal,NON_NULL,
+RSMLeaderboardPlayer,eventTotalSort,NON_NULL,
+RSMLeaderboardPlayer,eventRank,SCALAR,Built-in Int
+RSMLeaderboardPlayer,total,NON_NULL,
+RSMLeaderboardPlayer,totalSort,NON_NULL,
+OddsTable,provider,ENUM,
+OddsTable,tournamentId,NON_NULL,
+OddsTable,tournamentName,NON_NULL,
+OddsTable,markets,NON_NULL,
+OddsTable,players,NON_NULL,
+PlayerMarketsRow,playerName,NON_NULL,
+PlayerMarketsRow,playerId,NON_NULL,
+PlayerMarketsRow,country,NON_NULL,
+PlayerMarketsRow,countryFlag,NON_NULL,
+PlayerMarketsRow,markets,NON_NULL,
+HistoricalPlayerOdds,tournamentId,NON_NULL,
+HistoricalPlayerOdds,season,NON_NULL,
+HistoricalPlayerOdds,playerId,NON_NULL,
+HistoricalPlayerOdds,marketName,NON_NULL,
+HistoricalPlayerOdds,optionId,NON_NULL,
+HistoricalPlayerOdds,odds,NON_NULL,
+HistoricalPlayerOdds,oddsSwing,NON_NULL,
+HistoricalPlayerOdds,timeStamp,NON_NULL,
+HistoricalPlayerOdds,message,OBJECT,
+OddsTimeline,tournamentId,NON_NULL,
+OddsTimeline,countryCode,NON_NULL,
+OddsTimeline,oddsProvider,NON_NULL,
+OddsTimeline,round,NON_NULL,
+OddsTimeline,players,NON_NULL,
+OddsTimelinePlayer,playerId,NON_NULL,
+OddsTimelinePlayer,playerName,NON_NULL,
+OddsTimelinePlayer,playerColor,NON_NULL,
+OddsTimelinePlayer,data,NON_NULL,
+OddsTimelinePoint,time,NON_NULL,
+OddsTimelinePoint,odds,NON_NULL,
+OddsTimelinePoint,oddsSwing,ENUM,
+OddsTimelinePoint,holeNumber,SCALAR,Built-in Int
+OddsTimelinePoint,holeSequence,SCALAR,Built-in Int
+OddsTimelinePoint,round,SCALAR,Built-in Int
+HistoricalTournamentOdds,id,NON_NULL,
+HistoricalTournamentOdds,provider,NON_NULL,
+HistoricalTournamentOdds,tournamentId,NON_NULL,
+HistoricalTournamentOdds,message,OBJECT,
+HistoricalTournamentOdds,market,OBJECT,
+Market,header,NON_NULL,
+Market,subMarketPills,LIST,
+Market,marketType,NON_NULL,
+Market,subMarkets,NON_NULL,
+SubMarket,id,NON_NULL,
+SubMarket,header,NON_NULL,
+SubMarket,options,NON_NULL,
+OddsCutsOption,entity,NON_NULL,
+OddsCutsOption,yesOdds,NON_NULL,
+OddsCutsOption,noOdds,NON_NULL,
+OddsEntity,entityId,NON_NULL,
+OddsEntity,players,NON_NULL,
+OddsEntity,total,NON_NULL,
+OddsEntity,totalSort,NON_NULL,
+OddsEntity,thru,SCALAR,Built-in String
+OddsEntity,seed,SCALAR,Built-in Int
+OddsEntity,score,NON_NULL,
+OddsEntity,position,NON_NULL,
+OddsEntity,groupNum,NON_NULL,
+OddsEntity,maxRound,NON_NULL,
+OddsEntity,entityFlagUrl,SCALAR,Built-in String
+OddsEntity,color,SCALAR,Built-in String
+OddsEntity,flagSurroundColor,SCALAR,Built-in String
+OddsEntity,flagSurroundColorDark,SCALAR,Built-in String
+OddsPlayer,playerId,NON_NULL,
+OddsPlayer,displayName,NON_NULL,
+OddsPlayer,shortName,NON_NULL,
+OddsPlayer,firstName,NON_NULL,
+OddsPlayer,lastName,NON_NULL,
+OddsPlayer,countryFlag,NON_NULL,
+OddsPlayer,overrideFlagUrl,SCALAR,Built-in String
+OddsPlayer,color,SCALAR,Built-in String
+OddsValues,optionId,NON_NULL,
+OddsValues,odds,NON_NULL,
+OddsValues,oddsSwing,NON_NULL,
+OddsFinishesOption,entity,NON_NULL,
+OddsFinishesOption,odds,NON_NULL,
+OddsLeadersOption,entity,NON_NULL,
+OddsLeadersOption,odds,NON_NULL,
+OddsNationalityOption,entity,NON_NULL,
+OddsNationalityOption,odds,NON_NULL,
+OddsToWinV2,entity,NON_NULL,
+OddsToWinV2,odds,NON_NULL,
+OddsGroupOptionV2,entity,NON_NULL,
+OddsGroupOptionV2,odds,NON_NULL,
+OddsMatchupOptionGroup,options,NON_NULL,
+MatchupOptionV2,entity,NON_NULL,
+MatchupOptionV2,odds,NON_NULL,
+MatchupOptionV2,isTie,NON_NULL,
+EaglesForImpact,tournamentId,NON_NULL,
+EaglesForImpact,title,NON_NULL,
+EaglesForImpact,charity,NON_NULL,
+EaglesForImpact,donation,NON_NULL,
+EaglesForImpact,eaglesTitle,NON_NULL,
+EaglesForImpact,totalEagles,NON_NULL,
+EaglesForImpact,sponsorLogoAsset,NON_NULL,
+EaglesForImpact,sponsorDescription,NON_NULL,
+EaglesForImpact,holes,NON_NULL,
+EaglesForImpact,players,NON_NULL,
+EaglesForImpact,linkUrl,SCALAR,Built-in String
+EaglesForImpact,linkText,SCALAR,Built-in String
+EFIHole,hole,NON_NULL,
+EFIHole,count,NON_NULL,
+EFIPlayer,playerId,NON_NULL,
+EFIPlayer,displayName,NON_NULL,
+EFIPlayer,totalEagles,NON_NULL,
+EFIPlayer,history,NON_NULL,
+EFIPlayerEagle,round,NON_NULL,
+EFIPlayerEagle,hole,NON_NULL,
+EFIPlayerEagle,videoId,SCALAR,Built-in String
+TournamentOddsV2,id,NON_NULL,
+TournamentOddsV2,provider,NON_NULL,
+TournamentOddsV2,tournamentId,NON_NULL,
+TournamentOddsV2,message,OBJECT,
+TournamentOddsV2,marketPills,NON_NULL,
+TournamentOddsV2,round,NON_NULL,
+TournamentOddsV2,markets,NON_NULL,
+TournamentOddsV2,drawersEnabled,NON_NULL,
+MarketPill,marketType,NON_NULL,
+MarketPill,displayText,NON_NULL,
+TournamentOddsCompressedV2,id,NON_NULL,
+TournamentOddsCompressedV2,oddsPayload,NON_NULL,
+EntityOdds,entityId,NON_NULL,
+EntityOdds,tournamentId,NON_NULL,
+EntityOdds,provider,NON_NULL,
+EntityOdds,message,OBJECT,
+EntityOdds,marketPills,NON_NULL,
+EntityOdds,markets,NON_NULL,
+EntityOdds,bettingProfile,SCALAR,Built-in String
+LeaderboardInfo,tournamentId,NON_NULL,
+LeaderboardInfo,odds,NON_NULL,
+LeaderboardInfo,informationSections,NON_NULL,
+PlayerComparison,tourCode,NON_NULL,
+PlayerComparison,tournamentId,SCALAR,Built-in String
+PlayerComparison,year,NON_NULL,
+PlayerComparison,displaySeason,NON_NULL,
+PlayerComparison,category,NON_NULL,
+PlayerComparison,seasonPills,NON_NULL,
+PlayerComparison,categoryPills,NON_NULL,
+PlayerComparison,table,NON_NULL,
+PlayerComparison,noDataMessage,NON_NULL,
+PlayerComparisonCategoryPill,displayText,NON_NULL,
+PlayerComparisonCategoryPill,category,NON_NULL,
+PlayerComparisonTable,header,NON_NULL,
+PlayerComparisonTable,headerRow,NON_NULL,
+PlayerComparisonTable,rows,NON_NULL,
+PlayerComparisonHeader,playerId,NON_NULL,
+PlayerComparisonHeader,displayText,NON_NULL,
+PlayerComparisonHeader,country,SCALAR,Built-in String
+PlayerComparisonHeader,yearData,NON_NULL,
+PlayerComparisonRow,statName,NON_NULL,
+PlayerComparisonRow,statId,NON_NULL,
+PlayerComparisonRow,values,NON_NULL,
+PlayerComparisonValue,displayValue,NON_NULL,
+PlayerComparisonValue,bold,NON_NULL,
+PlayerComparisonValue,rank,NON_NULL,
+PlayerComparisonValue,rankDeviation,SCALAR,Built-in Float
+PlayerComparisonOdds,playerId,NON_NULL,
+PlayerComparisonOdds,displayName,NON_NULL,
+PlayerComparisonOdds,oddsToWin,NON_NULL,
+PlayerComparisonOdds,country,NON_NULL,
+PlayerComparisonOdds,countryName,NON_NULL,
+PlayerComparisonOdds,oddsSwing,NON_NULL,
+PlayerComparisonOdds,color,NON_NULL,
+PlayerComparisonOdds,provider,NON_NULL,
+Newsletter,image,NON_NULL,
+Newsletter,title,NON_NULL,
+Newsletter,description,SCALAR,Built-in String
+Newsletter,ctaText,NON_NULL,
+Newsletter,gigyaSubscriptionId,NON_NULL,
+SearchBarFeatures,playerFeatures,NON_NULL,
+SearchBarPlayerFeatures,playerHeader,NON_NULL,
+SearchBarPlayerFeatures,players,NON_NULL,
+SearchBarPlayer,playerId,NON_NULL,
+SearchBarPlayer,displayName,NON_NULL,
+RankingsPastWinner,displayName,NON_NULL,
+RankingsPastWinner,playerId,NON_NULL,
+RankingsPastWinner,description,NON_NULL,
+RankingsPastWinner,imageAsset,NON_NULL,
+RankingsPastWinner,season,NON_NULL,
+PlayerFinishStats,playerId,NON_NULL,
+PlayerFinishStats,statId,NON_NULL,
+PlayerFinishStats,statName,NON_NULL,
+PlayerFinishStats,displayName,NON_NULL,
+PlayerFinishStats,countryCode,NON_NULL,
+PlayerFinishStats,countryName,NON_NULL,
+PlayerFinishStats,rank,NON_NULL,
+PlayerFinishStats,tourAvg,NON_NULL,
+PlayerFinishStats,playerAvg,NON_NULL,
+PlayerFinishStats,playerAvgLabel,NON_NULL,
+PlayerFinishStats,statValues,NON_NULL,
+FinishStatValue,value,NON_NULL,
+FinishStatValue,displayValue,NON_NULL,
+FinishStatValue,date,NON_NULL,
+FinishStatValue,displayDate,NON_NULL,
+FinishStatValue,tournamentName,NON_NULL,
+CupTournamentStatus,id,NON_NULL,
+CupTournamentStatus,tournamentId,NON_NULL,
+CupTournamentStatus,stickyBanner,NON_NULL,
+CupTournamentStatus,heroImage,SCALAR,Built-in String
+CupTournamentStatus,type,NON_NULL,
+CupTournamentStatus,miniLeaderboardOverride,SCALAR,Built-in String
+CupTournamentStatus,messages,NON_NULL,
+CupTournamentStatus,teams,NON_NULL,
+CupTournamentTeam,teamId,NON_NULL,
+CupTournamentTeam,teamLogo,NON_NULL,
+CupTournamentTeam,displayName,NON_NULL,
+CupTournamentTeam,shortName,NON_NULL,
+CupTournamentTeam,projected,SCALAR,Built-in String
+CupTournamentTeam,projectedValue,NON_NULL,
+CupTournamentTeam,projectedProgress,NON_NULL,
+CupTournamentTeam,toWin,SCALAR,Built-in String
+CupTournamentTeam,total,SCALAR,Built-in String
+CupTournamentTeam,totalValue,NON_NULL,
+CupTournamentTeam,totalProgress,NON_NULL,
+CupTournamentTeam,color,NON_NULL,
+CupTournamentTeam,textColor,SCALAR,Built-in String
+CupTournamentTeam,projectedColor,NON_NULL,
+CupTournamentTeam,badgeText,SCALAR,Built-in String
+CupTournamentTeam,shortBadgeText,SCALAR,Built-in String
+CupTournamentLeaderboard,id,NON_NULL,
+CupTournamentLeaderboard,currentId,NON_NULL,
+CupTournamentLeaderboard,currentRound,NON_NULL,
+CupTournamentLeaderboard,totalMatches,NON_NULL,
+CupTournamentLeaderboard,completedMatches,NON_NULL,
+CupTournamentLeaderboard,tourcastURI,SCALAR,Built-in String
+CupTournamentLeaderboard,title,NON_NULL,
+CupTournamentLeaderboard,format,NON_NULL,
+CupTournamentLeaderboard,rounds,NON_NULL,
+CupTournamentLeaderboard,matches,NON_NULL,
+CupTournamentLeaderboard,drawersEnabled,NON_NULL,
+CupTournamentRound,roundNumber,NON_NULL,
+CupTournamentRound,description,NON_NULL,
+CupTournamentRound,adConfig,NON_NULL,
+CupTournamentRound,format,NON_NULL,
+CupTournamentLeaderboardCompressed,id,NON_NULL,
+CupTournamentLeaderboardCompressed,currentId,NON_NULL,
+CupTournamentLeaderboardCompressed,payload,NON_NULL,
+CupScorecard,id,NON_NULL,
+CupScorecard,matchName,NON_NULL,
+CupScorecard,currentHole,SCALAR,Built-in Int
+CupScorecard,tourcastURI,SCALAR,Built-in String
+CupScorecard,scorecardTitle,NON_NULL,
+CupScorecard,displayScore,NON_NULL,
+CupScorecard,matchStatus,NON_NULL,
+CupScorecard,teeTime,NON_NULL,
+CupScorecard,matchStatusColor,NON_NULL,
+CupScorecard,matchStatusFlag,SCALAR,Built-in String
+CupScorecard,matchHoleScores,NON_NULL,
+CupScorecard,format,NON_NULL,
+CupScorecard,teams,NON_NULL,
+CupScorecard,messages,NON_NULL,
+CupScorecard,infoWebUrl,SCALAR,Built-in String
+CupTeam,teamId,NON_NULL,
+CupTeam,teamName,NON_NULL,
+CupTeam,teamShortName,NON_NULL,
+CupTeam,teamColor,NON_NULL,
+CupTeam,teamPoints,SCALAR,Built-in String
+CupTeam,teamFlag,NON_NULL,
+CupTeam,flagSurroundColor,SCALAR,Built-in String
+CupTeam,flagSurroundColorDark,SCALAR,Built-in String
+CupTeam,textColor,SCALAR,Built-in String
+CupTeam,status,NON_NULL,
+CupTeam,players,LIST,
+CupTeeTimes,id,NON_NULL,
+CupTeeTimes,currentRound,NON_NULL,
+CupTeeTimes,rounds,NON_NULL,
+CupTeeTimes,drawersEnabled,NON_NULL,
+CupTeeTimesRound,roundNum,NON_NULL,
+CupTeeTimesRound,roundDisplay,NON_NULL,
+CupTeeTimesRound,totalMatches,NON_NULL,
+CupTeeTimesRound,completedMatches,NON_NULL,
+CupTeeTimesRound,matches,NON_NULL,
+CupTeeTimesRound,adConfig,NON_NULL,
+CupTeamRosters,tournamentId,NON_NULL,
+CupTeamRosters,teams,NON_NULL,
+CupTeamRoster,teamName,NON_NULL,
+CupTeamRoster,teamColor,NON_NULL,
+CupTeamRoster,teamLogo,SCALAR,Built-in String
+CupTeamRoster,teamId,NON_NULL,
+CupTeamRoster,teamFlag,NON_NULL,
+CupTeamRoster,flagSurroundColor,SCALAR,Built-in String
+CupTeamRoster,flagSurroundColorDark,SCALAR,Built-in String
+CupTeamRoster,sections,NON_NULL,
+CupTeamRosterSection,sectionTitle,NON_NULL,
+CupTeamRosterSection,showResults,NON_NULL,
+CupTeamRosterSection,players,NON_NULL,
+CupPastResults,permId,NON_NULL,
+CupPastResults,years,NON_NULL,
+CupPastResultsYear,year,NON_NULL,
+CupPastResultsYear,displayYear,NON_NULL,
+CupPastResultsYear,teams,NON_NULL,
+CupPastResultsTeam,teamId,NON_NULL,
+CupPastResultsTeam,teamLogo,NON_NULL,
+CupPastResultsTeam,teamName,NON_NULL,
+CupPastResultsTeam,score,NON_NULL,
+CupPastResultsTeam,color,NON_NULL,
+CupPastResultsTeam,badgeText,SCALAR,Built-in String
+LeaderboardHoleByHole,tournamentId,NON_NULL,
+LeaderboardHoleByHole,currentRound,NON_NULL,
+LeaderboardHoleByHole,rounds,NON_NULL,
+LeaderboardHoleByHole,tournamentName,NON_NULL,
+LeaderboardHoleByHole,courseHoleHeaders,NON_NULL,
+LeaderboardHoleByHole,courses,NON_NULL,
+LeaderboardHoleByHole,playerData,NON_NULL,
+HoleHeader,holeNumber,NON_NULL,
+HoleHeader,hole,NON_NULL,
+HoleHeader,par,NON_NULL,
+CourseHoleHeader,courseId,NON_NULL,
+CourseHoleHeader,holeHeaders,NON_NULL,
+HoleHeaderV2,holeNumber,SCALAR,Built-in Int
+HoleHeaderV2,order,NON_NULL,
+HoleHeaderV2,displayValue,NON_NULL,
+HoleHeaderV2,par,NON_NULL,
+PlayerRowHoleByHole,playerId,NON_NULL,
+PlayerRowHoleByHole,courseId,NON_NULL,
+PlayerRowHoleByHole,courseCode,NON_NULL,
+PlayerRowHoleByHole,scores,NON_NULL,
+PlayerRowHoleByHole,out,SCALAR,Built-in String
+PlayerRowHoleByHole,in,SCALAR,Built-in String
+PlayerRowHoleByHole,total,SCALAR,Built-in String
+PlayerRowHoleByHole,totalToPar,NON_NULL,
+ContentFragmentType,path,NON_NULL,
+ContentFragmentType,contentType,NON_NULL,
+AllTimeRecordStat,recordId,NON_NULL,
+AllTimeRecordStat,title,NON_NULL,
+AllTimeRecordStat,isPlayerBased,NON_NULL,
+AllTimeRecordStat,statHeaders,NON_NULL,
+AllTimeRecordStat,categoryId,NON_NULL,
+AllTimeRecordStat,categoryName,NON_NULL,
+AllTimeRecordStat,subCategoryName,NON_NULL,
+AllTimeRecordStat,rows,LIST,
+AllTimeRecordStat,primaryColumnIndex,SCALAR,Built-in Int
+AllTimeRecordStatRow,playerId,SCALAR,Built-in String
+AllTimeRecordStatRow,values,NON_NULL,
+AllTimeRecordCategories,tourCode,NON_NULL,
+AllTimeRecordCategories,categories,NON_NULL,
+AllTimeRecordCategory,categoryId,NON_NULL,
+AllTimeRecordCategory,displayText,NON_NULL,
+AllTimeRecordCategory,subCategories,NON_NULL,
+AllTimeRecordSubCategory,displayText,NON_NULL,
+AllTimeRecordSubCategory,statistics,NON_NULL,
+AllTimeRecordStatistic,recordId,NON_NULL,
+AllTimeRecordStatistic,displayText,NON_NULL,
+TournamentOddsToWin,tournamentId,NON_NULL,
+TournamentOddsToWin,tournamentName,NON_NULL,
+TournamentOddsToWin,tournamentLogoAsset,NON_NULL,
+TournamentOddsToWin,players,NON_NULL,
+TournamentOddsPlayer,playerId,NON_NULL,
+TournamentOddsPlayer,oddsToWin,NON_NULL,
+TournamentOddsPlayer,oddsSwing,ENUM,
+TournamentOddsPlayer,oddsOptionId,SCALAR,Built-in String
+TournamentOddsPlayer,oddsSort,NON_NULL,
+CurrentLeadersCompressed,id,NON_NULL,
+CurrentLeadersCompressed,payload,NON_NULL,
+UniversityTotalPoints,season,NON_NULL,
+UniversityTotalPoints,week,NON_NULL,
+UniversityTotalPoints,title,NON_NULL,
+UniversityTotalPoints,description,NON_NULL,
+UniversityTotalPoints,headerInfo,OBJECT,
+UniversityTotalPoints,footerInfo,OBJECT,
+UniversityTotalPoints,weekNavigation,NON_NULL,
+UniversityTotalPoints,seasonNavigation,NON_NULL,
+UniversityTotalPoints,players,NON_NULL,
+UniversityTotalPoints,headers,NON_NULL,
+UniversityTotalPoints,sponsorLogoAsset,NON_NULL,
+UniversityTotalPoints,sponsorText,SCALAR,Built-in String
+UniversityTotalPointsPill,value,NON_NULL,
+UniversityTotalPointsPill,displayText,NON_NULL,
+UniversityTotalPointsPlayer,playerId,NON_NULL,
+UniversityTotalPointsPlayer,playerName,NON_NULL,
+UniversityTotalPointsPlayer,rank,NON_NULL,
+UniversityTotalPointsPlayer,rankSort,NON_NULL,
+UniversityTotalPointsPlayer,data,NON_NULL,
+UniversityTotalPointsPlayer,tournaments,NON_NULL,
+ScorecardStatsComparison,tournamentId,NON_NULL,
+ScorecardStatsComparison,category,NON_NULL,
+ScorecardStatsComparison,disabled,SCALAR,Built-in Boolean
+ScorecardStatsComparison,categoryPills,NON_NULL,
+ScorecardStatsComparison,roundNum,SCALAR,Built-in Int
+ScorecardStatsComparison,roundDisplay,SCALAR,Built-in String
+ScorecardStatsComparison,table,NON_NULL,
+ScorecardStatsComparison,noDataMessage,NON_NULL,
+TGLSchedule,season,NON_NULL,
+TGLSchedule,matches,NON_NULL,
+TGLMatch,id,NON_NULL,
+TGLMatch,teams,NON_NULL,
+TGLMatch,matchDate,NON_NULL,
+TGLMatch,matchStatus,NON_NULL,
+TGLMatch,matchStatusColor,NON_NULL,
+TGLMatch,matchStatusDisplay,NON_NULL,
+TGLMatch,currentHole,SCALAR,Built-in String
+TGLMatch,matchUrl,SCALAR,Built-in String
+TGLMatch,watchUrl,SCALAR,Built-in String
+TGLMatch,watchLogo,SCALAR,Built-in String
+TGLMatch,watchLabel,SCALAR,Built-in String
+TGLMatch,subscriptionsActive,NON_NULL,
+TGLMatch,isOvertime,NON_NULL,
+TGLMatch,tglLogo,SCALAR,Built-in String
+TGLMatch,tglLogoFallback,NON_NULL,
+TGLTeam,teamName,NON_NULL,
+TGLTeam,teamLogo,NON_NULL,
+TGLTeam,players,NON_NULL,
+TGLTeam,score,NON_NULL,
+TGLTeam,wins,NON_NULL,
+TGLTeam,losses,NON_NULL,
+TGLTeam,matchWinner,SCALAR,Built-in Boolean
+TGLPlayer,playerId,NON_NULL,
+TGLPlayer,displayName,NON_NULL,
+TGLPlayer,playerHeadshot,NON_NULL,
+GroupLocation,tournamentId,NON_NULL,
+GroupLocation,courses,NON_NULL,
+GroupLocationCourse,tournamentAndCourseId,NON_NULL,
+GroupLocationCourse,tournamentId,NON_NULL,
+GroupLocationCourse,courseId,NON_NULL,
+GroupLocationCourse,round,NON_NULL,
+GroupLocationCourse,courseName,NON_NULL,
+GroupLocationCourse,holes,NON_NULL,
+GroupLocationHole,holeNumber,NON_NULL,
+GroupLocationHole,par,NON_NULL,
+GroupLocationHole,yardage,NON_NULL,
+GroupLocationHole,groups,NON_NULL,
+GroupLocationGroup,groupSort,NON_NULL,
+GroupLocationGroup,groupNum,NON_NULL,
+GroupLocationGroup,round,NON_NULL,
+GroupLocationGroup,location,NON_NULL,
+GroupLocationGroup,color,SCALAR,Built-in String
+GroupLocationGroup,playerData,OBJECT,
+GroupLocationPlayerData,addressingBall,SCALAR,Built-in String
+GroupLocationPlayerData,nextToHit,SCALAR,Built-in String
+Mutation,updateLeaderboardV2,OBJECT,
+Mutation,updateLeaderboardCompressedV3,OBJECT,
+Mutation,updateLeaderboardCompressedV2,OBJECT,
+Mutation,updateLeaderboardOddsToWinV2,OBJECT,
+Mutation,updateLeaderboardOddsToWinCompressedV2,OBJECT,
+Mutation,updateMatchPlayLeaderboard,OBJECT,
+Mutation,updateMatchPlayLeaderboardCompressed,OBJECT,
+Mutation,updateTeamPlayLeaderboard,OBJECT,
+Mutation,updateTeamPlayLeaderboardCompressed,OBJECT,
+Mutation,updateTeamPlayScorecard,OBJECT,
+Mutation,updateTeamPlayScorecardRounds,OBJECT,
+Mutation,updateScorecardV2,OBJECT,
+Mutation,updateScorecardCompressedV3,OBJECT,
+Mutation,updateMatchPlayScorecard,OBJECT,
+Mutation,updateMatchPlayPlayoffScorecard,OBJECT,
+Mutation,updateScorecardStats,OBJECT,
+Mutation,updateScorecardStatsCompressedV3,OBJECT,
+Mutation,updateTournament,OBJECT,
+Mutation,updateTeeTimes,OBJECT,
+Mutation,updateTeeTimesCompressed,OBJECT,
+Mutation,updateTeeTimesV2,OBJECT,
+Mutation,updateTeeTimesCompressedV2,OBJECT,
+Mutation,updateMatchPlayTeeTimes,NON_NULL,
+Mutation,updateMatchPlayTeeTimesCompressed,OBJECT,
+Mutation,updateTeamStrokePlayTeeTimes,OBJECT,
+Mutation,updateTeamStrokePlayTeeTimesCompressed,OBJECT,
+Mutation,updateUpcomingSchedule,OBJECT,
+Mutation,updatePlayoffScorecard,OBJECT,
+Mutation,updatePlayoffScorecardV2,NON_NULL,
+Mutation,updateShotDetails,OBJECT,
+Mutation,updateTourcastShotDetails,OBJECT,
+Mutation,updateShotDetailsCompressed,OBJECT,
+Mutation,updateShotDetailsCompressedV3,OBJECT,
+Mutation,updateTourCup,OBJECT,
+Mutation,updatePlayoffShotDetails,NON_NULL,
+Mutation,updatePlayoffShotDetailsCompressed,NON_NULL,
+Mutation,updateTSPPlayoffShotDetailsCompressed,NON_NULL,
+Mutation,updateTSPPlayoffShotDetails,NON_NULL,
+Mutation,updateTournamentOdds,OBJECT,
+Mutation,updateTournamentOddsCompressed,OBJECT,
+Mutation,addFavorites,NON_NULL,
+Mutation,deleteFavorites,NON_NULL,
+Mutation,addNotificationTags,NON_NULL,
+Mutation,deleteNotificationTags,NON_NULL,
+Mutation,addFavoriteTour,NON_NULL,
+Mutation,deleteAccount,NON_NULL,
+Mutation,unsubscribe,NON_NULL,
+Mutation,updateCourseStats,OBJECT,
+Mutation,updateHoleDetails,OBJECT,
+Mutation,updateCoverage,OBJECT,
+Mutation,updateLeaderboardStrokes,OBJECT,
+Mutation,updateLeaderboardStrokesCompressed,OBJECT,
+Mutation,updateTourcastTable,OBJECT,
+Mutation,updateOddsV2,OBJECT,
+Mutation,updateOddsCompressedV2,OBJECT,
+Mutation,updateCupOverviewLeaderboard,OBJECT,
+Mutation,updateCupRoundLeaderboard,OBJECT,
+Mutation,updateCupRoundLeaderboardCompressed,OBJECT,
+Mutation,updateCupScorecard,OBJECT,
+Mutation,updateCurrentLeadersCompressed,OBJECT,
+Mutation,updateTGLMatch,OBJECT,
+Mutation,updateGroupLocations,OBJECT,
+Mutation,updateGroupLocationsEnhanced,OBJECT,
+LeaderboardUpdateCompressedV3,id,NON_NULL,
+LeaderboardUpdateCompressedV3,payload,NON_NULL,
+ScorecardUpdateCompressedV3,id,NON_NULL,
+ScorecardUpdateCompressedV3,payload,NON_NULL,
+FavoritePlayer,id,NON_NULL,
+NotificationTagResponse,ok,NON_NULL,
+NotificationTagResponse,tags,NON_NULL,
+NotificationTag,tag,NON_NULL,
+FavoriteTourResponse,ok,NON_NULL,
+FavoriteTourResponse,tourCode,ENUM,
+DeleteAccountResponse,ok,NON_NULL,
+UnsubscribeResponse,ok,NON_NULL,
+Subscription,onUpdateTourCup,OBJECT,
+Subscription,onUpdateLeaderboardV2,OBJECT,
+Subscription,onUpdateLeaderboardCompressedV2,OBJECT,
+Subscription,onUpdateLeaderboardCompressedV3,OBJECT,
+Subscription,onUpdateLeaderboardOddsToWinV2,OBJECT,
+Subscription,onUpdateMatchPlayLeaderboard,OBJECT,
+Subscription,onUpdateMatchPlayLeaderboardCompressed,OBJECT,
+Subscription,onUpdateTeamPlayLeaderboard,OBJECT,
+Subscription,onUpdateTeamPlayLeaderboardCompressed,OBJECT,
+Subscription,onUpdateTeamStrokePlayTeeTimes,OBJECT,
+Subscription,onUpdateTeamStrokePlayTeeTimesCompressed,OBJECT,
+Subscription,onUpdateTeamPlayScorecard,OBJECT,
+Subscription,onUpdateTeamPlayScorecardRounds,OBJECT,
+Subscription,onUpdateLeaderboardOddsToWinCompressedV2,OBJECT,
+Subscription,onUpdateScorecardV2,OBJECT,
+Subscription,onUpdateScorecardCompressedV3,OBJECT,
+Subscription,onUpdateMatchPlayScorecard,OBJECT,
+Subscription,onUpdateMatchPlayPlayoffScorecard,OBJECT,
+Subscription,onUpdateScorecardStatsCompressedV3,OBJECT,
+Subscription,onUpdateTournament,OBJECT,
+Subscription,onUpdateTeeTimes,OBJECT,
+Subscription,onUpdateTeeTimesCompressed,OBJECT,
+Subscription,onUpdateTeeTimesV2,OBJECT,
+Subscription,onUpdateTeeTimesCompressedV2,OBJECT,
+Subscription,onUpdateMatchPlayTeeTimes,OBJECT,
+Subscription,onUpdateMatchPlayTeeTimesCompressed,OBJECT,
+Subscription,onUpdateUpcomingSchedule,OBJECT,
+Subscription,onUpdatePlayoffScorecard,OBJECT,
+Subscription,onUpdatePlayoffScorecardV2,LIST,
+Subscription,onUpdateShotDetails,OBJECT,
+Subscription,onUpdateTourcastShotDetails,OBJECT,
+Subscription,onUpdateShotDetailsCompressed,OBJECT,
+Subscription,onUpdateShotDetailsCompressedV3,OBJECT,
+Subscription,onUpdatePlayoffShotDetails,OBJECT,
+Subscription,onUpdatePlayoffShotDetailsCompressed,OBJECT,
+Subscription,onUpdateTSPPlayoffShotDetailsCompressed,OBJECT,
+Subscription,onUpdateTSPPlayoffShotDetails,OBJECT,
+Subscription,onUpdateTournamentOdds,OBJECT,
+Subscription,onUpdateTournamentOddsCompressed,OBJECT,
+Subscription,onUpdateCourseStats,OBJECT,
+Subscription,onUpdateHoleDetails,OBJECT,
+Subscription,onUpdateCoverage,OBJECT,
+Subscription,onUpdateLeaderboardStrokes,OBJECT,
+Subscription,onUpdateLeaderboardStrokesCompresssed,OBJECT,
+Subscription,onUpdateTourcastTable,OBJECT,
+Subscription,onUpdateOddsV2,OBJECT,
+Subscription,onUpdateOddsCompressedV2,OBJECT,
+Subscription,onUpdateCupOverviewLeaderboard,OBJECT,
+Subscription,onUpdateCupRoundLeaderboard,OBJECT,
+Subscription,onUpdateCupRoundLeaderboardCompressed,OBJECT,
+Subscription,onUpdateCupScorecard,OBJECT,
+Subscription,onUpdateCurrentLeadersCompressed,OBJECT,
+Subscription,onUpdateTGLMatch,OBJECT,
+Subscription,onUpdateGroupLocations,OBJECT,
+Subscription,onUpdateGroupLocationsEnhanced,OBJECT,
+GroupRoundScore,totalLabel,NON_NULL,
+GroupRoundScore,parTotal,NON_NULL,
+GroupRoundScore,holes,NON_NULL,
+GroupRoundScore,players,NON_NULL,
+GroupScoreHeader,holeNumber,NON_NULL,
+GroupScoreHeader,par,NON_NULL,
+GroupScorePlayer,active,NON_NULL,
+GroupScorePlayer,player,NON_NULL,
+GroupScorePlayer,scores,NON_NULL,
+GroupScorePlayer,rowTotal,NON_NULL,
+GroupScorePlayer,roundTotal,NON_NULL,
+GroupScorePlayer,roundTotalHeader,NON_NULL,
+ContentFragment,fragments,NON_NULL,
+ContentFragment,totalLength,NON_NULL,
+ContentFragment,pageMetadata,NON_NULL,
+HomepageLead,leadLayout,NON_NULL,
+HomepageLead,halfHeroShortHeadline,SCALAR,Built-in Boolean
+HomepageLead,displayPlayerPromoStats,SCALAR,Built-in Boolean
+HomepageLead,displayDateTime,SCALAR,Built-in Boolean
+HomepageLead,sectionTitle,SCALAR,Built-in String
+HomepageLead,content,NON_NULL,
+HomepageLead,photoJustification,SCALAR,Built-in String
+HomepageLead,headlineJustification,SCALAR,Built-in String
+HomepageLead,headlineColor,SCALAR,Built-in String
+HomepageLead,playerId,NON_NULL,
+HomepageLead,playerScore,OBJECT,
+HomepageLead,topStats,LIST,
+HomepageLead,headshot,OBJECT,
+HomepageLead,cta,OBJECT,
+HomepageLead,weather,OBJECT,
+HomepageLead,location,OBJECT,
+HomepageLead,ambientVideo,OBJECT,
+HomepageLead,topicLabel,SCALAR,Built-in String
+HomepagePlayerScore,playerId,NON_NULL,
+HomepagePlayerScore,total,SCALAR,Built-in String
+HomepagePlayerScore,score,NON_NULL,
+HomepagePlayerScore,round,NON_NULL,
+HomepagePlayerScore,roundScore,NON_NULL,
+HomepageCta,topText,NON_NULL,
+HomepageCta,text,NON_NULL,
+HomepageCta,link,NON_NULL,
+TournamentLocation,city,SCALAR,Built-in String
+TournamentLocation,state,SCALAR,Built-in String
+TournamentLocation,country,SCALAR,Built-in String
+HomepageProgramStanding,standingLayout,NON_NULL,
+HomepageProgramStanding,pullFieldUpdates,SCALAR,Built-in Boolean
+HomepageProgramStanding,title,NON_NULL,
+HomepageProgramStanding,cta,OBJECT,
+HomepageProgramStanding,backgroundImg,SCALAR,Built-in String
+HomepageProgramStanding,sponsorImgAsset,OBJECT,
+HomepageProgramStanding,lastProcessed,SCALAR,Built-in String
+HomepageProgramStanding,standings,LIST,
+HomePageStanding,playerId,NON_NULL,
+HomePageStanding,firstName,NON_NULL,
+HomePageStanding,lastName,NON_NULL,
+HomePageStanding,image,NON_NULL,
+HomePageStanding,rank,SCALAR,Built-in Int
+HomePageStanding,stats,NON_NULL,
+HomePageStanding,country,NON_NULL,
+HomePageStanding,countryFlag,NON_NULL,
+ProgramStat,statName,SCALAR,Built-in String
+ProgramStat,value,SCALAR,Built-in String
+MediaGallery,sectionTitle,SCALAR,Built-in String
+MediaGallery,cta,OBJECT,
+MediaGallery,mediaGallery,LIST,
+MediaGallery,contentDescription,LIST,
+MediaGallery,mediaGalleryObjs,LIST,
+MediaGalleryItem,path,SCALAR,Built-in String
+MediaGalleryItem,orientation,ENUM,
+KopHeader,headerTitle,NON_NULL,
+KopHeader,headlineColor,SCALAR,Built-in String
+KopHeader,titleJustification,SCALAR,Built-in String
+KopHeader,image,SCALAR,Built-in String
+KopHeader,opacity,SCALAR,Built-in String
+KopHeader,logo,SCALAR,Built-in String
+KopHeader,cta,OBJECT,
+KopSubheader,type,SCALAR,Built-in String
+KopSubheader,subHeaderText,LIST,
+KopSubheader,logo,SCALAR,Built-in String
+KopSubheader,cta,OBJECT,
+KopSubheader,displayCta,SCALAR,Built-in Boolean
+KopSignUp,header,SCALAR,Built-in String
+KopSignUp,signUpText,SCALAR,Built-in String
+KopSignUp,textColor,SCALAR,Built-in String
+KopSignUp,cta,OBJECT,
+KopSignUp,ctaColor,SCALAR,Built-in String
+KopSignUp,logo,SCALAR,Built-in String
+KopSignUp,backgroundImage,SCALAR,Built-in String
+KopSignUp,backgroundColor,SCALAR,Built-in String
+KopUpcomingTournament,title,NON_NULL,
+KopStandingsList,standings,LIST,
+KopStandingsList,sectionTitle,NON_NULL,
+KopStandingsList,cta,OBJECT,
+KopStandingsList,type,SCALAR,Built-in String
+KopZigZag,zigZaHeader,NON_NULL,
+KopZigZag,subHeader,SCALAR,Built-in String
+KopZigZag,imageOne,SCALAR,Built-in String
+KopZigZag,backgroundColorOne,SCALAR,Built-in String
+KopZigZag,descriptionOne,LIST,
+KopZigZag,descriptionBackgroundColorOne,SCALAR,Built-in String
+KopZigZag,ctaOne,OBJECT,
+KopZigZag,imageTwo,SCALAR,Built-in String
+KopZigZag,backgroundColorTwo,SCALAR,Built-in String
+KopZigZag,descriptionBackgroundColorTwo,SCALAR,Built-in String
+KopZigZag,descriptionTwo,LIST,
+KopZigZag,ctaTwo,OBJECT,
+ThreeUpStats,header,SCALAR,Built-in String
+ThreeUpStats,valueOne,SCALAR,Built-in String
+ThreeUpStats,statsDescriptionOne,SCALAR,Built-in String
+ThreeUpStats,valueTwo,SCALAR,Built-in String
+ThreeUpStats,statsDescriptionTwo,SCALAR,Built-in String
+ThreeUpStats,valueThree,SCALAR,Built-in String
+ThreeUpStats,statsDescriptionThree,SCALAR,Built-in String
+ThreeUpPhoto,title,NON_NULL,
+ThreeUpPhoto,photoOneAccessibilityText,SCALAR,Built-in String
+ThreeUpPhoto,photoOneUrl,SCALAR,Built-in String
+ThreeUpPhoto,photoOne,SCALAR,Built-in String
+ThreeUpPhoto,photoTwoUrl,SCALAR,Built-in String
+ThreeUpPhoto,photoTwoAccessibilityText,SCALAR,Built-in String
+ThreeUpPhoto,photoTwo,SCALAR,Built-in String
+ThreeUpPhoto,photoThreeAccessibilityText,SCALAR,Built-in String
+ThreeUpPhoto,photoThreeUrl,SCALAR,Built-in String
+ThreeUpPhoto,photoThree,SCALAR,Built-in String
+TwoColumn,sectionOneTitle,SCALAR,Built-in String
+TwoColumn,sectionOne,LIST,
+TwoColumn,sectionTwoTitle,SCALAR,Built-in String
+TwoColumn,sectionTwo,LIST,
+HomepageNews,newsLayout,NON_NULL,
+HomepageNews,title,NON_NULL,
+HomepageNews,limit,NON_NULL,
+HomepageNews,franchises,NON_NULL,
+HomepageNews,cta,OBJECT,
+HomepageNews,content,NON_NULL,
+HomepageNews,displayDateTime,SCALAR,Built-in Boolean
+DropdownFragment,header,NON_NULL,
+DropdownFragment,subheader,SCALAR,Built-in String
+DropdownFragment,rows,NON_NULL,
+DropdownFragment,topCta,OBJECT,
+DropdownFragment,bottomCta,OBJECT,
+DropdownRow,header,NON_NULL,
+DropdownRow,content,LIST,
+DropdownRow,cta,OBJECT,
+OddsToWinTracker,title,NON_NULL,
+OddsToWinTracker,tournamentIds,LIST,
+TGLBoxScoreFragment,matchIds,LIST,
+PageMetadata,metadata,NON_NULL,
+PageMetadataSegment,name,NON_NULL,
+PageMetadataSegment,value,NON_NULL,
+TeamplayHolePlayer,playerId,NON_NULL,
+TeamplayHolePlayer,holeScore,SCALAR,Built-in String
+TeamplayHolePlayer,holeScoreStatus,ENUM,
+CurrentLeaderSponsors,text,NON_NULL,
+CurrentLeaderSponsors,images,NON_NULL,
+StandingStat,statName,NON_NULL,
+StandingStat,statValue,NON_NULL,
+KitOfParts,fragments,NON_NULL,
+FutureVenuesFragment,sectionTitle,SCALAR,Built-in String
+FutureVenuesFragment,topCta,OBJECT,
+FutureVenuesFragment,bottomCta,OBJECT,
+FutureVenuesFragment,cards,LIST,
+FutureVenuesCard,year,SCALAR,Built-in String
+FutureVenuesCard,course,SCALAR,Built-in String
+FutureVenuesCard,location,SCALAR,Built-in String
+FutureVenuesCard,cta,OBJECT,
+FutureVenuesCard,coursePhoto,SCALAR,Built-in String
+ScorecardUpdateV3,tournamentName,NON_NULL,
+ScorecardUpdateV3,id,NON_NULL,
+ScorecardUpdateV3,currentHole,SCALAR,Built-in Int
+ScorecardUpdateV3,currentRound,NON_NULL,
+ScorecardUpdateV3,playerId,NON_NULL,
+ScorecardUpdateV3,backNine,NON_NULL,
+ScorecardUpdateV3,teeTime,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+ScorecardUpdateV3,groupNumber,NON_NULL,
+ScorecardUpdateV3,playerState,ENUM,
+ScorecardUpdateV3,roundScores,NON_NULL,
+ScorecardUpdateV3,hideSov,NON_NULL,
+ScorecardUpdateV3,profileEnabled,NON_NULL,
+Stats,id,NON_NULL,
+Stats,statName,NON_NULL,
+Stats,statRank,NON_NULL,
+Stats,statValue,NON_NULL,
+Stats,statAvg,SCALAR,Built-in String
+CategoryStat,statTitle,NON_NULL,
+CategoryStat,statDescription,NON_NULL,
+CategoryStat,tourAvg,SCALAR,Built-in String
+CategoryStat,year,NON_NULL,
+CategoryStat,displaySeason,NON_NULL,
+CategoryStat,lastProcessed,NON_NULL,
+CategoryStat,statHeaders,NON_NULL,
+CategoryStat,players,NON_NULL,
+CategoryStatPlayer,playerId,NON_NULL,
+CategoryStatPlayer,playerName,NON_NULL,
+CategoryStatPlayer,rank,NON_NULL,
+CategoryStatPlayer,rankDiff,NON_NULL,
+CategoryStatPlayer,rankChangeTendency,ENUM,
+CategoryStatPlayer,stats,NON_NULL,
+ImageBlock,backgroundImage,SCALAR,Built-in String
+ImageBlock,textNodes,LIST,
+ImageBlock,cta,OBJECT,
+HeroCarousel,slides,NON_NULL,
+HeroCarouselItem,heroImage,SCALAR,Built-in String
+HeroCarouselItem,autoplay,SCALAR,Built-in Boolean
+HeroCarouselItem,slideHeadline,SCALAR,Built-in String
+HeroCarouselItem,slideSubhead,SCALAR,Built-in String
+HeroCarouselItem,cta1,OBJECT,
+HeroCarouselItem,cta2,OBJECT,
+HeroCarouselItem,articleContent,OBJECT,
+HeroCarouselItem,videoContent,OBJECT,
+CurrentLeaders,id,NON_NULL,
+CurrentLeaders,sponsor,OBJECT,
+CurrentLeaders,players,NON_NULL,
+CurrentLeaders,profileEnabled,NON_NULL,
+CurrentLeaders,hideRolexClock,NON_NULL,
+CurrentLeaders,hideSov,NON_NULL,
+CurrentLeaders,miniatureLeaderboardExternalLinkOverride,SCALAR,Built-in String
+CurrentLeaders,miniatureLeaderboardImgOverride,SCALAR,Built-in String
+CurrentLeaderPlayer,id,NON_NULL,
+CurrentLeaderPlayer,firstName,NON_NULL,
+CurrentLeaderPlayer,lastName,NON_NULL,
+CurrentLeaderPlayer,shortName,NON_NULL,
+CurrentLeaderPlayer,displayName,NON_NULL,
+CurrentLeaderPlayer,country,NON_NULL,
+CurrentLeaderPlayer,countryFlag,NON_NULL,
+CurrentLeaderPlayer,position,NON_NULL,
+CurrentLeaderPlayer,thru,NON_NULL,
+CurrentLeaderPlayer,totalScore,NON_NULL,
+CurrentLeaderPlayer,roundHeader,NON_NULL,
+CurrentLeaderPlayer,roundScore,NON_NULL,
+CurrentLeaderPlayer,teeTime,SCALAR,"The `AWSTimestamp` scalar type provided by AWS AppSync, represents the number of seconds that have elapsed since `1970-01-01T00:00Z`. Negative values are also accepted and these represent the number of seconds till `1970-01-01T00:00Z`.  Timestamps are serialized and deserialized as integers. The minimum supported timestamp value is **`-31557014167219200`** which corresponds to `-1000000000-01-01T00:00Z`. The maximum supported timestamp value is **`31556889864403199`** which corresponds to `1000000000-12-31T23:59:59.999999999Z`."
+CurrentLeaderPlayer,playerState,ENUM,
+CurrentLeaderPlayer,backNine,NON_NULL,
+CurrentLeaderPlayer,groupNumber,NON_NULL,
+CurrentLeaderPlayer,leaderboardSortOrder,NON_NULL,
+FutureVenuesTableFragment,rows,NON_NULL,
+FutureVenuesRow,year,SCALAR,Built-in String
+FutureVenuesRow,course,SCALAR,Built-in String
+FutureVenuesRow,location,SCALAR,Built-in String
+FutureVenuesRow,beautyImageAsset,OBJECT,
+FutureVenuesRow,moreInfoDescription,LIST,
+FutureVenuesRow,ticketLink,SCALAR,Built-in String
+FutureVenuesRow,hospitalityLink,SCALAR,Built-in String
+FutureVenuesRow,volunteersLink,SCALAR,Built-in String
+FutureVenuesRow,eventDates,SCALAR,Built-in String
+LeaderboardUpdatePlayerV3,id,NON_NULL,
+LeaderboardUpdatePlayerV3,leaderboardSortOrder,NON_NULL,
+LeaderboardUpdatePlayerV3,scoringData,NON_NULL,
+GroupScorecard,id,NON_NULL,
+GroupScorecard,holeDetail,NON_NULL,
+GroupScorecard,locationDetail,NON_NULL,
+GroupScorecard,roundHeader,NON_NULL,
+GroupScorecard,teeTime,NON_NULL,
+GroupScorecard,backNine,NON_NULL,
+GroupScorecard,tourcastURL,SCALAR,Built-in String
+GroupScorecard,courseName,NON_NULL,
+GroupScorecard,currentHole,NON_NULL,
+GroupScorecard,courseId,SCALAR,Built-in String
+GroupScorecard,players,NON_NULL,
+GroupScorecard,firstNine,NON_NULL,
+GroupScorecard,secondNine,NON_NULL,
+ResultsYears,tour,NON_NULL,
+ResultsYears,years,NON_NULL,
+RolexClock,height,SCALAR,Built-in Float
+RolexClock,width,SCALAR,Built-in Float
+CourseInfo,coursePhotos,LIST,
+CourseInfo,title,SCALAR,Built-in String
+CourseInfo,subhead,SCALAR,Built-in String
+CourseInfo,cta1,OBJECT,
+CourseInfo,cta2,OBJECT,
+CourseInfo,topCta,OBJECT,
+CourseInfo,bottomCta,OBJECT,
+HistoryScore,sectionTitle,NON_NULL,
+HistoryScore,sectionSubhead,NON_NULL,
+HistoryScore,topCta,OBJECT,
+HistoryScore,bottomCta,OBJECT,
+HistoryScore,leftFlagIcon,SCALAR,Built-in String
+HistoryScore,leftTeam,SCALAR,Built-in String
+HistoryScore,leftScore,SCALAR,Built-in String
+HistoryScore,rightFlagIcon,SCALAR,Built-in String
+HistoryScore,rightTeam,SCALAR,Built-in String
+HistoryScore,rightScore,SCALAR,Built-in String
+HistoryScore,trophyIcon,SCALAR,Built-in String
+LeaderboardUpdateV3,id,NON_NULL,
+LeaderboardUpdateV3,players,NON_NULL,
+LeaderboardUpdateV3,leaderboardRoundHeader,NON_NULL,
+LeaderboardUpdateV3,winner,OBJECT,
+LeaderboardUpdateV3,messages,NON_NULL,
+LeaderboardUpdateV3,tournamentStatus,NON_NULL,
+LeaderboardUpdateV3,rounds,NON_NULL,
+LeaderboardUpdateV3,isPlayoffActive,NON_NULL,
+LeaderboardUpdateV3,subEvent,NON_NULL,
+Homepage,fragments,NON_NULL,
+HospitalityCard,cardTitle,SCALAR,Built-in String
+HospitalityCard,cardPhoto,SCALAR,Built-in String
+HospitalityCard,photoSubtitle,SCALAR,Built-in String
+HospitalityCard,cardDescription,LIST,
+HospitalityCard,cta,OBJECT,
+HospitalityCard,blueBackground,NON_NULL,
+LeaderboardUpdateCompressed,id,NON_NULL,
+LeaderboardUpdateCompressed,payload,NON_NULL,
+RyderCupContentFragment,fragments,NON_NULL,
+RyderCupContentFragment,totalLength,NON_NULL,
+RyderCupContentFragment,pageMetadata,NON_NULL,
+SecondaryHero,title,NON_NULL,
+SecondaryHero,backgroundPhoto,SCALAR,Built-in String
+SecondaryHero,photoPosition,SCALAR,Built-in String
+SecondaryHero,subheader,SCALAR,Built-in String
+SecondaryHero,sponsorLogoAsset,NON_NULL,
+TicketSectionContainer,sectionTitle,SCALAR,Built-in String
+TicketSectionContainer,topCta,OBJECT,
+TicketSectionContainer,bottomCta,OBJECT,
+TicketSectionContainer,cards,LIST,
+TicketCards,cardLabel,SCALAR,Built-in String
+TicketCards,cardTitle,SCALAR,Built-in String
+TicketCards,cardSubhead,SCALAR,Built-in String
+TicketCards,cardPhoto,SCALAR,Built-in String
+TicketCards,ctaIcon,SCALAR,Built-in String
+TicketCards,ctaText,SCALAR,Built-in String
+TicketCards,webViewLink,SCALAR,Built-in String
+TicketCards,ctaLink,SCALAR,Built-in String
+TicketCards,blueBackground,NON_NULL,
+TeamRankings,sectionHeader,NON_NULL,
+TeamRankings,usHeader,NON_NULL,
+TeamRankings,euroHeader,NON_NULL,
+TeamRankings,defaultUsRankings,NON_NULL,
+TeamRankings,defaultEuropeRankings,NON_NULL,
+TeamRankings,usInfoBlurb,SCALAR,Built-in String
+TeamRankings,usCaptain,SCALAR,Built-in String
+TeamRankings,usViceCaptain,SCALAR,Built-in String
+TeamRankings,europeInfoBlurb,SCALAR,Built-in String
+TeamRankings,europeCaptain,SCALAR,Built-in String
+TeamRankings,europeViceCaptain,SCALAR,Built-in String
+TeamRankings,usCta,OBJECT,
+TeamRankings,europeCta,OBJECT,
+TeamRankings,euroCaptainLabel,SCALAR,Built-in String
+TeamRankings,euroViceCaptainLabel,SCALAR,Built-in String
+TeamRankings,usCaptainLabel,SCALAR,Built-in String
+TeamRankings,usViceCaptainLabel,SCALAR,Built-in String
+RyderCupLatestNewsSection,sectionTitle,SCALAR,Built-in String
+RyderCupLatestNewsSection,topCta,OBJECT,
+RyderCupLatestNewsSection,bottomCta,OBJECT,
+RyderCupLatestNewsSection,limit,SCALAR,Built-in Int
+RyderCupLatestNewsSection,franchiseTags,LIST,
+RyderCupLatestNewsSection,content,LIST,
+NewsArticleTeaserAsset,value,SCALAR,Built-in String
+PlayerOddsCompressed,id,NON_NULL,
+PlayerOddsCompressed,playerOddsPayload,NON_NULL,
+ShotDetailVideo,id,NON_NULL,
+ShotDetailVideo,title,NON_NULL,
+ShotDetailVideo,thumbnailAsset,NON_NULL,
+ShotDetailVideo,holeNumber,NON_NULL,
+ShotDetailVideo,shotNumber,NON_NULL,
+ShotDetailVideo,duration,NON_NULL,
+ShotDetailVideo,pubDate,NON_NULL,
+__Schema,types,NON_NULL,
+__Schema,queryType,NON_NULL,
+__Schema,mutationType,OBJECT,
+__Schema,directives,NON_NULL,
+__Schema,subscriptionType,OBJECT,
+__Type,kind,NON_NULL,
+__Type,name,SCALAR,Built-in String
+__Type,description,SCALAR,Built-in String
+__Type,fields,LIST,
+__Type,interfaces,LIST,
+__Type,possibleTypes,LIST,
+__Type,enumValues,LIST,
+__Type,inputFields,LIST,
+__Type,ofType,OBJECT,
+__Field,name,NON_NULL,
+__Field,description,SCALAR,Built-in String
+__Field,args,NON_NULL,
+__Field,type,NON_NULL,
+__Field,isDeprecated,NON_NULL,
+__Field,deprecationReason,SCALAR,Built-in String
+__InputValue,name,NON_NULL,
+__InputValue,description,SCALAR,Built-in String
+__InputValue,type,NON_NULL,
+__InputValue,defaultValue,SCALAR,Built-in String
+__EnumValue,name,NON_NULL,
+__EnumValue,description,SCALAR,Built-in String
+__EnumValue,isDeprecated,NON_NULL,
+__EnumValue,deprecationReason,SCALAR,Built-in String
+__Directive,name,SCALAR,Built-in String
+__Directive,description,SCALAR,Built-in String
+__Directive,locations,LIST,
+__Directive,args,NON_NULL,
