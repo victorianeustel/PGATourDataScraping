@@ -22,7 +22,7 @@ def get_enum_values(enum_name: str = "CourseStatsId"):
 def get_object_fields(object_name: str = "Course"):
     data = {
         "query": 
-            "query { \n __type(name: \"" + object_name + "\") { \n name \n fields { \n name \n type { \n name \n kind \n } \n } \n } \n} "
+            "query { \n __type(name: \"" + object_name + "\") { \n name \n fields { \n name \n type { \n name \n kind \n description \n } \n } \n } \n} "
     }
 
     response = requests.post(PGA_API.url, headers=PGA_API.headers, json=data)
